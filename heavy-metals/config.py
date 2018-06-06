@@ -1,18 +1,11 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-BASE_URL = "https://en.wikipedia.org/wiki/"
-CATEGORIES = (
-    "other names",
-    "stylistic origins",
-    "cultural origins",
-    "typical instruments",
-    "derivative forms",
-    "subgenres",
-    "fusion genres",
-    "regional scenes",
-    "local scenes",
-    "other topics",
-)
+from __future__ import unicode_literals
 
-TREE = {key: [] for key in CATEGORIES}
+import os
+
+BASE_URL = "https://en.wikipedia.org/wiki/"
+
+BASE_PATH = os.getcwd()
+DATA_PATH = os.path.join(BASE_PATH, "data/")
