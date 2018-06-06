@@ -40,7 +40,7 @@ class WikiSubtree(object):
 
         pass
 
-    def generate_subtree(self):
+    def parse_wiki_table(self):
 
         root = True
         key = ""
@@ -68,6 +68,13 @@ class WikiSubtree(object):
             else:
                 key = text
 
+    def generate_subtree(self):
+
+        self.parse_wiki_table()
+
+        self.subtree["cultural origins"] = parse_origin_dates(
+            self.subtree["cultural origins"][0])
+
         dump_json(file_path=DATA_PATH + self.endpoint + ".json",
                   data=self.subtree)
 
@@ -78,7 +85,5 @@ class WikiSubtree(object):
 
 if __name__ == '__main__':
 
-    # obj = WikiSubtree("deathcore")
-    # obj.generate_subtree()
-
-    text = "Late 1990s and early 2000s, North America"
+    obj = WikiSubtree("heavy_metal_music")
+    obj.generate_subtree()

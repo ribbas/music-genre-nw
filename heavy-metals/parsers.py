@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-from __future__ import unicode_literals
+from __future__ import unicode_literals, print_function
 
 import re
 
@@ -19,8 +19,14 @@ def parse_origin_dates(text):
         key = "begin" if not num_match else "end"
         origin_range[key] = list(match.groups())
 
-    if not origin_range["begin"][-1]:
-        origin_range["begin"][-1] = origin_range["end"][-1]
+    if ranges == 1:
+
+        origin_range["end"] = origin_range["begin"]
+
+    else:
+
+        if not origin_range["begin"][-1]:
+            origin_range["begin"][-1] = origin_range["end"][-1]
 
     for k, v in origin_range.iteritems():
         origin_range[k] = "-".join(

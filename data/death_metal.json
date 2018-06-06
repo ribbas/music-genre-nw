@@ -1,8 +1,8 @@
 {
-  "cultural origins": [
-    "Mid-1980s, United States", 
-    "united states"
-  ], 
+  "cultural origins": {
+    "begin": "mid-1980s", 
+    "end": "mid-1980s"
+  }, 
   "derivative forms": [
     "grindcore", 
     "groove metal"

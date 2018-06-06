@@ -1,8 +1,8 @@
 {
-  "cultural origins": [
-    "Late 1960s, United Kingdom", 
-    "united kingdom"
-  ], 
+  "cultural origins": {
+    "begin": "late-1960s", 
+    "end": "late-1960s"
+  }, 
   "derivative forms": [
     "grunge", 
     "post-metal"

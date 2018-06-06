@@ -1,7 +1,8 @@
 {
-  "cultural origins": [
-    "Late 1990s and early 2000s, North America"
-  ], 
+  "cultural origins": {
+    "begin": "late-1990s", 
+    "end": "early-2000s"
+  }, 
   "derivative forms": [], 
   "fusion genres": [], 
   "local scenes": [], 
