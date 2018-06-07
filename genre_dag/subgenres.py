@@ -6,7 +6,7 @@ from __future__ import unicode_literals, print_function
 from time import sleep
 from random import uniform
 
-from config import DATA_PATH
+from config import RAW_DATA_PATH
 from parsewiki import WikiSubtree
 from util import file_exists
 
@@ -27,7 +27,7 @@ class Subgenres(object):
         while children < len(self.queued):
             subgenre = self.queued[children]
 
-            if not file_exists(DATA_PATH + subgenre + ".json"):
+            if not file_exists(RAW_DATA_PATH + subgenre + ".json"):
                 wait = uniform(5.0, 10)
                 print("wait", wait, "s")
                 sleep(wait)

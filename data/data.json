@@ -1,2351 +1,1820 @@
 {
   "edges": [
     [
-      "gothic metal",
-      "symphonic gothic metal"
-    ],
+      "folk rock", 
+      "folk metal"
+    ], 
     [
-      "gothic metal",
+      "funk rock", 
+      "funk metal"
+    ], 
+    [
+      "glam metal", 
+      "christian metal"
+    ], 
+    [
+      "extreme metal", 
+      "death metal"
+    ], 
+    [
+      "metalcore", 
+      "deathcore"
+    ], 
+    [
+      "viking metal", 
+      "pagan metal"
+    ], 
+    [
+      "hardcore punk", 
+      "grunge"
+    ], 
+    [
+      "death metal", 
+      "symphonic death metal"
+    ], 
+    [
+      "industrial metal", 
+      "neue deutsche h\u00e4rte"
+    ], 
+    [
+      "symphonic metal", 
+      "symphonic gothic metal"
+    ], 
+    [
+      "death metal", 
+      "goregrind"
+    ], 
+    [
+      "heavy metal", 
+      "extreme metal"
+    ], 
+    [
+      "alternative metal", 
+      "nu metalcore"
+    ], 
+    [
+      "hard rock", 
+      "grunge"
+    ], 
+    [
+      "hard rock", 
+      "post-grunge"
+    ], 
+    [
+      "crossover thrash", 
+      "heavy hardcore"
+    ], 
+    [
+      "grindcore", 
+      "mathcore"
+    ], 
+    [
+      "extreme metal", 
+      "speed metal"
+    ], 
+    [
+      "heavy metal", 
+      "death 'n' roll"
+    ], 
+    [
+      "doom metal", 
+      "extreme metal"
+    ], 
+    [
+      "extreme metal", 
+      "death-doom"
+    ], 
+    [
+      "progressive rock", 
+      "progressive metal"
+    ], 
+    [
+      "extreme metal", 
+      "black-doom"
+    ], 
+    [
+      "heavy metal", 
+      "rap metal"
+    ], 
+    [
+      "doom metal", 
+      "funeral doom"
+    ], 
+    [
+      "heavy metal", 
+      "drone metal"
+    ], 
+    [
+      "christian metal", 
+      "unblack metal"
+    ], 
+    [
+      "christian rock", 
+      "christian metal"
+    ], 
+    [
+      "post-hardcore", 
+      "post-metal"
+    ], 
+    [
+      "extreme metal", 
+      "thrash metal"
+    ], 
+    [
+      "speed metal", 
+      "thrash metal"
+    ], 
+    [
+      "extreme metal", 
+      "crust punk"
+    ], 
+    [
+      "trap", 
+      "emo rap"
+    ], 
+    [
+      "heavy metal", 
+      "grindcore"
+    ], 
+    [
+      "heavy metal", 
+      "progressive metal"
+    ], 
+    [
+      "heavy metal", 
+      "industrial metal"
+    ], 
+    [
+      "extreme metal", 
+      "deathcore"
+    ], 
+    [
+      "post-rock", 
+      "blackgaze"
+    ], 
+    [
+      "grindcore", 
+      "goregrind"
+    ], 
+    [
+      "progressive metal", 
+      "progressive metalcore"
+    ], 
+    [
+      "extreme metal", 
+      "doom metal"
+    ], 
+    [
+      "math rock", 
+      "mathcore"
+    ], 
+    [
+      "industrial", 
+      "sludge metal"
+    ], 
+    [
+      "extreme metal", 
+      "grindcore"
+    ], 
+    [
+      "thrash metal", 
+      "heavy hardcore"
+    ], 
+    [
+      "extreme metal", 
+      "traditional doom"
+    ], 
+    [
+      "heavy metal", 
+      "black metal"
+    ], 
+    [
+      "industrial", 
+      "industrial metal"
+    ], 
+    [
+      "classical", 
+      "symphonic metal"
+    ], 
+    [
+      "extreme metal", 
+      "groove metal"
+    ], 
+    [
+      "black metal", 
+      "ambient black metal"
+    ], 
+    [
+      "hard rock", 
+      "glam metal"
+    ], 
+    [
+      "heavy metal", 
+      "speed metal"
+    ], 
+    [
+      "gothic metal", 
+      "symphonic black metal"
+    ], 
+    [
+      "doom metal", 
+      "death-doom"
+    ], 
+    [
+      "punk rock", 
+      "funk metal"
+    ], 
+    [
+      "post-black metal", 
+      "blackgaze"
+    ], 
+    [
+      "death metal", 
+      "blackened death metal"
+    ], 
+    [
+      "folk metal", 
+      "celtic metal"
+    ], 
+    [
+      "thrash metal", 
+      "nu metal"
+    ], 
+    [
+      "hardcore punk", 
+      "mathcore"
+    ], 
+    [
+      "pop punk", 
+      "emo rap"
+    ], 
+    [
+      "folk", 
+      "folk metal"
+    ], 
+    [
+      "extreme metal", 
+      "ambient black metal"
+    ], 
+    [
+      "avant-garde", 
+      "avant-garde metal"
+    ], 
+    [
+      "post-hardcore", 
+      "mathcore"
+    ], 
+    [
+      "extreme metal", 
+      "industrial black metal"
+    ], 
+    [
+      "metalcore", 
+      "progressive metalcore"
+    ], 
+    [
+      "hardcore punk", 
+      "speed metal"
+    ], 
+    [
+      "folk", 
+      "pagan metal"
+    ], 
+    [
+      "sludge metal", 
+      "grunge"
+    ], 
+    [
+      "metalcore", 
+      "melodic metalcore"
+    ], 
+    [
+      "extreme metal", 
+      "post-metal"
+    ], 
+    [
+      "power metal", 
+      "symphonic power metal"
+    ], 
+    [
+      "heavy metal", 
+      "death metal"
+    ], 
+    [
+      "indie rock", 
+      "emo rap"
+    ], 
+    [
+      "folk metal", 
+      "viking metal"
+    ], 
+    [
+      "punk rock", 
+      "grunge"
+    ], 
+    [
+      "avant-garde metal", 
+      "technical death metal"
+    ], 
+    [
+      "extreme metal", 
+      "post-black metal"
+    ], 
+    [
+      "extreme metal", 
+      "nu metalcore"
+    ], 
+    [
+      "experimental", 
+      "post-black metal"
+    ], 
+    [
+      "black metal", 
+      "blackened death metal"
+    ], 
+    [
+      "extreme metal", 
+      "death 'n' roll"
+    ], 
+    [
+      "metalcore", 
+      "mathcore"
+    ], 
+    [
+      "thrashcore", 
+      "grindcore"
+    ], 
+    [
+      "black metal", 
+      "unblack metal"
+    ], 
+    [
+      "thrash metal", 
+      "metalcore"
+    ], 
+    [
+      "extreme metal", 
+      "pagan metal"
+    ], 
+    [
+      "experimental", 
+      "post-metal"
+    ], 
+    [
+      "symphonic metal", 
+      "symphonic power metal"
+    ], 
+    [
+      "alternative metal", 
+      "rap metal"
+    ], 
+    [
+      "alternative r&b", 
+      "emo rap"
+    ], 
+    [
+      "thrash metal", 
+      "funk metal"
+    ], 
+    [
+      "black metal", 
+      "viking metal"
+    ], 
+    [
+      "extreme metal", 
+      "melodic metalcore"
+    ], 
+    [
+      "black metal", 
+      "industrial black metal"
+    ], 
+    [
+      "alternative metal", 
+      "funk metal"
+    ], 
+    [
+      "shoegazing", 
+      "blackgaze"
+    ], 
+    [
+      "black metal", 
+      "black 'n' roll"
+    ], 
+    [
+      "extreme metal", 
+      "symphonic death metal"
+    ], 
+    [
+      "electronica", 
+      "post-black metal"
+    ], 
+    [
+      "extreme metal", 
+      "mathcore"
+    ], 
+    [
+      "post-rock", 
+      "post-metal"
+    ], 
+    [
+      "hardcore punk", 
+      "metalcore"
+    ], 
+    [
+      "heavy metal", 
+      "blackgaze"
+    ], 
+    [
+      "djent", 
+      "progressive metalcore"
+    ], 
+    [
+      "heavy metal", 
+      "folk metal"
+    ], 
+    [
+      "thrash metal", 
+      "crossover thrash"
+    ], 
+    [
+      "industrial metal", 
+      "nu metal"
+    ], 
+    [
+      "heavy metal", 
+      "metalcore"
+    ], 
+    [
+      "jesus music", 
+      "christian metal"
+    ], 
+    [
+      "extreme metal", 
+      "epic doom"
+    ], 
+    [
+      "extreme metal", 
+      "slam death metal"
+    ], 
+    [
+      "post-hardcore", 
+      "electronicore"
+    ], 
+    [
+      "grunge", 
+      "nu metal"
+    ], 
+    [
+      "jazz fusion", 
+      "technical death metal"
+    ], 
+    [
+      "progressive metal", 
+      "post-black metal"
+    ], 
+    [
+      "heavy metal", 
+      "stoner rock"
+    ], 
+    [
+      "extreme metal", 
+      "black 'n' roll"
+    ], 
+    [
+      "doom metal", 
+      "black-doom"
+    ], 
+    [
+      "electronic music", 
+      "emo rap"
+    ], 
+    [
+      "heavy metal", 
+      "alternative metal"
+    ], 
+    [
+      "hip hop", 
+      "emo rap"
+    ], 
+    [
+      "death metal", 
+      "deathcore"
+    ], 
+    [
+      "heavy metal", 
+      "melodic death metal"
+    ], 
+    [
+      "extreme metal", 
+      "electronicore"
+    ], 
+    [
+      "psychedelic rock", 
+      "stoner rock"
+    ], 
+    [
+      "black metal", 
+      "blackgaze"
+    ], 
+    [
+      "death metal", 
+      "pornogrind"
+    ], 
+    [
+      "extreme metal", 
+      "crossover thrash"
+    ], 
+    [
+      "extreme metal", 
+      "industrial death metal"
+    ], 
+    [
+      "hardcore punk", 
+      "black metal"
+    ], 
+    [
+      "melodic death metal", 
+      "melodic metalcore"
+    ], 
+    [
+      "noise rock", 
+      "sludge metal"
+    ], 
+    [
+      "death metal", 
+      "groove metal"
+    ], 
+    [
+      "extreme metal", 
+      "metalcore"
+    ], 
+    [
+      "hardcore punk", 
+      "grindcore"
+    ], 
+    [
+      "extreme metal", 
+      "war metal"
+    ], 
+    [
+      "post-metal", 
+      "blackgaze"
+    ], 
+    [
+      "hard rock", 
+      "death 'n' roll"
+    ], 
+    [
+      "heavy hardcore", 
+      "metalcore"
+    ], 
+    [
+      "industrial rock", 
+      "industrial metal"
+    ], 
+    [
+      "extreme metal", 
+      "blackened death metal"
+    ], 
+    [
+      "black metal", 
+      "post-black metal"
+    ], 
+    [
+      "hip hop", 
+      "rap metal"
+    ], 
+    [
+      "doom metal", 
+      "stoner metal"
+    ], 
+    [
+      "heavy metal", 
+      "nu metal"
+    ], 
+    [
+      "heavy metal", 
+      "avant-garde metal"
+    ], 
+    [
+      "thrash metal", 
+      "black metal"
+    ], 
+    [
+      "extreme metal", 
+      "pornogrind"
+    ], 
+    [
+      "classical", 
+      "doom metal"
+    ], 
+    [
+      "electronic", 
+      "electronicore"
+    ], 
+    [
+      "doom metal", 
+      "epic doom"
+    ], 
+    [
+      "extreme metal", 
+      "stoner metal"
+    ], 
+    [
+      "doom metal", 
+      "gothic metal"
+    ], 
+    [
+      "experimental rock", 
+      "avant-garde metal"
+    ], 
+    [
+      "hardcore punk", 
+      "extreme metal"
+    ], 
+    [
+      "black metal", 
+      "symphonic black metal"
+    ], 
+    [
+      "progressive metal", 
+      "djent"
+    ], 
+    [
+      "heavy metal", 
+      "sludge metal"
+    ], 
+    [
+      "death metal", 
+      "industrial death metal"
+    ], 
+    [
+      "medieval folk rock", 
+      "medieval metal"
+    ], 
+    [
+      "metalcore", 
+      "nu metalcore"
+    ], 
+    [
+      "heavy metal", 
+      "glam metal"
+    ], 
+    [
+      "blues rock", 
+      "heavy metal"
+    ], 
+    [
+      "gothic metal", 
+      "symphonic gothic metal"
+    ], 
+    [
+      "death metal", 
+      "death 'n' roll"
+    ], 
+    [
+      "classical", 
+      "neoclassical metal"
+    ], 
+    [
+      "symphonic metal", 
+      "symphonic black metal"
+    ], 
+    [
+      "heavy metal", 
+      "groove metal"
+    ], 
+    [
+      "acid rock", 
+      "heavy metal"
+    ], 
+    [
+      "grindcore", 
+      "pornogrind"
+    ], 
+    [
+      "crust punk", 
+      "grindcore"
+    ], 
+    [
+      "gothic rock", 
+      "gothic metal"
+    ], 
+    [
+      "psychedelic rock", 
+      "heavy metal"
+    ], 
+    [
+      "extreme metal", 
+      "goregrind"
+    ], 
+    [
+      "doom metal", 
+      "stoner rock"
+    ], 
+    [
+      "death-doom", 
+      "funeral doom"
+    ], 
+    [
+      "extreme metal", 
+      "melodic death metal"
+    ], 
+    [
+      "death metal", 
+      "deathgrind"
+    ], 
+    [
+      "neoclassical metal", 
+      "symphonic metal"
+    ], 
+    [
+      "death metal", 
+      "technical death metal"
+    ], 
+    [
+      "grindcore", 
+      "deathgrind"
+    ], 
+    [
+      "heavy metal", 
+      "post-metal"
+    ], 
+    [
+      "extreme metal", 
+      "sludge metal"
+    ], 
+    [
+      "extreme metal", 
+      "black metal"
+    ], 
+    [
+      "black metal", 
+      "war metal"
+    ], 
+    [
+      "heavy metal", 
+      "power metal"
+    ], 
+    [
+      "hardcore punk", 
+      "crossover thrash"
+    ], 
+    [
+      "heavy metal", 
+      "neoclassical metal"
+    ], 
+    [
+      "death metal", 
+      "slam death metal"
+    ], 
+    [
+      "heavy metal", 
+      "thrash metal"
+    ], 
+    [
+      "nu metal", 
+      "emo rap"
+    ], 
+    [
+      "post-metal", 
+      "post-black metal"
+    ], 
+    [
+      "d-beat", 
+      "crust punk"
+    ], 
+    [
+      "gothic metal", 
       "gothic black metal"
-    ],
+    ], 
     [
-      "heavy metal",
-      "gothic metal"
-    ],
-    [
-      "gothic rock",
-      "gothic metal"
-    ],
-    [
-      "death-doom",
-      "gothic metal"
-    ],
-    [
-      "doom metal",
-      "gothic metal"
-    ],
-    [
-      "industrial metal",
-      "neue deutsche h\u00e4rte"
-    ],
-    [
-      "industrial metal",
-      "nu metal"
-    ],
-    [
-      "industrial rock",
-      "industrial metal"
-    ],
-    [
-      "heavy metal",
-      "industrial metal"
-    ],
-    [
-      "industrial",
-      "industrial metal"
-    ],
-    [
-      "industrial metal",
-      "neue deutsche h\u00e4rte"
-    ],
-    [
-      "industrial metal",
-      "nu metal"
-    ],
-    [
-      "industrial rock",
-      "industrial metal"
-    ],
-    [
-      "heavy metal",
-      "industrial metal"
-    ],
-    [
-      "industrial",
-      "industrial metal"
-    ],
-    [
-      "death-doom",
-      "funeral doom"
-    ],
-    [
-      "death-doom",
-      "gothic metal"
-    ],
-    [
-      "doom metal",
-      "death-doom"
-    ],
-    [
-      "death metal",
-      "death-doom"
-    ],
-    [
-      "death metal",
-      "deathgrind"
-    ],
-    [
-      "death metal",
-      "industrial death metal"
-    ],
-    [
-      "death metal",
-      "grindcore"
-    ],
-    [
-      "death metal",
-      "slam death metal"
-    ],
-    [
-      "death metal",
-      "pornogrind"
-    ],
-    [
-      "death metal",
-      "death-doom"
-    ],
-    [
-      "death metal",
-      "death 'n' roll"
-    ],
-    [
-      "death metal",
-      "technical death metal"
-    ],
-    [
-      "death metal",
+      "thrash metal", 
       "groove metal"
-    ],
+    ], 
     [
-      "death metal",
-      "goregrind"
-    ],
+      "neoclassical metal", 
+      "power metal"
+    ], 
     [
-      "death metal",
-      "melodic death metal"
-    ],
+      "extreme metal", 
+      "neoclassical metal"
+    ], 
     [
-      "death metal",
-      "symphonic death metal"
-    ],
+      "hardcore punk", 
+      "crust punk"
+    ], 
     [
-      "death metal",
-      "blackened death metal"
-    ],
+      "symphonic rock", 
+      "symphonic metal"
+    ], 
     [
-      "death metal",
-      "deathcore"
-    ],
+      "alternative rock", 
+      "post-grunge"
+    ], 
     [
-      "hardcore punk",
-      "death metal"
-    ],
+      "nwobhm", 
+      "speed metal"
+    ], 
     [
-      "thrash metal",
-      "death metal"
-    ],
+      "hardcore punk", 
+      "heavy hardcore"
+    ], 
     [
-      "first wave black metal",
-      "death metal"
-    ],
+      "world", 
+      "folk metal"
+    ], 
     [
-      "metalcore",
-      "melodic metalcore"
-    ],
+      "power metal", 
+      "symphonic metal"
+    ], 
     [
-      "metalcore",
-      "nu metalcore"
-    ],
-    [
-      "metalcore",
-      "mathcore"
-    ],
-    [
-      "metalcore",
-      "electronicore"
-    ],
-    [
-      "metalcore",
-      "progressive metalcore"
-    ],
-    [
-      "metalcore",
-      "deathcore"
-    ],
-    [
-      "hardcore punk",
-      "metalcore"
-    ],
-    [
-      "extreme metal",
-      "metalcore"
-    ],
-    [
-      "crossover thrash",
-      "metalcore"
-    ],
-    [
-      "metalcore",
-      "nu metalcore"
-    ],
-    [
-      "nu metal",
-      "nu metalcore"
-    ],
-    [
-      "black metal",
-      "ambient black metal"
-    ],
-    [
-      "black metal",
-      "war metal"
-    ],
-    [
-      "black metal",
-      "viking metal"
-    ],
-    [
-      "black metal",
-      "blackgaze"
-    ],
-    [
-      "black metal",
-      "pagan metal"
-    ],
-    [
-      "black metal",
-      "industrial black metal"
-    ],
-    [
-      "black metal",
-      "post-black metal"
-    ],
-    [
-      "black metal",
-      "black 'n' roll"
-    ],
-    [
-      "black metal",
-      "symphonic black metal"
-    ],
-    [
-      "black metal",
-      "black-doom"
-    ],
-    [
-      "black metal",
-      "blackened death metal"
-    ],
-    [
-      "hardcore punk",
-      "black metal"
-    ],
-    [
-      "thrash metal",
-      "black metal"
-    ],
-    [
-      "death metal",
-      "black metal"
-    ],
-    [
-      "grindcore",
-      "goregrind"
-    ],
-    [
-      "death metal",
-      "goregrind"
-    ],
-    [
-      "progressive metal",
-      "technical death metal"
-    ],
-    [
-      "jazz fusion",
-      "technical death metal"
-    ],
-    [
-      "avant-garde metal",
-      "technical death metal"
-    ],
-    [
-      "death metal",
-      "technical death metal"
-    ],
-    [
-      "doom metal",
-      "sludge metal"
-    ],
-    [
-      "doom metal",
-      "stoner metal"
-    ],
-    [
-      "doom metal",
-      "gothic metal"
-    ],
-    [
-      "doom metal",
+      "extreme metal", 
       "funeral doom"
-    ],
+    ], 
     [
-      "doom metal",
-      "death-doom"
-    ],
-    [
-      "doom metal",
-      "traditional doom"
-    ],
-    [
-      "doom metal",
-      "black-doom"
-    ],
-    [
-      "doom metal",
-      "epic doom"
-    ],
-    [
-      "doom metal",
-      "drone metal"
-    ],
-    [
-      "heavy metal",
-      "doom metal"
-    ],
-    [
-      "classical",
-      "doom metal"
-    ],
-    [
-      "shoegazing",
-      "blackgaze"
-    ],
-    [
-      "black metal",
-      "blackgaze"
-    ],
-    [
-      "post-hardcore",
-      "blackgaze"
-    ],
-    [
-      "post-rock",
-      "blackgaze"
-    ],
-    [
-      "atmospheric black metal",
-      "blackgaze"
-    ],
-    [
-      "post-metal",
-      "blackgaze"
-    ],
-    [
-      "folk metal",
-      "viking metal"
-    ],
-    [
-      "folk metal",
-      "celtic metal"
-    ],
-    [
-      "folk metal",
-      "pagan metal"
-    ],
-    [
-      "folk metal",
+      "folk metal", 
       "medieval metal"
-    ],
+    ], 
     [
-      "world",
-      "folk metal"
-    ],
+      "folk metal", 
+      "pagan metal"
+    ], 
     [
-      "heavy metal",
-      "folk metal"
-    ],
-    [
-      "folk",
-      "folk metal"
-    ],
-    [
-      "folk rock",
-      "folk metal"
-    ],
-    [
-      "glam rock",
+      "glam rock", 
       "glam metal"
-    ],
+    ], 
     [
-      "heavy metal",
-      "glam metal"
-    ],
-    [
-      "pop rock",
-      "glam metal"
-    ],
-    [
-      "hard rock",
-      "glam metal"
-    ],
-    [
-      "punk rock",
-      "glam metal"
-    ],
-    [
-      "industrial metal",
-      "neue deutsche h\u00e4rte"
-    ],
-    [
-      "industrial metal",
-      "nu metal"
-    ],
-    [
-      "industrial rock",
-      "industrial metal"
-    ],
-    [
-      "heavy metal",
-      "industrial metal"
-    ],
-    [
-      "industrial",
-      "industrial metal"
-    ],
-    [
-      "crust punk",
-      "grindcore"
-    ],
-    [
-      "hardcore punk",
-      "crust punk"
-    ],
-    [
-      "extreme metal",
-      "crust punk"
-    ],
-    [
-      "d-beat",
-      "crust punk"
-    ],
-    [
-      "anarcho-punk",
-      "crust punk"
-    ],
-    [
-      "christian metal",
-      "unblack metal"
-    ],
-    [
-      "jesus music",
-      "christian metal"
-    ],
-    [
-      "heavy metal",
-      "christian metal"
-    ],
-    [
-      "christian rock",
-      "christian metal"
-    ],
-    [
-      "glam metal",
-      "christian metal"
-    ],
-    [
-      "death metal",
-      "deathgrind"
-    ],
-    [
-      "death metal",
-      "industrial death metal"
-    ],
-    [
-      "death metal",
-      "grindcore"
-    ],
-    [
-      "death metal",
-      "slam death metal"
-    ],
-    [
-      "death metal",
-      "pornogrind"
-    ],
-    [
-      "death metal",
-      "death-doom"
-    ],
-    [
-      "death metal",
+      "rock and roll", 
       "death 'n' roll"
-    ],
+    ], 
     [
-      "death metal",
-      "technical death metal"
-    ],
+      "doom metal", 
+      "traditional doom"
+    ], 
     [
-      "death metal",
-      "groove metal"
-    ],
-    [
-      "death metal",
-      "goregrind"
-    ],
-    [
-      "death metal",
-      "melodic death metal"
-    ],
-    [
-      "death metal",
-      "symphonic death metal"
-    ],
-    [
-      "death metal",
-      "blackened death metal"
-    ],
-    [
-      "death metal",
-      "deathcore"
-    ],
-    [
-      "hardcore punk",
-      "death metal"
-    ],
-    [
-      "thrash metal",
-      "death metal"
-    ],
-    [
-      "first wave black metal",
-      "death metal"
-    ],
-    [
-      "gothic metal",
-      "symphonic gothic metal"
-    ],
-    [
-      "gothic metal",
-      "gothic black metal"
-    ],
-    [
-      "heavy metal",
-      "gothic metal"
-    ],
-    [
-      "gothic rock",
-      "gothic metal"
-    ],
-    [
-      "death-doom",
-      "gothic metal"
-    ],
-    [
-      "doom metal",
-      "gothic metal"
-    ],
-    [
-      "post-metal",
-      "blackgaze"
-    ],
-    [
-      "extreme metal",
-      "post-metal"
-    ],
-    [
-      "post-hardcore",
-      "post-metal"
-    ],
-    [
-      "post-rock",
-      "post-metal"
-    ],
-    [
-      "experimental",
-      "post-metal"
-    ],
-    [
-      "black metal",
-      "ambient black metal"
-    ],
-    [
-      "black metal",
-      "war metal"
-    ],
-    [
-      "black metal",
-      "viking metal"
-    ],
-    [
-      "black metal",
-      "blackgaze"
-    ],
-    [
-      "black metal",
-      "pagan metal"
-    ],
-    [
-      "black metal",
-      "industrial black metal"
-    ],
-    [
-      "black metal",
-      "post-black metal"
-    ],
-    [
-      "black metal",
-      "black 'n' roll"
-    ],
-    [
-      "black metal",
-      "symphonic black metal"
-    ],
-    [
-      "black metal",
-      "black-doom"
-    ],
-    [
-      "black metal",
-      "blackened death metal"
-    ],
-    [
-      "hardcore punk",
-      "black metal"
-    ],
-    [
-      "thrash metal",
-      "black metal"
-    ],
-    [
-      "death metal",
-      "black metal"
-    ],
-    [
-      "black metal",
-      "ambient black metal"
-    ],
-    [
-      "black metal",
-      "war metal"
-    ],
-    [
-      "black metal",
-      "viking metal"
-    ],
-    [
-      "black metal",
-      "blackgaze"
-    ],
-    [
-      "black metal",
-      "pagan metal"
-    ],
-    [
-      "black metal",
-      "industrial black metal"
-    ],
-    [
-      "black metal",
-      "post-black metal"
-    ],
-    [
-      "black metal",
-      "black 'n' roll"
-    ],
-    [
-      "black metal",
-      "symphonic black metal"
-    ],
-    [
-      "black metal",
-      "black-doom"
-    ],
-    [
-      "black metal",
-      "blackened death metal"
-    ],
-    [
-      "hardcore punk",
-      "black metal"
-    ],
-    [
-      "thrash metal",
-      "black metal"
-    ],
-    [
-      "death metal",
-      "black metal"
-    ],
-    [
-      "thrash metal",
-      "grindcore"
-    ],
-    [
-      "thrash metal",
-      "black metal"
-    ],
-    [
-      "thrash metal",
-      "crossover thrash"
-    ],
-    [
-      "thrash metal",
-      "funk metal"
-    ],
-    [
-      "thrash metal",
-      "heavy hardcore"
-    ],
-    [
-      "thrash metal",
-      "death metal"
-    ],
-    [
-      "thrash metal",
-      "groove metal"
-    ],
-    [
-      "thrash metal",
-      "metalcore"
-    ],
-    [
-      "hardcore punk",
-      "thrash metal"
-    ],
-    [
-      "nwobhm",
-      "thrash metal"
-    ],
-    [
-      "speed metal",
-      "thrash metal"
-    ],
-    [
-      "symphonic metal",
-      "symphonic gothic metal"
-    ],
-    [
-      "symphonic metal",
-      "symphonic black metal"
-    ],
-    [
-      "symphonic metal",
-      "symphonic death metal"
-    ],
-    [
-      "symphonic metal",
-      "symphonic power metal"
-    ],
-    [
-      "power metal",
-      "symphonic metal"
-    ],
-    [
-      "symphonic rock",
-      "symphonic metal"
-    ],
-    [
-      "heavy metal",
-      "symphonic metal"
-    ],
-    [
-      "neoclassical metal",
-      "symphonic metal"
-    ],
-    [
-      "classical",
-      "symphonic metal"
-    ],
-    [
-      "rap metal",
+      "rap metal", 
       "nu metal"
-    ],
+    ], 
     [
-      "funk metal",
-      "rap metal"
-    ],
-    [
-      "hip hop",
-      "rap metal"
-    ],
-    [
-      "heavy metal",
-      "rap metal"
-    ],
-    [
-      "rap rock",
-      "rap metal"
-    ],
-    [
-      "alternative metal",
-      "rap metal"
-    ],
-    [
-      "goregrind",
-      "pornogrind"
-    ],
-    [
-      "grindcore",
-      "pornogrind"
-    ],
-    [
-      "death metal",
-      "pornogrind"
-    ],
-    [
-      "post-black metal",
-      "blackgaze"
-    ],
-    [
-      "progressive metal",
-      "post-black metal"
-    ],
-    [
-      "black metal",
-      "post-black metal"
-    ],
-    [
-      "electronica",
-      "post-black metal"
-    ],
-    [
-      "shoegaze",
-      "post-black metal"
-    ],
-    [
-      "post-hardcore",
-      "post-black metal"
-    ],
-    [
-      "experimental",
-      "post-black metal"
-    ],
-    [
-      "post-metal",
-      "post-black metal"
-    ],
-    [
-      "grunge",
-      "post-grunge"
-    ],
-    [
-      "grunge",
-      "nu metal"
-    ],
-    [
-      "sludge metal",
-      "grunge"
-    ],
-    [
-      "punk rock",
-      "grunge"
-    ],
-    [
-      "hardcore punk",
-      "grunge"
-    ],
-    [
-      "heavy metal",
-      "grunge"
-    ],
-    [
-      "garage rock",
-      "grunge"
-    ],
-    [
-      "alternative rock",
-      "grunge"
-    ],
-    [
-      "noise rock",
-      "grunge"
-    ],
-    [
-      "hard rock",
-      "grunge"
-    ],
-    [
-      "symphonic metal",
-      "symphonic gothic metal"
-    ],
-    [
-      "symphonic metal",
-      "symphonic black metal"
-    ],
-    [
-      "symphonic metal",
-      "symphonic death metal"
-    ],
-    [
-      "symphonic metal",
-      "symphonic power metal"
-    ],
-    [
-      "power metal",
-      "symphonic metal"
-    ],
-    [
-      "symphonic rock",
-      "symphonic metal"
-    ],
-    [
-      "heavy metal",
-      "symphonic metal"
-    ],
-    [
-      "neoclassical metal",
-      "symphonic metal"
-    ],
-    [
-      "classical",
-      "symphonic metal"
-    ],
-    [
-      "viking metal",
-      "pagan metal"
-    ],
-    [
-      "folk metal",
-      "viking metal"
-    ],
-    [
-      "sea shanties",
-      "viking metal"
-    ],
-    [
-      "power metal",
-      "viking metal"
-    ],
-    [
-      "black metal",
-      "viking metal"
-    ],
-    [
-      "nordic folk",
-      "viking metal"
-    ],
-    [
-      "folk metal",
-      "medieval metal"
-    ],
-    [
-      "medieval folk rock",
-      "medieval metal"
-    ],
-    [
-      "heavy metal",
-      "stoner rock"
-    ],
-    [
-      "psychedelic rock",
-      "stoner rock"
-    ],
-    [
-      "acid rock",
-      "stoner rock"
-    ],
-    [
-      "doom metal",
-      "stoner rock"
-    ],
-    [
-      "symphonic metal",
-      "symphonic gothic metal"
-    ],
-    [
-      "symphonic metal",
-      "symphonic black metal"
-    ],
-    [
-      "symphonic metal",
-      "symphonic death metal"
-    ],
-    [
-      "symphonic metal",
-      "symphonic power metal"
-    ],
-    [
-      "power metal",
-      "symphonic metal"
-    ],
-    [
-      "symphonic rock",
-      "symphonic metal"
-    ],
-    [
-      "heavy metal",
-      "symphonic metal"
-    ],
-    [
-      "neoclassical metal",
-      "symphonic metal"
-    ],
-    [
-      "classical",
-      "symphonic metal"
-    ],
-    [
-      "christian metal",
-      "unblack metal"
-    ],
-    [
-      "black metal",
-      "unblack metal"
-    ],
-    [
-      "metalcore",
-      "melodic metalcore"
-    ],
-    [
-      "melodic death metal",
-      "melodic metalcore"
-    ],
-    [
-      "gothic metal",
-      "symphonic black metal"
-    ],
-    [
-      "symphonic metal",
-      "symphonic black metal"
-    ],
-    [
-      "black metal",
-      "symphonic black metal"
-    ],
-    [
-      "progressive metal",
-      "djent"
-    ],
-    [
-      "progressive metal",
-      "progressive metalcore"
-    ],
-    [
-      "progressive metal",
-      "technical death metal"
-    ],
-    [
-      "heavy metal",
-      "progressive metal"
-    ],
-    [
-      "progressive rock",
-      "progressive metal"
-    ],
-    [
-      "nu metal",
-      "emo rap"
-    ],
-    [
-      "nu metal",
-      "nu metalcore"
-    ],
-    [
-      "rap metal",
-      "nu metal"
-    ],
-    [
-      "thrash metal",
-      "nu metal"
-    ],
-    [
-      "grunge",
-      "nu metal"
-    ],
-    [
-      "industrial metal",
-      "nu metal"
-    ],
-    [
-      "funk metal",
-      "nu metal"
-    ],
-    [
-      "groove metal",
-      "nu metal"
-    ],
-    [
-      "heavy metal",
-      "nu metal"
-    ],
-    [
-      "hip hop",
-      "nu metal"
-    ],
-    [
-      "alternative metal",
-      "nu metal"
-    ],
-    [
-      "extreme metal",
-      "melodic metalcore"
-    ],
-    [
-      "extreme metal",
-      "industrial death metal"
-    ],
-    [
-      "extreme metal",
-      "crust punk"
-    ],
-    [
-      "extreme metal",
-      "war metal"
-    ],
-    [
-      "extreme metal",
-      "funeral doom"
-    ],
-    [
-      "extreme metal",
-      "death-doom"
-    ],
-    [
-      "extreme metal",
-      "blackened death metal"
-    ],
-    [
-      "extreme metal",
-      "mathcore"
-    ],
-    [
-      "extreme metal",
-      "speed metal"
-    ],
-    [
-      "extreme metal",
-      "goregrind"
-    ],
-    [
-      "extreme metal",
-      "doom metal"
-    ],
-    [
-      "extreme metal",
-      "deathcore"
-    ],
-    [
-      "extreme metal",
-      "stoner metal"
-    ],
-    [
-      "extreme metal",
+      "extreme metal", 
       "deathgrind"
-    ],
+    ], 
     [
-      "extreme metal",
+      "extreme metal", 
       "gothic metal"
-    ],
+    ], 
     [
-      "extreme metal",
-      "slam death metal"
-    ],
-    [
-      "extreme metal",
-      "groove metal"
-    ],
-    [
-      "extreme metal",
-      "viking metal"
-    ],
-    [
-      "extreme metal",
-      "pagan metal"
-    ],
-    [
-      "extreme metal",
-      "drone metal"
-    ],
-    [
-      "extreme metal",
-      "black 'n' roll"
-    ],
-    [
-      "extreme metal",
-      "neoclassical metal"
-    ],
-    [
-      "extreme metal",
-      "post-metal"
-    ],
-    [
-      "extreme metal",
-      "electronicore"
-    ],
-    [
-      "extreme metal",
-      "thrash metal"
-    ],
-    [
-      "extreme metal",
-      "black metal"
-    ],
-    [
-      "extreme metal",
-      "crossover thrash"
-    ],
-    [
-      "extreme metal",
-      "blackgaze"
-    ],
-    [
-      "extreme metal",
-      "sludge metal"
-    ],
-    [
-      "extreme metal",
-      "death 'n' roll"
-    ],
-    [
-      "extreme metal",
-      "epic doom"
-    ],
-    [
-      "extreme metal",
-      "industrial black metal"
-    ],
-    [
-      "extreme metal",
-      "progressive metalcore"
-    ],
-    [
-      "extreme metal",
-      "technical death metal"
-    ],
-    [
-      "extreme metal",
+      "noise rock", 
       "grindcore"
-    ],
+    ], 
     [
-      "extreme metal",
+      "nordic folk", 
+      "viking metal"
+    ], 
+    [
+      "noise rock", 
+      "grunge"
+    ], 
+    [
+      "heavy metal", 
+      "christian metal"
+    ], 
+    [
+      "extreme metal", 
       "avant-garde metal"
-    ],
+    ], 
     [
-      "extreme metal",
-      "nu metalcore"
-    ],
-    [
-      "extreme metal",
-      "ambient black metal"
-    ],
-    [
-      "extreme metal",
-      "death metal"
-    ],
-    [
-      "extreme metal",
-      "post-black metal"
-    ],
-    [
-      "extreme metal",
-      "power metal"
-    ],
-    [
-      "extreme metal",
-      "symphonic black metal"
-    ],
-    [
-      "extreme metal",
-      "black-doom"
-    ],
-    [
-      "extreme metal",
-      "metalcore"
-    ],
-    [
-      "extreme metal",
-      "melodic death metal"
-    ],
-    [
-      "extreme metal",
-      "symphonic death metal"
-    ],
-    [
-      "extreme metal",
-      "traditional doom"
-    ],
-    [
-      "extreme metal",
-      "pornogrind"
-    ],
-    [
-      "hardcore punk",
-      "extreme metal"
-    ],
-    [
-      "heavy metal",
-      "extreme metal"
-    ],
-    [
-      "doom metal",
-      "extreme metal"
-    ],
-    [
-      "drone",
-      "drone metal"
-    ],
-    [
-      "avant-garde metal",
-      "drone metal"
-    ],
-    [
-      "doom metal",
-      "drone metal"
-    ],
-    [
-      "sludge metal",
-      "grunge"
-    ],
-    [
-      "hardcore punk",
-      "sludge metal"
-    ],
-    [
-      "noise rock",
-      "sludge metal"
-    ],
-    [
-      "industrial",
-      "sludge metal"
-    ],
-    [
-      "doom metal",
-      "sludge metal"
-    ],
-    [
-      "doom metal",
-      "sludge metal"
-    ],
-    [
-      "doom metal",
-      "stoner metal"
-    ],
-    [
-      "doom metal",
-      "gothic metal"
-    ],
-    [
-      "doom metal",
-      "funeral doom"
-    ],
-    [
-      "doom metal",
-      "death-doom"
-    ],
-    [
-      "doom metal",
-      "traditional doom"
-    ],
-    [
-      "doom metal",
-      "black-doom"
-    ],
-    [
-      "doom metal",
-      "epic doom"
-    ],
-    [
-      "doom metal",
-      "drone metal"
-    ],
-    [
-      "heavy metal",
-      "doom metal"
-    ],
-    [
-      "classical",
-      "doom metal"
-    ],
-    [
-      "grunge",
-      "post-grunge"
-    ],
-    [
-      "hard rock",
-      "post-grunge"
-    ],
-    [
-      "alternative rock",
-      "post-grunge"
-    ],
-    [
-      "death metal",
-      "deathgrind"
-    ],
-    [
-      "death metal",
-      "industrial death metal"
-    ],
-    [
-      "death metal",
-      "grindcore"
-    ],
-    [
-      "death metal",
-      "slam death metal"
-    ],
-    [
-      "death metal",
-      "pornogrind"
-    ],
-    [
-      "death metal",
-      "death-doom"
-    ],
-    [
-      "death metal",
-      "death 'n' roll"
-    ],
-    [
-      "death metal",
-      "technical death metal"
-    ],
-    [
-      "death metal",
-      "groove metal"
-    ],
-    [
-      "death metal",
-      "goregrind"
-    ],
-    [
-      "death metal",
-      "melodic death metal"
-    ],
-    [
-      "death metal",
-      "symphonic death metal"
-    ],
-    [
-      "death metal",
-      "blackened death metal"
-    ],
-    [
-      "death metal",
-      "deathcore"
-    ],
-    [
-      "hardcore punk",
-      "death metal"
-    ],
-    [
-      "thrash metal",
-      "death metal"
-    ],
-    [
-      "first wave black metal",
-      "death metal"
-    ],
-    [
-      "neoclassical metal",
-      "power metal"
-    ],
-    [
-      "neoclassical metal",
-      "symphonic metal"
-    ],
-    [
-      "heavy metal",
-      "neoclassical metal"
-    ],
-    [
-      "classical",
-      "neoclassical metal"
-    ],
-    [
-      "speed metal",
-      "neoclassical metal"
-    ],
-    [
-      "power metal",
-      "symphonic power metal"
-    ],
-    [
-      "nwobhm",
-      "power metal"
-    ],
-    [
-      "heavy metal",
-      "power metal"
-    ],
-    [
-      "neoclassical metal",
-      "power metal"
-    ],
-    [
-      "speed metal",
-      "power metal"
-    ],
-    [
-      "grindcore",
-      "goregrind"
-    ],
-    [
-      "grindcore",
-      "deathgrind"
-    ],
-    [
-      "grindcore",
-      "mathcore"
-    ],
-    [
-      "grindcore",
-      "pornogrind"
-    ],
-    [
-      "thrash metal",
-      "grindcore"
-    ],
-    [
-      "industrial",
-      "grindcore"
-    ],
-    [
-      "crust punk",
-      "grindcore"
-    ],
-    [
-      "death metal",
-      "grindcore"
-    ],
-    [
-      "hardcore punk",
-      "grindcore"
-    ],
-    [
-      "thrashcore",
-      "grindcore"
-    ],
-    [
-      "noise rock",
-      "grindcore"
-    ],
-    [
-      "crossover thrash",
-      "metalcore"
-    ],
-    [
-      "hardcore punk",
-      "crossover thrash"
-    ],
-    [
-      "thrash metal",
-      "crossover thrash"
-    ],
-    [
-      "djent",
-      "progressive metalcore"
-    ],
-    [
-      "progressive metal",
-      "djent"
-    ],
-    [
-      "extreme metal",
-      "djent"
-    ],
-    [
-      "avant-garde metal",
-      "djent"
-    ],
-    [
-      "alternative metal",
-      "funk metal"
-    ],
-    [
-      "alternative metal",
-      "rap metal"
-    ],
-    [
-      "alternative metal",
-      "nu metalcore"
-    ],
-    [
-      "alternative metal",
-      "nu metal"
-    ],
-    [
-      "heavy metal",
-      "alternative metal"
-    ],
-    [
-      "alternative rock",
-      "alternative metal"
-    ],
-    [
-      "groove metal",
-      "nu metal"
-    ],
-    [
-      "heavy metal",
-      "groove metal"
-    ],
-    [
-      "thrash metal",
-      "groove metal"
-    ],
-    [
-      "death metal",
-      "groove metal"
-    ],
-    [
-      "heavy hardcore",
-      "metalcore"
-    ],
-    [
-      "hardcore punk",
-      "heavy hardcore"
-    ],
-    [
-      "youth crew",
-      "heavy hardcore"
-    ],
-    [
-      "thrash metal",
-      "heavy hardcore"
-    ],
-    [
-      "crossover thrash",
-      "heavy hardcore"
-    ],
-    [
-      "folk metal",
+      "celtic rock", 
       "celtic metal"
-    ],
+    ], 
     [
-      "celtic rock",
-      "celtic metal"
-    ],
-    [
-      "indie rock",
-      "emo rap"
-    ],
-    [
-      "cloud rap",
-      "emo rap"
-    ],
-    [
-      "hip hop",
-      "emo rap"
-    ],
-    [
-      "alternative r&b",
-      "emo rap"
-    ],
-    [
-      "pop punk",
-      "emo rap"
-    ],
-    [
-      "trap",
-      "emo rap"
-    ],
-    [
-      "electronic music",
-      "emo rap"
-    ],
-    [
-      "nu metal",
-      "emo rap"
-    ],
-    [
-      "speed metal",
-      "power metal"
-    ],
-    [
-      "speed metal",
-      "thrash metal"
-    ],
-    [
-      "speed metal",
-      "neoclassical metal"
-    ],
-    [
-      "hardcore punk",
-      "speed metal"
-    ],
-    [
-      "nwobhm",
-      "speed metal"
-    ],
-    [
-      "heavy metal",
-      "speed metal"
-    ],
-    [
-      "melodic death metal",
-      "melodic metalcore"
-    ],
-    [
-      "heavy metal",
-      "melodic death metal"
-    ],
-    [
-      "death metal",
-      "melodic death metal"
-    ],
-    [
-      "black metal",
-      "ambient black metal"
-    ],
-    [
-      "black metal",
-      "war metal"
-    ],
-    [
-      "black metal",
-      "viking metal"
-    ],
-    [
-      "black metal",
-      "blackgaze"
-    ],
-    [
-      "black metal",
-      "pagan metal"
-    ],
-    [
-      "black metal",
-      "industrial black metal"
-    ],
-    [
-      "black metal",
-      "post-black metal"
-    ],
-    [
-      "black metal",
-      "black 'n' roll"
-    ],
-    [
-      "black metal",
-      "symphonic black metal"
-    ],
-    [
-      "black metal",
-      "black-doom"
-    ],
-    [
-      "black metal",
-      "blackened death metal"
-    ],
-    [
-      "hardcore punk",
-      "black metal"
-    ],
-    [
-      "thrash metal",
-      "black metal"
-    ],
-    [
-      "death metal",
-      "black metal"
-    ],
-    [
-      "heavy metal",
-      "stoner rock"
-    ],
-    [
-      "psychedelic rock",
-      "stoner rock"
-    ],
-    [
-      "acid rock",
-      "stoner rock"
-    ],
-    [
-      "doom metal",
-      "stoner rock"
-    ],
-    [
-      "grindcore",
-      "deathgrind"
-    ],
-    [
-      "death metal",
-      "deathgrind"
-    ],
-    [
-      "rock and roll",
-      "death 'n' roll"
-    ],
-    [
-      "heavy metal",
-      "death 'n' roll"
-    ],
-    [
-      "hard rock",
-      "death 'n' roll"
-    ],
-    [
-      "death metal",
-      "death 'n' roll"
-    ],
-    [
-      "progressive metal",
-      "progressive metalcore"
-    ],
-    [
-      "metalcore",
-      "progressive metalcore"
-    ],
-    [
-      "symphonic metal",
-      "symphonic gothic metal"
-    ],
-    [
-      "symphonic metal",
-      "symphonic black metal"
-    ],
-    [
-      "symphonic metal",
-      "symphonic death metal"
-    ],
-    [
-      "symphonic metal",
-      "symphonic power metal"
-    ],
-    [
-      "power metal",
-      "symphonic metal"
-    ],
-    [
-      "symphonic rock",
-      "symphonic metal"
-    ],
-    [
-      "heavy metal",
-      "symphonic metal"
-    ],
-    [
-      "neoclassical metal",
-      "symphonic metal"
-    ],
-    [
-      "classical",
-      "symphonic metal"
-    ],
-    [
-      "funk metal",
-      "nu metal"
-    ],
-    [
-      "heavy metal",
-      "funk metal"
-    ],
-    [
-      "thrash metal",
-      "funk metal"
-    ],
-    [
-      "alternative metal",
-      "funk metal"
-    ],
-    [
-      "punk rock",
-      "funk metal"
-    ],
-    [
-      "funk rock",
-      "funk metal"
-    ],
-    [
-      "doom metal",
-      "sludge metal"
-    ],
-    [
-      "doom metal",
-      "stoner metal"
-    ],
-    [
-      "doom metal",
-      "gothic metal"
-    ],
-    [
-      "doom metal",
-      "funeral doom"
-    ],
-    [
-      "doom metal",
-      "death-doom"
-    ],
-    [
-      "doom metal",
-      "traditional doom"
-    ],
-    [
-      "doom metal",
-      "black-doom"
-    ],
-    [
-      "doom metal",
-      "epic doom"
-    ],
-    [
-      "doom metal",
+      "avant-garde metal", 
       "drone metal"
-    ],
+    ], 
     [
-      "heavy metal",
-      "doom metal"
-    ],
-    [
-      "classical",
-      "doom metal"
-    ],
-    [
-      "heavy metal",
+      "funk metal", 
       "rap metal"
-    ],
+    ], 
     [
-      "heavy metal",
-      "crust punk"
-    ],
+      "jazz", 
+      "mathcore"
+    ], 
     [
-      "heavy metal",
-      "funk metal"
-    ],
+      "avant-garde metal", 
+      "djent"
+    ], 
     [
-      "heavy metal",
-      "groove metal"
-    ],
+      "heavy metal", 
+      "gothic metal"
+    ], 
     [
-      "heavy metal",
-      "glam metal"
-    ],
+      "extreme metal", 
+      "viking metal"
+    ], 
     [
-      "heavy metal",
-      "doom metal"
-    ],
-    [
-      "heavy metal",
-      "progressive metal"
-    ],
-    [
-      "heavy metal",
-      "sludge metal"
-    ],
-    [
-      "heavy metal",
-      "black metal"
-    ],
-    [
-      "heavy metal",
-      "power metal"
-    ],
-    [
-      "heavy metal",
-      "neoclassical metal"
-    ],
-    [
-      "heavy metal",
-      "post-metal"
-    ],
-    [
-      "heavy metal",
-      "speed metal"
-    ],
-    [
-      "heavy metal",
-      "nu metal"
-    ],
-    [
-      "heavy metal",
-      "thrash metal"
-    ],
-    [
-      "heavy metal",
+      "alternative rock", 
       "grunge"
-    ],
+    ], 
     [
-      "heavy metal",
-      "industrial metal"
-    ],
+      "nwobhm", 
+      "thrash metal"
+    ], 
     [
-      "heavy metal",
-      "gothic metal"
-    ],
+      "cloud rap", 
+      "emo rap"
+    ], 
     [
-      "heavy metal",
-      "folk metal"
-    ],
+      "black metal", 
+      "pagan metal"
+    ], 
     [
-      "heavy metal",
-      "blackgaze"
-    ],
+      "progressive rock", 
+      "mathcore"
+    ], 
     [
-      "heavy metal",
-      "death metal"
-    ],
+      "metalcore", 
+      "electronicore"
+    ], 
     [
-      "heavy metal",
-      "metalcore"
-    ],
+      "youth crew", 
+      "heavy hardcore"
+    ], 
     [
-      "heavy metal",
-      "drone metal"
-    ],
-    [
-      "heavy metal",
-      "christian metal"
-    ],
-    [
-      "heavy metal",
+      "death metal", 
       "grindcore"
-    ],
+    ], 
     [
-      "heavy metal",
-      "avant-garde metal"
-    ],
+      "power metal", 
+      "viking metal"
+    ], 
     [
-      "heavy metal",
-      "stoner rock"
-    ],
+      "death metal", 
+      "death-doom"
+    ], 
     [
-      "heavy metal",
-      "extreme metal"
-    ],
+      "atmospheric black metal", 
+      "blackgaze"
+    ], 
     [
-      "heavy metal",
-      "alternative metal"
-    ],
-    [
-      "heavy metal",
+      "heavy metal", 
       "symphonic metal"
-    ],
+    ], 
     [
-      "psychedelic rock",
-      "heavy metal"
-    ],
+      "doom metal", 
+      "drone metal"
+    ], 
     [
-      "acid rock",
-      "heavy metal"
-    ],
-    [
-      "blues rock",
-      "heavy metal"
-    ],
-    [
-      "doom metal",
+      "hardcore punk", 
       "sludge metal"
-    ],
+    ], 
     [
-      "doom metal",
-      "stoner metal"
-    ],
+      "garage rock", 
+      "grunge"
+    ], 
     [
-      "doom metal",
-      "gothic metal"
-    ],
+      "progressive metal", 
+      "mathcore"
+    ], 
     [
-      "doom metal",
-      "funeral doom"
-    ],
+      "thrash metal", 
+      "grindcore"
+    ], 
     [
-      "doom metal",
-      "death-doom"
-    ],
+      "sea shanties", 
+      "viking metal"
+    ], 
     [
-      "doom metal",
-      "traditional doom"
-    ],
+      "goregrind", 
+      "pornogrind"
+    ], 
     [
-      "doom metal",
-      "black-doom"
-    ],
-    [
-      "doom metal",
-      "epic doom"
-    ],
-    [
-      "doom metal",
-      "drone metal"
-    ],
-    [
-      "heavy metal",
-      "doom metal"
-    ],
-    [
-      "classical",
-      "doom metal"
-    ],
-    [
-      "grunge",
-      "post-grunge"
-    ],
-    [
-      "hard rock",
-      "post-grunge"
-    ],
-    [
-      "alternative rock",
-      "post-grunge"
-    ],
-    [
-      "avant-garde metal",
-      "drone metal"
-    ],
-    [
-      "avant-garde metal",
+      "avant-garde metal", 
       "post-metal"
-    ],
+    ], 
     [
-      "extreme metal",
-      "avant-garde metal"
-    ],
+      "hardcore punk", 
+      "death metal"
+    ], 
     [
-      "avant-garde",
-      "avant-garde metal"
-    ],
-    [
-      "progressive rock",
-      "avant-garde metal"
-    ],
-    [
-      "heavy metal",
-      "avant-garde metal"
-    ],
-    [
-      "experimental rock",
-      "avant-garde metal"
-    ],
-    [
-      "doom metal",
-      "sludge metal"
-    ],
-    [
-      "doom metal",
-      "stoner metal"
-    ],
-    [
-      "doom metal",
-      "gothic metal"
-    ],
-    [
-      "doom metal",
-      "funeral doom"
-    ],
-    [
-      "doom metal",
-      "death-doom"
-    ],
-    [
-      "doom metal",
-      "traditional doom"
-    ],
-    [
-      "doom metal",
-      "black-doom"
-    ],
-    [
-      "doom metal",
-      "epic doom"
-    ],
-    [
-      "doom metal",
+      "extreme metal", 
       "drone metal"
-    ],
+    ], 
     [
-      "heavy metal",
+      "speed metal", 
+      "neoclassical metal"
+    ], 
+    [
+      "heavy metal", 
+      "grunge"
+    ], 
+    [
+      "anarcho-punk", 
+      "crust punk"
+    ], 
+    [
+      "heavy metal", 
+      "crust punk"
+    ], 
+    [
+      "extreme metal", 
+      "power metal"
+    ], 
+    [
+      "grunge", 
+      "post-grunge"
+    ], 
+    [
+      "punk rock", 
+      "glam metal"
+    ], 
+    [
+      "crossover thrash", 
+      "metalcore"
+    ], 
+    [
+      "extreme metal", 
+      "progressive metalcore"
+    ], 
+    [
+      "death metal", 
+      "black metal"
+    ], 
+    [
+      "pop rock", 
+      "glam metal"
+    ], 
+    [
+      "hip hop", 
+      "nu metal"
+    ], 
+    [
+      "alternative rock", 
+      "alternative metal"
+    ], 
+    [
+      "groove metal", 
+      "nu metal"
+    ], 
+    [
+      "thrash metal", 
+      "death metal"
+    ], 
+    [
+      "extreme metal", 
+      "blackgaze"
+    ], 
+    [
+      "extreme metal", 
+      "djent"
+    ], 
+    [
+      "black metal", 
+      "black-doom"
+    ], 
+    [
+      "progressive metal", 
+      "technical death metal"
+    ], 
+    [
+      "alternative metal", 
+      "nu metal"
+    ], 
+    [
+      "extreme metal", 
+      "symphonic black metal"
+    ], 
+    [
+      "nwobhm", 
+      "power metal"
+    ], 
+    [
+      "first wave black metal", 
+      "death metal"
+    ], 
+    [
+      "nu metal", 
+      "nu metalcore"
+    ], 
+    [
+      "industrial", 
+      "grindcore"
+    ], 
+    [
+      "acid rock", 
+      "stoner rock"
+    ], 
+    [
+      "drone", 
+      "drone metal"
+    ], 
+    [
+      "hardcore punk", 
+      "thrash metal"
+    ], 
+    [
+      "death metal", 
+      "melodic death metal"
+    ], 
+    [
+      "heavy metal", 
       "doom metal"
-    ],
+    ], 
     [
-      "classical",
-      "doom metal"
-    ],
+      "extreme metal", 
+      "technical death metal"
+    ], 
     [
-      "metalcore",
-      "electronicore"
-    ],
+      "progressive rock", 
+      "avant-garde metal"
+    ], 
     [
-      "electronic",
-      "electronicore"
-    ],
+      "post-hardcore", 
+      "blackgaze"
+    ], 
     [
-      "post-hardcore",
-      "electronicore"
-    ],
+      "rap rock", 
+      "rap metal"
+    ], 
     [
-      "progressive metal",
-      "mathcore"
-    ],
+      "post-hardcore", 
+      "post-black metal"
+    ], 
     [
-      "grindcore",
-      "mathcore"
-    ],
+      "shoegaze", 
+      "post-black metal"
+    ], 
     [
-      "jazz",
-      "mathcore"
-    ],
+      "speed metal", 
+      "power metal"
+    ], 
     [
-      "hardcore punk",
-      "mathcore"
-    ],
+      "death-doom", 
+      "gothic metal"
+    ], 
     [
-      "post-hardcore",
-      "mathcore"
-    ],
+      "heavy metal", 
+      "funk metal"
+    ], 
     [
-      "math rock",
-      "mathcore"
-    ],
+      "symphonic metal", 
+      "symphonic death metal"
+    ], 
     [
-      "extreme metal",
-      "mathcore"
-    ],
+      "funk metal", 
+      "nu metal"
+    ], 
     [
-      "progressive rock",
-      "mathcore"
-    ],
-    [
-      "metalcore",
-      "mathcore"
-    ],
-    [
-      "folk metal",
-      "pagan metal"
-    ],
-    [
-      "extreme metal",
-      "pagan metal"
-    ],
-    [
-      "viking metal",
-      "pagan metal"
-    ],
-    [
-      "folk",
-      "pagan metal"
+      "doom metal", 
+      "sludge metal"
     ]
-  ],
+  ], 
   "nodes": [
-    "folk rock",
-    "power metal",
-    "symphonic gothic metal",
-    "jazz fusion",
-    "death 'n' roll",
-    "progressive metalcore",
-    "death-doom",
-    "neue deutsche h\u00e4rte",
-    "black metal",
-    "progressive metal",
-    "heavy metal",
-    "alternative rock",
-    "glam rock",
-    "stoner rock",
-    "funk rock",
-    "celtic metal",
-    "rap metal",
-    "speed metal",
-    "grindcore",
-    "traditional doom",
-    "avant-garde metal",
-    "avant-garde",
-    "world",
-    "symphonic metal",
-    "acid rock",
-    "post-metal",
-    "industrial black metal",
-    "symphonic black metal",
-    "crust punk",
-    "post-grunge",
-    "symphonic death metal",
-    "symphonic power metal",
-    "psychedelic rock",
-    "hip hop",
-    "classical",
-    "slam death metal",
-    "pagan metal",
-    "djent",
-    "stoner metal",
-    "gothic black metal",
-    "industrial death metal",
-    "folk",
-    "crossover thrash",
-    "garage rock",
-    "hard rock",
-    "indie rock",
-    "electronica",
-    "electronic",
-    "shoegaze",
-    "funeral doom",
-    "sludge metal",
-    "post-rock",
-    "electronicore",
-    "trap",
-    "shoegazing",
-    "unblack metal",
-    "epic doom",
-    "groove metal",
-    "pop punk",
-    "blackgaze",
-    "extreme metal",
-    "melodic metalcore",
-    "symphonic rock",
-    "drone metal",
-    "folk metal",
-    "technical death metal",
-    "emo rap",
-    "youth crew",
-    "first wave black metal",
-    "glam metal",
-    "medieval folk rock",
-    "hardcore punk",
-    "black-doom",
-    "experimental",
-    "electronic music",
-    "industrial",
-    "nu metalcore",
-    "thrash metal",
-    "goregrind",
-    "melodic death metal",
-    "atmospheric black metal",
-    "deathcore",
-    "noise rock",
-    "math rock",
-    "funk metal",
-    "pop rock",
-    "nwobhm",
-    "sea shanties",
-    "nordic folk",
-    "cloud rap",
-    "industrial metal",
-    "grunge",
-    "post-black metal",
-    "war metal",
-    "industrial rock",
-    "christian rock",
-    "jesus music",
-    "medieval metal",
-    "christian metal",
-    "death metal",
-    "metalcore",
-    "experimental rock",
-    "neoclassical metal",
-    "viking metal",
-    "mathcore",
-    "doom metal",
-    "heavy hardcore",
-    "rock and roll",
-    "deathgrind",
-    "blues rock",
-    "progressive rock",
-    "d-beat",
-    "rap rock",
-    "anarcho-punk",
-    "alternative r&b",
-    "black 'n' roll",
-    "ambient black metal",
-    "thrashcore",
-    "punk rock",
-    "jazz",
-    "celtic rock",
-    "pornogrind",
-    "post-hardcore",
-    "alternative metal",
-    "gothic metal",
-    "drone",
-    "nu metal",
-    "gothic rock",
+    "folk rock", 
+    "power metal", 
+    "symphonic gothic metal", 
+    "jazz fusion", 
+    "death 'n' roll", 
+    "progressive metalcore", 
+    "death-doom", 
+    "neue deutsche h\u00e4rte", 
+    "industrial", 
+    "progressive metal", 
+    "heavy metal", 
+    "alternative rock", 
+    "emo rap", 
+    "stoner rock", 
+    "d-beat", 
+    "funk rock", 
+    "celtic metal", 
+    "rap metal", 
+    "speed metal", 
+    "grindcore", 
+    "traditional doom", 
+    "avant-garde metal", 
+    "avant-garde", 
+    "world", 
+    "symphonic metal", 
+    "post-metal", 
+    "industrial black metal", 
+    "nu metal", 
+    "symphonic black metal", 
+    "crust punk", 
+    "post-grunge", 
+    "symphonic death metal", 
+    "symphonic power metal", 
+    "black metal", 
+    "psychedelic rock", 
+    "trap", 
+    "classical", 
+    "slam death metal", 
+    "glam rock", 
+    "pagan metal", 
+    "djent", 
+    "stoner metal", 
+    "gothic black metal", 
+    "progressive rock", 
+    "folk", 
+    "crossover thrash", 
+    "garage rock", 
+    "melodic death metal", 
+    "indie rock", 
+    "electronica", 
+    "atmospheric black metal", 
+    "shoegaze", 
+    "funeral doom", 
+    "sludge metal", 
+    "post-rock", 
+    "electronicore", 
+    "hip hop", 
+    "shoegazing", 
+    "unblack metal", 
+    "epic doom", 
+    "groove metal", 
+    "blackgaze", 
+    "extreme metal", 
+    "melodic metalcore", 
+    "symphonic rock", 
+    "drone metal", 
+    "folk metal", 
+    "technical death metal", 
+    "youth crew", 
+    "first wave black metal", 
+    "glam metal", 
+    "medieval folk rock", 
+    "hardcore punk", 
+    "black-doom", 
+    "experimental", 
+    "electronic music", 
+    "pop punk", 
+    "nu metalcore", 
+    "thrash metal", 
+    "goregrind", 
+    "hard rock", 
+    "electronic", 
+    "deathcore", 
+    "noise rock", 
+    "math rock", 
+    "funk metal", 
+    "pop rock", 
+    "nwobhm", 
+    "sea shanties", 
+    "nordic folk", 
+    "cloud rap", 
+    "industrial metal", 
+    "grunge", 
+    "post-black metal", 
+    "war metal", 
+    "industrial rock", 
+    "christian rock", 
+    "jesus music", 
+    "medieval metal", 
+    "christian metal", 
+    "death metal", 
+    "metalcore", 
+    "experimental rock", 
+    "neoclassical metal", 
+    "viking metal", 
+    "mathcore", 
+    "doom metal", 
+    "heavy hardcore", 
+    "rock and roll", 
+    "pornogrind", 
+    "blues rock", 
+    "industrial death metal", 
+    "acid rock", 
+    "rap rock", 
+    "anarcho-punk", 
+    "alternative r&b", 
+    "black 'n' roll", 
+    "ambient black metal", 
+    "punk rock", 
+    "jazz", 
+    "celtic rock", 
+    "deathgrind", 
+    "post-hardcore", 
+    "alternative metal", 
+    "gothic metal", 
+    "drone", 
+    "thrashcore", 
+    "gothic rock", 
     "blackened death metal"
-  ]
+  ], 
+  "subgenres": {
+    "alternative metal": {
+      "children": 4, 
+      "instruments": [
+        "electric_guitar", 
+        "vocals", 
+        "bass", 
+        "drums"
+      ]
+    }, 
+    "avant-garde metal": {
+      "children": 2, 
+      "instruments": [
+        "bass_guitar", 
+        "string_instruments", 
+        "wind_instruments", 
+        "electric_guitar", 
+        "vocals", 
+        "drums", 
+        "electronic"
+      ]
+    }, 
+    "black metal": {
+      "children": 11, 
+      "instruments": [
+        "electric_guitar", 
+        "vocals", 
+        "drums", 
+        "bass_guitar"
+      ]
+    }, 
+    "blackgaze": {
+      "children": 0, 
+      "instruments": [
+        "bass_guitar", 
+        "keyboards", 
+        "electric_guitar", 
+        "vocals", 
+        "drums", 
+        "synthesizer"
+      ]
+    }, 
+    "celtic metal": {
+      "children": 0, 
+      "instruments": [
+        "electric_guitar", 
+        "folk_instrument", 
+        "singing", 
+        "drum_kit", 
+        "bass_guitar"
+      ]
+    }, 
+    "christian metal": {
+      "children": 1, 
+      "instruments": []
+    }, 
+    "crossover thrash": {
+      "children": 1, 
+      "instruments": [
+        "electric_guitar", 
+        "vocals", 
+        "drums", 
+        "bass_guitar"
+      ]
+    }, 
+    "crust punk": {
+      "children": 1, 
+      "instruments": [
+        "electric_guitar", 
+        "vocals", 
+        "bass", 
+        "drums"
+      ]
+    }, 
+    "death 'n' roll": {
+      "children": 0, 
+      "instruments": [
+        "electric_guitar", 
+        "vocals", 
+        "drums", 
+        "bass_guitar"
+      ]
+    }, 
+    "death metal": {
+      "children": 14, 
+      "instruments": [
+        "electric_guitar", 
+        "vocals", 
+        "bass", 
+        "drums"
+      ]
+    }, 
+    "death-doom": {
+      "children": 2, 
+      "instruments": [
+        "electric_guitar", 
+        "vocals", 
+        "drums", 
+        "bass_guitar"
+      ]
+    }, 
+    "deathgrind": {
+      "children": 0, 
+      "instruments": [
+        "electric_guitar", 
+        "vocals", 
+        "drums", 
+        "bass_guitar"
+      ]
+    }, 
+    "djent": {
+      "children": 1, 
+      "instruments": [
+        "bass", 
+        "synthesizers", 
+        "keyboards", 
+        "percussion", 
+        "electric_guitar", 
+        "vocals", 
+        "drums"
+      ]
+    }, 
+    "doom metal": {
+      "children": 9, 
+      "instruments": [
+        "electric_guitar", 
+        "vocals", 
+        "bass", 
+        "drums"
+      ]
+    }, 
+    "drone metal": {
+      "children": 0, 
+      "instruments": [
+        "electric_guitar", 
+        "bass_guitar"
+      ]
+    }, 
+    "electronicore": {
+      "children": 0, 
+      "instruments": [
+        "sequencer", 
+        "bass_guitar", 
+        "turntables", 
+        "electric_guitar", 
+        "vocals", 
+        "drums", 
+        "keyboard", 
+        "synthesizer"
+      ]
+    }, 
+    "emo rap": {
+      "children": 0, 
+      "instruments": [
+        "acoustic_guitar", 
+        "digital_audio_workstation", 
+        "rapping", 
+        "synthesizer", 
+        "audio_editing_software", 
+        "sequencer", 
+        "sampler", 
+        "singing"
+      ]
+    }, 
+    "extreme metal": {
+      "children": 48, 
+      "instruments": [
+        "electric_guitar", 
+        "vocals", 
+        "drums", 
+        "bass_guitar"
+      ]
+    }, 
+    "folk metal": {
+      "children": 4, 
+      "instruments": [
+        "bass", 
+        "keyboards", 
+        "folk_instruments", 
+        "electric_guitar", 
+        "vocals", 
+        "drums"
+      ]
+    }, 
+    "funk metal": {
+      "children": 1, 
+      "instruments": [
+        "electric_guitar", 
+        "vocals", 
+        "bass", 
+        "drums", 
+        "keyboard"
+      ]
+    }, 
+    "glam metal": {
+      "children": 0, 
+      "instruments": [
+        "guitar", 
+        "vocals", 
+        "bass", 
+        "drums", 
+        "keyboards"
+      ]
+    }, 
+    "goregrind": {
+      "children": 0, 
+      "instruments": [
+        "guitar", 
+        "bass_guitar", 
+        "drums"
+      ]
+    }, 
+    "gothic metal": {
+      "children": 2, 
+      "instruments": [
+        "bass", 
+        "synthesizers", 
+        "keyboards", 
+        "drums", 
+        "electric_guitar", 
+        "vocals", 
+        "cello", 
+        "violin", 
+        "acoustic_guitar"
+      ]
+    }, 
+    "grindcore": {
+      "children": 4, 
+      "instruments": [
+        "electric_guitar", 
+        "vocals", 
+        "drums", 
+        "bass_guitar"
+      ]
+    }, 
+    "groove metal": {
+      "children": 1, 
+      "instruments": [
+        "electric_guitar", 
+        "vocals", 
+        "bass", 
+        "drums"
+      ]
+    }, 
+    "grunge": {
+      "children": 2, 
+      "instruments": [
+        "electric_guitar", 
+        "vocals", 
+        "drums", 
+        "bass_guitar"
+      ]
+    }, 
+    "heavy hardcore": {
+      "children": 1, 
+      "instruments": [
+        "electric_guitar", 
+        "drums", 
+        "bass_guitar"
+      ]
+    }, 
+    "heavy metal": {
+      "children": 30, 
+      "instruments": [
+        "electric_guitar", 
+        "vocals", 
+        "drums", 
+        "bass_guitar"
+      ]
+    }, 
+    "industrial metal": {
+      "children": 2, 
+      "instruments": []
+    }, 
+    "mathcore": {
+      "children": 0, 
+      "instruments": [
+        "percussion", 
+        "bass_guitar", 
+        "vocals", 
+        "drums", 
+        "electric_guitar"
+      ]
+    }, 
+    "medieval metal": {
+      "children": 0, 
+      "instruments": [
+        "bass", 
+        "electric_guitar", 
+        "bagpipes", 
+        "shawm", 
+        "woodwinds", 
+        "strings", 
+        "percussion", 
+        "hurdy-gurdy", 
+        "vocals", 
+        "lute", 
+        "synthesizer", 
+        "harp"
+      ]
+    }, 
+    "melodic death metal": {
+      "children": 1, 
+      "instruments": [
+        "double_bass_drums", 
+        "acoustic_guitar", 
+        "electric_guitar", 
+        "bass_guitar", 
+        "vocals", 
+        "keyboard"
+      ]
+    }, 
+    "melodic metalcore": {
+      "children": 0, 
+      "instruments": [
+        "electric_guitar", 
+        "vocals", 
+        "drums", 
+        "bass_guitar"
+      ]
+    }, 
+    "metalcore": {
+      "children": 6, 
+      "instruments": []
+    }, 
+    "neoclassical metal": {
+      "children": 2, 
+      "instruments": [
+        "electric_guitar", 
+        "vocals", 
+        "bass", 
+        "drums", 
+        "keyboards"
+      ]
+    }, 
+    "nu metal": {
+      "children": 2, 
+      "instruments": [
+        "bass", 
+        "electric_guitar", 
+        "sampling", 
+        "synthesizer", 
+        "turntable", 
+        "drums"
+      ]
+    }, 
+    "nu metalcore": {
+      "children": 0, 
+      "instruments": [
+        "electric_guitar", 
+        "turntable", 
+        "vocals", 
+        "drums", 
+        "bass_guitar"
+      ]
+    }, 
+    "pagan metal": {
+      "children": 0, 
+      "instruments": [
+        "electric_guitar", 
+        "keyboards", 
+        "folk_instruments", 
+        "drums", 
+        "bass_guitar"
+      ]
+    }, 
+    "pornogrind": {
+      "children": 0, 
+      "instruments": [
+        "guitar", 
+        "drums", 
+        "vocals", 
+        "bass", 
+        "drum_machine"
+      ]
+    }, 
+    "post-black metal": {
+      "children": 1, 
+      "instruments": []
+    }, 
+    "post-grunge": {
+      "children": 0, 
+      "instruments": [
+        "electric_guitar", 
+        "vocals", 
+        "acoustic_guitar", 
+        "drums", 
+        "bass_guitar"
+      ]
+    }, 
+    "post-metal": {
+      "children": 1, 
+      "instruments": [
+        "electric_guitar", 
+        "bass", 
+        "drums"
+      ]
+    }, 
+    "power metal": {
+      "children": 1, 
+      "instruments": [
+        "electric_guitar", 
+        "vocals", 
+        "bass", 
+        "drums", 
+        "keyboards"
+      ]
+    }, 
+    "progressive metal": {
+      "children": 3, 
+      "instruments": [
+        "bass_guitar", 
+        "keyboards", 
+        "percussion", 
+        "electric_guitar", 
+        "vocals", 
+        "synthesizer"
+      ]
+    }, 
+    "progressive metalcore": {
+      "children": 0, 
+      "instruments": [
+        "bass_guitar", 
+        "electric_guitar", 
+        "vocals", 
+        "drums", 
+        "keyboard", 
+        "percussion"
+      ]
+    }, 
+    "rap metal": {
+      "children": 1, 
+      "instruments": [
+        "bass", 
+        "turntables", 
+        "electric_guitar", 
+        "vocals", 
+        "drums", 
+        "sampler"
+      ]
+    }, 
+    "sludge metal": {
+      "children": 1, 
+      "instruments": [
+        "electric_guitar", 
+        "vocals", 
+        "bass", 
+        "drums"
+      ]
+    }, 
+    "speed metal": {
+      "children": 3, 
+      "instruments": [
+        "electric_guitar", 
+        "vocals", 
+        "bass", 
+        "drums"
+      ]
+    }, 
+    "stoner rock": {
+      "children": 0, 
+      "instruments": [
+        "electric_guitar", 
+        "vocals", 
+        "bass", 
+        "drums"
+      ]
+    }, 
+    "symphonic black metal": {
+      "children": 0, 
+      "instruments": []
+    }, 
+    "symphonic metal": {
+      "children": 4, 
+      "instruments": [
+        "cello", 
+        "bass_guitar", 
+        "choirs", 
+        "keyboards", 
+        "electric_guitar", 
+        "vocals", 
+        "drums", 
+        "violin", 
+        "piano"
+      ]
+    }, 
+    "technical death metal": {
+      "children": 0, 
+      "instruments": [
+        "electric_guitar", 
+        "keyboard", 
+        "vocals", 
+        "drums", 
+        "bass_guitar"
+      ]
+    }, 
+    "thrash metal": {
+      "children": 8, 
+      "instruments": [
+        "electric_guitar", 
+        "vocals", 
+        "drums", 
+        "bass_guitar"
+      ]
+    }, 
+    "unblack metal": {
+      "children": 0, 
+      "instruments": []
+    }, 
+    "viking metal": {
+      "children": 1, 
+      "instruments": [
+        "folk_instruments", 
+        "nordic"
+      ]
+    }
+  }
 }

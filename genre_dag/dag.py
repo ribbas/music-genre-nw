@@ -3,9 +3,7 @@
 
 from __future__ import unicode_literals, print_function
 
-from bs4 import BeautifulSoup
-
-from config import DATA_PATH
+from config import DATA_PATH, RAW_DATA_PATH
 from util import dump_json, ls_dir, read_json
 
 
@@ -15,25 +13,33 @@ class GenreDAG(object):
 
         self.data = data
         self.nodes = set()
-        self.edges = []
+        self.edges = set()
+        self.subgenres = {}
 
     def build_edges(self):
 
         for genre in self.data:
-            for node in genre["children"]:
-                self.edges.append([genre["root"], node.replace("_", " ")])
-            for node in genre["parents"]:
-                self.edges.append([node.replace("_", " "), genre["root"]])
+            for child in genre["children"]:
+                self.edges.add((genre["root"], child.replace("_", " ")))
+            for parent in genre["parents"]:
+                self.edges.add((parent.replace("_", " "), genre["root"]))
+
+    def include_data(self):
+
+        for genre in self.data:
+            self.subgenres[genre["root"]] = {
+                "children": len(genre["children"]),
+                "instruments": genre["instruments"]
+            }
 
     def get_edges(self):
 
-        return self.edges
+        return list(self.edges)
 
     def get_nodes(self):
 
         for edge in self.edges:
-            self.nodes.add(edge[0])
-            self.nodes.add(edge[-1])
+            self.nodes.update(edge)
 
         return list(self.nodes)
 
@@ -41,15 +47,20 @@ class GenreDAG(object):
 
         dump_json(
             DATA_PATH + "data.json",
-            {"edges": self.get_edges(), "nodes": self.get_nodes()}
+            {
+                "edges": self.get_edges(),
+                "nodes": self.get_nodes(),
+                "subgenres": self.subgenres
+            }
         )
 
 
 if __name__ == '__main__':
 
-    data = ls_dir(DATA_PATH)
+    data = ls_dir(RAW_DATA_PATH)
     data = [read_json(i) for i in data]
 
     obj = GenreDAG(data=data)
     obj.build_edges()
+    obj.include_data()
     obj.dump_dag()

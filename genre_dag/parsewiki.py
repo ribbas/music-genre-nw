@@ -5,7 +5,7 @@ from __future__ import unicode_literals, print_function
 
 from bs4 import BeautifulSoup
 
-from config import BASE_URL, DATA_PATH, HEADERS
+from config import BASE_URL, RAW_DATA_PATH, HEADERS
 from parsers import filter_lists, parse_origin_dates
 from util import dump_json, file_exists, send_request, read_json
 
@@ -37,7 +37,7 @@ class WikiSubtree(object):
     def __init__(self, endpoint):
 
         self.endpoint = endpoint
-        self.file_path = DATA_PATH + self.endpoint + ".json"
+        self.file_path = RAW_DATA_PATH + self.endpoint + ".json"
         self.raw_subtree = {key: [] for key in RAW_CATEGORIES}
 
         self.exists = False
