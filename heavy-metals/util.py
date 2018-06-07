@@ -26,8 +26,8 @@ def file_exists(file_path):
     return os.path.isfile(file_path)
 
 
-def send_request(url):
+def send_request(url, headers):
 
-    req = requests.get(url)
+    req = requests.get(url, headers=headers)
     print(req.url)
     return req.text

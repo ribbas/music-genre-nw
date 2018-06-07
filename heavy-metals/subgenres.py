@@ -9,7 +9,7 @@ from random import uniform
 
 from config import DATA_PATH
 from parsewiki import WikiSubtree
-from util import read_json, file_exists
+from util import file_exists
 
 
 class Subgenres(object):
@@ -27,8 +27,10 @@ class Subgenres(object):
         children = 0
         while children < len(self.queued):
             subgenre = self.queued[children]
-            wait = uniform(0.0, 2)
-            sleep(wait)
+            if not file_exists(DATA_PATH + subgenre + ".json"):
+                wait = uniform(5.0, 10)
+                print("wait", wait, "s")
+                sleep(wait)
             if subgenre not in self.parsed:
                 subtree = WikiSubtree(endpoint=subgenre)
                 subtree.generate_subtree()

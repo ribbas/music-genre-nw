@@ -5,9 +5,9 @@ from __future__ import unicode_literals, print_function
 
 from bs4 import BeautifulSoup
 
-from config import BASE_URL, DATA_PATH
+from config import BASE_URL, DATA_PATH, HEADERS
 from parsers import filter_lists, parse_origin_dates
-from util import dump_json, file_exists, send_request
+from util import dump_json, file_exists, send_request, read_json
 
 RAW_CATEGORIES = (
     "other names",
@@ -37,10 +37,17 @@ class WikiSubtree(object):
     def __init__(self, endpoint):
 
         self.endpoint = endpoint
+        self.file_path = DATA_PATH + self.endpoint + ".json"
         self.raw_subtree = {key: [] for key in RAW_CATEGORIES}
-        self.html = send_request(BASE_URL + self.endpoint)
-        # self.html = open("heavy-metals/test.html").read()
-        self.subtree = {}
+
+        self.exists = False
+        if not file_exists(self.file_path):
+            self.html = send_request(BASE_URL + self.endpoint, HEADERS)
+            self.subtree = {}
+        else:
+            print(self.endpoint, "exists")
+            self.exists = True
+            self.subtree = read_json(self.file_path)
 
     def get_table_soup(self, html):
 
@@ -77,27 +84,29 @@ class WikiSubtree(object):
 
     def generate_subtree(self):
 
-        self.parse_wiki_table()
+        if not self.exists:
 
-        self.subtree["root"] = self.raw_subtree["root"]
+            self.parse_wiki_table()
 
-        # self.subtree["origins"] = parse_origin_dates(
-        #     self.raw_subtree["cultural origins"][0])
+            self.subtree["root"] = self.raw_subtree["root"]
 
-        self.subtree["parents"] = filter_lists(
-            set(self.raw_subtree["stylistic origins"]))
+            # self.subtree["origins"] = parse_origin_dates(
+            #     self.raw_subtree["cultural origins"][0])
 
-        self.subtree["children"] = filter_lists(
-            self.raw_subtree["fusion genres"] +
-            self.raw_subtree["subgenres"] +
-            self.raw_subtree["derivative forms"]
-        )
+            self.subtree["parents"] = filter_lists(
+                set(self.raw_subtree["stylistic origins"]))
 
-        self.subtree["instruments"] = filter_lists(
-            set(self.raw_subtree["typical instruments"]))
+            self.subtree["children"] = filter_lists(
+                self.raw_subtree["fusion genres"] +
+                self.raw_subtree["subgenres"] +
+                self.raw_subtree["derivative forms"]
+            )
 
-        dump_json(file_path=DATA_PATH + self.endpoint + ".json",
-                  data=self.subtree)
+            self.subtree["instruments"] = filter_lists(
+                set(self.raw_subtree["typical instruments"]))
+
+            dump_json(file_path=self.file_path,
+                      data=self.subtree)
 
     def get_subtree(self):
 
@@ -106,5 +115,5 @@ class WikiSubtree(object):
 
 if __name__ == '__main__':
 
-    obj = WikiSubtree("Post-grunge")
+    obj = WikiSubtree("death_'n'_roll")
     obj.generate_subtree()
