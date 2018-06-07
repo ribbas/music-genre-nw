@@ -4,6 +4,7 @@
 from __future__ import unicode_literals, print_function
 
 import json
+import os
 
 import requests
 
@@ -18,6 +19,11 @@ def read_json(file_path):
 
     with open(file_path) as data_file:
         return json.load(data_file)
+
+
+def file_exists(file_path):
+
+    return os.path.isfile(file_path)
 
 
 def send_request(url):

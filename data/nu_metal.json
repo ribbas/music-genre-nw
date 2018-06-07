@@ -1,44 +1,30 @@
 {
-  "cultural origins": [
-    "Early to mid-1990s, California, U.S.", 
-    "California"
+  "children": [
+    "emo_rap", 
+    "nu_metalcore"
   ], 
-  "derivative forms": [
-    "Emo rap", 
-    "[1]"
-  ], 
-  "fusion genres": [
-    "Nu metalcore"
-  ], 
-  "local scenes": [], 
-  "other names": [], 
-  "other topics": [
-    "New wave of American heavy metal"
-  ], 
-  "regional scenes": [
-    "Canada", 
-    "Russia", 
-    "United States"
-  ], 
-  "root": "nu metal", 
-  "stylistic origins": [
-    "Heavy metal", 
-    "alternative metal", 
-    "hip hop", 
-    "rap metal", 
-    "funk metal", 
-    "industrial metal", 
-    "groove metal", 
-    "thrash metal", 
-    "grunge"
-  ], 
-  "subgenres": [], 
-  "typical instruments": [
-    "Electric guitar", 
+  "instruments": [
     "bass", 
-    "drums", 
-    "turntable", 
+    "electric_guitar", 
+    "sampling", 
     "synthesizer", 
-    "sampling"
-  ]
+    "turntable", 
+    "drums"
+  ], 
+  "origins": {
+    "begin": "early-1990s", 
+    "end": "mid-1990s"
+  }, 
+  "parents": [
+    "rap_metal", 
+    "thrash_metal", 
+    "grunge", 
+    "industrial_metal", 
+    "funk_metal", 
+    "groove_metal", 
+    "heavy_metal", 
+    "hip_hop", 
+    "alternative_metal"
+  ], 
+  "root": "nu metal"
 }

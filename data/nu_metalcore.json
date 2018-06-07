@@ -1,0 +1,19 @@
+{
+  "children": [], 
+  "instruments": [
+    "electric_guitar", 
+    "turntable", 
+    "vocals", 
+    "drums", 
+    "bass_guitar"
+  ], 
+  "origins": {
+    "begin": "early-2010s", 
+    "end": "early-2010s"
+  }, 
+  "parents": [
+    "metalcore", 
+    "nu_metal"
+  ], 
+  "root": "nu metalcore"
+}

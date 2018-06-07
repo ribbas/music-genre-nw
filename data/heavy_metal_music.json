@@ -1,83 +1,50 @@
 {
-  "cultural origins": {
+  "children": [
+    "rap_metal", 
+    "crust_punk", 
+    "funk_metal", 
+    "groove_metal", 
+    "glam_metal", 
+    "doom_metal", 
+    "progressive_metal", 
+    "sludge_metal", 
+    "black_metal", 
+    "power_metal", 
+    "neoclassical_metal", 
+    "post-metal", 
+    "speed_metal", 
+    "nu_metal", 
+    "thrash_metal", 
+    "grunge", 
+    "industrial_metal", 
+    "gothic_metal", 
+    "folk_metal", 
+    "blackgaze", 
+    "death_metal", 
+    "metalcore", 
+    "drone_metal", 
+    "christian_metal", 
+    "grindcore", 
+    "avant-garde_metal", 
+    "stoner_rock", 
+    "extreme_metal", 
+    "alternative_metal", 
+    "symphonic_metal"
+  ], 
+  "instruments": [
+    "electric_guitar", 
+    "vocals", 
+    "drums", 
+    "bass_guitar"
+  ], 
+  "origins": {
     "begin": "late-1960s", 
     "end": "late-1960s"
   }, 
-  "derivative forms": [
-    "grunge", 
-    "post-metal"
+  "parents": [
+    "psychedelic_rock", 
+    "acid_rock", 
+    "blues_rock"
   ], 
-  "fusion genres": [
-    "alternative metal", 
-    "funk metal", 
-    "nu metal", 
-    "rap metal", 
-    "blackgaze", 
-    "crust punk", 
-    "drone metal", 
-    "folk metal", 
-    "gothic metal", 
-    "grindcore", 
-    "industrial metal", 
-    "metalcore", 
-    "neoclassical metal", 
-    "progressive metal", 
-    "sludge metal", 
-    "stoner rock"
-  ], 
-  "local scenes": [
-    "san francisco bay area"
-  ], 
-  "other names": [], 
-  "other topics": [
-    "fashion", 
-    "hard rock", 
-    "heavy metal genres", 
-    "list of bands", 
-    "list of festivals", 
-    "lyrics", 
-    "subculture", 
-    "timeline", 
-    "umlaut", 
-    "2018 in heavy metal music"
-  ], 
-  "regional scenes": [
-    "australia", 
-    "brazil", 
-    "finland", 
-    "france", 
-    "germany", 
-    "japan", 
-    "norway", 
-    "sweden", 
-    "united kingdom", 
-    "united states"
-  ], 
-  "root": "heavy metal", 
-  "stylistic origins": [
-    "blues rock", 
-    "acid rock", 
-    "psychedelic rock"
-  ], 
-  "subgenres": [
-    "avant-garde metal", 
-    "christian metal", 
-    "extreme metal", 
-    "black metal", 
-    "death metal", 
-    "doom metal", 
-    "thrash metal", 
-    "glam metal", 
-    "groove metal", 
-    "power metal", 
-    "speed metal", 
-    "symphonic metal", 
-    "complete list"
-  ], 
-  "typical instruments": [
-    "electric guitar", 
-    "bass guitar", 
-    "drums", 
-    "vocals"
-  ]
+  "root": "heavy metal"
 }

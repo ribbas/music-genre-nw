@@ -5,7 +5,7 @@ from __future__ import unicode_literals, print_function
 
 import re
 
-year_range_re = re.compile(r"(early|mid|late)(\W\d{4}s?)?", re.I)
+year_range_re = re.compile(r"(early|mid|late)(\W\d{4}s?)?|\d{4}s?", re.I)
 
 
 def parse_origin_dates(text):
@@ -34,3 +34,14 @@ def parse_origin_dates(text):
         )
 
     return origin_range
+
+
+def filter_lists(container):
+
+    container = (i.replace(" ", "_") for i in container if
+                 ("[" not in i and
+                  len(i) > 3 and
+                  i != "complete list")
+                 )
+
+    return filter(None, set(container))

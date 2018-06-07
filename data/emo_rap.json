@@ -1,0 +1,28 @@
+{
+  "children": [], 
+  "instruments": [
+    "acoustic_guitar", 
+    "digital_audio_workstation", 
+    "rapping", 
+    "synthesizer", 
+    "audio_editing_software", 
+    "sequencer", 
+    "sampler", 
+    "singing"
+  ], 
+  "origins": {
+    "begin": "mid-2010s", 
+    "end": "late-2010s"
+  }, 
+  "parents": [
+    "indie_rock", 
+    "cloud_rap", 
+    "hip_hop", 
+    "alternative_r&b", 
+    "pop_punk", 
+    "trap", 
+    "electronic_music", 
+    "nu_metal"
+  ], 
+  "root": "emo rap"
+}
