@@ -1,16 +1,16 @@
 {
-  "children": [], 
+  "children": [],
   "instruments": [
-    "electric_guitar", 
-    "vocals", 
-    "bass", 
+    "electric_guitar",
+    "vocals",
+    "bass",
     "drums"
-  ], 
+  ],
   "parents": [
-    "heavy_metal", 
-    "psychedelic_rock", 
-    "acid_rock", 
+    "heavy_metal",
+    "psychedelic_rock",
+    "acid_rock",
     "doom_metal"
-  ], 
-  "root": "stoner rock"
+  ],
+  "root": "stoner metal"
 }

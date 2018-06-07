@@ -1,24 +1,24 @@
 {
   "children": [
-    "sludge_metal", 
-    "stoner_metal", 
-    "gothic_metal", 
-    "funeral_doom", 
-    "death-doom", 
-    "traditional_doom", 
-    "black-doom", 
-    "epic_doom", 
+    "sludge_metal",
+    "stoner_metal",
+    "gothic_metal",
+    "funeral_doom",
+    "death-doom",
+    "traditional_doom",
+    "black-doom",
+    "epic_doom",
     "drone_metal"
-  ], 
+  ],
   "instruments": [
-    "electric_guitar", 
-    "vocals", 
-    "bass", 
+    "electric_guitar",
+    "vocals",
+    "bass",
     "drums"
-  ], 
+  ],
   "parents": [
-    "heavy_metal", 
+    "heavy_metal",
     "classical"
-  ], 
-  "root": "doom metal"
+  ],
+  "root": "traditional doom"
 }

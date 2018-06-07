@@ -3,14 +3,13 @@
   "instruments": [
     "electric_guitar", 
     "vocals", 
-    "acoustic_guitar", 
     "drums", 
     "bass_guitar"
   ], 
   "parents": [
-    "grunge", 
-    "hard_rock", 
-    "alternative_rock"
+    "hardcore_punk", 
+    "metalcore", 
+    "death_metal"
   ], 
-  "root": "post-grunge"
+  "root": "deathcore"
 }

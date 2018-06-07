@@ -123,5 +123,7 @@ class WikiSubtree(object):
 
 if __name__ == '__main__':
 
-    obj = WikiSubtree("death_'n'_roll")
+    from sys import argv
+
+    obj = WikiSubtree(argv[-1])
     obj.generate_subtree()

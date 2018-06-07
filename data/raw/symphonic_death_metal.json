@@ -1,27 +1,27 @@
 {
   "children": [
-    "symphonic_gothic_metal", 
-    "symphonic_black_metal", 
-    "symphonic_death_metal", 
+    "symphonic_gothic_metal",
+    "symphonic_black_metal",
+    "symphonic_death_metal",
     "symphonic_power_metal"
-  ], 
+  ],
   "instruments": [
-    "cello", 
-    "bass_guitar", 
-    "choirs", 
-    "keyboards", 
-    "electric_guitar", 
-    "vocals", 
-    "drums", 
-    "violin", 
+    "cello",
+    "bass_guitar",
+    "choirs",
+    "keyboards",
+    "electric_guitar",
+    "vocals",
+    "drums",
+    "violin",
     "piano"
-  ], 
+  ],
   "parents": [
-    "power_metal", 
-    "symphonic_rock", 
-    "heavy_metal", 
-    "neoclassical_metal", 
+    "power_metal",
+    "symphonic_rock",
+    "heavy_metal",
+    "neoclassical_metal",
     "classical"
-  ], 
-  "root": "symphonic metal"
+  ],
+  "root": "symphonic death metal"
 }

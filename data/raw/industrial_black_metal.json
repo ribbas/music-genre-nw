@@ -1,13 +1,14 @@
 {
   "children": [
-    "neue_deutsche_h\u00e4rte", 
+    "neue_deutsche_h\u00e4rte",
     "nu_metal"
-  ], 
-  "instruments": [], 
+  ],
+  "instruments": [],
   "parents": [
-    "industrial_rock", 
-    "heavy_metal", 
+    "industrial_rock",
+    "heavy_metal",
+    "black_metal",
     "industrial"
-  ], 
-  "root": "industrial metal"
+  ],
+  "root": "industrial black metal"
 }

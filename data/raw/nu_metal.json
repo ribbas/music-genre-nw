@@ -14,12 +14,11 @@
   "parents": [
     "rap_metal", 
     "thrash_metal", 
-    "grunge", 
+    "hip_hop", 
     "industrial_metal", 
     "funk_metal", 
     "groove_metal", 
     "heavy_metal", 
-    "hip_hop", 
     "alternative_metal"
   ], 
   "root": "nu metal"
