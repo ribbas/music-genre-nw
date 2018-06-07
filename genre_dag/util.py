@@ -3,6 +3,7 @@
 
 from __future__ import unicode_literals, print_function
 
+from glob import glob
 import json
 import os
 
@@ -31,3 +32,8 @@ def send_request(url, headers):
     req = requests.get(url, headers=headers)
     print(req.url)
     return req.text
+
+
+def ls_dir(dir_name):
+
+    return glob(dir_name + "*.json")

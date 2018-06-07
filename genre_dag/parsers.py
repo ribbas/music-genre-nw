@@ -40,7 +40,7 @@ def filter_lists(container):
 
     container = (i.replace(" ", "_") for i in container if
                  ("[" not in i and
-                  len(i) > 3 and
+                  len(i) > 2 and
                   i != "complete list")
                  )
 

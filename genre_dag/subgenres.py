@@ -3,7 +3,6 @@
 
 from __future__ import unicode_literals, print_function
 
-from pprint import pprint
 from time import sleep
 from random import uniform
 
@@ -14,11 +13,11 @@ from util import file_exists
 
 class Subgenres(object):
 
-    def __init__(self, genre):
+    def __init__(self, root):
 
         self.parsed = set()
         self.queued = []
-        self.root = genre
+        self.root = root
 
     def get_children_subtrees(self):
 
@@ -44,8 +43,6 @@ class Subgenres(object):
                 print("queue", self.queued)
                 print(children, len(self.queued))
                 print()
-
-        pprint(self.parsed)
 
 
 if __name__ == '__main__':
