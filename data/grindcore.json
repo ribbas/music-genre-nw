@@ -1,0 +1,24 @@
+{
+  "children": [
+    "goregrind", 
+    "deathgrind", 
+    "mathcore", 
+    "pornogrind"
+  ], 
+  "instruments": [
+    "electric_guitar", 
+    "vocals", 
+    "drums", 
+    "bass_guitar"
+  ], 
+  "parents": [
+    "thrash_metal", 
+    "industrial", 
+    "crust_punk", 
+    "death_metal", 
+    "hardcore_punk", 
+    "thrashcore", 
+    "noise_rock"
+  ], 
+  "root": "grindcore"
+}

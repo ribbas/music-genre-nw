@@ -1,0 +1,20 @@
+{
+  "children": [
+    "progressive_metalcore"
+  ], 
+  "instruments": [
+    "bass", 
+    "synthesizers", 
+    "keyboards", 
+    "percussion", 
+    "electric_guitar", 
+    "vocals", 
+    "drums"
+  ], 
+  "parents": [
+    "progressive_metal", 
+    "extreme_metal", 
+    "avant-garde_metal"
+  ], 
+  "root": "djent"
+}

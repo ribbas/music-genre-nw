@@ -1,6 +1,6 @@
 {
   "children": [
-    "nu_metal"
+    "grunge"
   ], 
   "instruments": [
     "electric_guitar", 
@@ -9,9 +9,10 @@
     "drums"
   ], 
   "parents": [
-    "heavy_metal", 
-    "thrash_metal", 
-    "death_metal"
+    "hardcore_punk", 
+    "noise_rock", 
+    "industrial", 
+    "doom_metal"
   ], 
-  "root": "groove metal"
+  "root": "sludge metal"
 }

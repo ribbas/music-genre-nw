@@ -1,0 +1,23 @@
+{
+  "children": [
+    "drone_metal", 
+    "post-metal"
+  ], 
+  "instruments": [
+    "bass_guitar", 
+    "string_instruments", 
+    "wind_instruments", 
+    "electric_guitar", 
+    "vocals", 
+    "drums", 
+    "electronic"
+  ], 
+  "parents": [
+    "extreme_metal", 
+    "avant-garde", 
+    "progressive_rock", 
+    "heavy_metal", 
+    "experimental_rock"
+  ], 
+  "root": "avant-garde metal"
+}

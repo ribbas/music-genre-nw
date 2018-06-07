@@ -1,0 +1,17 @@
+{
+  "children": [
+    "metalcore"
+  ], 
+  "instruments": [
+    "electric_guitar", 
+    "drums", 
+    "bass_guitar"
+  ], 
+  "parents": [
+    "hardcore_punk", 
+    "youth_crew", 
+    "thrash_metal", 
+    "crossover_thrash"
+  ], 
+  "root": "heavy hardcore"
+}

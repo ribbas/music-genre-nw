@@ -1,17 +1,17 @@
 {
   "children": [
-    "nu_metal"
+    "funeral_doom", 
+    "gothic_metal"
   ], 
   "instruments": [
     "electric_guitar", 
     "vocals", 
-    "bass", 
-    "drums"
+    "drums", 
+    "bass_guitar"
   ], 
   "parents": [
-    "heavy_metal", 
-    "thrash_metal", 
+    "doom_metal", 
     "death_metal"
   ], 
-  "root": "groove metal"
+  "root": "death-doom"
 }

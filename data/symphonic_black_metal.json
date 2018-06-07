@@ -1,0 +1,10 @@
+{
+  "children": [], 
+  "instruments": [], 
+  "parents": [
+    "gothic_metal", 
+    "symphonic_metal", 
+    "black_metal"
+  ], 
+  "root": "symphonic black metal"
+}

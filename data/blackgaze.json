@@ -1,0 +1,20 @@
+{
+  "children": [], 
+  "instruments": [
+    "bass_guitar", 
+    "keyboards", 
+    "electric_guitar", 
+    "vocals", 
+    "drums", 
+    "synthesizer"
+  ], 
+  "parents": [
+    "shoegazing", 
+    "black_metal", 
+    "post-hardcore", 
+    "post-rock", 
+    "atmospheric_black_metal", 
+    "post-metal"
+  ], 
+  "root": "blackgaze"
+}

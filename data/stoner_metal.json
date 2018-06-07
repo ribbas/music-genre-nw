@@ -1,7 +1,5 @@
 {
-  "children": [
-    "nu_metal"
-  ], 
+  "children": [], 
   "instruments": [
     "electric_guitar", 
     "vocals", 
@@ -10,8 +8,9 @@
   ], 
   "parents": [
     "heavy_metal", 
-    "thrash_metal", 
-    "death_metal"
+    "psychedelic_rock", 
+    "acid_rock", 
+    "doom_metal"
   ], 
-  "root": "groove metal"
+  "root": "stoner rock"
 }

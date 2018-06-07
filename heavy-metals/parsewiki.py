@@ -39,6 +39,7 @@ class WikiSubtree(object):
         self.endpoint = endpoint
         self.raw_subtree = {key: [] for key in RAW_CATEGORIES}
         self.html = send_request(BASE_URL + self.endpoint)
+        # self.html = open("heavy-metals/test.html").read()
         self.subtree = {}
 
     def get_table_soup(self, html):
@@ -80,8 +81,8 @@ class WikiSubtree(object):
 
         self.subtree["root"] = self.raw_subtree["root"]
 
-        self.subtree["origins"] = parse_origin_dates(
-            self.raw_subtree["cultural origins"][0])
+        # self.subtree["origins"] = parse_origin_dates(
+        #     self.raw_subtree["cultural origins"][0])
 
         self.subtree["parents"] = filter_lists(
             set(self.raw_subtree["stylistic origins"]))
@@ -105,5 +106,5 @@ class WikiSubtree(object):
 
 if __name__ == '__main__':
 
-    obj = WikiSubtree("deathcore")
+    obj = WikiSubtree("Post-grunge")
     obj.generate_subtree()

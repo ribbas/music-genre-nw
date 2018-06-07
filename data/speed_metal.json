@@ -1,0 +1,19 @@
+{
+  "children": [
+    "power_metal", 
+    "thrash_metal", 
+    "neoclassical_metal"
+  ], 
+  "instruments": [
+    "electric_guitar", 
+    "vocals", 
+    "bass", 
+    "drums"
+  ], 
+  "parents": [
+    "hardcore_punk", 
+    "nwobhm", 
+    "heavy_metal"
+  ], 
+  "root": "speed metal"
+}

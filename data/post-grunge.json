@@ -2,14 +2,15 @@
   "children": [], 
   "instruments": [
     "electric_guitar", 
-    "turntable", 
     "vocals", 
+    "acoustic_guitar", 
     "drums", 
     "bass_guitar"
   ], 
   "parents": [
-    "metalcore", 
-    "nu_metal"
+    "grunge", 
+    "hard_rock", 
+    "alternative_rock"
   ], 
-  "root": "nu metalcore"
+  "root": "post-grunge"
 }

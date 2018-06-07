@@ -1,0 +1,21 @@
+{
+  "children": [
+    "nu_metal"
+  ], 
+  "instruments": [
+    "bass", 
+    "turntables", 
+    "electric_guitar", 
+    "vocals", 
+    "drums", 
+    "sampler"
+  ], 
+  "parents": [
+    "funk_metal", 
+    "hip_hop", 
+    "heavy_metal", 
+    "rap_rock", 
+    "alternative_metal"
+  ], 
+  "root": "rap metal"
+}

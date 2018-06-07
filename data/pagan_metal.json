@@ -1,0 +1,17 @@
+{
+  "children": [], 
+  "instruments": [
+    "electric_guitar", 
+    "keyboards", 
+    "folk_instruments", 
+    "drums", 
+    "bass_guitar"
+  ], 
+  "parents": [
+    "folk_metal", 
+    "extreme_metal", 
+    "viking_metal", 
+    "folk"
+  ], 
+  "root": "pagan metal"
+}

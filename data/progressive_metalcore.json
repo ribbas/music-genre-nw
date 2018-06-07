@@ -1,0 +1,16 @@
+{
+  "children": [], 
+  "instruments": [
+    "bass_guitar", 
+    "electric_guitar", 
+    "vocals", 
+    "drums", 
+    "keyboard", 
+    "percussion"
+  ], 
+  "parents": [
+    "progressive_metal", 
+    "metalcore"
+  ], 
+  "root": "progressive metalcore"
+}

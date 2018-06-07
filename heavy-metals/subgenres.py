@@ -4,6 +4,8 @@
 from __future__ import unicode_literals, print_function
 
 from pprint import pprint
+from time import sleep
+from random import uniform
 
 from config import DATA_PATH
 from parsewiki import WikiSubtree
@@ -25,13 +27,20 @@ class Subgenres(object):
         children = 0
         while children < len(self.queued):
             subgenre = self.queued[children]
+            wait = uniform(0.0, 2)
+            sleep(wait)
             if subgenre not in self.parsed:
                 subtree = WikiSubtree(endpoint=subgenre)
                 subtree.generate_subtree()
-                grand_children = subtree.get_subtree()["children"]
+                grand_children = list(
+                    set(subtree.get_subtree()["children"]) - set(self.queued))
                 self.queued.extend(grand_children)
+                # self.queued = list(set(self.queued))
                 self.parsed.add(subgenre)
                 children += 1
+                print("queue", self.queued)
+                print(children, len(self.queued))
+                print()
 
         pprint(self.parsed)
 

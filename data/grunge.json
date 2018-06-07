@@ -1,0 +1,23 @@
+{
+  "children": [
+    "post-grunge", 
+    "nu_metal"
+  ], 
+  "instruments": [
+    "electric_guitar", 
+    "vocals", 
+    "drums", 
+    "bass_guitar"
+  ], 
+  "parents": [
+    "sludge_metal", 
+    "punk_rock", 
+    "hardcore_punk", 
+    "heavy_metal", 
+    "garage_rock", 
+    "alternative_rock", 
+    "noise_rock", 
+    "hard_rock"
+  ], 
+  "root": "grunge"
+}

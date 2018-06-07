@@ -1,15 +1,16 @@
 {
-  "children": [], 
+  "children": [
+    "metalcore"
+  ], 
   "instruments": [
     "electric_guitar", 
-    "turntable", 
     "vocals", 
     "drums", 
     "bass_guitar"
   ], 
   "parents": [
-    "metalcore", 
-    "nu_metal"
+    "hardcore_punk", 
+    "thrash_metal"
   ], 
-  "root": "nu metalcore"
+  "root": "crossover thrash"
 }

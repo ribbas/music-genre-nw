@@ -1,0 +1,18 @@
+{
+  "children": [], 
+  "instruments": [
+    "guitar", 
+    "vocals", 
+    "bass", 
+    "drums", 
+    "keyboards"
+  ], 
+  "parents": [
+    "glam_rock", 
+    "heavy_metal", 
+    "pop_rock", 
+    "hard_rock", 
+    "punk_rock"
+  ], 
+  "root": "glam metal"
+}

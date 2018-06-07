@@ -1,6 +1,6 @@
 {
   "children": [
-    "nu_metal"
+    "grindcore"
   ], 
   "instruments": [
     "electric_guitar", 
@@ -9,9 +9,10 @@
     "drums"
   ], 
   "parents": [
-    "heavy_metal", 
-    "thrash_metal", 
-    "death_metal"
+    "hardcore_punk", 
+    "extreme_metal", 
+    "d-beat", 
+    "anarcho-punk"
   ], 
-  "root": "groove metal"
+  "root": "crust punk"
 }

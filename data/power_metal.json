@@ -1,17 +1,19 @@
 {
   "children": [
-    "nu_metal"
+    "symphonic_power_metal"
   ], 
   "instruments": [
     "electric_guitar", 
     "vocals", 
     "bass", 
-    "drums"
+    "drums", 
+    "keyboards"
   ], 
   "parents": [
+    "nwobhm", 
     "heavy_metal", 
-    "thrash_metal", 
-    "death_metal"
+    "neoclassical_metal", 
+    "speed_metal"
   ], 
-  "root": "groove metal"
+  "root": "power metal"
 }

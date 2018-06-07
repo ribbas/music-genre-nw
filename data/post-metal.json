@@ -1,17 +1,17 @@
 {
   "children": [
-    "nu_metal"
+    "blackgaze"
   ], 
   "instruments": [
     "electric_guitar", 
-    "vocals", 
     "bass", 
     "drums"
   ], 
   "parents": [
-    "heavy_metal", 
-    "thrash_metal", 
-    "death_metal"
+    "extreme_metal", 
+    "post-hardcore", 
+    "post-rock", 
+    "experimental"
   ], 
-  "root": "groove metal"
+  "root": "post-metal"
 }

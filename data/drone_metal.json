@@ -2,14 +2,12 @@
   "children": [], 
   "instruments": [
     "electric_guitar", 
-    "turntable", 
-    "vocals", 
-    "drums", 
     "bass_guitar"
   ], 
   "parents": [
-    "metalcore", 
-    "nu_metal"
+    "drone", 
+    "avant-garde_metal", 
+    "doom_metal"
   ], 
-  "root": "nu metalcore"
+  "root": "drone metal"
 }

@@ -1,0 +1,20 @@
+{
+  "children": [
+    "djent", 
+    "progressive_metalcore", 
+    "technical_death_metal"
+  ], 
+  "instruments": [
+    "bass_guitar", 
+    "keyboards", 
+    "percussion", 
+    "electric_guitar", 
+    "vocals", 
+    "synthesizer"
+  ], 
+  "parents": [
+    "heavy_metal", 
+    "progressive_rock"
+  ], 
+  "root": "progressive metal"
+}

@@ -1,0 +1,13 @@
+{
+  "children": [
+    "unblack_metal"
+  ], 
+  "instruments": [], 
+  "parents": [
+    "jesus_music", 
+    "heavy_metal", 
+    "christian_rock", 
+    "glam_metal"
+  ], 
+  "root": "christian metal"
+}

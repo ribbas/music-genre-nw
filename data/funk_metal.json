@@ -6,12 +6,15 @@
     "electric_guitar", 
     "vocals", 
     "bass", 
-    "drums"
+    "drums", 
+    "keyboard"
   ], 
   "parents": [
     "heavy_metal", 
     "thrash_metal", 
-    "death_metal"
+    "alternative_metal", 
+    "punk_rock", 
+    "funk_rock"
   ], 
-  "root": "groove metal"
+  "root": "funk metal"
 }

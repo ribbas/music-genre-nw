@@ -1,5 +1,8 @@
 {
   "children": [
+    "funk_metal", 
+    "rap_metal", 
+    "nu_metalcore", 
     "nu_metal"
   ], 
   "instruments": [
@@ -10,8 +13,7 @@
   ], 
   "parents": [
     "heavy_metal", 
-    "thrash_metal", 
-    "death_metal"
+    "alternative_rock"
   ], 
-  "root": "groove metal"
+  "root": "alternative metal"
 }
