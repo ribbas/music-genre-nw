@@ -27,17 +27,18 @@ class Subgenres(object):
         children = 0
         while children < len(self.queued):
             subgenre = self.queued[children]
+
             if not file_exists(DATA_PATH + subgenre + ".json"):
                 wait = uniform(5.0, 10)
                 print("wait", wait, "s")
                 sleep(wait)
+
             if subgenre not in self.parsed:
                 subtree = WikiSubtree(endpoint=subgenre)
                 subtree.generate_subtree()
                 grand_children = list(
                     set(subtree.get_subtree()["children"]) - set(self.queued))
                 self.queued.extend(grand_children)
-                # self.queued = list(set(self.queued))
                 self.parsed.add(subgenre)
                 children += 1
                 print("queue", self.queued)

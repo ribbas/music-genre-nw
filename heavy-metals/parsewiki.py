@@ -58,6 +58,7 @@ class WikiSubtree(object):
 
         root = True
         key = ""
+
         soup = self.get_table_soup(self.html)
 
         for div in soup.find_all(["th", "td"]):
@@ -86,27 +87,34 @@ class WikiSubtree(object):
 
         if not self.exists:
 
-            self.parse_wiki_table()
+            try:
 
-            self.subtree["root"] = self.raw_subtree["root"]
+                self.parse_wiki_table()
 
-            # self.subtree["origins"] = parse_origin_dates(
-            #     self.raw_subtree["cultural origins"][0])
+                self.subtree["root"] = self.raw_subtree["root"]
 
-            self.subtree["parents"] = filter_lists(
-                set(self.raw_subtree["stylistic origins"]))
+                # self.subtree["origins"] = parse_origin_dates(
+                #     self.raw_subtree["cultural origins"][0])
 
-            self.subtree["children"] = filter_lists(
-                self.raw_subtree["fusion genres"] +
-                self.raw_subtree["subgenres"] +
-                self.raw_subtree["derivative forms"]
-            )
+                self.subtree["parents"] = filter_lists(
+                    set(self.raw_subtree["stylistic origins"]))
 
-            self.subtree["instruments"] = filter_lists(
-                set(self.raw_subtree["typical instruments"]))
+                self.subtree["children"] = filter_lists(
+                    self.raw_subtree["fusion genres"] +
+                    self.raw_subtree["subgenres"] +
+                    self.raw_subtree["derivative forms"]
+                )
 
-            dump_json(file_path=self.file_path,
-                      data=self.subtree)
+                self.subtree["instruments"] = filter_lists(
+                    set(self.raw_subtree["typical instruments"]))
+
+                dump_json(file_path=self.file_path,
+                          data=self.subtree)
+
+            except IndexError:
+
+                print("Could not parse", self.endpoint)
+                self.subtree["children"] = []
 
     def get_subtree(self):
 
