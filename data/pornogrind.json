@@ -1,0 +1,16 @@
+{
+  "children": [], 
+  "instruments": [
+    "guitar", 
+    "drums", 
+    "vocals", 
+    "bass", 
+    "drum_machine"
+  ], 
+  "parents": [
+    "goregrind", 
+    "grindcore", 
+    "death_metal"
+  ], 
+  "root": "pornogrind"
+}

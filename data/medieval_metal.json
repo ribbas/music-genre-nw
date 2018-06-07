@@ -1,0 +1,22 @@
+{
+  "children": [], 
+  "instruments": [
+    "bass", 
+    "electric_guitar", 
+    "bagpipes", 
+    "shawm", 
+    "woodwinds", 
+    "strings", 
+    "percussion", 
+    "hurdy-gurdy", 
+    "vocals", 
+    "lute", 
+    "synthesizer", 
+    "harp"
+  ], 
+  "parents": [
+    "folk_metal", 
+    "medieval_folk_rock"
+  ], 
+  "root": "medieval metal"
+}

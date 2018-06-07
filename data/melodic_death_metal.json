@@ -1,0 +1,18 @@
+{
+  "children": [
+    "melodic_metalcore"
+  ], 
+  "instruments": [
+    "double_bass_drums", 
+    "acoustic_guitar", 
+    "electric_guitar", 
+    "bass_guitar", 
+    "vocals", 
+    "keyboard"
+  ], 
+  "parents": [
+    "heavy_metal", 
+    "death_metal"
+  ], 
+  "root": "melodic death metal"
+}

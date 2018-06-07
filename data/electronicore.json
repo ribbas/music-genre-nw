@@ -1,0 +1,19 @@
+{
+  "children": [], 
+  "instruments": [
+    "sequencer", 
+    "bass_guitar", 
+    "turntables", 
+    "electric_guitar", 
+    "vocals", 
+    "drums", 
+    "keyboard", 
+    "synthesizer"
+  ], 
+  "parents": [
+    "metalcore", 
+    "electronic", 
+    "post-hardcore"
+  ], 
+  "root": "electronicore"
+}
