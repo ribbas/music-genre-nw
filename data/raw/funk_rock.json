@@ -1,0 +1,19 @@
+{
+  "children": [
+    "funk_metal"
+  ], 
+  "instruments": [
+    "bass_guitar", 
+    "drum_machine", 
+    "electric_guitar", 
+    "vocals", 
+    "drums", 
+    "keyboard"
+  ], 
+  "parents": [
+    "psychedelia", 
+    "funk", 
+    "rock"
+  ], 
+  "root": "funk rock"
+}

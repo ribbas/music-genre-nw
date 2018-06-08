@@ -1,0 +1,20 @@
+{
+  "children": [
+    "smooth_jazz", 
+    "disco"
+  ], 
+  "instruments": [
+    "vocals", 
+    "strings", 
+    "horns"
+  ], 
+  "parents": [
+    "soul", 
+    "rhythm_and_blues", 
+    "baroque_pop", 
+    "philly_music", 
+    "big_band", 
+    "funk"
+  ], 
+  "root": "philadelphia soul"
+}

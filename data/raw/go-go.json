@@ -1,0 +1,22 @@
+{
+  "children": [], 
+  "instruments": [
+    "bass_guitar", 
+    "timbales", 
+    "vocal", 
+    "conga", 
+    "electric_guitar", 
+    "saxophone", 
+    "cowbell", 
+    "drums", 
+    "keyboard", 
+    "rototoms", 
+    "synthesizer", 
+    "brass_instruments"
+  ], 
+  "parents": [
+    "soul", 
+    "funk"
+  ], 
+  "root": "go-go"
+}

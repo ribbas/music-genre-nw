@@ -70,8 +70,13 @@ class WikiSubtree(object):
                 root = False
 
             elif text not in RAW_CATEGORIES:
-                self.raw_subtree[key].extend(
-                    [i.text.lower() for i in div.find_all("a")])
+                try:
+                    self.raw_subtree[key].extend(
+                        [i.text.lower() for i in div.find_all("a")])
+
+                except KeyError:
+                    print("Issue with scraping table for", self.endpoint)
+                    continue
 
             # special cases of hyperlinks with portions of text divided among
             # tags

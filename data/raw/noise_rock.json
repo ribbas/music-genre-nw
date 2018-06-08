@@ -1,0 +1,22 @@
+{
+  "children": [
+    "post-hardcore", 
+    "grindcore", 
+    "grunge", 
+    "sludge_metal"
+  ], 
+  "instruments": [
+    "electric_guitars", 
+    "electronics"
+  ], 
+  "parents": [
+    "industrial", 
+    "punk_rock", 
+    "experimental_rock", 
+    "hardcore_punk", 
+    "noise", 
+    "no_wave", 
+    "minimal"
+  ], 
+  "root": "noise rock"
+}

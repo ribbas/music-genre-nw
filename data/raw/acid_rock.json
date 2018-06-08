@@ -1,0 +1,22 @@
+{
+  "children": [
+    "progressive_rock", 
+    "heavy_metal", 
+    "stoner_metal", 
+    "hard_rock"
+  ], 
+  "instruments": [
+    "guitar", 
+    "electric_organ"
+  ], 
+  "parents": [
+    "psychedelic_rock", 
+    "garage_punk", 
+    "folk_rock", 
+    "psychedelia", 
+    "rock", 
+    "blues", 
+    "hard_rock"
+  ], 
+  "root": "acid rock"
+}

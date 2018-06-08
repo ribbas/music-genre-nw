@@ -1,0 +1,14 @@
+{
+  "children": [], 
+  "instruments": [
+    "synthesizer", 
+    "vocals", 
+    "electric_guitar"
+  ], 
+  "parents": [
+    "dream_pop", 
+    "krautrock", 
+    "ambient"
+  ], 
+  "root": "ambient pop"
+}

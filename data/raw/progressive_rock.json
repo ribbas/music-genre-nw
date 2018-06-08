@@ -1,0 +1,27 @@
+{
+  "children": [
+    "progressive_metal", 
+    "rock_in_opposition", 
+    "canterbury_scene", 
+    "symphonic_pop", 
+    "krautrock", 
+    "new-age_music", 
+    "post-rock", 
+    "math_rock", 
+    "neo-progressive_rock", 
+    "avant-prog"
+  ], 
+  "instruments": [], 
+  "parents": [
+    "psychedelic_rock", 
+    "classical", 
+    "progressive", 
+    "proto-prog", 
+    "jazz", 
+    "acid_rock", 
+    "pop", 
+    "rock", 
+    "folk"
+  ], 
+  "root": "progressive rock"
+}

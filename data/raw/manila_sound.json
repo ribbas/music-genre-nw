@@ -1,0 +1,22 @@
+{
+  "children": [
+    "pinoy_hip_hop", 
+    "pinoy_rock"
+  ], 
+  "instruments": [
+    "bass_guitar", 
+    "piano", 
+    "vocals", 
+    "acoustic_guitar", 
+    "drums"
+  ], 
+  "parents": [
+    "jazz", 
+    "philippine_folk_music", 
+    "disco", 
+    "rock_and_roll", 
+    "kundiman", 
+    "funk"
+  ], 
+  "root": "manila sound"
+}

@@ -1,0 +1,21 @@
+{
+  "children": [], 
+  "instruments": [
+    "turntables", 
+    "personal_computer", 
+    "samplers", 
+    "sequencer", 
+    "drum_machine"
+  ], 
+  "parents": [
+    "uk_garage", 
+    "soulful_house", 
+    "soca", 
+    "tribal_house", 
+    "grime", 
+    "afrobeat", 
+    "electro_house", 
+    "broken_beat"
+  ], 
+  "root": "uk funky"
+}

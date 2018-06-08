@@ -1,0 +1,24 @@
+{
+  "children": [
+    "wonky_pop"
+  ], 
+  "instruments": [
+    "bass", 
+    "electric_guitar", 
+    "keyboards", 
+    "drum_machine", 
+    "synthesizer", 
+    "drums"
+  ], 
+  "parents": [
+    "punk_rock", 
+    "krautrock", 
+    "edm", 
+    "post-punk", 
+    "funk", 
+    "disco", 
+    "no_wave", 
+    "new_wave"
+  ], 
+  "root": "dance-punk"
+}

@@ -1,0 +1,14 @@
+{
+  "children": [], 
+  "instruments": [
+    "guitar", 
+    "synthesizer", 
+    "saxophone"
+  ], 
+  "parents": [
+    "rhythm_and_blues", 
+    "jazz_fusion", 
+    "pop"
+  ], 
+  "root": "smooth jazz"
+}

@@ -1,0 +1,17 @@
+{
+  "children": [
+    "noise_rock", 
+    "punk_jazz", 
+    "avant-funk"
+  ], 
+  "instruments": [], 
+  "parents": [
+    "noise", 
+    "punk_rock", 
+    "experimental_rock", 
+    "free_jazz", 
+    "avant-garde", 
+    "funk"
+  ], 
+  "root": "no wave"
+}

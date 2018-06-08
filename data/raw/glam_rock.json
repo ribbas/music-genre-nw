@@ -1,0 +1,26 @@
+{
+  "children": [
+    "britpop", 
+    "punk_rock", 
+    "glam_punk", 
+    "oi!", 
+    "synthpop", 
+    "new_romantic", 
+    "post-punk", 
+    "glam_metal", 
+    "gothic_rock", 
+    "new_wave"
+  ], 
+  "instruments": [], 
+  "parents": [
+    "1950s_pop", 
+    "psychedelic_rock", 
+    "art_rock", 
+    "science-fiction", 
+    "rock_and_roll", 
+    "bubblegum_pop", 
+    "cabaret", 
+    "hard_rock"
+  ], 
+  "root": "glam rock"
+}

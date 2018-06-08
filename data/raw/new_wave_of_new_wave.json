@@ -1,0 +1,18 @@
+{
+  "children": [
+    "post-punk_revival"
+  ], 
+  "instruments": [
+    "guitar", 
+    "bass", 
+    "drums", 
+    "keyboards"
+  ], 
+  "parents": [
+    "post-punk", 
+    "mod_revival", 
+    "new_wave", 
+    "alternative_rock"
+  ], 
+  "root": "new wave of new wave"
+}

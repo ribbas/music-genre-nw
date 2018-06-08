@@ -1,0 +1,18 @@
+{
+  "children": [
+    "power_metal", 
+    "thrash_metal", 
+    "street_punk", 
+    "speed_metal", 
+    "black_metal"
+  ], 
+  "instruments": [], 
+  "parents": [
+    "pub_rock", 
+    "heavy_metal", 
+    "progressive_rock", 
+    "hard_rock", 
+    "punk_rock"
+  ], 
+  "root": "new wave of british heavy metal"
+}

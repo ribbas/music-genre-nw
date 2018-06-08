@@ -1,0 +1,25 @@
+{
+  "children": [
+    "math_rock", 
+    "emo", 
+    "blackgaze", 
+    "nintendocore", 
+    "mathcore", 
+    "electronicore", 
+    "screamo", 
+    "post-metal"
+  ], 
+  "instruments": [
+    "bass_guitar", 
+    "vocals", 
+    "drums", 
+    "electric_guitar"
+  ], 
+  "parents": [
+    "hardcore_punk", 
+    "noise_rock", 
+    "post-punk", 
+    "punk_rock"
+  ], 
+  "root": "post-hardcore"
+}

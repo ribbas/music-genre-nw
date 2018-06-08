@@ -1,0 +1,19 @@
+{
+  "children": [], 
+  "instruments": [
+    "dhol", 
+    "electric_guitar", 
+    "pump_organ", 
+    "flute", 
+    "tabla", 
+    "sitar", 
+    "bass_guitar", 
+    "singing", 
+    "drum_kit"
+  ], 
+  "parents": [
+    "sufi_music", 
+    "rock"
+  ], 
+  "root": "sufi rock"
+}

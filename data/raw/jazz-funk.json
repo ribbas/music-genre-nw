@@ -1,0 +1,31 @@
+{
+  "children": [
+    "free_funk"
+  ], 
+  "instruments": [
+    "guitar", 
+    "moog", 
+    "vocals", 
+    "hohner_d6_clavinet", 
+    "arp_string_ensemble", 
+    "wurlitzer_electric_piano", 
+    "bass_guitar", 
+    "arp_odyssey", 
+    "saxophone", 
+    "drums", 
+    "electric_piano", 
+    "trombone", 
+    "rhodes_piano", 
+    "piano", 
+    "trumpet", 
+    "analog_synthesizers"
+  ], 
+  "parents": [
+    "soul_jazz", 
+    "jazz", 
+    "rhythm_and_blues", 
+    "soul", 
+    "funk"
+  ], 
+  "root": "jazz-funk"
+}

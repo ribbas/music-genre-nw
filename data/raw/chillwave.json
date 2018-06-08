@@ -1,0 +1,31 @@
+{
+  "children": [
+    "vaporwave"
+  ], 
+  "instruments": [
+    "synthesizer", 
+    "vocals", 
+    "sampler"
+  ], 
+  "parents": [
+    "downtempo_pop", 
+    "indie_rock", 
+    "r&b", 
+    "psychedelia", 
+    "lo-fi", 
+    "electropop", 
+    "indie_pop", 
+    "synth-pop", 
+    "new_age", 
+    "light_rock", 
+    "bedroom_pop", 
+    "funk", 
+    "yacht_rock", 
+    "ambient", 
+    "dream_pop", 
+    "electronic", 
+    "shoegaze", 
+    "new_wave"
+  ], 
+  "root": "chillwave"
+}

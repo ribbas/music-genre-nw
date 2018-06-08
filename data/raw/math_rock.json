@@ -1,0 +1,18 @@
+{
+  "children": [
+    "mathcore", 
+    "post-rock"
+  ], 
+  "instruments": [
+    "electric_guitar", 
+    "drums", 
+    "bass_guitar"
+  ], 
+  "parents": [
+    "indie_rock", 
+    "progressive_rock", 
+    "post-hardcore", 
+    "minimal"
+  ], 
+  "root": "math rock"
+}

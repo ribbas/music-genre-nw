@@ -1,0 +1,23 @@
+{
+  "children": [], 
+  "instruments": [
+    "rapping", 
+    "turntables", 
+    "woodwinds", 
+    "drum_machine", 
+    "background_vocals", 
+    "synthesizer", 
+    "keyboard", 
+    "strings", 
+    "talkbox"
+  ], 
+  "parents": [
+    "west_coast_hip_hop", 
+    "gangsta_rap", 
+    "psychedelic_funk", 
+    "contemporary_r&b", 
+    "p-funk", 
+    "funk"
+  ], 
+  "root": "g-funk"
+}

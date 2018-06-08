@@ -1,0 +1,20 @@
+{
+  "children": [
+    "tribal_house", 
+    "nu-disco"
+  ], 
+  "instruments": [
+    "synthesizer", 
+    "keyboards", 
+    "sequencer", 
+    "drum_machine", 
+    "sampler"
+  ], 
+  "parents": [
+    "house", 
+    "boogie", 
+    "funk", 
+    "disco"
+  ], 
+  "root": "funky house"
+}

@@ -1,0 +1,19 @@
+{
+  "children": [], 
+  "instruments": [
+    "piano", 
+    "strings", 
+    "chamberlin", 
+    "vibraphone", 
+    "horns"
+  ], 
+  "parents": [
+    "indie_rock", 
+    "classical", 
+    "indie_pop", 
+    "lounge", 
+    "rock", 
+    "baroque_pop"
+  ], 
+  "root": "chamber pop"
+}

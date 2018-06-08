@@ -1,0 +1,22 @@
+{
+  "children": [], 
+  "instruments": [
+    "guitar", 
+    "bass_guitar", 
+    "piano", 
+    "drums"
+  ], 
+  "parents": [
+    "pub_rock", 
+    "punk_rock", 
+    "football_chants", 
+    "glam_rock", 
+    "novelty_songs", 
+    "oi!", 
+    "music_hall", 
+    "british_comedy", 
+    "bawdy_humour", 
+    "drinking_songs"
+  ], 
+  "root": "punk pathetique"
+}

@@ -1,0 +1,19 @@
+{
+  "children": [
+    "twee_pop", 
+    "chillwave", 
+    "chamber_pop", 
+    "shibuya-kei", 
+    "indie_rock"
+  ], 
+  "instruments": [], 
+  "parents": [
+    "indie_rock", 
+    "pop_rock", 
+    "pop", 
+    "post-punk", 
+    "jangle_pop", 
+    "new_wave"
+  ], 
+  "root": "indie pop"
+}

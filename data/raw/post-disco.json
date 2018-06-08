@@ -1,0 +1,23 @@
+{
+  "children": [
+    "trance", 
+    "dance-rock", 
+    "italo-disco", 
+    "boogie", 
+    "alternative_dance", 
+    "techno", 
+    "dance-pop", 
+    "house", 
+    "dance-punk", 
+    "garage"
+  ], 
+  "instruments": [], 
+  "parents": [
+    "electronic", 
+    "dub", 
+    "rhythm_and_blues", 
+    "soul", 
+    "disco"
+  ], 
+  "root": "post-disco"
+}

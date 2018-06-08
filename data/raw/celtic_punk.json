@@ -1,0 +1,24 @@
+{
+  "children": [], 
+  "instruments": [
+    "tin_whistle", 
+    "bass_guitar", 
+    "mandolin", 
+    "bagpipes", 
+    "accordion", 
+    "electric_guitar", 
+    "fiddle", 
+    "banjo", 
+    "singing", 
+    "drum_kit"
+  ], 
+  "parents": [
+    "punk_rock", 
+    "folk_punk", 
+    "british_folk_rock", 
+    "irish_rebel_music", 
+    "celtic_rock", 
+    "celtic_music"
+  ], 
+  "root": "celtic punk"
+}

@@ -1,0 +1,30 @@
+{
+  "children": [
+    "folk_metal", 
+    "medieval_folk_rock", 
+    "celtic_rock", 
+    "folk_punk"
+  ], 
+  "instruments": [
+    "tin_whistle", 
+    "electric", 
+    "acoustic", 
+    "mandolin", 
+    "kit", 
+    "guitar", 
+    "bass_guitar", 
+    "appalachian_dulcimer", 
+    "drums", 
+    "violin", 
+    "double_bass", 
+    "recorder", 
+    "bodhr\u00e1n"
+  ], 
+  "parents": [
+    "rock_music", 
+    "traditional_music", 
+    "contemporary_folk", 
+    "folk_rock"
+  ], 
+  "root": "british folk rock"
+}

@@ -1,0 +1,12 @@
+{
+  "children": [
+    "punk_rock", 
+    "new_wave"
+  ], 
+  "instruments": [], 
+  "parents": [
+    "glam_rock", 
+    "proto-punk"
+  ], 
+  "root": "glam punk"
+}

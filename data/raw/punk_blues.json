@@ -1,0 +1,20 @@
+{
+  "children": [], 
+  "instruments": [
+    "harmonica", 
+    "guitar", 
+    "bass_guitar", 
+    "drums", 
+    "hammond_organ", 
+    "piano", 
+    "farfisa_organ"
+  ], 
+  "parents": [
+    "blues", 
+    "proto-punk", 
+    "punk_rock", 
+    "garage_rock", 
+    "blues_rock"
+  ], 
+  "root": "punk blues"
+}

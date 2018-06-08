@@ -1,0 +1,19 @@
+{
+  "children": [], 
+  "instruments": [
+    "bass_guitar", 
+    "electric_guitar", 
+    "vocals", 
+    "drums", 
+    "saxophone", 
+    "piano"
+  ], 
+  "parents": [
+    "rock_and_roll", 
+    "new_orleans_rhythm_and_blues", 
+    "cajun_music", 
+    "rockabilly", 
+    "country"
+  ], 
+  "root": "swamp pop"
+}

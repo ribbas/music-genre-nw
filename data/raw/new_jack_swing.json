@@ -1,0 +1,22 @@
+{
+  "children": [], 
+  "instruments": [
+    "synthesizer", 
+    "tr-808", 
+    "drum_machine", 
+    "sampler"
+  ], 
+  "parents": [
+    "hip_hop", 
+    "dance", 
+    "house", 
+    "jazz", 
+    "soul", 
+    "pop", 
+    "disco", 
+    "r&b", 
+    "swing", 
+    "funk"
+  ], 
+  "root": "new jack swing"
+}

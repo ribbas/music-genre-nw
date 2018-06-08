@@ -1,0 +1,18 @@
+{
+  "children": [], 
+  "instruments": [], 
+  "parents": [
+    "ambient", 
+    "art_rock", 
+    "progressive", 
+    "krautrock", 
+    "jazz", 
+    "folk_rock", 
+    "ethnic_musics", 
+    "avant-garde", 
+    "rock", 
+    "minimalism", 
+    "electronic"
+  ], 
+  "root": "post-progressive"
+}

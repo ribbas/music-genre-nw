@@ -1,0 +1,14 @@
+{
+  "children": [], 
+  "instruments": [], 
+  "parents": [
+    "indie_rock", 
+    "punk_rock", 
+    "punk", 
+    "third-wave_feminism", 
+    "hardcore_punk", 
+    "queer_theory", 
+    "alternative_rock"
+  ], 
+  "root": "riot grrrl"
+}

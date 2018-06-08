@@ -1,0 +1,11 @@
+{
+  "children": [], 
+  "instruments": [], 
+  "parents": [
+    "folk_music", 
+    "street_punk", 
+    "rockabilly", 
+    "oi!"
+  ], 
+  "root": "viking rock"
+}

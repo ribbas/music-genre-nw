@@ -1,0 +1,42 @@
+{
+  "children": [
+    "progressive_electronic", 
+    "space_music", 
+    "celtic_fusion", 
+    "biomusic"
+  ], 
+  "instruments": [
+    "sequencer", 
+    "tamboura", 
+    "flutes", 
+    "acoustic_guitar", 
+    "organ", 
+    "synthesizer", 
+    "sampler", 
+    "folk_instruments", 
+    "strings", 
+    "sitar", 
+    "electric_guitar", 
+    "music_box", 
+    "piano", 
+    "drums", 
+    "waterfalls", 
+    "found_sounds", 
+    "whale_song", 
+    "fretless_bass", 
+    "harp", 
+    "tabla", 
+    "bird_song"
+  ], 
+  "parents": [
+    "classical", 
+    "easy_listening", 
+    "folk", 
+    "ambient", 
+    "world", 
+    "progressive_rock", 
+    "electronic", 
+    "minimal"
+  ], 
+  "root": "new-age music"
+}

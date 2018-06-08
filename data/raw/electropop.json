@@ -1,0 +1,14 @@
+{
+  "children": [
+    "uplifting_trance", 
+    "chillwave"
+  ], 
+  "instruments": [
+    "synthesizer"
+  ], 
+  "parents": [
+    "electronic", 
+    "synth-pop"
+  ], 
+  "root": "electropop"
+}

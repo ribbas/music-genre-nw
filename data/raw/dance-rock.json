@@ -1,0 +1,29 @@
+{
+  "children": [
+    "alternative_dance", 
+    "minneapolis_sound", 
+    "grebo"
+  ], 
+  "instruments": [
+    "drums", 
+    "bass_guitar", 
+    "keyboard", 
+    "drum_machine", 
+    "electronic_drums", 
+    "electric_guitar", 
+    "vocoder", 
+    "vocals", 
+    "sequencer", 
+    "sampler", 
+    "synthesizer", 
+    "talkbox"
+  ], 
+  "parents": [
+    "post-disco", 
+    "post-punk", 
+    "pop_rock", 
+    "rhythm_and_blues", 
+    "philadelphia_soul"
+  ], 
+  "root": "dance-rock"
+}

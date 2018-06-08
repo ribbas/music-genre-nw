@@ -1,0 +1,24 @@
+{
+  "children": [
+    "celtic_metal", 
+    "celtic_punk"
+  ], 
+  "instruments": [
+    "accordion", 
+    "mandolin", 
+    "bagpipes", 
+    "guitar", 
+    "bass_guitar", 
+    "fiddle", 
+    "drums", 
+    "banjo", 
+    "harp"
+  ], 
+  "parents": [
+    "rock_music", 
+    "british_folk_rock", 
+    "celtic_music", 
+    "folk_rock"
+  ], 
+  "root": "celtic rock"
+}

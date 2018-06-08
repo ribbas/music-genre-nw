@@ -3,6 +3,7 @@
 
 from __future__ import unicode_literals, print_function
 
+from pprint import pprint
 from time import sleep
 from random import uniform
 
@@ -29,7 +30,7 @@ class Subgenres(object):
 
             if not file_exists(RAW_DATA_PATH + subgenre + ".json"):
                 wait = uniform(5.0, 10)
-                print("wait", wait, "s")
+                print("Waiting", str(wait) + "s")
                 sleep(wait)
 
             if subgenre not in self.parsed:
@@ -40,12 +41,14 @@ class Subgenres(object):
                 self.queued.extend(grand_children)
                 self.parsed.add(subgenre)
                 children += 1
-                print("queue", self.queued)
-                print(children, len(self.queued))
+                print("Current queue")
+                pprint(self.queued[children:])
+                print("Processing child:", children,
+                      "of queue length:", len(self.queued))
                 print()
 
 
 if __name__ == '__main__':
 
-    obj = Subgenres("heavy_metal_music")
+    obj = Subgenres("Rock_music")
     obj.get_children_subtrees()

@@ -1,0 +1,36 @@
+{
+  "children": [
+    "grunge",
+    "punk_rock",
+    "post-punk_revival",
+    "garage_punk",
+    "acid_rock",
+    "paisley_underground",
+    "power_pop",
+    "psychobilly",
+    "frat_rock",
+    "proto-punk",
+    "punk_blues",
+    "hard_rock",
+    "heartland_rock"
+  ],
+  "instruments": [
+    "bass",
+    "harmonica",
+    "electronic_organ",
+    "electric_guitar",
+    "drums",
+    "tambourine"
+  ],
+  "parents": [
+    "surf",
+    "beat",
+    "soul",
+    "rock_and_roll",
+    "rhythm_and_blues",
+    "rockabilly",
+    "instrumental_rock",
+    "blues"
+  ],
+  "root": "garage punk"
+}

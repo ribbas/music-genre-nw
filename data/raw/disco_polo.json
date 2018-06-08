@@ -1,0 +1,15 @@
+{
+  "children": [], 
+  "instruments": [
+    "electronic_instruments"
+  ], 
+  "parents": [
+    "euro_disco", 
+    "eurobeat", 
+    "polish_pop_music", 
+    "disco", 
+    "eurodance", 
+    "polish_folk_music"
+  ], 
+  "root": "disco polo"
+}

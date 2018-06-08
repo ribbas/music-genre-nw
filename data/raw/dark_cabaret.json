@@ -1,0 +1,17 @@
+{
+  "children": [], 
+  "instruments": [
+    "vocals", 
+    "strings", 
+    "keyboards"
+  ], 
+  "parents": [
+    "punk_rock", 
+    "vaudeville", 
+    "burlesque", 
+    "dark_wave", 
+    "cabaret", 
+    "gothic_rock"
+  ], 
+  "root": "dark cabaret"
+}

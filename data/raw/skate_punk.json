@@ -1,0 +1,18 @@
+{
+  "children": [], 
+  "instruments": [
+    "electric_guitar", 
+    "vocals", 
+    "bass", 
+    "drums"
+  ], 
+  "parents": [
+    "surf", 
+    "punk_rock", 
+    "nardcore", 
+    "surf_punk", 
+    "hardcore_punk", 
+    "melodic_hardcore"
+  ], 
+  "root": "skate punk"
+}

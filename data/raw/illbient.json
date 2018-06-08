@@ -1,0 +1,16 @@
+{
+  "children": [], 
+  "instruments": [
+    "turntables", 
+    "electronics", 
+    "sampler"
+  ], 
+  "parents": [
+    "trip_hop", 
+    "dub_music", 
+    "east_coast_hip_hop", 
+    "industrial_hip_hop", 
+    "ambient_music"
+  ], 
+  "root": "illbient"
+}

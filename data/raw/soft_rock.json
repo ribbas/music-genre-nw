@@ -1,0 +1,11 @@
+{
+  "children": [], 
+  "instruments": [
+    "acoustic_guitar"
+  ], 
+  "parents": [
+    "pop_rock", 
+    "brill_building"
+  ], 
+  "root": "soft rock"
+}

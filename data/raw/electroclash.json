@@ -1,0 +1,21 @@
+{
+  "children": [
+    "electro_house", 
+    "tech_house", 
+    "electrotech"
+  ], 
+  "instruments": [], 
+  "parents": [
+    "chiptune", 
+    "italo_disco", 
+    "house", 
+    "post-punk", 
+    "electropop", 
+    "techno", 
+    "alternative_dance", 
+    "electro", 
+    "synth-pop", 
+    "new_wave"
+  ], 
+  "root": "electroclash"
+}

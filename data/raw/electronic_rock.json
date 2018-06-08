@@ -1,0 +1,24 @@
+{
+  "children": [
+    "post-punk_revival", 
+    "indietronica", 
+    "electroclash", 
+    "post-rock", 
+    "dance-punk", 
+    "new_rave"
+  ], 
+  "instruments": [
+    "synthesizer", 
+    "electronic_percussion", 
+    "mellotron", 
+    "drums", 
+    "electric_guitar"
+  ], 
+  "parents": [
+    "electronic", 
+    "art_rock", 
+    "pop", 
+    "rock"
+  ], 
+  "root": "electronic rock"
+}

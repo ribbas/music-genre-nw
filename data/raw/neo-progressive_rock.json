@@ -1,0 +1,14 @@
+{
+  "children": [], 
+  "instruments": [
+    "guitar", 
+    "keyboards"
+  ], 
+  "parents": [
+    "progressive_rock", 
+    "hard_rock", 
+    "punk_rock", 
+    "funk"
+  ], 
+  "root": "neo-progressive rock"
+}

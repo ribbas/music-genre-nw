@@ -1,0 +1,23 @@
+{
+  "children": [], 
+  "instruments": [
+    "guitar", 
+    "bass_guitar", 
+    "piano", 
+    "slide_guitar", 
+    "drums"
+  ], 
+  "parents": [
+    "roots_rock", 
+    "rockabilly", 
+    "tulsa_sound", 
+    "blues_rock", 
+    "rock_and_roll", 
+    "southern_soul", 
+    "rhythm_and_blues", 
+    "swamp_pop", 
+    "country_rock", 
+    "folk_rock"
+  ], 
+  "root": "southern rock"
+}

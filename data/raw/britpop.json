@@ -1,0 +1,23 @@
+{
+  "children": [
+    "post-britpop", 
+    "new_wave_of_new_wave"
+  ], 
+  "instruments": [
+    "acoustic_guitar", 
+    "keyboards", 
+    "electric_guitar", 
+    "vocals", 
+    "drums", 
+    "electric_bass", 
+    "piano"
+  ], 
+  "parents": [
+    "glam_rock", 
+    "madchester", 
+    "baggy", 
+    "punk_rock", 
+    "alternative_rock"
+  ], 
+  "root": "britpop"
+}

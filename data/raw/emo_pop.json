@@ -1,0 +1,14 @@
+{
+  "children": [], 
+  "instruments": [
+    "electric_guitar", 
+    "vocals", 
+    "drum_kit", 
+    "bass_guitar"
+  ], 
+  "parents": [
+    "pop_punk", 
+    "emo"
+  ], 
+  "root": "emo pop"
+}

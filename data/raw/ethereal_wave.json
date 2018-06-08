@@ -1,0 +1,21 @@
+{
+  "children": [
+    "dream_pop", 
+    "shoegazing"
+  ], 
+  "instruments": [
+    "bass", 
+    "drum_machine", 
+    "guitar", 
+    "synthesizer", 
+    "drums", 
+    "voice"
+  ], 
+  "parents": [
+    "dark_wave", 
+    "post-punk", 
+    "gothic_rock", 
+    "new_wave"
+  ], 
+  "root": "ethereal wave"
+}

@@ -1,0 +1,24 @@
+{
+  "children": [
+    "pub_rock", 
+    "pop_punk", 
+    "britpop", 
+    "jangle_pop", 
+    "mod_revival", 
+    "new_wave"
+  ], 
+  "instruments": [
+    "electric_guitar", 
+    "vocals", 
+    "drums", 
+    "bass_guitar"
+  ], 
+  "parents": [
+    "beat", 
+    "pop_rock", 
+    "hard_rock", 
+    "garage_rock", 
+    "rock"
+  ], 
+  "root": "power pop"
+}

@@ -1,0 +1,18 @@
+{
+  "children": [], 
+  "instruments": [
+    "bass", 
+    "synthesizer", 
+    "programming", 
+    "electric_guitar", 
+    "vocals", 
+    "drums", 
+    "keyboard"
+  ], 
+  "parents": [
+    "dance-punk", 
+    "synth-pop", 
+    "post-punk_revival"
+  ], 
+  "root": "wonky pop"
+}

@@ -1,0 +1,13 @@
+{
+  "children": [
+    "martial_industrial"
+  ], 
+  "instruments": [], 
+  "parents": [
+    "post-punk", 
+    "industrial", 
+    "folk", 
+    "experimental"
+  ], 
+  "root": "neofolk"
+}

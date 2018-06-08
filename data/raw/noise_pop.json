@@ -1,0 +1,18 @@
+{
+  "children": [
+    "shoegazing"
+  ], 
+  "instruments": [
+    "electric_guitars"
+  ], 
+  "parents": [
+    "indie_rock", 
+    "noise", 
+    "pop", 
+    "drone", 
+    "bubblegum_pop", 
+    "avant-garde", 
+    "alternative_rock"
+  ], 
+  "root": "noise pop"
+}

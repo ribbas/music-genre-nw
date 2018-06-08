@@ -1,0 +1,38 @@
+{
+  "children": [
+    "illbient", 
+    "post-trip_hop"
+  ], 
+  "instruments": [
+    "samplers", 
+    "bass", 
+    "electric_guitar", 
+    "turntables", 
+    "flute", 
+    "strings", 
+    "percussion", 
+    "(rhodes)_electric_piano", 
+    "saxophone", 
+    "drums", 
+    "drum_machines", 
+    "brass", 
+    "synthesizer"
+  ], 
+  "parents": [
+    "hip_hop", 
+    "electronica", 
+    "house", 
+    "dub", 
+    "jazz", 
+    "soul", 
+    "lounge", 
+    "r&b", 
+    "funk", 
+    "breakbeat", 
+    "alternative_rock", 
+    "ambient", 
+    "psychedelic", 
+    "minimal"
+  ], 
+  "root": "trip hop"
+}

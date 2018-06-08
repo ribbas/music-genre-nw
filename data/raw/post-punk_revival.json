@@ -1,0 +1,18 @@
+{
+  "children": [], 
+  "instruments": [
+    "electric_guitar", 
+    "vocals", 
+    "bass", 
+    "drums", 
+    "keyboards"
+  ], 
+  "parents": [
+    "indie_rock", 
+    "post-punk", 
+    "garage_rock", 
+    "new_wave", 
+    "alternative_rock"
+  ], 
+  "root": "post-punk revival"
+}

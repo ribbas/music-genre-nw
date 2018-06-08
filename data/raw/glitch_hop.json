@@ -1,0 +1,21 @@
+{
+  "children": [
+    "neurohop", 
+    "glitch_hop"
+  ], 
+  "instruments": [
+    "electronic", 
+    "music_software"
+  ], 
+  "parents": [
+    "industrial", 
+    "chiptune", 
+    "lo-fi", 
+    "idm", 
+    "noise", 
+    "techno", 
+    "breakbeat", 
+    "synth-pop"
+  ], 
+  "root": "glitch"
+}

@@ -1,0 +1,14 @@
+{
+  "children": [], 
+  "instruments": [
+    "guitar", 
+    "bass_guitar", 
+    "drums"
+  ], 
+  "parents": [
+    "heavy_metal", 
+    "islamic_music", 
+    "punk_rock"
+  ], 
+  "root": "taqwacore"
+}

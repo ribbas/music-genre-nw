@@ -1,0 +1,19 @@
+{
+  "children": [], 
+  "instruments": [
+    "bass", 
+    "sampler", 
+    "brass_instrument", 
+    "guitar", 
+    "drums", 
+    "keyboard"
+  ], 
+  "parents": [
+    "reggae", 
+    "rock", 
+    "reggae_fusion", 
+    "ska", 
+    "rocksteady"
+  ], 
+  "root": "reggae rock"
+}

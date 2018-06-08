@@ -1,0 +1,14 @@
+{
+  "children": [
+    "garage_punk", 
+    "punk_rock", 
+    "glam_punk"
+  ], 
+  "instruments": [], 
+  "parents": [
+    "pub_rock", 
+    "rhythm_and_blues", 
+    "garage_rock"
+  ], 
+  "root": "proto-punk"
+}

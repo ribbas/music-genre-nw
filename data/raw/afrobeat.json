@@ -1,0 +1,22 @@
+{
+  "children": [], 
+  "instruments": [
+    "bass_guitar", 
+    "keyboard", 
+    "guitar", 
+    "percussion", 
+    "saxophone", 
+    "drums", 
+    "horns", 
+    "vocals", 
+    "shekere", 
+    "congas"
+  ], 
+  "parents": [
+    "highlife", 
+    "jazz", 
+    "fuji_music", 
+    "funk"
+  ], 
+  "root": "afrobeat"
+}

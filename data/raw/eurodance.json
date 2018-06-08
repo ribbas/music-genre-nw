@@ -1,0 +1,26 @@
+{
+  "children": [
+    "italo_dance", 
+    "hard_dance", 
+    "euro_reggae", 
+    "bubblegum_dance"
+  ], 
+  "instruments": [
+    "synthesizer", 
+    "sequencer", 
+    "drum_machine", 
+    "electronic_keyboard"
+  ], 
+  "parents": [
+    "euro_disco", 
+    "hip_hop", 
+    "house", 
+    "hi-nrg", 
+    "hip_house", 
+    "techno", 
+    "new_beat", 
+    "dance-pop", 
+    "trance"
+  ], 
+  "root": "eurodance"
+}

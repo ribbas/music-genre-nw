@@ -1,0 +1,18 @@
+{
+  "children": [
+    "alternative_country"
+  ], 
+  "instruments": [
+    "electric_guitar", 
+    "vocals", 
+    "bass", 
+    "drums"
+  ], 
+  "parents": [
+    "country", 
+    "roots_rock", 
+    "punk_rock", 
+    "new_wave"
+  ], 
+  "root": "cowpunk"
+}

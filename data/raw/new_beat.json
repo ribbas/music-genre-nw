@@ -1,0 +1,27 @@
+{
+  "children": [
+    "italo_dance", 
+    "eurodance", 
+    "rave_music", 
+    "hardstyle", 
+    "hardcore_techno"
+  ], 
+  "instruments": [
+    "synthesizer", 
+    "sequencer", 
+    "drum_machine", 
+    "electronic_drum", 
+    "keyboard"
+  ], 
+  "parents": [
+    "detroit_techno", 
+    "ebm", 
+    "hi-nrg", 
+    "synth-pop", 
+    "post-punk", 
+    "acid_house", 
+    "dark_wave", 
+    "industrial_music"
+  ], 
+  "root": "new beat"
+}

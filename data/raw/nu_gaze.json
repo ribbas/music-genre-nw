@@ -1,0 +1,15 @@
+{
+  "children": [], 
+  "instruments": [
+    "guitar", 
+    "vocals", 
+    "bass", 
+    "drums", 
+    "keyboards"
+  ], 
+  "parents": [
+    "shoegazing", 
+    "ethereal_wave"
+  ], 
+  "root": "nu gaze"
+}

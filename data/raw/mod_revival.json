@@ -1,0 +1,21 @@
+{
+  "children": [
+    "indie_rock", 
+    "britpop"
+  ], 
+  "instruments": [], 
+  "parents": [
+    "reggae", 
+    "pub_rock", 
+    "punk_rock", 
+    "beat", 
+    "jazz", 
+    "soul", 
+    "power_pop", 
+    "ska", 
+    "rhythm_and_blues", 
+    "new_wave", 
+    "mod"
+  ], 
+  "root": "mod revival"
+}

@@ -1,0 +1,10 @@
+{
+  "children": [], 
+  "instruments": [], 
+  "parents": [
+    "hardcore_punk", 
+    "christian_punk", 
+    "crossover_thrash"
+  ], 
+  "root": "christian hardcore"
+}

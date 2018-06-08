@@ -1,0 +1,11 @@
+{
+  "children": [],
+  "instruments": [],
+  "parents": [
+    "contemporary_christian",
+    "christian_rock",
+    "christian_punk",
+    "alternative_rock"
+  ],
+  "root": "christian alternative rock"
+}

@@ -1,0 +1,14 @@
+{
+  "children": [
+    "paisley_underground", 
+    "indie_rock", 
+    "indie_pop"
+  ], 
+  "instruments": [
+    "twelve-string_electric_guitar"
+  ], 
+  "parents": [
+    "pop_rock"
+  ], 
+  "root": "jangle pop"
+}

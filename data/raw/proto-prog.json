@@ -1,0 +1,12 @@
+{
+  "children": [
+    "progressive_rock"
+  ], 
+  "instruments": [], 
+  "parents": [
+    "psychedelic_rock", 
+    "progressive", 
+    "rock"
+  ], 
+  "root": "proto-prog"
+}

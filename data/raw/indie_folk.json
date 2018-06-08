@@ -1,0 +1,14 @@
+{
+  "children": [], 
+  "instruments": [
+    "vocals", 
+    "folk_instruments", 
+    "acoustic_guitar"
+  ], 
+  "parents": [
+    "indie_rock", 
+    "folk", 
+    "alternative_rock"
+  ], 
+  "root": "indie folk"
+}

@@ -1,0 +1,22 @@
+{
+  "children": [
+    "roots_rock", 
+    "folk_metal", 
+    "acid_rock", 
+    "folk_punk", 
+    "neofolk", 
+    "indie_folk", 
+    "british_folk_rock", 
+    "medieval_folk_rock", 
+    "sunshine_pop", 
+    "celtic_rock", 
+    "heartland_rock"
+  ], 
+  "instruments": [], 
+  "parents": [
+    "folk", 
+    "pop", 
+    "rock"
+  ], 
+  "root": "folk rock"
+}

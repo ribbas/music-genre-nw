@@ -1,0 +1,19 @@
+{
+  "children": [
+    "dark_wave", 
+    "ambient_pop", 
+    "chillwave", 
+    "shoegazing"
+  ], 
+  "instruments": [
+    "synthesizer", 
+    "vocals", 
+    "electric_guitar"
+  ], 
+  "parents": [
+    "gothic_rock", 
+    "neo-psychedelia", 
+    "alternative_rock"
+  ], 
+  "root": "dream pop"
+}

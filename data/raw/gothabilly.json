@@ -1,0 +1,14 @@
+{
+  "children": [], 
+  "instruments": [
+    "guitar", 
+    "double_bass", 
+    "drum_kit"
+  ], 
+  "parents": [
+    "psychobilly", 
+    "gothic_rock", 
+    "rockabilly"
+  ], 
+  "root": "gothabilly"
+}

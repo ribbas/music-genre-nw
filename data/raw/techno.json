@@ -1,0 +1,33 @@
+{
+  "children": [
+    "acid_techno", 
+    "ghettotech", 
+    "ambient_techno", 
+    "dub_techno", 
+    "trance", 
+    "alternative_dance", 
+    "minimal_techno", 
+    "techstep", 
+    "hardcore_techno", 
+    "hardvapour", 
+    "eurodance", 
+    "electroclash", 
+    "tech\u00a0house", 
+    "idm", 
+    "industrial_techno", 
+    "techstyle"
+  ], 
+  "instruments": [], 
+  "parents": [
+    "detroit_techno", 
+    "ebm", 
+    "hi-nrg", 
+    "new_beat", 
+    "house", 
+    "electro", 
+    "chicago_house", 
+    "synth-pop", 
+    "italo_disco"
+  ], 
+  "root": "techno"
+}

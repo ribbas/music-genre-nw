@@ -1,0 +1,15 @@
+{
+  "children": [
+    "shibuya-kei"
+  ], 
+  "instruments": [], 
+  "parents": [
+    "samba", 
+    "brill_building", 
+    "jingles", 
+    "california_sound", 
+    "easy_listening", 
+    "folk_rock"
+  ], 
+  "root": "sunshine pop"
+}

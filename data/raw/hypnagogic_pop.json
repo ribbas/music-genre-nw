@@ -1,0 +1,28 @@
+{
+  "children": [
+    "vaporwave"
+  ], 
+  "instruments": [
+    "synthesizers", 
+    "guitars"
+  ], 
+  "parents": [
+    "muzak", 
+    "noise", 
+    "1980s_pop", 
+    "neo-psychedelia", 
+    "hollywood_soundtracks", 
+    "r&b", 
+    "psychedelia", 
+    "lo-fi", 
+    "radio_rock", 
+    "new_age", 
+    "light_rock", 
+    "drone", 
+    "experimental", 
+    "electronic", 
+    "synth-pop", 
+    "new_wave"
+  ], 
+  "root": "hypnagogic pop"
+}

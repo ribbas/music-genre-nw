@@ -1,0 +1,18 @@
+{
+  "children": [
+    "crunkcore"
+  ], 
+  "instruments": [
+    "vocals", 
+    "electric_guitar", 
+    "screaming", 
+    "drums", 
+    "bass_guitar"
+  ], 
+  "parents": [
+    "hardcore_punk", 
+    "emo", 
+    "post-hardcore"
+  ], 
+  "root": "screamo"
+}

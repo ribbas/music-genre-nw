@@ -1,0 +1,43 @@
+{
+  "children": [
+    "skate_punk", 
+    "crust_punk", 
+    "noise_rock", 
+    "street_punk", 
+    "jazzcore", 
+    "deathcore", 
+    "powerviolence", 
+    "sludge_metal", 
+    "d-beat", 
+    "heavy_hardcore", 
+    "thrash_metal", 
+    "grunge", 
+    "black_metal", 
+    "crossover_thrash", 
+    "death_metal", 
+    "nintendocore", 
+    "post-hardcore", 
+    "christian_hardcore", 
+    "screamo", 
+    "digital_hardcore", 
+    "grindcore", 
+    "melodic_hardcore", 
+    "emo", 
+    "skacore", 
+    "speed_metal", 
+    "thrashcore", 
+    "alternative_rock", 
+    "metalcore", 
+    "alternative_metal"
+  ], 
+  "instruments": [
+    "electric_guitar", 
+    "vocals", 
+    "drums", 
+    "bass_guitar"
+  ], 
+  "parents": [
+    "punk_rock"
+  ], 
+  "root": "hardcore punk"
+}

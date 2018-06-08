@@ -1,0 +1,21 @@
+{
+  "children": [
+    "screamo", 
+    "emo_pop", 
+    "emo_rap"
+  ], 
+  "instruments": [
+    "guitar", 
+    "vocals", 
+    "bass", 
+    "drums"
+  ], 
+  "parents": [
+    "pop_punk", 
+    "hardcore_punk", 
+    "indie_rock", 
+    "post-hardcore", 
+    "alternative_rock"
+  ], 
+  "root": "emo"
+}

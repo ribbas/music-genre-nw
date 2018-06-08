@@ -1,0 +1,16 @@
+{
+  "children": [
+    "skate_punk", 
+    "easycore"
+  ], 
+  "instruments": [
+    "electric_guitar", 
+    "vocals", 
+    "bass", 
+    "drums"
+  ], 
+  "parents": [
+    "hardcore_punk"
+  ], 
+  "root": "melodic hardcore"
+}

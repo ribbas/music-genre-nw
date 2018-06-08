@@ -1,0 +1,31 @@
+{
+  "children": [
+    "house", 
+    "hi-nrg", 
+    "electro_house", 
+    "electroclash", 
+    "indie_electronic", 
+    "dance-pop", 
+    "alternative_dance", 
+    "dark_wave", 
+    "electro", 
+    "electropop", 
+    "futurepop"
+  ], 
+  "instruments": [
+    "drum_machines", 
+    "synthesizers", 
+    "music_sequencers"
+  ], 
+  "parents": [
+    "glam_rock", 
+    "krautrock", 
+    "pop", 
+    "disco", 
+    "post-punk", 
+    "art_pop", 
+    "electronic", 
+    "new_wave"
+  ], 
+  "root": "synth-pop"
+}

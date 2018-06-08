@@ -1,0 +1,25 @@
+{
+  "children": [
+    "boogie_rock", 
+    "heavy_metal", 
+    "hard\u00a0rock", 
+    "punk_blues", 
+    "southern_rock"
+  ], 
+  "instruments": [
+    "harmonica", 
+    "bass_guitar", 
+    "electric_guitar", 
+    "vocals", 
+    "drums", 
+    "hammond_organ", 
+    "piano"
+  ], 
+  "parents": [
+    "rock_and_roll", 
+    "electric_blues", 
+    "blues", 
+    "rock"
+  ], 
+  "root": "blues rock"
+}

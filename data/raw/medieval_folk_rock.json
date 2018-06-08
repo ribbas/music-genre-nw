@@ -1,0 +1,27 @@
+{
+  "children": [
+    "neo-medieval_music", 
+    "medieval_metal"
+  ], 
+  "instruments": [
+    "tromba_marina", 
+    "bass", 
+    "percussion", 
+    "bagpipes", 
+    "shawm", 
+    "woodwinds", 
+    "electric_guitar", 
+    "hurdy-gurdy", 
+    "vocals", 
+    "strings", 
+    "medieval_instruments"
+  ], 
+  "parents": [
+    "rock_music", 
+    "progressive_folk", 
+    "british_folk_rock", 
+    "early_music", 
+    "folk_rock"
+  ], 
+  "root": "medieval folk rock"
+}

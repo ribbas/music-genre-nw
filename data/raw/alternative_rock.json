@@ -1,0 +1,43 @@
+{
+  "children": [
+    "trip_hop", 
+    "alternative_hip_hop", 
+    "post-britpop", 
+    "alternative_r&b", 
+    "britpop", 
+    "big_beat", 
+    "geek_rock", 
+    "college_rock", 
+    "alternative_country", 
+    "nu_gaze", 
+    "grebo", 
+    "shoegazing", 
+    "grunge", 
+    "noise_pop", 
+    "alternative_dance", 
+    "neo-psychedelia", 
+    "riot_grrrl", 
+    "indie_rock", 
+    "christian_alternative_rock", 
+    "post-grunge", 
+    "post-punk_revival", 
+    "emo", 
+    "math_rock", 
+    "dream_pop", 
+    "alternative_metal"
+  ], 
+  "instruments": [
+    "guitar", 
+    "vocals", 
+    "bass", 
+    "drums", 
+    "keyboard"
+  ], 
+  "parents": [
+    "hardcore_punk", 
+    "post-punk", 
+    "punk_rock", 
+    "new_wave"
+  ], 
+  "root": "alternative rock"
+}

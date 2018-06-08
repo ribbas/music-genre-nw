@@ -1,0 +1,18 @@
+{
+  "children": [
+    "italo_dance", 
+    "eurodance"
+  ], 
+  "instruments": [], 
+  "parents": [
+    "euro_disco", 
+    "britpop", 
+    "dance-rock", 
+    "house", 
+    "hi-nrg", 
+    "synthpop", 
+    "dance-pop", 
+    "italo_disco"
+  ], 
+  "root": "eurobeat"
+}

@@ -1,0 +1,22 @@
+{
+  "children": [
+    "eurobeat", 
+    "discofox", 
+    "italo_disco", 
+    "disco_polo", 
+    "eurodance", 
+    "europop", 
+    "space_disco"
+  ], 
+  "instruments": [
+    "electric_guitar", 
+    "bass_guitar"
+  ], 
+  "parents": [
+    "disco", 
+    "pop", 
+    "new_wave", 
+    "rock"
+  ], 
+  "root": "euro disco"
+}

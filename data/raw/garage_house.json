@@ -1,0 +1,21 @@
+{
+  "children": [
+    "uk_garage", 
+    "speed_garage"
+  ], 
+  "instruments": [
+    "turntables", 
+    "synthesizer", 
+    "sequencer", 
+    "drum_machine", 
+    "keyboards"
+  ], 
+  "parents": [
+    "r&b", 
+    "gospel", 
+    "electronic", 
+    "soul", 
+    "disco"
+  ], 
+  "root": "garage house"
+}

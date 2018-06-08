@@ -1,0 +1,11 @@
+{
+  "children": [], 
+  "instruments": [
+    "electronic", 
+    "vocals"
+  ], 
+  "parents": [
+    "ebm"
+  ], 
+  "root": "futurepop"
+}

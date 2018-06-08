@@ -1,0 +1,20 @@
+{
+  "children": [
+    "hard_nrg", 
+    "eurobeat", 
+    "italo_disco", 
+    "eurodance", 
+    "techno", 
+    "new_beat", 
+    "downtempo"
+  ], 
+  "instruments": [], 
+  "parents": [
+    "glam_rock", 
+    "edm", 
+    "synth-pop", 
+    "space_disco", 
+    "disco"
+  ], 
+  "root": "hi-nrg"
+}

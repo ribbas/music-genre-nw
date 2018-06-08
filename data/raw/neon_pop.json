@@ -1,0 +1,15 @@
+{
+  "children": [], 
+  "instruments": [
+    "guitar", 
+    "vocals", 
+    "bass", 
+    "drums", 
+    "keyboard"
+  ], 
+  "parents": [
+    "pop_punk", 
+    "electronics"
+  ], 
+  "root": "neon pop"
+}

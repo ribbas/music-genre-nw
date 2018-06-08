@@ -1,0 +1,12 @@
+{
+  "children": [], 
+  "instruments": [], 
+  "parents": [
+    "post-punk", 
+    "gypsy_music", 
+    "folk_punk", 
+    "punk_rock", 
+    "klezmer"
+  ], 
+  "root": "gypsy punk"
+}

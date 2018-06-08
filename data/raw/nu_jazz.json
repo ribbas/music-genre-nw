@@ -1,0 +1,13 @@
+{
+  "children": [], 
+  "instruments": [], 
+  "parents": [
+    "electronica", 
+    "house", 
+    "acid_jazz", 
+    "jazz_fusion", 
+    "free_jazz", 
+    "smooth_jazz"
+  ], 
+  "root": "nu jazz"
+}

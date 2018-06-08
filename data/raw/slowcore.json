@@ -1,0 +1,14 @@
+{
+  "children": [], 
+  "instruments": [
+    "guitar", 
+    "piano", 
+    "bass", 
+    "drums"
+  ], 
+  "parents": [
+    "indie_rock", 
+    "alternative_rock"
+  ], 
+  "root": "slowcore"
+}

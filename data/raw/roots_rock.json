@@ -1,0 +1,26 @@
+{
+  "children": [
+    "alternative_country", 
+    "swamp_rock", 
+    "southern_rock", 
+    "cowpunk", 
+    "heartland_rock"
+  ], 
+  "instruments": [
+    "pedal_steel", 
+    "electric", 
+    "guitar", 
+    "bass_guitar", 
+    "drums", 
+    "acoustic", 
+    "piano"
+  ], 
+  "parents": [
+    "country", 
+    "blues", 
+    "roots_revival", 
+    "folk", 
+    "rock"
+  ], 
+  "root": "roots rock"
+}

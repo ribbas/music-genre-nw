@@ -1,0 +1,14 @@
+{
+  "children": [
+    "house", 
+    "drum_and_bass"
+  ], 
+  "instruments": [], 
+  "parents": [
+    "avant-garde", 
+    "art_rock", 
+    "funk", 
+    "disco"
+  ], 
+  "root": "avant-funk"
+}

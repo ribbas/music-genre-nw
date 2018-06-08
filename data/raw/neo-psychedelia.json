@@ -1,0 +1,18 @@
+{
+  "children": [
+    "dream_pop", 
+    "shoegazing", 
+    "hypnagogic_pop"
+  ], 
+  "instruments": [], 
+  "parents": [
+    "psychedelic_pop", 
+    "psychedelic_rock", 
+    "avant-rock", 
+    "post-punk", 
+    "rock", 
+    "psychedelia", 
+    "new_wave"
+  ], 
+  "root": "neo-psychedelia"
+}

@@ -1,0 +1,23 @@
+{
+  "children": [
+    "cold_wave", 
+    "electroclash", 
+    "chillwave", 
+    "dark_wave", 
+    "finnish_rock", 
+    "synth-pop"
+  ], 
+  "instruments": [], 
+  "parents": [
+    "pub_rock", 
+    "punk_rock", 
+    "progressive", 
+    "glam_punk", 
+    "glam_rock", 
+    "bubblegum_pop", 
+    "disco", 
+    "power_pop", 
+    "electronic"
+  ], 
+  "root": "new wave"
+}

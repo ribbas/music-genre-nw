@@ -1,0 +1,16 @@
+{
+  "children": [], 
+  "instruments": [
+    "guitar", 
+    "synthesizer", 
+    "bass", 
+    "drums"
+  ], 
+  "parents": [
+    "german_philosophy", 
+    "gothic_rock", 
+    "neoclassical_dark_wave", 
+    "dark_wave"
+  ], 
+  "root": "neue deutsche todeskunst"
+}

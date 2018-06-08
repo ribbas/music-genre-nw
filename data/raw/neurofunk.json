@@ -1,0 +1,18 @@
+{
+  "children": [
+    "neurohop"
+  ], 
+  "instruments": [
+    "electronic"
+  ], 
+  "parents": [
+    "drum_and_bass", 
+    "dark_ambient", 
+    "house", 
+    "techstep", 
+    "techno", 
+    "industrial_music", 
+    "funk"
+  ], 
+  "root": "neurofunk"
+}

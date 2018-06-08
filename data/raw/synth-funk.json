@@ -1,0 +1,22 @@
+{
+  "children": [], 
+  "instruments": [
+    "bass_guitar", 
+    "hammond_organ", 
+    "drums", 
+    "electric_guitar", 
+    "keyboard", 
+    "drum_machine", 
+    "synthesizer", 
+    "clavinet", 
+    "horns", 
+    "piano", 
+    "congas"
+  ], 
+  "parents": [
+    "funk", 
+    "synth-pop", 
+    "new_wave"
+  ], 
+  "root": "synth-funk"
+}

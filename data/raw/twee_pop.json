@@ -1,0 +1,12 @@
+{
+  "children": [], 
+  "instruments": [], 
+  "parents": [
+    "guitar_pop", 
+    "post-punk", 
+    "indie_pop", 
+    "pop", 
+    "girl_groups"
+  ], 
+  "root": "twee pop"
+}

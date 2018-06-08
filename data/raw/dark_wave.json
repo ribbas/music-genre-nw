@@ -1,0 +1,28 @@
+{
+  "children": [
+    "cold_wave", 
+    "neofolk", 
+    "neue_deutsche_todeskunst", 
+    "neoclassical", 
+    "cabaret_noir", 
+    "ethereal_wave", 
+    "gothic_rock"
+  ], 
+  "instruments": [
+    "cello", 
+    "bass_guitar", 
+    "drum_machine", 
+    "guitar", 
+    "percussion", 
+    "drums", 
+    "sampler", 
+    "violin", 
+    "piano", 
+    "synthesizer"
+  ], 
+  "parents": [
+    "post-punk", 
+    "new_wave"
+  ], 
+  "root": "dark wave"
+}

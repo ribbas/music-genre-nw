@@ -1,0 +1,21 @@
+{
+  "children": [
+    "nu-disco", 
+    "electroclash", 
+    "new_rave"
+  ], 
+  "instruments": [
+    "synthesizers"
+  ], 
+  "parents": [
+    "trip_hop", 
+    "indie_rock", 
+    "post-disco", 
+    "post-punk", 
+    "alternative_rock", 
+    "acid_house", 
+    "synth-pop", 
+    "new_wave"
+  ], 
+  "root": "alternative dance"
+}

@@ -1,0 +1,16 @@
+{
+  "children": [
+    "gothabilly"
+  ], 
+  "instruments": [
+    "electric_guitar", 
+    "upright_bass", 
+    "drums"
+  ], 
+  "parents": [
+    "rockabilly", 
+    "punk_rock", 
+    "garage_rock"
+  ], 
+  "root": "psychobilly"
+}

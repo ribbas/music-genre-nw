@@ -1,0 +1,23 @@
+{
+  "children": [], 
+  "instruments": [
+    "drums", 
+    "bass", 
+    "synthesizer", 
+    "keyboard", 
+    "drum_machine", 
+    "groovebox", 
+    "electric_guitar", 
+    "sequencer", 
+    "sampler"
+  ], 
+  "parents": [
+    "drum_and_bass", 
+    "industrial_metal", 
+    "hardcore_techno", 
+    "hardcore_punk", 
+    "jungle", 
+    "breakcore"
+  ], 
+  "root": "digital hardcore"
+}

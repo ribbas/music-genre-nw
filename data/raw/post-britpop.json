@@ -1,0 +1,16 @@
+{
+  "children": [], 
+  "instruments": [
+    "guitar", 
+    "vocals", 
+    "bass", 
+    "drums", 
+    "keyboards"
+  ], 
+  "parents": [
+    "indie_rock", 
+    "britpop", 
+    "alternative_rock"
+  ], 
+  "root": "post-britpop"
+}

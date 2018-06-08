@@ -1,0 +1,24 @@
+{
+  "children": [
+    "viking_rock", 
+    "street_punk", 
+    "rock_against_communism", 
+    "punk_pathetique"
+  ], 
+  "instruments": [
+    "electric_guitar", 
+    "vocals", 
+    "bass", 
+    "drums"
+  ], 
+  "parents": [
+    "pub_rock", 
+    "punk_rock", 
+    "football_chants", 
+    "glam_rock", 
+    "drinking_songs", 
+    "folk_music", 
+    "ska"
+  ], 
+  "root": "oi!"
+}

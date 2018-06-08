@@ -1,0 +1,16 @@
+{
+  "children": [
+    "latin_alternative"
+  ], 
+  "instruments": [], 
+  "parents": [
+    "soul", 
+    "rock_and_roll", 
+    "latin_american_music", 
+    "rhythm_and_blues", 
+    "caribbean_music", 
+    "rock", 
+    "funk"
+  ], 
+  "root": "latin rock"
+}
