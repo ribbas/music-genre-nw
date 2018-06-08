@@ -569,10 +569,6 @@
       "doo-wop"
     ], 
     [
-      "detroit techno", 
-      "minimal techno"
-    ], 
-    [
       "folk", 
       "folk punk"
     ], 
@@ -585,8 +581,8 @@
       "indie rock"
     ], 
     [
-      "house", 
-      "big beat"
+      "drum and bass", 
+      "drumstep"
     ], 
     [
       "post-punk", 
@@ -1267,6 +1263,10 @@
     [
       "garage rock", 
       "power pop"
+    ], 
+    [
+      "drum and bass", 
+      "breakcore"
     ], 
     [
       "vallenato", 
@@ -2009,10 +2009,6 @@
       "emo"
     ], 
     [
-      "post-punk", 
-      "dance-rock"
-    ], 
-    [
       "disco", 
       "hi-nrg"
     ], 
@@ -2105,8 +2101,8 @@
       "alternative dance"
     ], 
     [
-      "drum and bass", 
-      "breakcore"
+      "shock rock", 
+      "deathrock"
     ], 
     [
       "mod", 
@@ -3093,8 +3089,8 @@
       "pop rock"
     ], 
     [
-      "drum and bass", 
-      "raggacore"
+      "post-punk", 
+      "dance-rock"
     ], 
     [
       "hardcore", 
@@ -3797,6 +3793,10 @@
       "uk garage"
     ], 
     [
+      "drum and bass", 
+      "raggacore"
+    ], 
+    [
       "dancehall", 
       "kwaito"
     ], 
@@ -4035,10 +4035,6 @@
     [
       "funk", 
       "jazz-funk"
-    ], 
-    [
-      "shock rock", 
-      "deathrock"
     ], 
     [
       "hip-hop", 
@@ -5285,8 +5281,8 @@
       "hypnagogic pop"
     ], 
     [
-      "hardcore punk", 
-      "ska punk"
+      "death metal", 
+      "industrial death metal"
     ], 
     [
       "acid rock", 
@@ -5641,8 +5637,8 @@
       "beat"
     ], 
     [
-      "drum and bass", 
-      "drumstep"
+      "house", 
+      "big beat"
     ], 
     [
       "new-age music", 
@@ -9273,8 +9269,8 @@
       "jazz fusion"
     ], 
     [
-      "death metal", 
-      "industrial death metal"
+      "hardcore punk", 
+      "ska punk"
     ], 
     [
       "breakbeat", 
@@ -10469,6 +10465,10 @@
       "heavy hardcore"
     ], 
     [
+      "drum and bass", 
+      "grime"
+    ], 
+    [
       "4-beat", 
       "bouncy techno"
     ], 
@@ -10569,8 +10569,8 @@
       "oi!"
     ], 
     [
-      "drum and bass", 
-      "grime"
+      "detroit techno", 
+      "minimal techno"
     ], 
     [
       "rock music", 
@@ -11760,7 +11760,7 @@
     "christian metal", 
     "bouyon-muffin", 
     "emo pop", 
-    "drumstep", 
+    "hardbass", 
     "country", 
     "trapunk", 
     "sophisti-pop", 
@@ -11842,7 +11842,7 @@
     "new romantic", 
     "snap", 
     "complextro", 
-    "hardbass", 
+    "drumstep", 
     "hollywood soundtracks", 
     "experimental rock", 
     "psychedelic pop", 
