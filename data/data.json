@@ -5,10 +5,6 @@
       "folk metal"
     ], 
     [
-      "extreme metal", 
-      "gothic metal"
-    ], 
-    [
       "viking metal", 
       "pagan metal"
     ], 
@@ -53,6 +49,10 @@
       "metalcore"
     ], 
     [
+      "black-doom", 
+      "sludge metal"
+    ], 
+    [
       "death metal", 
       "black 'n' roll"
     ], 
@@ -73,16 +73,8 @@
       "industrial metal"
     ], 
     [
-      "extreme metal", 
-      "war metal"
-    ], 
-    [
       "thrash metal", 
       "nu metal"
-    ], 
-    [
-      "post-metal", 
-      "post-black metal"
     ], 
     [
       "symphonic gothic metal", 
@@ -99,10 +91,6 @@
     [
       "thrashcore", 
       "grindcore"
-    ], 
-    [
-      "black doom", 
-      "drone metal"
     ], 
     [
       "post-hardcore", 
@@ -131,6 +119,10 @@
     [
       "post-rock", 
       "post-metal"
+    ], 
+    [
+      "black-doom", 
+      "epic doom"
     ], 
     [
       "slam death metal", 
@@ -201,10 +193,6 @@
       "nu metal"
     ], 
     [
-      "extreme metal", 
-      "death-doom"
-    ], 
-    [
       "symphonic rock", 
       "symphonic gothic metal"
     ], 
@@ -215,10 +203,6 @@
     [
       "heavy metal", 
       "grindcore"
-    ], 
-    [
-      "extreme metal", 
-      "industrial black metal"
     ], 
     [
       "blackened death metal", 
@@ -265,10 +249,6 @@
       "symphonic black metal"
     ], 
     [
-      "extreme metal", 
-      "crossover thrash"
-    ], 
-    [
       "neoclassical metal", 
       "symphonic metal"
     ], 
@@ -289,8 +269,8 @@
       "emo rap"
     ], 
     [
-      "extreme metal", 
-      "ambient black metal"
+      "post-metal", 
+      "post-black metal"
     ], 
     [
       "war metal", 
@@ -299,14 +279,6 @@
     [
       "heavy metal", 
       "blackgaze"
-    ], 
-    [
-      "black doom", 
-      "death-doom"
-    ], 
-    [
-      "extreme metal", 
-      "neoclassical metal"
     ], 
     [
       "hardcore punk", 
@@ -321,6 +293,10 @@
       "industrial black metal"
     ], 
     [
+      "black-doom", 
+      "traditional doom"
+    ], 
+    [
       "world", 
       "folk metal"
     ], 
@@ -331,10 +307,6 @@
     [
       "folk metal", 
       "medieval metal"
-    ], 
-    [
-      "extreme metal", 
-      "doom metal"
     ], 
     [
       "thrash metal", 
@@ -373,10 +345,6 @@
       "symphonic metal"
     ], 
     [
-      "extreme metal", 
-      "death metal"
-    ], 
-    [
       "hardcore punk", 
       "ambient black metal"
     ], 
@@ -393,20 +361,12 @@
       "death-doom"
     ], 
     [
-      "extreme metal", 
-      "drone metal"
-    ], 
-    [
       "speed metal", 
       "neoclassical metal"
     ], 
     [
       "ambient black metal", 
       "black 'n' roll"
-    ], 
-    [
-      "extreme metal", 
-      "power metal"
     ], 
     [
       "crossover thrash", 
@@ -421,20 +381,12 @@
       "deathgrind"
     ], 
     [
-      "extreme metal", 
-      "blackgaze"
-    ], 
-    [
       "black metal", 
       "black-doom"
     ], 
     [
       "heavy metal", 
       "groove metal"
-    ], 
-    [
-      "extreme metal", 
-      "symphonic black metal"
     ], 
     [
       "acid rock", 
@@ -493,10 +445,6 @@
       "nu metalcore"
     ], 
     [
-      "extreme metal", 
-      "black-doom"
-    ], 
-    [
       "war metal", 
       "industrial black metal"
     ], 
@@ -529,6 +477,10 @@
       "industrial metal"
     ], 
     [
+      "black-doom", 
+      "stoner metal"
+    ], 
+    [
       "progressive metal", 
       "progressive metalcore"
     ], 
@@ -539,10 +491,6 @@
     [
       "progressive metal", 
       "mathcore"
-    ], 
-    [
-      "extreme metal", 
-      "traditional doom"
     ], 
     [
       "slam death metal", 
@@ -609,8 +557,8 @@
       "grunge"
     ], 
     [
-      "progressive metal", 
-      "djent"
+      "classical", 
+      "symphonic power metal"
     ], 
     [
       "experimental", 
@@ -641,10 +589,6 @@
       "goregrind"
     ], 
     [
-      "extreme metal", 
-      "symphonic death metal"
-    ], 
-    [
       "punk rock", 
       "funk metal"
     ], 
@@ -657,24 +601,12 @@
       "crossover thrash"
     ], 
     [
-      "extreme metal", 
-      "epic doom"
-    ], 
-    [
-      "extreme metal", 
-      "slam death metal"
-    ], 
-    [
       "progressive metal", 
       "post-black metal"
     ], 
     [
       "doom metal", 
       "black-doom"
-    ], 
-    [
-      "extreme metal", 
-      "electronicore"
     ], 
     [
       "heavy metal", 
@@ -745,12 +677,8 @@
       "gothic metal"
     ], 
     [
-      "hardcore punk", 
-      "extreme metal"
-    ], 
-    [
-      "classical", 
-      "symphonic power metal"
+      "progressive metal", 
+      "djent"
     ], 
     [
       "war metal", 
@@ -771,10 +699,6 @@
     [
       "metalcore", 
       "nu metalcore"
-    ], 
-    [
-      "black doom", 
-      "epic doom"
     ], 
     [
       "slam death metal", 
@@ -801,14 +725,6 @@
       "traditional doom"
     ], 
     [
-      "black doom", 
-      "black-doom"
-    ], 
-    [
-      "extreme metal", 
-      "melodic death metal"
-    ], 
-    [
       "black 'n' roll", 
       "war metal"
     ], 
@@ -833,20 +749,12 @@
       "symphonic power metal"
     ], 
     [
-      "black doom", 
-      "stoner metal"
-    ], 
-    [
       "heavy metal", 
       "symphonic death metal"
     ], 
     [
       "rap metal", 
       "nu metal"
-    ], 
-    [
-      "extreme metal", 
-      "deathgrind"
     ], 
     [
       "blackened death metal", 
@@ -871,10 +779,6 @@
     [
       "heavy metal", 
       "gothic metal"
-    ], 
-    [
-      "extreme metal", 
-      "viking metal"
     ], 
     [
       "slam death metal", 
@@ -985,8 +889,8 @@
       "ambient black metal"
     ], 
     [
-      "hard rock", 
-      "post-grunge"
+      "extreme metal", 
+      "mathcore"
     ], 
     [
       "war metal", 
@@ -1011,10 +915,6 @@
     [
       "grindcore", 
       "goregrind"
-    ], 
-    [
-      "extreme metal", 
-      "grindcore"
     ], 
     [
       "classical", 
@@ -1045,8 +945,8 @@
       "avant-garde metal"
     ], 
     [
-      "black doom", 
-      "sludge metal"
+      "black-doom", 
+      "black-doom"
     ], 
     [
       "funeral doom", 
@@ -1061,8 +961,8 @@
       "drone metal"
     ], 
     [
-      "extreme metal", 
-      "death 'n' roll"
+      "black-doom", 
+      "drone metal"
     ], 
     [
       "metalcore", 
@@ -1077,16 +977,12 @@
       "speed metal"
     ], 
     [
-      "heavy metal", 
-      "speed metal"
-    ], 
-    [
       "electronica", 
       "post-black metal"
     ], 
     [
-      "extreme metal", 
-      "mathcore"
+      "hard rock", 
+      "post-grunge"
     ], 
     [
       "ambient black metal", 
@@ -1101,20 +997,12 @@
       "electronicore"
     ], 
     [
-      "extreme metal", 
-      "melodic metalcore"
-    ], 
-    [
       "death metal", 
       "ambient black metal"
     ], 
     [
       "heavy metal", 
       "stoner rock"
-    ], 
-    [
-      "extreme metal", 
-      "black 'n' roll"
     ], 
     [
       "heavy metal", 
@@ -1153,8 +1041,8 @@
       "industrial metal"
     ], 
     [
-      "rock and roll", 
-      "death 'n' roll"
+      "heavy metal", 
+      "stoner metal"
     ], 
     [
       "power metal", 
@@ -1169,16 +1057,8 @@
       "gothic black metal"
     ], 
     [
-      "black doom", 
-      "funeral doom"
-    ], 
-    [
       "black metal", 
       "symphonic black metal"
-    ], 
-    [
-      "extreme metal", 
-      "nu metalcore"
     ], 
     [
       "heavy metal", 
@@ -1201,10 +1081,6 @@
       "death 'n' roll"
     ], 
     [
-      "extreme metal", 
-      "black metal"
-    ], 
-    [
       "grindcore", 
       "deathgrind"
     ], 
@@ -1217,8 +1093,8 @@
       "technical death metal"
     ], 
     [
-      "extreme metal", 
-      "speed metal"
+      "heavy metal", 
+      "black-doom"
     ], 
     [
       "heavy metal", 
@@ -1237,8 +1113,8 @@
       "melodic metalcore"
     ], 
     [
-      "extreme metal", 
-      "funeral doom"
+      "heavy metal", 
+      "speed metal"
     ], 
     [
       "industrial black metal", 
@@ -1247,14 +1123,6 @@
     [
       "indie rock", 
       "emo rap"
-    ], 
-    [
-      "heavy metal", 
-      "black doom"
-    ], 
-    [
-      "extreme metal", 
-      "pornogrind"
     ], 
     [
       "gothic rock", 
@@ -1313,14 +1181,6 @@
       "electronicore"
     ], 
     [
-      "extreme metal", 
-      "groove metal"
-    ], 
-    [
-      "extreme metal", 
-      "post-black metal"
-    ], 
-    [
       "hardcore punk", 
       "heavy hardcore"
     ], 
@@ -1339,10 +1199,6 @@
     [
       "black 'n' roll", 
       "industrial black metal"
-    ], 
-    [
-      "doom metal", 
-      "extreme metal"
     ], 
     [
       "symphonic gothic metal", 
@@ -1413,20 +1269,12 @@
       "post-metal"
     ], 
     [
-      "extreme metal", 
-      "thrash metal"
-    ], 
-    [
       "grunge", 
       "nu metal"
     ], 
     [
       "black 'n' roll", 
       "viking metal"
-    ], 
-    [
-      "extreme metal", 
-      "deathcore"
     ], 
     [
       "post-rock", 
@@ -1525,8 +1373,8 @@
       "pagan metal"
     ], 
     [
-      "extreme metal", 
-      "avant-garde metal"
+      "experimental", 
+      "post-metal"
     ], 
     [
       "thrash metal", 
@@ -1545,12 +1393,16 @@
       "death 'n' roll"
     ], 
     [
-      "black doom", 
-      "traditional doom"
+      "black-doom", 
+      "death-doom"
     ], 
     [
       "heavy metal", 
       "progressive metal"
+    ], 
+    [
+      "black-doom", 
+      "gothic metal"
     ], 
     [
       "jesus music", 
@@ -1585,10 +1437,6 @@
       "post-metal"
     ], 
     [
-      "extreme metal", 
-      "industrial death metal"
-    ], 
-    [
       "heavy metal", 
       "industrial death metal"
     ], 
@@ -1597,16 +1445,8 @@
       "groove metal"
     ], 
     [
-      "black doom", 
-      "gothic metal"
-    ], 
-    [
       "alternative metal", 
       "nu metal"
-    ], 
-    [
-      "extreme metal", 
-      "blackened death metal"
     ], 
     [
       "heavy metal", 
@@ -1619,10 +1459,6 @@
     [
       "doom metal", 
       "epic doom"
-    ], 
-    [
-      "extreme metal", 
-      "stoner metal"
     ], 
     [
       "heavy metal", 
@@ -1661,16 +1497,8 @@
       "heavy metal"
     ], 
     [
-      "classical", 
-      "black doom"
-    ], 
-    [
       "doom metal", 
       "stoner rock"
-    ], 
-    [
-      "extreme metal", 
-      "sludge metal"
     ], 
     [
       "black metal", 
@@ -1693,16 +1521,16 @@
       "power metal"
     ], 
     [
-      "extreme metal", 
-      "goregrind"
-    ], 
-    [
       "progressive rock", 
       "progressive metal"
     ], 
     [
       "alternative rock", 
       "post-grunge"
+    ], 
+    [
+      "classical", 
+      "black-doom"
     ], 
     [
       "epic doom", 
@@ -1721,16 +1549,20 @@
       "glam metal"
     ], 
     [
-      "heavy metal", 
-      "stoner metal"
+      "rock and roll", 
+      "death 'n' roll"
     ], 
     [
       "black metal", 
       "post-black metal"
     ], 
     [
-      "experimental", 
-      "post-metal"
+      "black-doom", 
+      "funeral doom"
+    ], 
+    [
+      "extreme metal", 
+      "avant-garde metal"
     ], 
     [
       "funeral doom", 
@@ -1793,10 +1625,6 @@
       "crust punk"
     ], 
     [
-      "extreme metal", 
-      "progressive metalcore"
-    ], 
-    [
       "acid rock", 
       "stoner metal"
     ], 
@@ -1807,10 +1635,6 @@
     [
       "industrial", 
       "grindcore"
-    ], 
-    [
-      "extreme metal", 
-      "technical death metal"
     ], 
     [
       "death-doom", 
@@ -1873,7 +1697,7 @@
     "glam rock", 
     "pagan metal", 
     "djent", 
-    "black doom", 
+    "stoner metal", 
     "gothic black metal", 
     "industrial death metal", 
     "folk", 
@@ -1934,7 +1758,6 @@
     "medieval metal", 
     "christian metal", 
     "death metal", 
-    "stoner metal", 
     "experimental", 
     "metalcore", 
     "experimental rock", 
@@ -2005,15 +1828,6 @@
         "bass_guitar"
       ]
     }, 
-    "black doom": {
-      "children": 9, 
-      "instruments": [
-        "electric_guitar", 
-        "vocals", 
-        "bass", 
-        "drums"
-      ]
-    }, 
     "black metal": {
       "children": 11, 
       "instruments": [
@@ -2021,6 +1835,15 @@
         "vocals", 
         "drums", 
         "bass_guitar"
+      ]
+    }, 
+    "black-doom": {
+      "children": 9, 
+      "instruments": [
+        "electric_guitar", 
+        "vocals", 
+        "bass", 
+        "drums"
       ]
     }, 
     "blackened death metal": {
@@ -2181,15 +2004,6 @@
         "vocals", 
         "bass", 
         "drums"
-      ]
-    }, 
-    "extreme metal": {
-      "children": 48, 
-      "instruments": [
-        "electric_guitar", 
-        "vocals", 
-        "drums", 
-        "bass_guitar"
       ]
     }, 
     "folk metal": {
