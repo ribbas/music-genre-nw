@@ -1,0 +1,15 @@
+{
+  "children": [], 
+  "instruments": [
+    "synthesizer", 
+    "vocals", 
+    "roland_tr-808", 
+    "drum_machine", 
+    "sampler"
+  ], 
+  "parents": [
+    "reggaeton", 
+    "trap"
+  ], 
+  "root": "latin trap"
+}

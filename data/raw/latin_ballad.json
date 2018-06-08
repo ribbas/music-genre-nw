@@ -1,0 +1,12 @@
+{
+  "children": [], 
+  "instruments": [
+    "guitar", 
+    "piano", 
+    "orchestra"
+  ], 
+  "parents": [
+    "bolero"
+  ], 
+  "root": "latin ballad"
+}

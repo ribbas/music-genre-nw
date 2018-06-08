@@ -1,0 +1,19 @@
+{
+  "children": [
+    "raggacore"
+  ], 
+  "instruments": [
+    "keyboard", 
+    "synthesiser", 
+    "sequencer", 
+    "drum_machine", 
+    "sampler"
+  ], 
+  "parents": [
+    "dub", 
+    "breakbeat_hardcore", 
+    "oldschool_jungle", 
+    "ragga_hip_hop"
+  ], 
+  "root": "ragga jungle"
+}

@@ -1,0 +1,29 @@
+{
+  "children": [
+    "reggae_fusion", 
+    "ragga", 
+    "oldschool_jungle", 
+    "reggae_en_espa\u00f1ol", 
+    "reggaeton", 
+    "bhangragga", 
+    "tropical_house"
+  ], 
+  "instruments": [
+    "electric_organ", 
+    "bass_guitar", 
+    "drum_machine", 
+    "guitar", 
+    "synthesizer", 
+    "sampler", 
+    "drum_kit"
+  ], 
+  "parents": [
+    "reggae", 
+    "dub", 
+    "rocksteady", 
+    "r&b", 
+    "ska", 
+    "toasting"
+  ], 
+  "root": "dancehall"
+}

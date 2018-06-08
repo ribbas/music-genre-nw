@@ -1,0 +1,24 @@
+{
+  "children": [], 
+  "instruments": [
+    "keyboard", 
+    "drum_machine", 
+    "synthesizer", 
+    "music_software", 
+    "sequencer", 
+    "sampler", 
+    "circuit_bending"
+  ], 
+  "parents": [
+    "electronic_art_music", 
+    "house", 
+    "bitpop", 
+    "glitch", 
+    "idm", 
+    "minimalism", 
+    "minimal_techno", 
+    "acid_house", 
+    "chicago_house"
+  ], 
+  "root": "microhouse"
+}

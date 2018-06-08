@@ -1,0 +1,18 @@
+{
+  "children": [], 
+  "instruments": [
+    "turntables", 
+    "rapping", 
+    "drum_machine", 
+    "sampler"
+  ], 
+  "parents": [
+    "hip_hop", 
+    "profanity", 
+    "adult_music", 
+    "hardcore_hip_hop", 
+    "miami_bass", 
+    "new_jack_swing"
+  ], 
+  "root": "dirty rap"
+}

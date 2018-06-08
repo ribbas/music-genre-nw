@@ -1,0 +1,18 @@
+{
+  "children": [], 
+  "instruments": [
+    "digital_audio_workstation", 
+    "keyboard", 
+    "drum_machine", 
+    "personal_computer", 
+    "vocals", 
+    "sampler"
+  ], 
+  "parents": [
+    "highlife", 
+    "reggaeton", 
+    "hip_hop", 
+    "dancehall"
+  ], 
+  "root": "hiplife"
+}

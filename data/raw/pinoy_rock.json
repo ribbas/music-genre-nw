@@ -1,0 +1,19 @@
+{
+  "children": [
+    "bisrock", 
+    "pinoy_reggae"
+  ], 
+  "instruments": [
+    "electric_guitar", 
+    "vocals", 
+    "acoustic_guitar", 
+    "drums", 
+    "bass_guitar"
+  ], 
+  "parents": [
+    "manila_sound", 
+    "rock_music", 
+    "philippine_folk_music"
+  ], 
+  "root": "pinoy rock"
+}

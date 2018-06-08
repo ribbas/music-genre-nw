@@ -1,0 +1,14 @@
+{
+  "children": [], 
+  "instruments": [
+    "synthesizer", 
+    "organ", 
+    "drum_machine", 
+    "sampler"
+  ], 
+  "parents": [
+    "hip-hop", 
+    "ragga"
+  ], 
+  "root": "ragga hip-hop"
+}

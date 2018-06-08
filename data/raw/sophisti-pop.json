@@ -1,0 +1,17 @@
+{
+  "children": [], 
+  "instruments": [
+    "guitar", 
+    "synthesizer", 
+    "saxophone", 
+    "drums", 
+    "bass_guitar"
+  ], 
+  "parents": [
+    "pop", 
+    "jazz", 
+    "soul", 
+    "new_wave"
+  ], 
+  "root": "sophisti-pop"
+}

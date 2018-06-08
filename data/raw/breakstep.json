@@ -1,0 +1,17 @@
+{
+  "children": [], 
+  "instruments": [
+    "synthesizer", 
+    "turntables", 
+    "samplers", 
+    "personal_computer", 
+    "sequencer", 
+    "drum_machines"
+  ], 
+  "parents": [
+    "breakbeat", 
+    "drum_and_bass", 
+    "2-step"
+  ], 
+  "root": "breakstep"
+}

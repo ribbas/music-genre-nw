@@ -1,0 +1,20 @@
+{
+  "children": [
+    "electro_house", 
+    "breakbeat_hardcore", 
+    "acid_trance", 
+    "trance", 
+    "acid_techno", 
+    "techno", 
+    "new_beat", 
+    "goa_trance", 
+    "psychedelic_trance"
+  ], 
+  "instruments": [], 
+  "parents": [
+    "house", 
+    "chicago_house", 
+    "psychedelia"
+  ], 
+  "root": "acid house"
+}

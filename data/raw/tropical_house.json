@@ -1,0 +1,12 @@
+{
+  "children": [], 
+  "instruments": [], 
+  "parents": [
+    "house", 
+    "balearic_beat", 
+    "reggae_fusion", 
+    "deep_house", 
+    "dancehall"
+  ], 
+  "root": "tropical house"
+}

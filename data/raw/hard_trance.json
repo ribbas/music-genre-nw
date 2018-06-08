@@ -1,0 +1,23 @@
+{
+  "children": [
+    "hard_house", 
+    "hardstyle", 
+    "psychedelic_trance", 
+    "mainstream_hardcore", 
+    "happy_hardcore"
+  ], 
+  "instruments": [
+    "synthesizer", 
+    "sequencer", 
+    "drum_machine", 
+    "sampler"
+  ], 
+  "parents": [
+    "hard_house", 
+    "trance", 
+    "new_beat", 
+    "acid_trance", 
+    "20th-century_classical_music"
+  ], 
+  "root": "hard trance"
+}

@@ -1,0 +1,22 @@
+{
+  "children": [
+    "hardbag"
+  ], 
+  "instruments": [
+    "synthesiser", 
+    "sequencer", 
+    "vocal", 
+    "sampler"
+  ], 
+  "parents": [
+    "show_tune", 
+    "house", 
+    "soul", 
+    "edm", 
+    "r&b", 
+    "dance-pop", 
+    "gospel", 
+    "disco"
+  ], 
+  "root": "diva house"
+}

@@ -1,0 +1,25 @@
+{
+  "children": [
+    "snap", 
+    "trap", 
+    "wonky", 
+    "crunkcore"
+  ], 
+  "instruments": [
+    "rapping", 
+    "robotic_voice_effects", 
+    "sampler", 
+    "roland_tr-808", 
+    "drum_machine", 
+    "synthesizer", 
+    "keyboard"
+  ], 
+  "parents": [
+    "memphis_rap", 
+    "contemporary_r&b", 
+    "miami_bass", 
+    "southern_hip_hop", 
+    "gangsta_rap"
+  ], 
+  "root": "crunk"
+}

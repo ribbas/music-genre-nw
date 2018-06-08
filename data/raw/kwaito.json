@@ -1,0 +1,17 @@
+{
+  "children": [], 
+  "instruments": [
+    "synthesizer", 
+    "sampler", 
+    "vocals", 
+    "drum_machine", 
+    "percussion"
+  ], 
+  "parents": [
+    "south_african_music", 
+    "hip_hop", 
+    "dancehall", 
+    "hip_house"
+  ], 
+  "root": "kwaito"
+}

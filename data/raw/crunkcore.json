@@ -1,0 +1,20 @@
+{
+  "children": [], 
+  "instruments": [
+    "rapping", 
+    "screaming", 
+    "drum_machine", 
+    "synthesizer", 
+    "autotune", 
+    "sequencer", 
+    "sampler", 
+    "singing"
+  ], 
+  "parents": [
+    "crunk", 
+    "screamo", 
+    "electronic", 
+    "dance-pop"
+  ], 
+  "root": "crunkcore"
+}

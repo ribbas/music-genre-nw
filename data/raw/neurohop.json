@@ -1,0 +1,19 @@
+{
+  "children": [], 
+  "instruments": [
+    "sampler", 
+    "drum_machine", 
+    "electronic_bass"
+  ], 
+  "parents": [
+    "drum_and_bass", 
+    "neurofunk", 
+    "brostep", 
+    "midtempo", 
+    "glitch_hop", 
+    "idm", 
+    "ambient", 
+    "trip-hop"
+  ], 
+  "root": "neurohop"
+}

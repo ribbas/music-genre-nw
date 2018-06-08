@@ -1,0 +1,18 @@
+{
+  "children": [], 
+  "instruments": [
+    "synthesizer", 
+    "bass_guitar", 
+    "vocals", 
+    "drums", 
+    "electric_guitar"
+  ], 
+  "parents": [
+    "extreme_metal", 
+    "j-pop", 
+    "heavy_metal", 
+    "hard_rock", 
+    "edm"
+  ], 
+  "root": "kawaii metal"
+}

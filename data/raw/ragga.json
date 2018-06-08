@@ -1,0 +1,21 @@
+{
+  "children": [
+    "ragga_hip_hop", 
+    "ragga_jungle", 
+    "bouyon-muffin"
+  ], 
+  "instruments": [
+    "synthesizer", 
+    "electric_organ", 
+    "drum_machine", 
+    "sampler"
+  ], 
+  "parents": [
+    "reggae", 
+    "ska", 
+    "dancehall", 
+    "electronic", 
+    "rocksteady"
+  ], 
+  "root": "ragga"
+}

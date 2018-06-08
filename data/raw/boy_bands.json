@@ -1,0 +1,14 @@
+{
+  "children": [], 
+  "instruments": [
+    "horn_section", 
+    "sequencers", 
+    "samplers", 
+    "saxophone"
+  ], 
+  "parents": [
+    "r&b", 
+    "pop"
+  ], 
+  "root": "boy band"
+}

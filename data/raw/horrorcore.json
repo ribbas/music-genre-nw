@@ -1,0 +1,20 @@
+{
+  "children": [
+    "memphis_rap"
+  ], 
+  "instruments": [
+    "rapping", 
+    "turntables", 
+    "programming", 
+    "drum_machine", 
+    "synthesizer", 
+    "sampler"
+  ], 
+  "parents": [
+    "hardcore_hip_hop", 
+    "horror_fiction", 
+    "gangsta_rap", 
+    "horror_film"
+  ], 
+  "root": "horrorcore"
+}

@@ -1,0 +1,12 @@
+{
+  "children": [
+    "wonky_music"
+  ], 
+  "instruments": [], 
+  "parents": [
+    "avant-garde", 
+    "hip_hop", 
+    "experimental"
+  ], 
+  "root": "experimental hip hop"
+}

@@ -50,5 +50,7 @@ class Subgenres(object):
 
 if __name__ == '__main__':
 
-    obj = Subgenres("Rock_music")
+    from sys import argv
+
+    obj = Subgenres(argv[-1])
     obj.get_children_subtrees()

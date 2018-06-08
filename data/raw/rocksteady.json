@@ -1,0 +1,20 @@
+{
+  "children": [
+    "reggae", 
+    "reggae_fusion"
+  ], 
+  "instruments": [
+    "electric_organ", 
+    "bass_guitar", 
+    "brass_instrument", 
+    "guitar", 
+    "percussion", 
+    "melodica", 
+    "drum_kit"
+  ], 
+  "parents": [
+    "ska", 
+    "soul"
+  ], 
+  "root": "rocksteady"
+}

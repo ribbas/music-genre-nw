@@ -1,0 +1,19 @@
+{
+  "children": [
+    "reggaeton"
+  ], 
+  "instruments": [
+    "electric_organ", 
+    "bass_guitar", 
+    "drum_machine", 
+    "guitar", 
+    "synthesizer", 
+    "sampler", 
+    "drum_kit"
+  ], 
+  "parents": [
+    "reggae", 
+    "dancehall"
+  ], 
+  "root": "reggae en espa\u00f1ol"
+}

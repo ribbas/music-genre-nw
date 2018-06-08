@@ -1,0 +1,15 @@
+{
+  "children": [], 
+  "instruments": [
+    "synthesizer", 
+    "turntable", 
+    "vocals", 
+    "drum_machine", 
+    "sampler"
+  ], 
+  "parents": [
+    "r&b", 
+    "funk_carioca"
+  ], 
+  "root": "melodic funk"
+}

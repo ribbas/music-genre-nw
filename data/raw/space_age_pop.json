@@ -1,0 +1,17 @@
+{
+  "children": [], 
+  "instruments": [
+    "bass", 
+    "sampler", 
+    "flute", 
+    "drum_machine", 
+    "synthesizer", 
+    "drums", 
+    "keyboard"
+  ], 
+  "parents": [
+    "pop", 
+    "space_age"
+  ], 
+  "root": "space age pop"
+}

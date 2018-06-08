@@ -1,0 +1,20 @@
+{
+  "children": [
+    "uk_garage", 
+    "kwaito", 
+    "eurodance"
+  ], 
+  "instruments": [
+    "synthesizer", 
+    "keyboard", 
+    "sequencer", 
+    "drum_machine", 
+    "sampler"
+  ], 
+  "parents": [
+    "acid_house", 
+    "house", 
+    "hip_hop"
+  ], 
+  "root": "hip house"
+}

@@ -1,0 +1,24 @@
+{
+  "children": [
+    "speedcore", 
+    "mainstream_hardcore"
+  ], 
+  "instruments": [
+    "bitcrusher", 
+    "keyboard", 
+    "drum_machine", 
+    "synthesizer", 
+    "sequencer", 
+    "sampler"
+  ], 
+  "parents": [
+    "industrial", 
+    "detroit_techno", 
+    "house", 
+    "tech_house", 
+    "industrial_hip_hop", 
+    "hardcore_techno", 
+    "new_beat"
+  ], 
+  "root": "gabber"
+}

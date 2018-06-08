@@ -27,8 +27,10 @@ class GenreDAG(object):
     def include_data(self):
 
         for genre in self.data:
+            children = genre["children"]
             self.subgenres[genre["root"]] = {
-                "children": len(genre["children"]),
+                "children": [i.replace("_", " ").title() for i in children],
+                "num_children": len(children),
                 "instruments": genre["instruments"]
             }
 

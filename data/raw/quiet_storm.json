@@ -1,0 +1,18 @@
+{
+  "children": [], 
+  "instruments": [
+    "keyboard", 
+    "synthesizers", 
+    "vocals", 
+    "drums", 
+    "horns", 
+    "drum_machines"
+  ], 
+  "parents": [
+    "r&b", 
+    "soul", 
+    "pop", 
+    "jazz_fusion"
+  ], 
+  "root": "quiet storm"
+}

@@ -1,0 +1,23 @@
+{
+  "children": [
+    "jumpstyle"
+  ], 
+  "instruments": [
+    "turntables", 
+    "text-to-speech", 
+    "synthesizer", 
+    "daw", 
+    "sequencer", 
+    "sampler"
+  ], 
+  "parents": [
+    "mainstream_hardcore", 
+    "hard_house", 
+    "trance", 
+    "techno", 
+    "new_beat", 
+    "hard_trance", 
+    "industrial_music"
+  ], 
+  "root": "the balcony view of qlimax 2006, an annual hardstyle event."
+}

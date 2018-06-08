@@ -1,0 +1,17 @@
+{
+  "children": [
+    "psychedelic_trance", 
+    "psybient"
+  ], 
+  "instruments": [
+    "electronic"
+  ], 
+  "parents": [
+    "acid_house", 
+    "trance", 
+    "psychedelic_rock", 
+    "indian_classical_music", 
+    "ebm"
+  ], 
+  "root": "goa trance"
+}

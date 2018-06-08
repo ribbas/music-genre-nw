@@ -1,0 +1,21 @@
+{
+  "children": [], 
+  "instruments": [
+    "synthesizer", 
+    "turntables", 
+    "sampler", 
+    "drum_machine", 
+    "personal_computer", 
+    "sequencer", 
+    "keyboard"
+  ], 
+  "parents": [
+    "uk_garage", 
+    "hip_hop", 
+    "ghetto_house", 
+    "r&b", 
+    "techno", 
+    "electro"
+  ], 
+  "root": "ghettotech"
+}

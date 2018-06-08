@@ -1,0 +1,15 @@
+{
+  "children": [
+    "hardvapour"
+  ], 
+  "instruments": [], 
+  "parents": [
+    "uk_garage", 
+    "house", 
+    "jazz", 
+    "soul", 
+    "r&b", 
+    "funk"
+  ], 
+  "root": "broken beat"
+}

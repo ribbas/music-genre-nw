@@ -1,0 +1,18 @@
+{
+  "children": [], 
+  "instruments": [
+    "sequencer", 
+    "turntable", 
+    "digital_audio_workstation", 
+    "drum_machine", 
+    "sampler"
+  ], 
+  "parents": [
+    "crunk", 
+    "house", 
+    "baltimore_club", 
+    "garage_house", 
+    "bounce"
+  ], 
+  "root": "jersey club"
+}

@@ -1,0 +1,21 @@
+{
+  "children": [
+    "proibid\u00e3o", 
+    "melodic_funk"
+  ], 
+  "instruments": [
+    "synthesizer", 
+    "turntable", 
+    "vocals", 
+    "drum_machine", 
+    "sampler"
+  ], 
+  "parents": [
+    "freestyle", 
+    "brazilian_music", 
+    "miami_bass", 
+    "hip_hop", 
+    "electro-funk"
+  ], 
+  "root": "funk carioca"
+}

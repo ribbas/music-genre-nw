@@ -1,0 +1,42 @@
+{
+  "children": [
+    "digital_hardcore", 
+    "neurofunk", 
+    "breakcore", 
+    "liquid_funk", 
+    "uk_garage", 
+    "grime", 
+    "techstep", 
+    "darkstep", 
+    "dubstep", 
+    "hardstep", 
+    "technoid", 
+    "raggacore", 
+    "funkstep", 
+    "drumstep"
+  ], 
+  "instruments": [
+    "drums", 
+    "digital_audio_workstation", 
+    "bass_guitar", 
+    "sampler", 
+    "drum_machine", 
+    "personal_computer", 
+    "sequencer", 
+    "keyboard", 
+    "synthesizer"
+  ], 
+  "parents": [
+    "darkcore", 
+    "reggae_fusion", 
+    "breakbeat_hardcore", 
+    "electronica", 
+    "dub", 
+    "avant-funk", 
+    "techno", 
+    "jungle", 
+    "breakbeat", 
+    "industrial_music"
+  ], 
+  "root": "drum and bass"
+}

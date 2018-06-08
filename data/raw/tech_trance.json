@@ -1,0 +1,18 @@
+{
+  "children": [
+    "hard_house", 
+    "tech_house", 
+    "hard_trance"
+  ], 
+  "instruments": [
+    "synthesizer", 
+    "sequencer", 
+    "drum_machine", 
+    "sampler"
+  ], 
+  "parents": [
+    "trance", 
+    "techno"
+  ], 
+  "root": "tech trance"
+}

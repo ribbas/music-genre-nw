@@ -1,0 +1,18 @@
+{
+  "children": [], 
+  "instruments": [
+    "synthesizer", 
+    "sampler", 
+    "drum_machine", 
+    "sequencer", 
+    "keyboard"
+  ], 
+  "parents": [
+    "funky_house", 
+    "south_american", 
+    "african", 
+    "deep_house", 
+    "house"
+  ], 
+  "root": "tribal house"
+}

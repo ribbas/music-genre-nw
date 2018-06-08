@@ -1,0 +1,20 @@
+{
+  "children": [
+    "latin_trap", 
+    "trap_music_(edm)", 
+    "emo_rap"
+  ], 
+  "instruments": [
+    "synthesizers", 
+    "roland_tr-808", 
+    "drum_machine", 
+    "sampler"
+  ], 
+  "parents": [
+    "crunk", 
+    "miami_bass", 
+    "southern_hip_hop", 
+    "hyphy"
+  ], 
+  "root": "trap"
+}

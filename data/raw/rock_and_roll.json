@@ -1,0 +1,36 @@
+{
+  "children": [
+    "surf", 
+    "garage_rock", 
+    "beat", 
+    "pop", 
+    "glam_rock", 
+    "punk_rock", 
+    "rockabilly", 
+    "rock", 
+    "southern_rock", 
+    "heartland_rock"
+  ], 
+  "instruments": [
+    "electric_guitar", 
+    "piano", 
+    "vocals", 
+    "bass", 
+    "drums"
+  ], 
+  "parents": [
+    "jump_blues", 
+    "country", 
+    "jazz", 
+    "western_swing", 
+    "boogie-woogie", 
+    "rhythm_and_blues", 
+    "swing", 
+    "electric_blues", 
+    "blues", 
+    "chicago_blues", 
+    "gospel", 
+    "folk"
+  ], 
+  "root": "rock and roll"
+}

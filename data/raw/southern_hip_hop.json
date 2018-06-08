@@ -1,0 +1,25 @@
+{
+  "children": [
+    "crunk", 
+    "miami_bass", 
+    "chopped_and_screwed", 
+    "trap", 
+    "bounce"
+  ], 
+  "instruments": [
+    "rapping", 
+    "turntables", 
+    "roland_tr-808", 
+    "drum_machine", 
+    "synthesizer", 
+    "sequencer", 
+    "sampler", 
+    "singing"
+  ], 
+  "parents": [
+    "hardcore_hip_hop", 
+    "electro", 
+    "hip_hop"
+  ], 
+  "root": "southern hip hop"
+}

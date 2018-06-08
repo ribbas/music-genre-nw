@@ -1,0 +1,14 @@
+{
+  "children": [], 
+  "instruments": [
+    "synthesizer", 
+    "vocals", 
+    "drum_machine"
+  ], 
+  "parents": [
+    "eurodance", 
+    "bubblegum_pop", 
+    "pop"
+  ], 
+  "root": "bubblegum dance"
+}

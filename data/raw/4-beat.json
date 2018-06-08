@@ -1,0 +1,20 @@
+{
+  "children": [
+    "bouncy_techno", 
+    "bassline", 
+    "uk_hardcore", 
+    "happy_hardcore"
+  ], 
+  "instruments": [
+    "keyboard", 
+    "synthesiser", 
+    "sequencer", 
+    "drum_machine", 
+    "sampler"
+  ], 
+  "parents": [
+    "italo_house", 
+    "breakbeat_hardcore"
+  ], 
+  "root": "4-beat"
+}

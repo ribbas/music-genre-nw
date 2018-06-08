@@ -1,0 +1,18 @@
+{
+  "children": [], 
+  "instruments": [
+    "synthesizer", 
+    "keyboard", 
+    "music_sequencer", 
+    "digital_audio_workstation", 
+    "sampler"
+  ], 
+  "parents": [
+    "future_garage", 
+    "footwork", 
+    "dubstep", 
+    "trap", 
+    "bass_music"
+  ], 
+  "root": "future bass"
+}

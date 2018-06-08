@@ -1,0 +1,21 @@
+{
+  "children": [
+    "alternative_reggaeton", 
+    "moombahton"
+  ], 
+  "instruments": [
+    "personal_computer", 
+    "singing", 
+    "dembow", 
+    "rapping", 
+    "sampler"
+  ], 
+  "parents": [
+    "reggae_en_espa\u00f1ol", 
+    "toasting", 
+    "hip_hop", 
+    "dancehall", 
+    "soca"
+  ], 
+  "root": "reggaeton"
+}

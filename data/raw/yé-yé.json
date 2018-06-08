@@ -1,0 +1,26 @@
+{
+  "children": [
+    "twee_pop", 
+    "shibuya-kei", 
+    "bubblegum", 
+    "sunshine_pop"
+  ], 
+  "instruments": [
+    "string_section", 
+    "bass_guitar", 
+    "keyboards", 
+    "electric_guitar", 
+    "vocals", 
+    "drums"
+  ], 
+  "parents": [
+    "chanson", 
+    "beat", 
+    "jazz", 
+    "rock_and_roll", 
+    "r&b", 
+    "traditional_pop", 
+    "girl_groups"
+  ], 
+  "root": "y\u00e9-y\u00e9"
+}

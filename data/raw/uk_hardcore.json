@@ -1,0 +1,21 @@
+{
+  "children": [], 
+  "instruments": [
+    "software_synthesizer", 
+    "drum_machine", 
+    "synthesizer", 
+    "vocals", 
+    "sequencer", 
+    "sampler"
+  ], 
+  "parents": [
+    "bouncy_techno", 
+    "trance", 
+    "eurodance", 
+    "hardcore", 
+    "4-beat", 
+    "happy_hardcore", 
+    "m\u00e1kina"
+  ], 
+  "root": "uk hardcore"
+}

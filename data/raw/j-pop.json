@@ -1,0 +1,27 @@
+{
+  "children": [
+    "kawaii_metal", 
+    "japanese_hip_hop"
+  ], 
+  "instruments": [
+    "vocaloid", 
+    "personal_computer", 
+    "keyboard", 
+    "drum_machine", 
+    "synthesizer", 
+    "vocals", 
+    "sampler"
+  ], 
+  "parents": [
+    "eurobeat", 
+    "house", 
+    "hi-nrg", 
+    "bitpop", 
+    "jazz_fusion", 
+    "synthpop", 
+    "electropop", 
+    "dance-pop", 
+    "kay\u014dkyoku"
+  ], 
+  "root": "j-pop"
+}

@@ -1,0 +1,14 @@
+{
+  "children": [], 
+  "instruments": [
+    "bass_guitar", 
+    "drums", 
+    "sampler"
+  ], 
+  "parents": [
+    "latin_american_music", 
+    "reggaeton", 
+    "hip_hop"
+  ], 
+  "root": "alternative reggaeton"
+}

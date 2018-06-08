@@ -1,0 +1,42 @@
+{
+  "children": [
+    "jumpstyle", 
+    "industrial", 
+    "speedcore", 
+    "hardcore_techno", 
+    "acid_techno", 
+    "gabber", 
+    "dubstep", 
+    "acid_house", 
+    "psychedelic_trance", 
+    "breakbeat_hardcore", 
+    "big_beat", 
+    "trance", 
+    "grime", 
+    "hi-nrg", 
+    "progressive_house", 
+    "electro_house", 
+    "breakbeat", 
+    "moombahton", 
+    "drum_and_bass", 
+    "garage", 
+    "hardstyle", 
+    "jungle", 
+    "m\u00e1kina"
+  ], 
+  "instruments": [
+    "electronic_keyboards", 
+    "turntables", 
+    "dj_mixer", 
+    "drum_machine", 
+    "synthesizer", 
+    "sampler"
+  ], 
+  "parents": [
+    "breakbeat", 
+    "house", 
+    "techno", 
+    "electronica"
+  ], 
+  "root": "rave music"
+}

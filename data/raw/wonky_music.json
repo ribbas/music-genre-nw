@@ -1,0 +1,20 @@
+{
+  "children": [], 
+  "instruments": [], 
+  "parents": [
+    "synth-funk", 
+    "chiptune", 
+    "crunk", 
+    "grime", 
+    "jazz_fusion", 
+    "glitch_hop", 
+    "glitch", 
+    "dubstep", 
+    "techno", 
+    "g-funk", 
+    "hip_hop", 
+    "broken_beat", 
+    "electro"
+  ], 
+  "root": "wonky"
+}

@@ -1,0 +1,26 @@
+{
+  "children": [
+    "breakstep", 
+    "grime", 
+    "dubstep", 
+    "hardstep", 
+    "techstep"
+  ], 
+  "instruments": [
+    "keyboards", 
+    "turntables", 
+    "samplers", 
+    "synthesizer", 
+    "sequencer", 
+    "drum_machines"
+  ], 
+  "parents": [
+    "drum_and_bass", 
+    "uk_garage", 
+    "house", 
+    "r&b", 
+    "jungle", 
+    "breakbeat"
+  ], 
+  "root": "2-step garage"
+}

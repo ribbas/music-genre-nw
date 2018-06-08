@@ -1,0 +1,15 @@
+{
+  "children": [], 
+  "instruments": [
+    "synthesizer", 
+    "keyboard", 
+    "sequencer", 
+    "sampler"
+  ], 
+  "parents": [
+    "trance", 
+    "bouncy_techno", 
+    "eurodance"
+  ], 
+  "root": "m\u00e1kina"
+}

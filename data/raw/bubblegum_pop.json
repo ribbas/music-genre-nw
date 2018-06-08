@@ -1,0 +1,33 @@
+{
+  "children": [
+    "teen_pop", 
+    "boy_bands", 
+    "noise_pop", 
+    "pop_punk", 
+    "indie_pop", 
+    "glam_rock", 
+    "europop", 
+    "bubblegum_dance", 
+    "dance-pop"
+  ], 
+  "instruments": [
+    "bass", 
+    "keyboards", 
+    "drum_machine", 
+    "guitar", 
+    "synthesizer", 
+    "vocals", 
+    "drums", 
+    "sampler"
+  ], 
+  "parents": [
+    "nursery_rhymes", 
+    "pop_rock", 
+    "comedy_music", 
+    "novelty_songs", 
+    "pop", 
+    "children's_music", 
+    "garage_rock"
+  ], 
+  "root": "bubblegum pop"
+}

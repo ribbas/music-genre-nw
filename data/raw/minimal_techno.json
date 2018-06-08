@@ -1,0 +1,19 @@
+{
+  "children": [
+    "big_room_house", 
+    "microhouse", 
+    "tech_house"
+  ], 
+  "instruments": [
+    "synthesizer", 
+    "keyboard", 
+    "sequencer", 
+    "drum_machine", 
+    "sampler"
+  ], 
+  "parents": [
+    "acid_house", 
+    "detroit_techno"
+  ], 
+  "root": "minimal techno"
+}

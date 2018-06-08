@@ -1,0 +1,14 @@
+{
+  "children": [
+    "vaporwave", 
+    "post-punk", 
+    "industrial", 
+    "synth-pop"
+  ], 
+  "instruments": [], 
+  "parents": [
+    "pop_art", 
+    "pop"
+  ], 
+  "root": "art pop"
+}

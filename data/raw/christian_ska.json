@@ -1,0 +1,14 @@
+{
+  "children": [], 
+  "instruments": [
+    "tenor_saxophone", 
+    "tenor_trombone"
+  ], 
+  "parents": [
+    "contemporary_christian_music", 
+    "ska_punk", 
+    "ska", 
+    "christian_alternative_rock"
+  ], 
+  "root": "christian ska"
+}

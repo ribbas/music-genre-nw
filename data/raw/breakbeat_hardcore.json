@@ -1,0 +1,24 @@
+{
+  "children": [
+    "drum_and_bass", 
+    "4-beat", 
+    "big_beat", 
+    "oldschool_jungle", 
+    "happy_hardcore"
+  ], 
+  "instruments": [
+    "synthesizer", 
+    "keyboard", 
+    "sequencer", 
+    "drum_machine", 
+    "sampler"
+  ], 
+  "parents": [
+    "breakbeat", 
+    "acid_house", 
+    "british_hip_hop", 
+    "techno", 
+    "hip_house"
+  ], 
+  "root": "breakbeat hardcore"
+}

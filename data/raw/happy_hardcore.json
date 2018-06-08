@@ -1,0 +1,25 @@
+{
+  "children": [
+    "4-beat", 
+    "eurobeat", 
+    "uk_hardcore"
+  ], 
+  "instruments": [
+    "synthesizer", 
+    "keyboard", 
+    "sequencer", 
+    "drum_machine", 
+    "sampler"
+  ], 
+  "parents": [
+    "bouncy_techno", 
+    "breakbeat_hardcore", 
+    "eurodance", 
+    "trance", 
+    "italo_house", 
+    "gabber", 
+    "acid_house", 
+    "hardcore"
+  ], 
+  "root": "happy hardcore"
+}

@@ -1,0 +1,25 @@
+{
+  "children": [], 
+  "instruments": [
+    "synthesizer", 
+    "audio_editor", 
+    "computer", 
+    "digital_audio_workstation", 
+    "sampler"
+  ], 
+  "parents": [
+    "trip_hop", 
+    "uk_garage", 
+    "house", 
+    "grime", 
+    "2-step_garage", 
+    "idm", 
+    "dubstep", 
+    "chillout", 
+    "techno", 
+    "ambient", 
+    "breakbeat", 
+    "drumstep"
+  ], 
+  "root": "future garage"
+}

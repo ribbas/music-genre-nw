@@ -1,0 +1,23 @@
+{
+  "children": [], 
+  "instruments": [
+    "bass_guitar", 
+    "rapping", 
+    "electric_guitar", 
+    "keyboards", 
+    "drum_machine", 
+    "electronic_drums", 
+    "robotic_voice_effects", 
+    "vocoder", 
+    "drums", 
+    "sampler", 
+    "singing", 
+    "synthesizer", 
+    "talkbox"
+  ], 
+  "parents": [
+    "hip_hop", 
+    "pop"
+  ], 
+  "root": "pop-rap"
+}

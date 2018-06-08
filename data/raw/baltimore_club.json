@@ -1,0 +1,19 @@
+{
+  "children": [
+    "jersey_club"
+  ], 
+  "instruments": [
+    "synthesizer", 
+    "turntable", 
+    "rapping", 
+    "personal_computer"
+  ], 
+  "parents": [
+    "breakbeat", 
+    "house", 
+    "hip_hop", 
+    "bass", 
+    "garage_house"
+  ], 
+  "root": "baltimore club"
+}

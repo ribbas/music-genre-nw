@@ -1,0 +1,19 @@
+{
+  "children": [
+    "italo_dance", 
+    "eurodance"
+  ], 
+  "instruments": [
+    "synthesizer", 
+    "keyboard", 
+    "drum_machine", 
+    "sequencer", 
+    "sampler"
+  ], 
+  "parents": [
+    "balearic_beat", 
+    "house_music", 
+    "italo_disco"
+  ], 
+  "root": "italo house"
+}

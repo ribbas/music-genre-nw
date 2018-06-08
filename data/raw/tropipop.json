@@ -1,0 +1,23 @@
+{
+  "children": [], 
+  "instruments": [
+    "acoustic_guitar", 
+    "bass_guitar", 
+    "accordion", 
+    "latin_percussion", 
+    "electric_guitar", 
+    "vocals", 
+    "drums"
+  ], 
+  "parents": [
+    "pop_rock", 
+    "latin_pop", 
+    "merengue", 
+    "pop_music", 
+    "music_of_the_caribbean_region_of_colombia", 
+    "salsa_music", 
+    "vallenato", 
+    "funk"
+  ], 
+  "root": "tropipop"
+}

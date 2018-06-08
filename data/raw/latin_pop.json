@@ -1,0 +1,30 @@
+{
+  "children": [
+    "latin_rock", 
+    "latin_ballad", 
+    "chicano_rock", 
+    "tropipop"
+  ], 
+  "instruments": [
+    "bongos", 
+    "claves", 
+    "timbales", 
+    "accordion", 
+    "drum_machine", 
+    "bass_guitar", 
+    "spanish_guitar", 
+    "cowbell", 
+    "drums", 
+    "keyboard", 
+    "trombone", 
+    "tambourine", 
+    "trumpet", 
+    "congas", 
+    "piano"
+  ], 
+  "parents": [
+    "latin_music", 
+    "pop"
+  ], 
+  "root": "latin pop"
+}

@@ -1,0 +1,19 @@
+{
+  "children": [
+    "vaporwave", 
+    "cloud_rap", 
+    "witch_house", 
+    "seapunk"
+  ], 
+  "instruments": [
+    "turntables", 
+    "personal_computer", 
+    "mixer"
+  ], 
+  "parents": [
+    "half_speed/33rpm", 
+    "codeine_effect", 
+    "southern_hip_hop"
+  ], 
+  "root": "chopped and screwed"
+}

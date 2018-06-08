@@ -1,0 +1,14 @@
+{
+  "children": [], 
+  "instruments": [
+    "turntables", 
+    "guitar", 
+    "piano", 
+    "drum_machine", 
+    "sampler"
+  ], 
+  "parents": [
+    "hip_hop_music"
+  ], 
+  "root": "low bap"
+}

@@ -1,0 +1,17 @@
+{
+  "children": [
+    "techstep"
+  ], 
+  "instruments": [
+    "synthesizer", 
+    "keyboard", 
+    "sequencer", 
+    "drum_machine", 
+    "sampler"
+  ], 
+  "parents": [
+    "industrial_music", 
+    "oldschool_jungle"
+  ], 
+  "root": "darkcore"
+}

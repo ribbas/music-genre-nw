@@ -1,0 +1,13 @@
+{
+  "children": [], 
+  "instruments": [
+    "turntable", 
+    "drum_machine", 
+    "sampler"
+  ], 
+  "parents": [
+    "hip_hop", 
+    "christian_music"
+  ], 
+  "root": "christian hip hop"
+}

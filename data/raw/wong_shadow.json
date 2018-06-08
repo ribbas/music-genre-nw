@@ -1,0 +1,26 @@
+{
+  "children": [
+    "psychedelic_rock"
+  ], 
+  "instruments": [
+    "acoustic_guitar", 
+    "bass_guitar", 
+    "drum_machine", 
+    "electric_guitar", 
+    "vocals", 
+    "drums", 
+    "synthesizer"
+  ], 
+  "parents": [
+    "beat_groups", 
+    "rhythm_and_blues", 
+    "garage_rock", 
+    "country_and_western", 
+    "exotica", 
+    "rockabilly", 
+    "film_scores", 
+    "surf_rock", 
+    "rock'n'roll"
+  ], 
+  "root": "wong shadow"
+}

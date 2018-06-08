@@ -1,0 +1,25 @@
+{
+  "children": [
+    "hybrid_trap"
+  ], 
+  "instruments": [
+    "synthesizer", 
+    "sampler", 
+    "drum_machine", 
+    "personal_computer", 
+    "daw", 
+    "vocals", 
+    "sequencer", 
+    "keyboard"
+  ], 
+  "parents": [
+    "progressive_house", 
+    "trance", 
+    "microhouse", 
+    "dutch_house", 
+    "electro_house", 
+    "hardstyle", 
+    "minimal_techno"
+  ], 
+  "root": "big room house"
+}

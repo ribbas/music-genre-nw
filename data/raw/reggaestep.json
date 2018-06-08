@@ -1,0 +1,18 @@
+{
+  "children": [], 
+  "instruments": [
+    "synthesizer", 
+    "daw", 
+    "drum_machine"
+  ], 
+  "parents": [
+    "reggae", 
+    "reggae_fusion", 
+    "brostep", 
+    "ragga", 
+    "dubstep", 
+    "moombahcore", 
+    "dancehall"
+  ], 
+  "root": "reggaestep"
+}

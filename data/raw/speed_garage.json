@@ -1,0 +1,12 @@
+{
+  "children": [
+    "donk", 
+    "bassline"
+  ], 
+  "instruments": [], 
+  "parents": [
+    "oldschool_jungle", 
+    "garage_house"
+  ], 
+  "root": "speed garage"
+}

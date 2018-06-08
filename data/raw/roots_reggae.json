@@ -1,0 +1,13 @@
+{
+  "children": [
+    "dub"
+  ], 
+  "instruments": [], 
+  "parents": [
+    "reggae", 
+    "ska", 
+    "nyabinghi", 
+    "rocksteady"
+  ], 
+  "root": "roots reggae"
+}

@@ -1,0 +1,14 @@
+{
+  "children": [], 
+  "instruments": [
+    "turntables", 
+    "sampler", 
+    "vocals", 
+    "keyboards"
+  ], 
+  "parents": [
+    "j-pop", 
+    "hip_hop"
+  ], 
+  "root": "japanese hip hop"
+}

@@ -1,0 +1,18 @@
+{
+  "children": [
+    "psychedelic_trance"
+  ], 
+  "instruments": [
+    "roland_tb-303", 
+    "roland_tr-808", 
+    "drum_machine", 
+    "synthesizer", 
+    "sequencer", 
+    "keyboard"
+  ], 
+  "parents": [
+    "acid_house", 
+    "trance"
+  ], 
+  "root": "acid trance"
+}

@@ -1,0 +1,15 @@
+{
+  "children": [
+    "neo_soul"
+  ], 
+  "instruments": [
+    "vocals"
+  ], 
+  "parents": [
+    "r&b", 
+    "hip_hop", 
+    "soul", 
+    "new_jack_swing"
+  ], 
+  "root": "hip hop soul"
+}

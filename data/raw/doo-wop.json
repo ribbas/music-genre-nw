@@ -1,0 +1,32 @@
+{
+  "children": [
+    "pop_rock", 
+    "vocal_surf", 
+    "brill_building", 
+    "beat", 
+    "soul", 
+    "power_pop", 
+    "beach_music"
+  ], 
+  "instruments": [
+    "harmony_vocals", 
+    "electric_guitar", 
+    "saxophone", 
+    "drums", 
+    "double_bass", 
+    "piano"
+  ], 
+  "parents": [
+    "jump_blues", 
+    "ballads", 
+    "harmony_vocal_groups", 
+    "a_cappella", 
+    "rhythm_and_blues", 
+    "barbershop_music", 
+    "swing", 
+    "gospel", 
+    "negro_spirituals", 
+    "blues"
+  ], 
+  "root": "doo-wop"
+}

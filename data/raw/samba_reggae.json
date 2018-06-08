@@ -1,0 +1,20 @@
+{
+  "children": [], 
+  "instruments": [
+    "atabaque", 
+    "percussion_instrument", 
+    "bass", 
+    "pandeiro", 
+    "brass_instrument", 
+    "guitar", 
+    "cavaquinho", 
+    "drums", 
+    "agog\u00f4"
+  ], 
+  "parents": [
+    "reggae", 
+    "reggae_fusion", 
+    "samba"
+  ], 
+  "root": "samba-reggae"
+}

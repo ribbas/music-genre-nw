@@ -1,0 +1,19 @@
+{
+  "children": [], 
+  "instruments": [
+    "digital_audio_workstation", 
+    "keyboard", 
+    "drum_machine", 
+    "synthesizer", 
+    "sequencer", 
+    "sampler"
+  ], 
+  "parents": [
+    "hardcore_punk", 
+    "extreme_metal", 
+    "hardcore", 
+    "gabber", 
+    "breakcore"
+  ], 
+  "root": "speedcore"
+}
