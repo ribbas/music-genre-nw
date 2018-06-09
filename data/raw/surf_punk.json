@@ -1,23 +1,23 @@
 {
   "children": [
-    "vocal_surf", 
-    "punk_rock", 
-    "instrumental_surf", 
-    "pop_punk", 
-    "garage_punk", 
-    "skate_punk", 
-    "surf_punk", 
-    "garage_rock", 
+    "vocal_surf_punk",
+    "punk_rock",
+    "instrumental_surf_punk",
+    "pop_punk",
+    "garage_punk",
+    "skate_punk",
+    "surf_punk_punk",
+    "garage_rock",
     "hot_rod_rock"
-  ], 
+  ],
   "instruments": [
-    "electric_guitars", 
-    "saxophones", 
+    "electric_guitars",
+    "saxophones",
     "fender_bass"
-  ], 
+  ],
   "parents": [
-    "rock_and_roll", 
-    "surf_culture"
-  ], 
-  "root": "surf music"
+    "rock_and_roll",
+    "surf_punk_culture"
+  ],
+  "root": "surf punk"
 }

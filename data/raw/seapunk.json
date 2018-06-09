@@ -1,20 +1,19 @@
 {
   "children": [
-    "slimepunk", 
+    "slimepunk",
     "icepunk"
-  ], 
-  "instruments": [], 
+  ],
+  "instruments": [],
   "parents": [
-    "90s", 
-    "witch_house", 
-    "chiptune", 
-    "new-age_music", 
-    "house", 
-    "southern_hip_hop", 
-    "r&b", 
-    "pop", 
-    "chopped_and_screwed", 
+    "witch_house",
+    "chiptune",
+    "new-age_music",
+    "house",
+    "southern_hip_hop",
+    "contemporary_r&b",
+    "pop",
+    "chopped_and_screwed",
     "drum_and_bass"
-  ], 
+  ],
   "root": "seapunk"
 }

@@ -1,0 +1,17 @@
+{
+  "children": [], 
+  "instruments": [
+    "organ", 
+    "guitar", 
+    "electric_guitar", 
+    "vocals", 
+    "drums", 
+    "piano"
+  ], 
+  "parents": [
+    "spirituals", 
+    "blues", 
+    "hymns"
+  ], 
+  "root": "gospel blues"
+}

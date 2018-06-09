@@ -1,28 +1,27 @@
 {
   "children": [
     "vaporwave"
-  ], 
+  ],
   "instruments": [
-    "synthesizers", 
+    "synthesizers",
     "guitars"
-  ], 
+  ],
   "parents": [
-    "muzak", 
-    "noise", 
-    "1980s_pop", 
-    "neo-psychedelia", 
-    "hollywood_soundtracks", 
-    "r&b", 
-    "psychedelia", 
-    "lo-fi", 
-    "radio_rock", 
-    "new_age", 
-    "light_rock", 
-    "drone", 
-    "experimental", 
-    "electronic", 
-    "synthpop", 
+    "muzak",
+    "noise",
+    "neo-psychedelia",
+    "hollywood_soundtracks",
+    "contemporary_r&b",
+    "psychedelia",
+    "lo-fi",
+    "radio_rock",
+    "new_age",
+    "light_rock",
+    "drone",
+    "experimental",
+    "electronic",
+    "synthpop",
     "new_wave"
-  ], 
+  ],
   "root": "hypnagogic pop"
 }

@@ -6,10 +6,10 @@
   "parents": [
     "euro_disco", 
     "eurobeat", 
-    "polish_pop_music", 
+    "polish_pop", 
     "disco", 
     "eurodance", 
-    "polish_folk_music"
+    "polish_folk"
   ], 
   "root": "disco polo"
 }

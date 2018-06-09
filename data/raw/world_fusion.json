@@ -8,7 +8,7 @@
     "acoustic_guitar", 
     "synthesizer", 
     "string_instrument", 
-    "folk_music", 
+    "folk", 
     "electric_guitar", 
     "wind_instrument", 
     "contemporary_classical_music", 
@@ -16,7 +16,7 @@
     "piano"
   ], 
   "parents": [
-    "folk_music", 
+    "folk", 
     "indigenous_music", 
     "popular_music"
   ], 

@@ -1,0 +1,21 @@
+{
+  "children": [
+    "rock_and_roll", 
+    "soul", 
+    "rock"
+  ], 
+  "instruments": [
+    "guitar", 
+    "bass_guitar", 
+    "saxophone", 
+    "drums", 
+    "keyboard"
+  ], 
+  "parents": [
+    "blues", 
+    "dixieland", 
+    "rhythm_and_blues", 
+    "calypso"
+  ], 
+  "root": "new orleans blues"
+}

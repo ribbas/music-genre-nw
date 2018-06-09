@@ -1,0 +1,37 @@
+{
+  "children": [
+    "jump_blues", 
+    "jug_band", 
+    "jazz", 
+    "country_blues", 
+    "soul_blues", 
+    "bluegrass", 
+    "classic_female_blues", 
+    "blues_rock", 
+    "rock_and_roll", 
+    "boogie-woogie", 
+    "ragtime", 
+    "rhythm_and_blues", 
+    "piano_blues", 
+    "electric_blues", 
+    "punk_blues", 
+    "country", 
+    "gospel_blues"
+  ], 
+  "instruments": [
+    "blues_harp", 
+    "bass", 
+    "harmonica", 
+    "xylophone", 
+    "guitar", 
+    "drums", 
+    "piano", 
+    "slide_guitar"
+  ], 
+  "parents": [
+    "spirituals", 
+    "folk", 
+    "work_songs"
+  ], 
+  "root": "blues"
+}

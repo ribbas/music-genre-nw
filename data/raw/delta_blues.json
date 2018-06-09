@@ -1,0 +1,15 @@
+{
+  "children": [
+    "electric_blues", 
+    "chicago_blues", 
+    "detroit_blues"
+  ], 
+  "instruments": [
+    "guitar", 
+    "harmonica"
+  ], 
+  "parents": [
+    "blues"
+  ], 
+  "root": "delta blues"
+}

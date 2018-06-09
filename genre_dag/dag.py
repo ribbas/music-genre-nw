@@ -50,6 +50,7 @@ class GenreDAG(object):
         dump_json(
             DATA_PATH + "data.json",
             {
+                "num_genres": len(self.get_nodes()),
                 "edges": self.get_edges(),
                 "nodes": self.get_nodes(),
                 "subgenres": self.subgenres

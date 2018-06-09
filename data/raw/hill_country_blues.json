@@ -1,0 +1,11 @@
+{
+  "children": [], 
+  "instruments": [
+    "guitar"
+  ], 
+  "parents": [
+    "blues", 
+    "country_blues"
+  ], 
+  "root": "hill country blues"
+}

@@ -1,0 +1,21 @@
+{
+  "children": [
+    "novelty_piano", 
+    "country", 
+    "jazz", 
+    "boogie-woogie", 
+    "stride", 
+    "honky_tonk"
+  ], 
+  "instruments": [
+    "piano", 
+    "banjo"
+  ], 
+  "parents": [
+    "folk", 
+    "marches", 
+    "classical", 
+    "cakewalks"
+  ], 
+  "root": "ragtime"
+}

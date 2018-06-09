@@ -1,7 +1,7 @@
 {
   "children": [
     "raggacore", 
-    "noisecore"
+    "mathcore"
   ], 
   "instruments": [
     "synthesizer", 

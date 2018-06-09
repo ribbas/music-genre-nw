@@ -1,0 +1,21 @@
+{
+  "children": [
+    "swamp_blues", 
+    "new_orleans_blues"
+  ], 
+  "instruments": [
+    "harmonica", 
+    "guitar", 
+    "bass_guitar", 
+    "saxophone", 
+    "drums", 
+    "keyboard"
+  ], 
+  "parents": [
+    "blues", 
+    "dixieland", 
+    "rhythm_and_blues", 
+    "zydeco"
+  ], 
+  "root": "louisiana blues"
+}

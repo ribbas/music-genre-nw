@@ -1,0 +1,16 @@
+{
+  "children": [], 
+  "instruments": [
+    "electric_guitar", 
+    "piano", 
+    "vocals", 
+    "drums", 
+    "harmonica"
+  ], 
+  "parents": [
+    "blues", 
+    "country_blues", 
+    "delta_blues"
+  ], 
+  "root": "memphis blues"
+}

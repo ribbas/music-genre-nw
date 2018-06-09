@@ -1,0 +1,22 @@
+{
+  "children": [
+    "rock_and_roll", 
+    "rock", 
+    "rhythm_and_blues", 
+    "electric_blues"
+  ], 
+  "instruments": [
+    "upright_bass", 
+    "bass_guitar", 
+    "harmonica", 
+    "electric_guitar", 
+    "saxophone", 
+    "drums", 
+    "piano"
+  ], 
+  "parents": [
+    "instrumentation", 
+    "delta_blues"
+  ], 
+  "root": "chicago blues"
+}

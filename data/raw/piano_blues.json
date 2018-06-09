@@ -1,0 +1,17 @@
+{
+  "children": [
+    "rock_and_roll", 
+    "jazz", 
+    "rhythm_and_blues", 
+    "swing"
+  ], 
+  "instruments": [
+    "piano"
+  ], 
+  "parents": [
+    "boogie-woogie", 
+    "ragtime", 
+    "blues"
+  ], 
+  "root": "piano blues"
+}

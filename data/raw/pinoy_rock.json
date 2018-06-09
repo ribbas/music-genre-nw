@@ -12,8 +12,8 @@
   ], 
   "parents": [
     "manila_sound", 
-    "rock_music", 
-    "philippine_folk_music"
+    "rock", 
+    "philippine_folk"
   ], 
   "root": "pinoy rock"
 }

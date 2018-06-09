@@ -7,10 +7,10 @@
     "drums"
   ], 
   "parents": [
-    "surf", 
+    "surf_punk", 
     "punk_rock", 
     "nardcore", 
-    "surf_punk", 
+    "surf_punk_punk", 
     "hardcore_punk", 
     "melodic_hardcore"
   ], 

@@ -1,25 +1,25 @@
 {
-  "children": [], 
+  "children": [],
   "instruments": [
-    "synthesizer", 
-    "drum_machine", 
+    "synthesizer",
+    "drum_machine",
     "digital_audio_workstation"
-  ], 
+  ],
   "parents": [
-    "vaporwave", 
-    "hardtechno", 
-    "punk_rock", 
-    "drum_and_bass", 
-    "speedcore", 
-    "gabber", 
-    "industrial_techno", 
-    "hardstyle", 
-    "noise_music", 
-    "cyberpunk", 
-    "techno", 
-    "acid_house", 
-    "broken_beat", 
+    "vaporwave",
+    "hardtechno",
+    "punk_rock",
+    "drum_and_bass",
+    "speedcore",
+    "gabber",
+    "industrial_techno",
+    "hardstyle",
+    "noise",
+    "cyberpunk",
+    "techno",
+    "acid_house",
+    "broken_beat",
     "big_beat"
-  ], 
+  ],
   "root": "hardvapour"
 }

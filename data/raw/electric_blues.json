@@ -1,0 +1,21 @@
+{
+  "children": [
+    "rock_and_roll", 
+    "hard_rock", 
+    "british_blues", 
+    "blues_rock"
+  ], 
+  "instruments": [
+    "bass_guitar", 
+    "harmonica", 
+    "electric_guitar", 
+    "saxophone", 
+    "drums", 
+    "piano", 
+    "keyboards"
+  ], 
+  "parents": [
+    "blues"
+  ], 
+  "root": "electric blues"
+}

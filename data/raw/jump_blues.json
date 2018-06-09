@@ -1,0 +1,25 @@
+{
+  "children": [
+    "rock_and_roll", 
+    "electric_blues", 
+    "rhythm_and_blues", 
+    "rockabilly"
+  ], 
+  "instruments": [
+    "acoustic_bass", 
+    "rhythm_guitar", 
+    "electric_guitar", 
+    "saxophone", 
+    "brass_instruments", 
+    "drums", 
+    "piano"
+  ], 
+  "parents": [
+    "boogie-woogie", 
+    "blues", 
+    "jazz", 
+    "big_band", 
+    "swing"
+  ], 
+  "root": "jump blues"
+}

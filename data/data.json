@@ -5,6 +5,10 @@
       "folk metal"
     ], 
     [
+      "noise", 
+      "dark ambient"
+    ], 
+    [
       "blues", 
       "roots rock"
     ], 
@@ -93,8 +97,12 @@
       "technoid"
     ], 
     [
-      "hard house", 
-      "the balcony view of qlimax 2006, an annual hardstyle event."
+      "elevator music", 
+      "space music"
+    ], 
+    [
+      "breakbeat", 
+      "big beat"
     ], 
     [
       "medieval music", 
@@ -145,6 +153,10 @@
       "dirty rap"
     ], 
     [
+      "folk", 
+      "ragtime"
+    ], 
+    [
       "extreme metal", 
       "war metal"
     ], 
@@ -181,6 +193,10 @@
       "disco"
     ], 
     [
+      "sludge metal", 
+      "grunge"
+    ], 
+    [
       "hard rock", 
       "new wave of british heavy metal"
     ], 
@@ -195,6 +211,10 @@
     [
       "dub", 
       "post-disco"
+    ], 
+    [
+      "dada", 
+      "noise music"
     ], 
     [
       "disco", 
@@ -237,10 +257,6 @@
       "nu-disco"
     ], 
     [
-      "electronic rock", 
-      "new rave"
-    ], 
-    [
       "epic doom", 
       "black-doom"
     ], 
@@ -273,12 +289,24 @@
       "post-rock"
     ], 
     [
+      "contemporary r&b", 
+      "snap&b"
+    ], 
+    [
       "psychedelia", 
       "hypnagogic pop"
     ], 
     [
       "traditional doom", 
       "drone metal"
+    ], 
+    [
+      "polish folk", 
+      "disco polo"
+    ], 
+    [
+      "contemporary r&b", 
+      "broken beat"
     ], 
     [
       "disco", 
@@ -305,6 +333,10 @@
       "brazilian popular music"
     ], 
     [
+      "french pop", 
+      "shibuya-kei"
+    ], 
+    [
       "country", 
       "dansband"
     ], 
@@ -327,6 +359,10 @@
     [
       "oldskool rave", 
       "liquid funk"
+    ], 
+    [
+      "surf punk", 
+      "vocal surf punk"
     ], 
     [
       "melodic death metal", 
@@ -405,8 +441,8 @@
       "swing revival"
     ], 
     [
-      "rhythm and blues", 
-      "jam band"
+      "hardcore punk", 
+      "alternative rock"
     ], 
     [
       "jazz", 
@@ -423,6 +459,10 @@
     [
       "jazz", 
       "cool jazz"
+    ], 
+    [
+      "country", 
+      "country rock"
     ], 
     [
       "soul", 
@@ -485,8 +525,8 @@
       "riot grrrl"
     ], 
     [
-      "synth-funk", 
-      "wonky"
+      "folk", 
+      "world music"
     ], 
     [
       "hardcore punk", 
@@ -513,8 +553,8 @@
       "horrorcore"
     ], 
     [
-      "elevator music", 
-      "space music"
+      "rhythm and blues", 
+      "soul blues"
     ], 
     [
       "rock and roll", 
@@ -569,6 +609,10 @@
       "eurobeat"
     ], 
     [
+      "contemporary r&b", 
+      "nu-funk"
+    ], 
+    [
       "trance", 
       "big room house"
     ], 
@@ -609,10 +653,6 @@
       "doo-wop"
     ], 
     [
-      "detroit techno", 
-      "minimal techno"
-    ], 
-    [
       "folk", 
       "folk punk"
     ], 
@@ -625,8 +665,12 @@
       "indie rock"
     ], 
     [
-      "house", 
-      "big beat"
+      "drum and bass", 
+      "drumstep"
+    ], 
+    [
+      "noise music", 
+      "glitch"
     ], 
     [
       "post-punk", 
@@ -645,6 +689,10 @@
       "blackgaze"
     ], 
     [
+      "blues", 
+      "delta blues"
+    ], 
+    [
       "post-hardcore", 
       "post-black metal"
     ], 
@@ -653,8 +701,8 @@
       "british folk rock"
     ], 
     [
-      "surf music", 
-      "garage rock"
+      "soul", 
+      "acid jazz"
     ], 
     [
       "alternative dance", 
@@ -685,12 +733,8 @@
       "sunshine pop"
     ], 
     [
-      "ambient", 
-      "post-progressive"
-    ], 
-    [
-      "alternative rock", 
-      "grebo"
+      "modernism", 
+      "avant-garde jazz"
     ], 
     [
       "pop", 
@@ -709,6 +753,10 @@
       "indie pop"
     ], 
     [
+      "contemporary r&b", 
+      "garage house"
+    ], 
+    [
       "rock", 
       "country rock"
     ], 
@@ -721,8 +769,8 @@
       "symphonic black metal"
     ], 
     [
-      "rock and roll", 
-      "southern rock"
+      "funk", 
+      "go-go"
     ], 
     [
       "detroit techno", 
@@ -745,12 +793,20 @@
       "nu jazz"
     ], 
     [
+      "dub", 
+      "jungle"
+    ], 
+    [
       "electro house", 
       "complextro"
     ], 
     [
       "eurodance", 
       "italo dance"
+    ], 
+    [
+      "post-punk", 
+      "shoegazing"
     ], 
     [
       "pub rock", 
@@ -765,8 +821,20 @@
       "neo-psychedelia"
     ], 
     [
+      "chicago blues", 
+      "rock"
+    ], 
+    [
       "industrial", 
       "neofolk"
+    ], 
+    [
+      "ragtime", 
+      "honky tonk"
+    ], 
+    [
+      "indie rock", 
+      "emo"
     ], 
     [
       "celtic rock", 
@@ -797,8 +865,8 @@
       "reggaeton"
     ], 
     [
-      "glam rock", 
-      "glam punk"
+      "ragtime", 
+      "novelty piano"
     ], 
     [
       "frat rock", 
@@ -825,12 +893,16 @@
       "emo rap"
     ], 
     [
+      "disco", 
+      "hi-nrg"
+    ], 
+    [
       "football chants", 
       "punk pathetique"
     ], 
     [
-      "drumstep", 
-      "future garage"
+      "polish pop", 
+      "disco polo"
     ], 
     [
       "gangsta rap", 
@@ -873,8 +945,8 @@
       "uk garage"
     ], 
     [
-      "1980s pop", 
-      "hypnagogic pop"
+      "idm", 
+      "outsider house"
     ], 
     [
       "jazz rap", 
@@ -949,8 +1021,8 @@
       "hyphy"
     ], 
     [
-      "hard trance", 
-      "the balcony view of qlimax 2006, an annual hardstyle event."
+      "noise music", 
+      "power noise"
     ], 
     [
       "soul", 
@@ -1001,6 +1073,10 @@
       "glitch hop"
     ], 
     [
+      "frat rock", 
+      "acid rock"
+    ], 
+    [
       "techno", 
       "acid techno"
     ], 
@@ -1013,6 +1089,14 @@
       "jungle"
     ], 
     [
+      "jump blues", 
+      "rockabilly"
+    ], 
+    [
+      "delta blues", 
+      "electric blues"
+    ], 
+    [
       "funeral doom", 
       "sludge metal"
     ], 
@@ -1023,6 +1107,10 @@
     [
       "darkcore", 
       "hardstep"
+    ], 
+    [
+      "contemporary r&b", 
+      "2-step garage"
     ], 
     [
       "contemporary christian", 
@@ -1073,8 +1161,8 @@
       "jumpstyle"
     ], 
     [
-      "jazz", 
-      "avant-garde jazz"
+      "surf punk", 
+      "hot rod rock"
     ], 
     [
       "hip hop", 
@@ -1083,6 +1171,10 @@
     [
       "moombahton", 
       "reggaestep"
+    ], 
+    [
+      "smooth jazz", 
+      "vaporwave"
     ], 
     [
       "extreme metal", 
@@ -1121,10 +1213,6 @@
       "blackgaze"
     ], 
     [
-      "hip house", 
-      "breakbeat hardcore"
-    ], 
-    [
       "slam death metal", 
       "slam death metal"
     ], 
@@ -1143,6 +1231,10 @@
     [
       "frat rock", 
       "punk rock"
+    ], 
+    [
+      "blues", 
+      "classic female blues"
     ], 
     [
       "electro house", 
@@ -1221,6 +1313,10 @@
       "shibuya-kei"
     ], 
     [
+      "hardcore punk", 
+      "surf punk"
+    ], 
+    [
       "symphonic metal", 
       "symphonic black metal"
     ], 
@@ -1229,8 +1325,8 @@
       "third stream"
     ], 
     [
-      "folk", 
-      "indie folk"
+      "contemporary r&b", 
+      "diva house"
     ], 
     [
       "acid rock", 
@@ -1241,8 +1337,8 @@
       "funk carioca"
     ], 
     [
-      "rockabilly", 
-      "wong shadow"
+      "electropop", 
+      "electro house"
     ], 
     [
       "noise rock", 
@@ -1277,6 +1373,10 @@
       "low bap"
     ], 
     [
+      "folk", 
+      "oi!"
+    ], 
+    [
       "southern hip hop", 
       "miami bass"
     ], 
@@ -1299,6 +1399,10 @@
     [
       "rhythm and blues", 
       "garage punk"
+    ], 
+    [
+      "contemporary r&b", 
+      "2-step"
     ], 
     [
       "ska", 
@@ -1333,12 +1437,16 @@
       "power pop"
     ], 
     [
+      "drum and bass", 
+      "breakcore"
+    ], 
+    [
       "vallenato", 
       "tropipop"
     ], 
     [
-      "r&b", 
-      "quiet storm"
+      "alternative rock", 
+      "grebo"
     ], 
     [
       "pub rock", 
@@ -1353,6 +1461,10 @@
       "grunge"
     ], 
     [
+      "contemporary r&b", 
+      "reggae"
+    ], 
+    [
       "breakbeat", 
       "breakcore"
     ], 
@@ -1361,8 +1473,8 @@
       "bubblegum pop"
     ], 
     [
-      "rock music", 
-      "british folk rock"
+      "rockabilly", 
+      "wong shadow"
     ], 
     [
       "eurobeat", 
@@ -1441,12 +1553,16 @@
       "soul jazz"
     ], 
     [
-      "hardcore punk", 
-      "sludge metal"
+      "electronic", 
+      "geek rock"
     ], 
     [
       "music of west africa", 
       "jazz"
+    ], 
+    [
+      "contemporary r&b", 
+      "grime"
     ], 
     [
       "scouse house", 
@@ -1475,6 +1591,10 @@
     [
       "electro", 
       "miami bass"
+    ], 
+    [
+      "noise music", 
+      "no wave"
     ], 
     [
       "middle eastern rhythms", 
@@ -1509,6 +1629,10 @@
       "deathgrind"
     ], 
     [
+      "new orleans blues", 
+      "soul"
+    ], 
+    [
       "jazz", 
       "krautrock"
     ], 
@@ -1525,6 +1649,10 @@
       "boogie"
     ], 
     [
+      "ragtime", 
+      "piedmont blues"
+    ], 
+    [
       "afox\u00ea", 
       "tropic\u00e1lia"
     ], 
@@ -1535,6 +1663,10 @@
     [
       "symphonic rock", 
       "symphonic death metal"
+    ], 
+    [
+      "folk", 
+      "blues"
     ], 
     [
       "group sounds", 
@@ -1593,6 +1725,10 @@
       "chillwave"
     ], 
     [
+      "smooth soul", 
+      "contemporary contemporary r&b"
+    ], 
+    [
       "breakbeat hardcore", 
       "big beat"
     ], 
@@ -1609,6 +1745,10 @@
       "cowpunk"
     ], 
     [
+      "rave music", 
+      "gabber"
+    ], 
+    [
       "rhythm and blues", 
       "dancehall"
     ], 
@@ -1617,8 +1757,8 @@
       "reggaestep"
     ], 
     [
-      "doo-wop", 
-      "vocal surf"
+      "indie rock", 
+      "post-rock"
     ], 
     [
       "electronic", 
@@ -1669,20 +1809,24 @@
       "bluegrass"
     ], 
     [
+      "surf punk", 
+      "instrumental surf punk"
+    ], 
+    [
       "post-hardcore", 
       "emo"
     ], 
     [
-      "new wave", 
-      "dance-punk"
+      "rhythm and blues", 
+      "british blues"
     ], 
     [
       "dance-rock", 
       "minneapolis sound"
     ], 
     [
-      "dark wave", 
-      "dark cabaret"
+      "pinoy rock", 
+      "pinoy reggae"
     ], 
     [
       "sufi music", 
@@ -1713,16 +1857,16 @@
       "psychedelic funk"
     ], 
     [
-      "electropop", 
-      "electro house"
-    ], 
-    [
       "hardcore hip hop", 
       "horrorcore"
     ], 
     [
       "dancehall", 
       "reggaeton"
+    ], 
+    [
+      "street punk", 
+      "viking rock"
     ], 
     [
       "industrial", 
@@ -1781,6 +1925,10 @@
       "ragga jungle"
     ], 
     [
+      "alternative rock", 
+      "alternative contemporary r&b"
+    ], 
+    [
       "traditional doom", 
       "epic doom"
     ], 
@@ -1791,6 +1939,10 @@
     [
       "tropical house", 
       "moombahton"
+    ], 
+    [
+      "industrial music", 
+      "outsider house"
     ], 
     [
       "punk rock", 
@@ -1815,6 +1967,10 @@
     [
       "art pop", 
       "industrial"
+    ], 
+    [
+      "contemporary r&b", 
+      "hypnagogic pop"
     ], 
     [
       "techno", 
@@ -1877,8 +2033,8 @@
       "gothic black metal"
     ], 
     [
-      "trance", 
-      "the balcony view of qlimax 2006, an annual hardstyle event."
+      "new orleans blues", 
+      "rock and roll"
     ], 
     [
       "breakbeat", 
@@ -1973,8 +2129,8 @@
       "black-doom"
     ], 
     [
-      "alternative rock", 
-      "grindie"
+      "surf punk", 
+      "skate punk"
     ], 
     [
       "synthpop", 
@@ -1983,14 +2139,6 @@
     [
       "pop rock", 
       "tropipop"
-    ], 
-    [
-      "hardcore punk", 
-      "skacore"
-    ], 
-    [
-      "art rock", 
-      "avant-funk"
     ], 
     [
       "rockabilly", 
@@ -2029,10 +2177,6 @@
       "funeral doom"
     ], 
     [
-      "rhythm and blues", 
-      "heartland rock"
-    ], 
-    [
       "new wave", 
       "synthpop"
     ], 
@@ -2047,10 +2191,6 @@
     [
       "war metal", 
       "ambient black metal"
-    ], 
-    [
-      "folk", 
-      "folk rock"
     ], 
     [
       "hip hop", 
@@ -2105,8 +2245,8 @@
       "riot grrrl"
     ], 
     [
-      "funk", 
-      "go-go"
+      "folk", 
+      "folk rock"
     ], 
     [
       "hardcore punk", 
@@ -2121,20 +2261,16 @@
       "no wave"
     ], 
     [
-      "indie rock", 
-      "emo"
+      "rhythm and blues", 
+      "rock and roll"
     ], 
     [
-      "post-punk", 
-      "dance-rock"
+      "contemporary r&b", 
+      "ghettotech"
     ], 
     [
-      "disco", 
-      "hi-nrg"
-    ], 
-    [
-      "punk rock", 
-      "alternative country"
+      "drumstep", 
+      "future garage"
     ], 
     [
       "experimental rock", 
@@ -2193,6 +2329,14 @@
       "big room house"
     ], 
     [
+      "boogie-woogie", 
+      "rockabilly"
+    ], 
+    [
+      "contemporary contemporary r&b", 
+      "crunk"
+    ], 
+    [
       "rock", 
       "teen pop"
     ], 
@@ -2205,8 +2349,8 @@
       "hardstep"
     ], 
     [
-      "blackened death metal", 
-      "blackened death metal"
+      "indietronica", 
+      "emo"
     ], 
     [
       "funk", 
@@ -2217,12 +2361,16 @@
       "funeral doom"
     ], 
     [
+      "progressive rock", 
+      "space rock"
+    ], 
+    [
       "dance-rock", 
       "alternative dance"
     ], 
     [
-      "drum and bass", 
-      "breakcore"
+      "shock rock", 
+      "deathrock"
     ], 
     [
       "mod", 
@@ -2257,16 +2405,16 @@
       "moombahton"
     ], 
     [
+      "surf punk punk", 
+      "skate punk"
+    ], 
+    [
       "hip hop", 
       "dirty rap"
     ], 
     [
       "italian soundtracks", 
       "shibuya-kei"
-    ], 
-    [
-      "synthpop", 
-      "electropop"
     ], 
     [
       "dubstep", 
@@ -2285,6 +2433,10 @@
       "nu jazz"
     ], 
     [
+      "rock and roll", 
+      "surf punk"
+    ], 
+    [
       "oldschool jungle", 
       "hardstep"
     ], 
@@ -2295,10 +2447,6 @@
     [
       "synth-pop", 
       "electro house"
-    ], 
-    [
-      "surf music", 
-      "hot rod rock"
     ], 
     [
       "jazz", 
@@ -2321,10 +2469,6 @@
       "funk rock"
     ], 
     [
-      "country", 
-      "roots rock"
-    ], 
-    [
       "bubblegum pop", 
       "europop"
     ], 
@@ -2339,10 +2483,6 @@
     [
       "rockabilly", 
       "viking rock"
-    ], 
-    [
-      "punk rock", 
-      "surf punk"
     ], 
     [
       "hip hop", 
@@ -2409,8 +2549,8 @@
       "indie folk"
     ], 
     [
-      "samba", 
-      "tropic\u00e1lia"
+      "blues", 
+      "gospel blues"
     ], 
     [
       "speedcore", 
@@ -2509,8 +2649,8 @@
       "jazz-funk"
     ], 
     [
-      "folk", 
-      "pagan metal"
+      "samba", 
+      "tropic\u00e1lia"
     ], 
     [
       "jazz fusion", 
@@ -2541,6 +2681,10 @@
       "progressive metal"
     ], 
     [
+      "surf punk", 
+      "pop punk"
+    ], 
+    [
       "skiffle", 
       "beat"
     ], 
@@ -2563,10 +2707,6 @@
     [
       "gabber", 
       "bouncy techno"
-    ], 
-    [
-      "contemporary r&b", 
-      "g-funk"
     ], 
     [
       "acid house", 
@@ -2593,6 +2733,10 @@
       "funeral doom"
     ], 
     [
+      "zydeco", 
+      "louisiana blues"
+    ], 
+    [
       "classical", 
       "traditional doom"
     ], 
@@ -2609,8 +2753,12 @@
       "breakbeat hardcore"
     ], 
     [
-      "surf music", 
-      "punk rock"
+      "techno", 
+      "vocal trance"
+    ], 
+    [
+      "contemporary r&b", 
+      "dancehall"
     ], 
     [
       "avant-garde jazz", 
@@ -2685,8 +2833,8 @@
       "microhouse"
     ], 
     [
-      "90s", 
-      "seapunk"
+      "african music-american music", 
+      "bluegrass"
     ], 
     [
       "gothic rock", 
@@ -2717,12 +2865,12 @@
       "early hardcore"
     ], 
     [
-      "jazz fusion", 
-      "smooth jazz"
+      "hip hop", 
+      "contemporary r&b"
     ], 
     [
-      "indietronica", 
-      "emo"
+      "ska", 
+      "surf punk"
     ], 
     [
       "rock", 
@@ -2761,8 +2909,8 @@
       "rnbass"
     ], 
     [
-      "indie rock", 
-      "alternative r&b"
+      "contemporary r&b", 
+      "melodic funk"
     ], 
     [
       "breakbeat", 
@@ -2797,16 +2945,8 @@
       "florida breaks"
     ], 
     [
-      "industrial music", 
-      "the balcony view of qlimax 2006, an annual hardstyle event."
-    ], 
-    [
       "extreme metal", 
       "goregrind"
-    ], 
-    [
-      "rhythm and blues", 
-      "ska"
     ], 
     [
       "third-wave feminism", 
@@ -2829,10 +2969,6 @@
       "seapunk"
     ], 
     [
-      "r&b", 
-      "y\u00e9-y\u00e9"
-    ], 
-    [
       "trap music", 
       "trap"
     ], 
@@ -2849,8 +2985,8 @@
       "neurofunk"
     ], 
     [
-      "20th-century classical music", 
-      "jazz fusion"
+      "folk", 
+      "alternative hip hop"
     ], 
     [
       "folk rock", 
@@ -2873,8 +3009,8 @@
       "symphonic pop"
     ], 
     [
-      "symphonic gothic metal", 
-      "symphonic black metal"
+      "ambient black metal", 
+      "blackened death metal"
     ], 
     [
       "death metal", 
@@ -2885,8 +3021,8 @@
       "gypsy punk"
     ], 
     [
-      "metalcore", 
-      "electronicore"
+      "memphis rap", 
+      "crunk"
     ], 
     [
       "tape", 
@@ -2941,10 +3077,6 @@
       "taqwacore"
     ], 
     [
-      "surf culture", 
-      "surf music"
-    ], 
-    [
       "art rock", 
       "glam rock"
     ], 
@@ -2965,6 +3097,10 @@
       "afrobeat"
     ], 
     [
+      "20th century classical music", 
+      "hard trance"
+    ], 
+    [
       "frat rock", 
       "power pop"
     ], 
@@ -2975,6 +3111,10 @@
     [
       "dance-pop", 
       "teen pop"
+    ], 
+    [
+      "synth-funk", 
+      "wonky"
     ], 
     [
       "yacht rock", 
@@ -2993,8 +3133,8 @@
       "beach music"
     ], 
     [
-      "contemporary r&b", 
-      "west coast hip hop"
+      "krautrock", 
+      "indie electronic"
     ], 
     [
       "alternative rock", 
@@ -3025,10 +3165,6 @@
       "new wave"
     ], 
     [
-      "surf", 
-      "garage rock"
-    ], 
-    [
       "hip hop", 
       "glitch hop"
     ], 
@@ -3045,8 +3181,8 @@
       "dance-punk"
     ], 
     [
-      "industrial", 
-      "industrial death metal"
+      "british blues", 
+      "blues rock"
     ], 
     [
       "heavy metal", 
@@ -3065,10 +3201,6 @@
       "freestyle"
     ], 
     [
-      "surf music", 
-      "skate punk"
-    ], 
-    [
       "house", 
       "tribal house"
     ], 
@@ -3081,16 +3213,16 @@
       "mod revival"
     ], 
     [
-      "surf music", 
-      "pop punk"
-    ], 
-    [
       "country rock", 
       "southern rock"
     ], 
     [
       "big room house", 
       "trap"
+    ], 
+    [
+      "noise music", 
+      "noise pop"
     ], 
     [
       "symphonic death metal", 
@@ -3157,16 +3289,20 @@
       "ambient black metal"
     ], 
     [
+      "surf punk culture", 
+      "surf punk"
+    ], 
+    [
       "punk rock", 
       "celtic punk"
     ], 
     [
-      "bebop", 
-      "(other subgenres)"
-    ], 
-    [
       "ska", 
       "ska pop"
+    ], 
+    [
+      "delta blues", 
+      "memphis blues"
     ], 
     [
       "jazz fusion", 
@@ -3175,6 +3311,10 @@
     [
       "rock", 
       "baroque pop"
+    ], 
+    [
+      "delta blues", 
+      "chicago blues"
     ], 
     [
       "euro disco", 
@@ -3187,6 +3327,14 @@
     [
       "hip hop", 
       "jungle"
+    ], 
+    [
+      "hard rock", 
+      "neo-prog"
+    ], 
+    [
+      "pop", 
+      "tropipop"
     ], 
     [
       "psychedelia", 
@@ -3213,8 +3361,8 @@
       "europop"
     ], 
     [
-      "rave music", 
-      "electro house"
+      "folk", 
+      "contemporary music"
     ], 
     [
       "dance-pop", 
@@ -3229,12 +3377,16 @@
       "wonky"
     ], 
     [
-      "black metal", 
-      "black 'n' roll"
+      "electronic", 
+      "contemporary r&b"
     ], 
     [
       "y\u00e9-y\u00e9", 
       "bubblegum"
+    ], 
+    [
+      "rock", 
+      "pinoy rock"
     ], 
     [
       "post-rock", 
@@ -3277,12 +3429,12 @@
       "western swing"
     ], 
     [
-      "drum and bass", 
-      "raggacore"
+      "post-punk", 
+      "dance-rock"
     ], 
     [
-      "hardcore", 
-      "breakcore"
+      "psychedelic soul", 
+      "psychedelic funk"
     ], 
     [
       "house", 
@@ -3321,8 +3473,8 @@
       "speed metal"
     ], 
     [
-      "the balcony view of qlimax 2006, an annual hardstyle event.", 
-      "jumpstyle"
+      "art rock", 
+      "avant-funk"
     ], 
     [
       "punk rock", 
@@ -3357,8 +3509,8 @@
       "experimental pop"
     ], 
     [
-      "mainstream hardcore", 
-      "industrial hardcore"
+      "punk rock", 
+      "alternative country"
     ], 
     [
       "electronic", 
@@ -3401,6 +3553,10 @@
       "synth-funk"
     ], 
     [
+      "contemporary r&b", 
+      "uk garage"
+    ], 
+    [
       "big band", 
       "philadelphia soul"
     ], 
@@ -3419,6 +3575,10 @@
     [
       "radio rock", 
       "hypnagogic pop"
+    ], 
+    [
+      "techno", 
+      "outsider house"
     ], 
     [
       "breakbeat hardcore", 
@@ -3441,8 +3601,8 @@
       "garage house"
     ], 
     [
-      "rock", 
-      "art rock"
+      "cajun music", 
+      "swamp blues"
     ], 
     [
       "pop", 
@@ -3451,10 +3611,6 @@
     [
       "funeral doom", 
       "funeral doom"
-    ], 
-    [
-      "ragtime", 
-      "jazz"
     ], 
     [
       "celtic fusion", 
@@ -3477,10 +3633,6 @@
       "chillwave"
     ], 
     [
-      "r&b", 
-      "hypnagogic pop"
-    ], 
-    [
       "beat", 
       "wong shadow"
     ], 
@@ -3497,8 +3649,8 @@
       "samba-reggae"
     ], 
     [
-      "breakcore", 
-      "speedcore"
+      "hip hop", 
+      "hiplife"
     ], 
     [
       "psychedelia", 
@@ -3509,16 +3661,16 @@
       "d-beat"
     ], 
     [
-      "symphonic gothic metal", 
-      "symphonic power metal"
+      "toasting", 
+      "hip hop"
+    ], 
+    [
+      "rave music", 
+      "electro house"
     ], 
     [
       "world", 
       "folk metal"
-    ], 
-    [
-      "rock music", 
-      "celtic rock"
     ], 
     [
       "eurodance", 
@@ -3529,8 +3681,8 @@
       "jazz fusion"
     ], 
     [
-      "dance-pop", 
-      "eurobeat"
+      "country blues", 
+      "louisiana blues"
     ], 
     [
       "vocal jazz", 
@@ -3557,16 +3709,16 @@
       "drone metal"
     ], 
     [
-      "planetarium", 
-      "space music"
-    ], 
-    [
       "garage house", 
       "baltimore club"
     ], 
     [
       "hard trance", 
       "mainstream hardcore"
+    ], 
+    [
+      "surf punk", 
+      "punk rock"
     ], 
     [
       "dubstep", 
@@ -3613,8 +3765,8 @@
       "hardstep"
     ], 
     [
-      "extreme metal", 
-      "drone metal"
+      "trance", 
+      "hardstyle"
     ], 
     [
       "hip hop", 
@@ -3623,6 +3775,10 @@
     [
       "speed metal", 
       "neoclassical metal"
+    ], 
+    [
+      "industrial", 
+      "dark ambient"
     ], 
     [
       "rock", 
@@ -3655,10 +3811,6 @@
     [
       "hardcore punk", 
       "grindcore"
-    ], 
-    [
-      "r&b", 
-      "ghettotech"
     ], 
     [
       "thrash metal", 
@@ -3709,8 +3861,16 @@
       "symphonic death metal"
     ], 
     [
+      "new beat", 
+      "gabber"
+    ], 
+    [
       "folk rock", 
       "southern rock"
+    ], 
+    [
+      "electric blues", 
+      "british blues"
     ], 
     [
       "synthpop", 
@@ -3719,10 +3879,6 @@
     [
       "florida breaks", 
       "acid breaks"
-    ], 
-    [
-      "r&b", 
-      "boy band"
     ], 
     [
       "ragga", 
@@ -3829,6 +3985,10 @@
       "funk"
     ], 
     [
+      "blackened death metal", 
+      "blackened death metal"
+    ], 
+    [
       "ambient black metal", 
       "war metal"
     ], 
@@ -3861,12 +4021,20 @@
       "vaporwave"
     ], 
     [
+      "dark ambient", 
+      "black ambient"
+    ], 
+    [
       "trip hop", 
       "future garage"
     ], 
     [
       "beat", 
       "group sounds"
+    ], 
+    [
+      "drone", 
+      "dark ambient"
     ], 
     [
       "traditional music", 
@@ -3885,6 +4053,10 @@
       "freakbeat"
     ], 
     [
+      "folk", 
+      "pagan metal"
+    ], 
+    [
       "progressive rock", 
       "neo-progressive rock"
     ], 
@@ -3901,8 +4073,16 @@
       "future bass"
     ], 
     [
+      "dance-rock", 
+      "grebo"
+    ], 
+    [
       "heavy metal", 
       "traditional doom"
+    ], 
+    [
+      "alternative contemporary r&b", 
+      "emo rap"
     ], 
     [
       "lo-fi music", 
@@ -3965,8 +4145,8 @@
       "punk rock"
     ], 
     [
-      "black metal", 
-      "viking metal"
+      "jazz rap", 
+      "trip hop"
     ], 
     [
       "reggae", 
@@ -3979,6 +4159,10 @@
     [
       "hip house", 
       "uk garage"
+    ], 
+    [
+      "drum and bass", 
+      "raggacore"
     ], 
     [
       "dancehall", 
@@ -4037,6 +4221,10 @@
       "neo soul"
     ], 
     [
+      "electronic", 
+      "noise music"
+    ], 
+    [
       "funk", 
       "philadelphia soul"
     ], 
@@ -4081,8 +4269,12 @@
       "g-funk"
     ], 
     [
-      "jazz", 
-      "y\u00e9-y\u00e9"
+      "electric blues", 
+      "hard rock"
+    ], 
+    [
+      "blues", 
+      "country"
     ], 
     [
       "idm", 
@@ -4105,8 +4297,8 @@
       "funky house"
     ], 
     [
-      "post-punk", 
-      "shoegazing"
+      "rock", 
+      "medieval folk rock"
     ], 
     [
       "glitch hop", 
@@ -4125,8 +4317,8 @@
       "black 'n' roll"
     ], 
     [
-      "jungle", 
-      "dubstep"
+      "oi!", 
+      "punk pathetique"
     ], 
     [
       "hip hop", 
@@ -4161,8 +4353,8 @@
       "post-hardcore"
     ], 
     [
-      "surf", 
-      "skate punk"
+      "contemporary contemporary r&b", 
+      "skweee"
     ], 
     [
       "new orleans rhythm and blues", 
@@ -4193,16 +4385,8 @@
       "electroclash"
     ], 
     [
-      "r&b", 
-      "reggae"
-    ], 
-    [
       "florida breaks", 
       "electro breaks"
-    ], 
-    [
-      "heavy metal", 
-      "groove metal"
     ], 
     [
       "new wave of british heavy metal", 
@@ -4229,16 +4413,12 @@
       "jazz-funk"
     ], 
     [
-      "shock rock", 
-      "deathrock"
-    ], 
-    [
       "hip-hop", 
       "ragga hip-hop"
     ], 
     [
-      "rock music", 
-      "pinoy rock"
+      "ambient", 
+      "dark ambient"
     ], 
     [
       "indietronica", 
@@ -4269,8 +4449,8 @@
       "italo house"
     ], 
     [
-      "blues", 
-      "rock and roll"
+      "dark wave", 
+      "dark cabaret"
     ], 
     [
       "hardcore punk", 
@@ -4289,8 +4469,8 @@
       "dance-rock"
     ], 
     [
-      "rave music", 
-      "gabber"
+      "piano blues", 
+      "swing"
     ], 
     [
       "d-beat", 
@@ -4397,6 +4577,10 @@
       "italo dance"
     ], 
     [
+      "louisiana blues", 
+      "new orleans blues"
+    ], 
+    [
       "sea shanties", 
       "viking metal"
     ], 
@@ -4477,6 +4661,10 @@
       "ragga jungle"
     ], 
     [
+      "swamp blues", 
+      "swamp pop"
+    ], 
+    [
       "eurodance", 
       "vocal trance"
     ], 
@@ -4487,6 +4675,10 @@
     [
       "rock", 
       "acid rock"
+    ], 
+    [
+      "hardbass", 
+      "uk hardcore"
     ], 
     [
       "folk rock", 
@@ -4597,6 +4789,10 @@
       "funeral doom"
     ], 
     [
+      "spirituals", 
+      "blues"
+    ], 
+    [
       "funeral doom", 
       "traditional doom"
     ], 
@@ -4607,6 +4803,10 @@
     [
       "punk rock", 
       "dance-punk"
+    ], 
+    [
+      "hip hop", 
+      "west coast hip hop"
     ], 
     [
       "speed metal", 
@@ -4653,16 +4853,24 @@
       "j-pop"
     ], 
     [
+      "blues", 
+      "rock and roll"
+    ], 
+    [
       "proto-punk", 
       "avant-punk"
     ], 
     [
-      "oi!", 
-      "punk pathetique"
+      "blues", 
+      "british blues"
     ], 
     [
-      "rock music", 
-      "medieval folk rock"
+      "jungle", 
+      "dubstep"
+    ], 
+    [
+      "contemporary r&b", 
+      "quiet storm"
     ], 
     [
       "bedroom pop", 
@@ -4673,16 +4881,12 @@
       "trap"
     ], 
     [
+      "rock and roll", 
+      "southern rock"
+    ], 
+    [
       "extreme metal", 
       "death 'n' roll"
-    ], 
-    [
-      "krautrock", 
-      "indie electronic"
-    ], 
-    [
-      "r&b", 
-      "chillwave"
     ], 
     [
       "heavy metal", 
@@ -4695,6 +4899,10 @@
     [
       "british folk rock", 
       "medieval folk rock"
+    ], 
+    [
+      "boogie-woogie", 
+      "swing"
     ], 
     [
       "avant-garde", 
@@ -4741,12 +4949,24 @@
       "skweee"
     ], 
     [
+      "blues", 
+      "electric blues"
+    ], 
+    [
+      "contemporary r&b", 
+      "new jack swing"
+    ], 
+    [
       "post-hardcore", 
       "electronicore"
     ], 
     [
       "jazz", 
       "latin jazz"
+    ], 
+    [
+      "chicago house", 
+      "outsider house"
     ], 
     [
       "jazz", 
@@ -4759,6 +4979,10 @@
     [
       "hardcore punk", 
       "nintendocore"
+    ], 
+    [
+      "surf punk", 
+      "garage rock"
     ], 
     [
       "trap", 
@@ -4777,6 +5001,10 @@
       "traditional jazz"
     ], 
     [
+      "industrial music", 
+      "drum and bass"
+    ], 
+    [
       "electronic", 
       "post-punk"
     ], 
@@ -4785,16 +5013,12 @@
       "liquid funk"
     ], 
     [
-      "surf music", 
-      "instrumental surf"
-    ], 
-    [
       "drum and bass", 
       "darkstep"
     ], 
     [
-      "jungle", 
-      "digital hardcore"
+      "ragtime", 
+      "jazz"
     ], 
     [
       "traditional doom", 
@@ -4815,6 +5039,10 @@
     [
       "seapunk", 
       "slimepunk"
+    ], 
+    [
+      "country blues", 
+      "swamp blues"
     ], 
     [
       "glam rock", 
@@ -4873,6 +5101,10 @@
       "swamp pop"
     ], 
     [
+      "synthpop", 
+      "electro"
+    ], 
+    [
       "hardcore hip hop", 
       "southern hip hop"
     ], 
@@ -4893,12 +5125,20 @@
       "dance-rock"
     ], 
     [
+      "blues", 
+      "louisiana blues"
+    ], 
+    [
       "indietronica", 
       "chillwave"
     ], 
     [
-      "african", 
-      "tribal house"
+      "doo-wop", 
+      "vocal surf punk"
+    ], 
+    [
+      "mainstream hardcore", 
+      "industrial hardcore"
     ], 
     [
       "death metal", 
@@ -4911,6 +5151,10 @@
     [
       "pop ballads", 
       "vaporwave"
+    ], 
+    [
+      "african music-american music", 
+      "traditional bluegrass"
     ], 
     [
       "djent", 
@@ -5005,8 +5249,8 @@
       "wonky"
     ], 
     [
-      "turntablism", 
-      "florida breaks"
+      "jazz fusion", 
+      "j-pop"
     ], 
     [
       "hardstyle", 
@@ -5041,12 +5285,24 @@
       "swamp pop"
     ], 
     [
+      "surf punk", 
+      "frat rock"
+    ], 
+    [
+      "contemporary r&b", 
+      "y\u00e9-y\u00e9"
+    ], 
+    [
       "hardcore punk", 
       "emo"
     ], 
     [
-      "ambient black metal", 
-      "blackened death metal"
+      "metalcore", 
+      "electronicore"
+    ], 
+    [
+      "rock", 
+      "glam rock"
     ], 
     [
       "punk rock", 
@@ -5095,10 +5351,6 @@
     [
       "punk rock", 
       "no wave"
-    ], 
-    [
-      "memphis rap", 
-      "crunk"
     ], 
     [
       "roots rock", 
@@ -5177,6 +5429,10 @@
       "nu-funk"
     ], 
     [
+      "blues", 
+      "jug band"
+    ], 
+    [
       "electropop", 
       "teen pop"
     ], 
@@ -5201,8 +5457,8 @@
       "deathrock"
     ], 
     [
-      "folk music", 
-      "oi!"
+      "electronic rock", 
+      "new rave"
     ], 
     [
       "jungle", 
@@ -5249,10 +5505,6 @@
       "bubblegum dance"
     ], 
     [
-      "eurodance", 
-      "happy hardcore"
-    ], 
-    [
       "mento", 
       "reggae"
     ], 
@@ -5285,6 +5537,10 @@
       "progressive house"
     ], 
     [
+      "pop", 
+      "contemporary r&b"
+    ], 
+    [
       "classical", 
       "cool jazz"
     ], 
@@ -5299,10 +5555,6 @@
     [
       "pop", 
       "vocal trance"
-    ], 
-    [
-      "pop music", 
-      "tropipop"
     ], 
     [
       "free jazz", 
@@ -5325,10 +5577,6 @@
       "heartland rock"
     ], 
     [
-      "african-american music", 
-      "bluegrass"
-    ], 
-    [
       "italo disco", 
       "electroclash"
     ], 
@@ -5349,10 +5597,6 @@
       "4-beat"
     ], 
     [
-      "polish pop music", 
-      "disco polo"
-    ], 
-    [
       "rock and roll", 
       "rock"
     ], 
@@ -5367,10 +5611,6 @@
     [
       "powerviolence", 
       "bandana thrash"
-    ], 
-    [
-      "soul", 
-      "acid jazz"
     ], 
     [
       "experimental", 
@@ -5417,16 +5657,20 @@
       "queercore"
     ], 
     [
-      "avant-garde", 
-      "free jazz"
+      "pop punk", 
+      "emo"
+    ], 
+    [
+      "outsider music", 
+      "outsider house"
     ], 
     [
       "rave music", 
       "hardstyle"
     ], 
     [
-      "r&b", 
-      "dancehall"
+      "contemporary classical", 
+      "post-rock"
     ], 
     [
       "soul", 
@@ -5529,12 +5773,16 @@
       "hypnagogic pop"
     ], 
     [
-      "hardcore punk", 
-      "ska punk"
+      "death metal", 
+      "industrial death metal"
     ], 
     [
       "gothic rock", 
       "dark cabaret"
+    ], 
+    [
+      "delta blues", 
+      "detroit blues"
     ], 
     [
       "war metal", 
@@ -5555,6 +5803,14 @@
     [
       "pop", 
       "space disco"
+    ], 
+    [
+      "indie rock", 
+      "alternative contemporary r&b"
+    ], 
+    [
+      "rock", 
+      "celtic rock"
     ], 
     [
       "queer theory", 
@@ -5585,8 +5841,8 @@
       "psychedelic rock"
     ], 
     [
-      "rock and roll", 
-      "surf music"
+      "post-punk", 
+      "house"
     ], 
     [
       "breakbeat", 
@@ -5621,12 +5877,16 @@
       "bouncy techno"
     ], 
     [
-      "rock", 
-      "surf"
+      "hip house", 
+      "breakbeat hardcore"
     ], 
     [
       "house", 
       "gabber"
+    ], 
+    [
+      "creole music", 
+      "swamp blues"
     ], 
     [
       "new-age music", 
@@ -5647,6 +5907,10 @@
     [
       "techno", 
       "glitch"
+    ], 
+    [
+      "beat", 
+      "britpop"
     ], 
     [
       "rhythm and blues", 
@@ -5687,6 +5951,10 @@
     [
       "jazz fusion", 
       "free funk"
+    ], 
+    [
+      "jazz", 
+      "jump blues"
     ], 
     [
       "electronica", 
@@ -5753,8 +6021,8 @@
       "jumpstyle"
     ], 
     [
-      "hyphy", 
-      "trap music (hip hop)"
+      "glam rock", 
+      "glam punk"
     ], 
     [
       "bitpop", 
@@ -5781,6 +6049,10 @@
       "space age pop"
     ], 
     [
+      "hard house", 
+      "hardstyle"
+    ], 
+    [
       "funk", 
       "alternative hip hop"
     ], 
@@ -5797,8 +6069,8 @@
       "neue deutsche todeskunst"
     ], 
     [
-      "hip hop", 
-      "hiplife"
+      "ambient", 
+      "post-progressive"
     ], 
     [
       "ambient black metal", 
@@ -5815,6 +6087,10 @@
     [
       "synthpop", 
       "wonky pop"
+    ], 
+    [
+      "hip hop", 
+      "southern hip hop"
     ], 
     [
       "avant-garde", 
@@ -5861,6 +6137,10 @@
       "jersey club"
     ], 
     [
+      "spirituals", 
+      "gospel blues"
+    ], 
+    [
       "black-doom", 
       "sludge metal"
     ], 
@@ -5875,6 +6155,10 @@
     [
       "punk rock", 
       "post-punk"
+    ], 
+    [
+      "surf punk", 
+      "garage punk"
     ], 
     [
       "rock and roll", 
@@ -5905,16 +6189,12 @@
       "minimal techno"
     ], 
     [
-      "surf music", 
-      "vocal surf"
-    ], 
-    [
       "british rock and roll", 
       "beat"
     ], 
     [
-      "drum and bass", 
-      "drumstep"
+      "house", 
+      "big beat"
     ], 
     [
       "jazz", 
@@ -5929,24 +6209,28 @@
       "progressive electronic"
     ], 
     [
-      "dub", 
-      "jungle"
+      "blues", 
+      "soul blues"
+    ], 
+    [
+      "noise music", 
+      "outsider house"
     ], 
     [
       "eurodance", 
       "hard dance"
     ], 
     [
-      "glam rock", 
-      "hi-nrg"
+      "blues", 
+      "swamp blues"
     ], 
     [
       "pop-rap", 
       "teen pop"
     ], 
     [
-      "drum and bass", 
-      "seapunk"
+      "zydeco", 
+      "swamp blues"
     ], 
     [
       "bubblegum pop", 
@@ -5981,16 +6265,16 @@
       "traditional bluegrass"
     ], 
     [
-      "frat rock", 
-      "acid rock"
+      "contemporary r&b", 
+      "neo soul"
     ], 
     [
       "hard rock", 
       "acid rock"
     ], 
     [
-      "smooth jazz", 
-      "vaporwave"
+      "industrial", 
+      "industrial death metal"
     ], 
     [
       "folk", 
@@ -6003,6 +6287,10 @@
     [
       "post-hardcore", 
       "screamo"
+    ], 
+    [
+      "jump blues", 
+      "rhythm and blues"
     ], 
     [
       "protest songs", 
@@ -6027,6 +6315,10 @@
     [
       "folk rock", 
       "acid rock"
+    ], 
+    [
+      "rock", 
+      "art rock"
     ], 
     [
       "acid trance", 
@@ -6067,6 +6359,10 @@
     [
       "hardcore punk", 
       "grunge"
+    ], 
+    [
+      "noise music", 
+      "witch house"
     ], 
     [
       "hardstyle", 
@@ -6113,6 +6409,10 @@
       "new rave"
     ], 
     [
+      "jazz", 
+      "y\u00e9-y\u00e9"
+    ], 
+    [
       "hip hop", 
       "big beat"
     ], 
@@ -6121,8 +6421,8 @@
       "neue deutsche h\u00e4rte"
     ], 
     [
-      "street punk", 
-      "viking rock"
+      "jazz", 
+      "avant-garde jazz"
     ], 
     [
       "the dozens", 
@@ -6147,6 +6447,10 @@
     [
       "breakbeat", 
       "drum and bass"
+    ], 
+    [
+      "dixieland", 
+      "louisiana blues"
     ], 
     [
       "hip hop", 
@@ -6229,8 +6533,8 @@
       "alternative country"
     ], 
     [
-      "modernism", 
-      "avant-garde jazz"
+      "latin pop", 
+      "chicano rock"
     ], 
     [
       "hip hop", 
@@ -6239,10 +6543,6 @@
     [
       "drone", 
       "noise pop"
-    ], 
-    [
-      "mainstream hardcore", 
-      "the balcony view of qlimax 2006, an annual hardstyle event."
     ], 
     [
       "folk", 
@@ -6259,6 +6559,10 @@
     [
       "jazz fusion", 
       "progressive rock"
+    ], 
+    [
+      "jump blues", 
+      "electric blues"
     ], 
     [
       "rock", 
@@ -6389,10 +6693,6 @@
       "shoegazing"
     ], 
     [
-      "post-punk", 
-      "house"
-    ], 
-    [
       "shoegaze", 
       "chillwave"
     ], 
@@ -6403,6 +6703,10 @@
     [
       "minimalism", 
       "microhouse"
+    ], 
+    [
+      "blues", 
+      "ragtime"
     ], 
     [
       "breakcore", 
@@ -6437,6 +6741,10 @@
       "sunshine pop"
     ], 
     [
+      "contemporary r&b", 
+      "teen pop"
+    ], 
+    [
       "funeral doom", 
       "death-doom"
     ], 
@@ -6447,6 +6755,10 @@
     [
       "punk rock", 
       "cowpunk"
+    ], 
+    [
+      "folk", 
+      "classic female blues"
     ], 
     [
       "crossover thrash", 
@@ -6489,8 +6801,8 @@
       "progressive house"
     ], 
     [
-      "folk music", 
-      "chamber jazz"
+      "heavy metal", 
+      "groove metal"
     ], 
     [
       "new jack swing", 
@@ -6541,8 +6853,8 @@
       "manila sound"
     ], 
     [
-      "hardbass", 
-      "uk hardcore"
+      "funk", 
+      "contemporary contemporary r&b"
     ], 
     [
       "thrash metal", 
@@ -6553,12 +6865,12 @@
       "wizard rock"
     ], 
     [
-      "europop", 
-      "eurodance"
+      "classical", 
+      "ragtime"
     ], 
     [
-      "folk music", 
-      "viking rock"
+      "dixieland", 
+      "new orleans blues"
     ], 
     [
       "pop", 
@@ -6573,8 +6885,8 @@
       "southern hip hop"
     ], 
     [
-      "hip hop", 
-      "west coast hip hop"
+      "blues", 
+      "hill country blues"
     ], 
     [
       "alternative metal", 
@@ -6629,10 +6941,6 @@
       "unblack metal"
     ], 
     [
-      "20th-century classical music", 
-      "hard trance"
-    ], 
-    [
       "christian rock", 
       "christian metal"
     ], 
@@ -6665,12 +6973,16 @@
       "future garage"
     ], 
     [
-      "surf", 
-      "garage punk"
-    ], 
-    [
       "punk rock", 
       "horror punk"
+    ], 
+    [
+      "contemporary contemporary r&b", 
+      "west coast hip hop"
+    ], 
+    [
+      "jazz fusion", 
+      "smooth jazz"
     ], 
     [
       "house", 
@@ -6697,6 +7009,10 @@
       "doo-wop"
     ], 
     [
+      "piano blues", 
+      "jazz"
+    ], 
+    [
       "post-black metal", 
       "blackgaze"
     ], 
@@ -6707,6 +7023,10 @@
     [
       "epic doom", 
       "gothic metal"
+    ], 
+    [
+      "new orleans blues", 
+      "rock"
     ], 
     [
       "political hip hop", 
@@ -6797,6 +7117,10 @@
       "uplifting trance"
     ], 
     [
+      "futurism", 
+      "noise music"
+    ], 
+    [
       "funk", 
       "manila sound"
     ], 
@@ -6837,8 +7161,8 @@
       "slam death metal"
     ], 
     [
-      "synthpop", 
-      "electro"
+      "20th century classical music", 
+      "jazz fusion"
     ], 
     [
       "gabber", 
@@ -6881,8 +7205,8 @@
       "funk carioca"
     ], 
     [
-      "latin pop", 
-      "chicano rock"
+      "new wave", 
+      "dance-punk"
     ], 
     [
       "black metal", 
@@ -6969,6 +7293,10 @@
       "alternative country"
     ], 
     [
+      "folk", 
+      "indie folk"
+    ], 
+    [
       "punk rock", 
       "taqwacore"
     ], 
@@ -6997,10 +7325,6 @@
       "neo soul"
     ], 
     [
-      "contemporary r&b", 
-      "crunk"
-    ], 
-    [
       "celtic fusion", 
       "celtic rock"
     ], 
@@ -7015,6 +7339,10 @@
     [
       "vaporwave", 
       "hardvapour"
+    ], 
+    [
+      "blues", 
+      "jump blues"
     ], 
     [
       "traditional doom", 
@@ -7089,8 +7417,8 @@
       "new jack swing"
     ], 
     [
-      "r&b", 
-      "trip hop"
+      "indie pop", 
+      "chamber pop"
     ], 
     [
       "eurobeat", 
@@ -7121,10 +7449,6 @@
       "math rock"
     ], 
     [
-      "contemporary classical", 
-      "post-rock"
-    ], 
-    [
       "experimental rock", 
       "art rock"
     ], 
@@ -7145,6 +7469,10 @@
       "twee pop"
     ], 
     [
+      "ragtime", 
+      "country"
+    ], 
+    [
       "trip hop", 
       "alternative dance"
     ], 
@@ -7153,12 +7481,20 @@
       "space disco"
     ], 
     [
+      "contemporary contemporary r&b", 
+      "rnbass"
+    ], 
+    [
       "gabber", 
       "power noise"
     ], 
     [
       "rave music", 
       "breakbeat"
+    ], 
+    [
+      "rock", 
+      "surf punk"
     ], 
     [
       "minimal techno", 
@@ -7205,6 +7541,10 @@
       "art pop"
     ], 
     [
+      "modernism", 
+      "noise music"
+    ], 
+    [
       "pub rock", 
       "punk pathetique"
     ], 
@@ -7225,16 +7565,12 @@
       "dance-pop"
     ], 
     [
-      "new beat", 
-      "gabber"
+      "noise", 
+      "hardvapour"
     ], 
     [
       "scottish folk", 
       "traditional bluegrass"
-    ], 
-    [
-      "hip hop music", 
-      "low bap"
     ], 
     [
       "bouncy techno", 
@@ -7267,6 +7603,10 @@
     [
       "space disco", 
       "hi-nrg"
+    ], 
+    [
+      "black metal", 
+      "black 'n' roll"
     ], 
     [
       "doom metal", 
@@ -7341,8 +7681,16 @@
       "uplifting trance"
     ], 
     [
+      "surf punk", 
+      "surf punk punk"
+    ], 
+    [
       "punk rock", 
       "new wave of british heavy metal"
+    ], 
+    [
+      "contemporary r&b", 
+      "vaporwave"
     ], 
     [
       "dutch house", 
@@ -7429,8 +7777,8 @@
       "new wave"
     ], 
     [
-      "black-doom", 
-      "black-doom"
+      "oldschool jungle", 
+      "speed garage"
     ], 
     [
       "garage punk", 
@@ -7457,8 +7805,16 @@
       "indie pop"
     ], 
     [
+      "mainstream hardcore", 
+      "hardstyle"
+    ], 
+    [
       "glam rock", 
       "britpop"
+    ], 
+    [
+      "big band", 
+      "jump blues"
     ], 
     [
       "big band", 
@@ -7529,12 +7885,20 @@
       "pop"
     ], 
     [
+      "folk", 
+      "viking rock"
+    ], 
+    [
       "breakcore", 
       "digital hardcore"
     ], 
     [
       "heavy metal", 
       "alternative metal"
+    ], 
+    [
+      "contemporary r&b", 
+      "hip hop soul"
     ], 
     [
       "slam death metal", 
@@ -7549,12 +7913,12 @@
       "hyphy"
     ], 
     [
-      "extreme metal", 
-      "speedcore"
+      "new-age", 
+      "vaporwave"
     ], 
     [
-      "trap", 
-      "latin trap"
+      "country blues", 
+      "delta blues"
     ], 
     [
       "jazz", 
@@ -7569,20 +7933,20 @@
       "nu jazz"
     ], 
     [
-      "psychedelic soul", 
-      "psychedelic funk"
+      "hardcore", 
+      "breakcore"
     ], 
     [
       "lounge", 
       "chamber pop"
     ], 
     [
-      "post-punk", 
-      "neofolk"
+      "post-disco", 
+      "italo disco"
     ], 
     [
-      "indie pop", 
-      "chamber pop"
+      "country blues", 
+      "detroit blues"
     ], 
     [
       "garage house", 
@@ -7593,6 +7957,10 @@
       "electronic rock"
     ], 
     [
+      "noise music", 
+      "power electronics"
+    ], 
+    [
       "hyphy", 
       "trap"
     ], 
@@ -7601,20 +7969,24 @@
       "hardcore punk"
     ], 
     [
-      "hip hop", 
-      "trap"
+      "symphonic power metal", 
+      "symphonic power metal"
     ], 
     [
       "soul", 
       "frat rock"
     ], 
     [
+      "philippine folk", 
+      "pinoy rock"
+    ], 
+    [
       "ska", 
       "dancehall"
     ], 
     [
-      "reggae", 
-      "dub"
+      "blues", 
+      "country blues"
     ], 
     [
       "rhythm and blues", 
@@ -7627,6 +7999,10 @@
     [
       "rockabilly", 
       "country rock"
+    ], 
+    [
+      "rock", 
+      "british folk rock"
     ], 
     [
       "celtic music", 
@@ -7647,10 +8023,6 @@
     [
       "ambient black metal", 
       "ambient black metal"
-    ], 
-    [
-      "surf music", 
-      "garage punk"
     ], 
     [
       "industrial music", 
@@ -7685,6 +8057,10 @@
       "post-punk"
     ], 
     [
+      "avant-garde music", 
+      "outsider house"
+    ], 
+    [
       "rhythm and blues", 
       "contemporary r&b"
     ], 
@@ -7711,10 +8087,6 @@
     [
       "rock", 
       "worldbeat"
-    ], 
-    [
-      "surf", 
-      "pop punk"
     ], 
     [
       "ska", 
@@ -7757,12 +8129,16 @@
       "ragga hip hop"
     ], 
     [
+      "house", 
+      "outsider house"
+    ], 
+    [
       "pop-rap", 
       "lgbtq hip hop"
     ], 
     [
-      "country", 
-      "country rock"
+      "soul", 
+      "soul blues"
     ], 
     [
       "soca", 
@@ -7777,6 +8153,10 @@
       "latin ballad"
     ], 
     [
+      "modernist music", 
+      "progressive jazz"
+    ], 
+    [
       "breakcore", 
       "raggacore"
     ], 
@@ -7787,6 +8167,10 @@
     [
       "music hall", 
       "punk pathetique"
+    ], 
+    [
+      "reggae", 
+      "dub"
     ], 
     [
       "hip hop", 
@@ -7865,8 +8249,8 @@
       "latin rock"
     ], 
     [
-      "r&b", 
-      "new jack swing"
+      "contemporary r&b", 
+      "alternative contemporary r&b"
     ], 
     [
       "punk rock", 
@@ -7925,6 +8309,10 @@
       "avant-garde metal"
     ], 
     [
+      "hardtechno", 
+      "outsider house"
+    ], 
+    [
       "noise", 
       "noise rock"
     ], 
@@ -7969,8 +8357,8 @@
       "rapcore"
     ], 
     [
-      "r&b", 
-      "seapunk"
+      "country blues", 
+      "new orleans blues"
     ], 
     [
       "industrial metal", 
@@ -8057,8 +8445,8 @@
       "nu metal"
     ], 
     [
-      "rhythm and blues", 
-      "rock and roll"
+      "noise music", 
+      "dark ambient"
     ], 
     [
       "baroque pop", 
@@ -8071,6 +8459,14 @@
     [
       "hi-nrg", 
       "eurobeat"
+    ], 
+    [
+      "grindcore", 
+      "mathcore"
+    ], 
+    [
+      "piano blues", 
+      "rock and roll"
     ], 
     [
       "slam death metal", 
@@ -8091,6 +8487,10 @@
     [
       "death metal", 
       "blackened death metal"
+    ], 
+    [
+      "contemporary r&b", 
+      "seapunk"
     ], 
     [
       "punk rock", 
@@ -8137,10 +8537,6 @@
       "tropipop"
     ], 
     [
-      "instrumental rock", 
-      "garage punk"
-    ], 
-    [
       "latin pop", 
       "latin rock"
     ], 
@@ -8177,8 +8573,8 @@
       "glam punk"
     ], 
     [
-      "surf music", 
-      "surf punk"
+      "rhythm and blues", 
+      "ska"
     ], 
     [
       "new age", 
@@ -8197,8 +8593,8 @@
       "witch house"
     ], 
     [
-      "electronic", 
-      "geek rock"
+      "hardcore punk", 
+      "sludge metal"
     ], 
     [
       "dubstep", 
@@ -8215,6 +8611,14 @@
     [
       "dance-pop", 
       "eurodance"
+    ], 
+    [
+      "rhythm and blues", 
+      "new orleans blues"
+    ], 
+    [
+      "heavy metal", 
+      "thrash metal"
     ], 
     [
       "chillout", 
@@ -8271,6 +8675,14 @@
     [
       "experimental", 
       "free jazz"
+    ], 
+    [
+      "ragtime", 
+      "boogie-woogie"
+    ], 
+    [
+      "instrumentation", 
+      "chicago blues"
     ], 
     [
       "gothic rock", 
@@ -8333,16 +8745,24 @@
       "glitch"
     ], 
     [
+      "breakcore", 
+      "mathcore"
+    ], 
+    [
       "extreme metal", 
       "kawaii metal"
     ], 
     [
-      "african-american music", 
-      "traditional bluegrass"
-    ], 
-    [
       "gangsta rap", 
       "horrorcore"
+    ], 
+    [
+      "country blues", 
+      "electric blues"
+    ], 
+    [
+      "folk", 
+      "chamber jazz"
     ], 
     [
       "heavy metal", 
@@ -8367,6 +8787,10 @@
     [
       "industrial rock", 
       "industrial black metal"
+    ], 
+    [
+      "noise music", 
+      "industrial"
     ], 
     [
       "extreme metal", 
@@ -8421,10 +8845,6 @@
       "future bass"
     ], 
     [
-      "folk", 
-      "alternative hip hop"
-    ], 
-    [
       "uk garage", 
       "breakstep"
     ], 
@@ -8443,6 +8863,10 @@
     [
       "hardcore punk", 
       "powerviolence"
+    ], 
+    [
+      "soul", 
+      "contemporary r&b"
     ], 
     [
       "hip hop", 
@@ -8485,8 +8909,8 @@
       "acid house"
     ], 
     [
-      "brazilian music", 
-      "latin jazz"
+      "progressive rock", 
+      "mathcore"
     ], 
     [
       "gothic metal", 
@@ -8499,6 +8923,10 @@
     [
       "country rock", 
       "cowpunk"
+    ], 
+    [
+      "folk", 
+      "country blues"
     ], 
     [
       "jazz-funk", 
@@ -8637,16 +9065,12 @@
       "samba rock"
     ], 
     [
-      "pop punk", 
-      "emo"
+      "spirituals", 
+      "classic female blues"
     ], 
     [
       "rave music", 
       "m\u00e1kina"
-    ], 
-    [
-      "surf rock", 
-      "wong shadow"
     ], 
     [
       "hip hop", 
@@ -8661,20 +9085,12 @@
       "neo-psychedelia"
     ], 
     [
-      "new beat", 
-      "the balcony view of qlimax 2006, an annual hardstyle event."
-    ], 
-    [
       "canterbury scene", 
       "avant-prog"
     ], 
     [
       "2-step garage", 
       "dubstep"
-    ], 
-    [
-      "r&b", 
-      "melodic funk"
     ], 
     [
       "country", 
@@ -8697,8 +9113,8 @@
       "ambient techno"
     ], 
     [
-      "r&b", 
-      "hip hop soul"
+      "country", 
+      "roots rock"
     ], 
     [
       "trance", 
@@ -8707,10 +9123,6 @@
     [
       "avant-garde", 
       "avant-funk"
-    ], 
-    [
-      "philippine folk music", 
-      "pinoy rock"
     ], 
     [
       "death-doom", 
@@ -8729,8 +9141,8 @@
       "emo rap"
     ], 
     [
-      "hip hop", 
-      "southern hip hop"
+      "contemporary r&b", 
+      "trip hop"
     ], 
     [
       "swing", 
@@ -8841,8 +9253,8 @@
       "bassline"
     ], 
     [
-      "heavy metal", 
-      "thrash metal"
+      "breakcore", 
+      "speedcore"
     ], 
     [
       "industrial", 
@@ -8905,8 +9317,8 @@
       "jazz rap"
     ], 
     [
-      "toasting", 
-      "hip hop"
+      "symphonic gothic metal", 
+      "symphonic power metal"
     ], 
     [
       "post-disco", 
@@ -8951,6 +9363,10 @@
     [
       "swamp pop", 
       "southern rock"
+    ], 
+    [
+      "cakewalks", 
+      "ragtime"
     ], 
     [
       "hardcore techno", 
@@ -8999,6 +9415,10 @@
     [
       "blues rock", 
       "southern rock"
+    ], 
+    [
+      "ragtime", 
+      "stride"
     ], 
     [
       "rock and roll", 
@@ -9057,12 +9477,16 @@
       "goregrind"
     ], 
     [
-      "indietronica", 
-      "alternative r&b"
+      "contemporary r&b", 
+      "boy band"
     ], 
     [
       "vaudeville", 
       "dark cabaret"
+    ], 
+    [
+      "techno", 
+      "hardstyle"
     ], 
     [
       "garage punk", 
@@ -9073,12 +9497,12 @@
       "grindie"
     ], 
     [
-      "reggaeton", 
-      "latin trap"
+      "country blues", 
+      "hill country blues"
     ], 
     [
-      "r&b", 
-      "broken beat"
+      "reggaeton", 
+      "latin trap"
     ], 
     [
       "hardcore hip hop", 
@@ -9087,10 +9511,6 @@
     [
       "country", 
       "rock"
-    ], 
-    [
-      "rock and roll", 
-      "surf"
     ], 
     [
       "jazz", 
@@ -9107,6 +9527,10 @@
     [
       "electronic rock", 
       "italo disco"
+    ], 
+    [
+      "dance-pop", 
+      "eurobeat"
     ], 
     [
       "uk hard house", 
@@ -9153,6 +9577,10 @@
       "samba rock"
     ], 
     [
+      "noise music", 
+      "harsh noise wall"
+    ], 
+    [
       "black 'n' roll", 
       "blackened death metal"
     ], 
@@ -9169,12 +9597,16 @@
       "techstep"
     ], 
     [
-      "r&b", 
-      "garage house"
+      "tech house", 
+      "outsider house"
     ], 
     [
       "rhythm and blues", 
       "hard bop"
+    ], 
+    [
+      "rock and roll", 
+      "wong shadow"
     ], 
     [
       "indie rock", 
@@ -9191,6 +9623,10 @@
     [
       "breakbeat", 
       "glitch"
+    ], 
+    [
+      "noise music", 
+      "noise rock"
     ], 
     [
       "alternative rock", 
@@ -9257,8 +9693,8 @@
       "post-trip hop"
     ], 
     [
-      "hard rock", 
-      "neo-prog"
+      "chicago blues", 
+      "rhythm and blues"
     ], 
     [
       "hard trance", 
@@ -9313,8 +9749,8 @@
       "cowpunk"
     ], 
     [
-      "r&b", 
-      "uk garage"
+      "electro-funk", 
+      "funk carioca"
     ], 
     [
       "straight edge", 
@@ -9353,6 +9789,10 @@
       "grindie"
     ], 
     [
+      "rhythm and blues", 
+      "contemporary contemporary r&b"
+    ], 
+    [
       "alternative metal", 
       "nu metal"
     ], 
@@ -9371,10 +9811,6 @@
     [
       "bluegrass", 
       "jam band"
-    ], 
-    [
-      "electro-funk", 
-      "funk carioca"
     ], 
     [
       "indietronica", 
@@ -9405,16 +9841,8 @@
       "nu-funk"
     ], 
     [
-      "indie rock", 
-      "post-rock"
-    ], 
-    [
       "dance-pop", 
       "crunkcore"
-    ], 
-    [
-      "r&b", 
-      "neo soul"
     ], 
     [
       "black metal", 
@@ -9461,8 +9889,8 @@
       "trap music (edm)"
     ], 
     [
-      "dance-rock", 
-      "grebo"
+      "glam rock", 
+      "hi-nrg"
     ], 
     [
       "post-hardcore", 
@@ -9545,6 +9973,10 @@
       "grime"
     ], 
     [
+      "piano blues", 
+      "rhythm and blues"
+    ], 
+    [
       "psychedelic rock", 
       "space disco"
     ], 
@@ -9565,8 +9997,16 @@
       "drone metal"
     ], 
     [
+      "drum and bass", 
+      "seapunk"
+    ], 
+    [
       "latin pop", 
       "tropipop"
+    ], 
+    [
+      "electric blues", 
+      "soul blues"
     ], 
     [
       "post-disco", 
@@ -9677,6 +10117,10 @@
       "celtic fusion"
     ], 
     [
+      "extreme metal", 
+      "drone metal"
+    ], 
+    [
       "folk", 
       "neofolk"
     ], 
@@ -9741,8 +10185,8 @@
       "breakcore"
     ], 
     [
-      "oldschool jungle", 
-      "speed garage"
+      "black-doom", 
+      "black-doom"
     ], 
     [
       "bebop", 
@@ -9761,12 +10205,16 @@
       "jazz fusion"
     ], 
     [
-      "death metal", 
-      "industrial death metal"
+      "hardcore punk", 
+      "ska punk"
     ], 
     [
       "breakbeat", 
       "future garage"
+    ], 
+    [
+      "avant-garde", 
+      "free jazz"
     ], 
     [
       "soul", 
@@ -9805,6 +10253,10 @@
       "pinoy reggae"
     ], 
     [
+      "marches", 
+      "ragtime"
+    ], 
+    [
       "bass", 
       "baltimore club"
     ], 
@@ -9829,12 +10281,12 @@
       "moombahton"
     ], 
     [
-      "pinoy rock", 
-      "pinoy reggae"
+      "hyphy", 
+      "trap music (hip hop)"
     ], 
     [
-      "hardcore punk", 
-      "alternative rock"
+      "rhythm and blues", 
+      "jam band"
     ], 
     [
       "philadelphia soul", 
@@ -9857,8 +10309,8 @@
       "canterbury scene"
     ], 
     [
-      "alternative rock", 
-      "alternative r&b"
+      "surf punk rock", 
+      "wong shadow"
     ], 
     [
       "groove metal", 
@@ -9869,12 +10321,20 @@
       "christian alternative rock"
     ], 
     [
+      "calypso", 
+      "new orleans blues"
+    ], 
+    [
       "funk rock", 
       "minneapolis sound"
     ], 
     [
       "uk garage", 
       "speed garage"
+    ], 
+    [
+      "skiffle", 
+      "british blues"
     ], 
     [
       "alternative rock", 
@@ -9905,6 +10365,10 @@
       "blackgaze"
     ], 
     [
+      "detroit techno", 
+      "outsider house"
+    ], 
+    [
       "pop", 
       "dance-pop"
     ], 
@@ -9933,8 +10397,16 @@
       "hard\u00a0rock"
     ], 
     [
+      "boogie-woogie", 
+      "piano blues"
+    ], 
+    [
       "art rock", 
       "post-progressive"
+    ], 
+    [
+      "philippine folk", 
+      "manila sound"
     ], 
     [
       "electronica", 
@@ -10001,6 +10473,10 @@
       "riot grrrl"
     ], 
     [
+      "folk", 
+      "popular music"
+    ], 
+    [
       "indie rock", 
       "shoegazing"
     ], 
@@ -10011,10 +10487,6 @@
     [
       "cyberpunk", 
       "hardvapour"
-    ], 
-    [
-      "polish folk music", 
-      "disco polo"
     ], 
     [
       "rock", 
@@ -10067,6 +10539,10 @@
     [
       "jazz", 
       "traditional bluegrass"
+    ], 
+    [
+      "europop", 
+      "eurodance"
     ], 
     [
       "rap metal", 
@@ -10133,8 +10609,8 @@
       "techno"
     ], 
     [
-      "progressive rock", 
-      "mathcore"
+      "brazilian music", 
+      "latin jazz"
     ], 
     [
       "dixieland", 
@@ -10145,8 +10621,8 @@
       "frat rock"
     ], 
     [
-      "progressive rock", 
-      "space rock"
+      "symphonic gothic metal", 
+      "symphonic black metal"
     ], 
     [
       "rock", 
@@ -10171,6 +10647,10 @@
     [
       "4-beat", 
       "happy hardcore"
+    ], 
+    [
+      "contemporary r&b", 
+      "crunk&b"
     ], 
     [
       "ebm", 
@@ -10245,6 +10725,10 @@
       "blues rock"
     ], 
     [
+      "ragtime", 
+      "piano blues"
+    ], 
+    [
       "funeral doom", 
       "drone metal"
     ], 
@@ -10281,8 +10765,8 @@
       "viking metal"
     ], 
     [
-      "grindcore", 
-      "mathcore"
+      "eurodance", 
+      "happy hardcore"
     ], 
     [
       "techno", 
@@ -10337,8 +10821,8 @@
       "eurodance"
     ], 
     [
-      "r&b", 
-      "teen pop"
+      "country blues", 
+      "piedmont blues"
     ], 
     [
       "pop", 
@@ -10401,6 +10885,10 @@
       "new wave"
     ], 
     [
+      "rhythm and blues", 
+      "louisiana blues"
+    ], 
+    [
       "avant-garde metal", 
       "technical death metal"
     ], 
@@ -10449,6 +10937,10 @@
       "frat rock"
     ], 
     [
+      "blues", 
+      "piedmont blues"
+    ], 
+    [
       "mainstream hardcore", 
       "splittercore"
     ], 
@@ -10469,6 +10961,10 @@
       "indian rock"
     ], 
     [
+      "country blues", 
+      "memphis blues"
+    ], 
+    [
       "electronic", 
       "vaporwave"
     ], 
@@ -10481,16 +10977,16 @@
       "boogie rock"
     ], 
     [
-      "noise music", 
-      "hardvapour"
+      "rhythm and blues", 
+      "heartland rock"
     ], 
     [
       "psychedelia", 
       "paisley underground"
     ], 
     [
-      "french pop", 
-      "shibuya-kei"
+      "boogie-woogie", 
+      "jump blues"
     ], 
     [
       "funk", 
@@ -10505,14 +11001,6 @@
       "melodic metalcore"
     ], 
     [
-      "jazz fusion", 
-      "j-pop"
-    ], 
-    [
-      "ska", 
-      "ska-core"
-    ], 
-    [
       "extreme metal", 
       "black 'n' roll"
     ], 
@@ -10525,12 +11013,12 @@
       "psychedelic rock"
     ], 
     [
-      "industrial music", 
-      "drum and bass"
+      "contemporary r&b", 
+      "chillwave"
     ], 
     [
-      "sludge metal", 
-      "grunge"
+      "country blues", 
+      "chicago blues"
     ], 
     [
       "punk rock", 
@@ -10545,8 +11033,16 @@
       "cloud rap"
     ], 
     [
+      "power noise", 
+      "mathcore"
+    ], 
+    [
       "horror film score", 
       "deathrock"
+    ], 
+    [
+      "piano blues", 
+      "piedmont blues"
     ], 
     [
       "rhythm and blues", 
@@ -10565,8 +11061,8 @@
       "nu jazz"
     ], 
     [
-      "rock", 
-      "glam rock"
+      "heavy metal", 
+      "stoner metal"
     ], 
     [
       "hip hop", 
@@ -10577,8 +11073,8 @@
       "soul jazz"
     ], 
     [
-      "r&b", 
-      "nu-funk"
+      "synthpop", 
+      "electropop"
     ], 
     [
       "italo house", 
@@ -10597,8 +11093,8 @@
       "crunk"
     ], 
     [
-      "techno", 
-      "the balcony view of qlimax 2006, an annual hardstyle event."
+      "dub", 
+      "outsider house"
     ], 
     [
       "symphonic death metal", 
@@ -10629,6 +11125,10 @@
       "shibuya-kei"
     ], 
     [
+      "contemporary contemporary r&b", 
+      "g-funk"
+    ], 
+    [
       "funk", 
       "p-funk"
     ], 
@@ -10645,12 +11145,16 @@
       "lgbtq hip hop"
     ], 
     [
-      "new-age", 
-      "vaporwave"
+      "extreme metal", 
+      "speedcore"
     ], 
     [
       "extreme metal", 
       "black metal"
+    ], 
+    [
+      "trap", 
+      "latin trap"
     ], 
     [
       "progressive house", 
@@ -10659,10 +11163,6 @@
     [
       "ghetto house", 
       "ghettotech"
-    ], 
-    [
-      "philippine folk music", 
-      "manila sound"
     ], 
     [
       "war metal", 
@@ -10677,8 +11177,8 @@
       "noise rock"
     ], 
     [
-      "beat", 
-      "britpop"
+      "louisiana blues", 
+      "swamp blues"
     ], 
     [
       "synthpop", 
@@ -10755,6 +11255,10 @@
     [
       "nordic folk", 
       "viking metal"
+    ], 
+    [
+      "swing", 
+      "jump blues"
     ], 
     [
       "pop rock", 
@@ -10841,6 +11345,10 @@
       "garage punk"
     ], 
     [
+      "indietronica", 
+      "alternative contemporary r&b"
+    ], 
+    [
       "garage punk", 
       "acid rock"
     ], 
@@ -10901,6 +11409,10 @@
       "nu jazz"
     ], 
     [
+      "blues", 
+      "new orleans blues"
+    ], 
+    [
       "power pop", 
       "pub rock"
     ], 
@@ -10913,12 +11425,20 @@
       "no wave"
     ], 
     [
+      "deep house", 
+      "outsider house"
+    ], 
+    [
       "house", 
       "baltimore club"
     ], 
     [
       "hardcore punk", 
       "death metal"
+    ], 
+    [
+      "blues", 
+      "boogie-woogie"
     ], 
     [
       "minimalism", 
@@ -10949,12 +11469,12 @@
       "jungle"
     ], 
     [
-      "post-punk", 
-      "gypsy punk"
+      "surf punk", 
+      "psychedelic rock"
     ], 
     [
-      "alternative r&b", 
-      "emo rap"
+      "post-punk", 
+      "gypsy punk"
     ], 
     [
       "pub rock", 
@@ -10969,16 +11489,16 @@
       "extreme metal"
     ], 
     [
-      "techno", 
-      "vocal trance"
-    ], 
-    [
       "dance-pop", 
       "uk garage"
     ], 
     [
       "crossover thrash", 
       "heavy hardcore"
+    ], 
+    [
+      "drum and bass", 
+      "grime"
     ], 
     [
       "4-beat", 
@@ -10989,8 +11509,8 @@
       "indietronica"
     ], 
     [
-      "symphonic power metal", 
-      "symphonic power metal"
+      "hip hop", 
+      "trap"
     ], 
     [
       "classical", 
@@ -11001,8 +11521,8 @@
       "electronic rock"
     ], 
     [
-      "post-disco", 
-      "italo disco"
+      "post-punk", 
+      "neofolk"
     ], 
     [
       "italo dance", 
@@ -11015,6 +11535,10 @@
     [
       "disco", 
       "manila sound"
+    ], 
+    [
+      "work songs", 
+      "blues"
     ], 
     [
       "bubblegum pop", 
@@ -11073,6 +11597,10 @@
       "power noise"
     ], 
     [
+      "blues", 
+      "memphis blues"
+    ], 
+    [
       "nu metal", 
       "nu metalcore"
     ], 
@@ -11085,10 +11613,6 @@
       "trip hop"
     ], 
     [
-      "surf", 
-      "frat rock"
-    ], 
-    [
       "folk music", 
       "world music"
     ], 
@@ -11097,16 +11621,16 @@
       "oi!"
     ], 
     [
-      "drum and bass", 
-      "grime"
+      "detroit techno", 
+      "minimal techno"
     ], 
     [
-      "1950s pop", 
-      "glam rock"
+      "blues", 
+      "piano blues"
     ], 
     [
-      "surf", 
-      "psychedelic rock"
+      "instrumental rock", 
+      "garage punk"
     ], 
     [
       "hi-nrg", 
@@ -11115,6 +11639,10 @@
     [
       "metalcore", 
       "progressive metalcore"
+    ], 
+    [
+      "hymns", 
+      "gospel blues"
     ], 
     [
       "celtic fusion", 
@@ -11147,6 +11675,10 @@
     [
       "rave music", 
       "big beat"
+    ], 
+    [
+      "jungle", 
+      "digital hardcore"
     ], 
     [
       "first wave black metal", 
@@ -11205,6 +11737,10 @@
       "rock and roll"
     ], 
     [
+      "african music", 
+      "tribal house"
+    ], 
+    [
       "rave", 
       "new rave"
     ], 
@@ -11231,10 +11767,6 @@
     [
       "classical", 
       "chamber pop"
-    ], 
-    [
-      "r&b", 
-      "vaporwave"
     ], 
     [
       "jamaican", 
@@ -11289,10 +11821,6 @@
       "deathgrind"
     ], 
     [
-      "pop", 
-      "r&b"
-    ], 
-    [
       "college rock", 
       "grunge"
     ], 
@@ -11309,8 +11837,8 @@
       "indie rock"
     ], 
     [
-      "breakbeat", 
-      "big beat"
+      "work songs", 
+      "classic female blues"
     ], 
     [
       "hip hop", 
@@ -11353,8 +11881,8 @@
       "industrial rock"
     ], 
     [
-      "r&b", 
-      "diva house"
+      "turntablism", 
+      "florida breaks"
     ], 
     [
       "post-punk", 
@@ -11365,6 +11893,10 @@
       "new pop"
     ], 
     [
+      "chicago blues", 
+      "electric blues"
+    ], 
+    [
       "punk rock", 
       "pop punk"
     ], 
@@ -11373,8 +11905,8 @@
       "jumpstyle"
     ], 
     [
-      "pop art", 
-      "tropic\u00e1lia"
+      "planetarium", 
+      "space music"
     ], 
     [
       "punk rock", 
@@ -11541,8 +12073,8 @@
       "new rave"
     ], 
     [
-      "heavy metal", 
-      "stoner metal"
+      "british jazz", 
+      "british blues"
     ], 
     [
       "black metal", 
@@ -11573,12 +12105,12 @@
       "chillwave"
     ], 
     [
-      "2-step garage", 
-      "future garage"
+      "punk rock", 
+      "surf punk punk"
     ], 
     [
-      "r&b", 
-      "2-step garage"
+      "2-step garage", 
+      "future garage"
     ], 
     [
       "experimental hip hop", 
@@ -11617,8 +12149,8 @@
       "grunge"
     ], 
     [
-      "jazz rap", 
-      "trip hop"
+      "black metal", 
+      "viking metal"
     ], 
     [
       "rock", 
@@ -11637,16 +12169,12 @@
       "industrial black metal"
     ], 
     [
-      "contemporary r&b", 
-      "skweee"
-    ], 
-    [
       "spoken word", 
       "hip hop"
     ], 
     [
-      "rock'n'roll", 
-      "wong shadow"
+      "industrial music", 
+      "hardstyle"
     ], 
     [
       "rock and roll", 
@@ -11661,8 +12189,8 @@
       "disco"
     ], 
     [
-      "smooth soul", 
-      "contemporary r&b"
+      "country", 
+      "country blues"
     ], 
     [
       "nyabinghi", 
@@ -11685,12 +12213,12 @@
       "alternative hip hop"
     ], 
     [
-      "surf punk", 
-      "skate punk"
+      "alternative rock", 
+      "grindie"
     ], 
     [
-      "modernist music", 
-      "progressive jazz"
+      "pop art", 
+      "tropic\u00e1lia"
     ], 
     [
       "progressive metal", 
@@ -11742,16 +12270,11 @@
     ]
   ], 
   "nodes": [
-    "(other subgenres)", 
-    "1950s pop", 
-    "1980s pop", 
     "2 tone", 
     "2-step", 
     "2-step garage", 
     "20th century classical music", 
-    "20th-century classical music", 
     "4-beat", 
-    "90s", 
     "a cappella", 
     "acid breaks", 
     "acid house", 
@@ -11762,16 +12285,15 @@
     "adult contemporary", 
     "adult music", 
     "afox\u00ea", 
-    "african", 
     "african music", 
-    "african-american music", 
+    "african music-american music", 
     "afro/cosmic", 
     "afrobeat", 
+    "alternative contemporary r&b", 
     "alternative country", 
     "alternative dance", 
     "alternative hip hop", 
     "alternative metal", 
-    "alternative r&b", 
     "alternative reggaeton", 
     "alternative rock", 
     "ambient", 
@@ -11794,6 +12316,7 @@
     "avant-garde", 
     "avant-garde jazz", 
     "avant-garde metal", 
+    "avant-garde music", 
     "avant-prog", 
     "avant-punk", 
     "avant-rock", 
@@ -11827,6 +12350,7 @@
     "bisrock", 
     "bitpop", 
     "black 'n' roll", 
+    "black ambient", 
     "black metal", 
     "black-doom", 
     "blackened death metal", 
@@ -11854,9 +12378,11 @@
     "breakstep", 
     "brick city club", 
     "brill building", 
+    "british blues", 
     "british comedy", 
     "british folk rock", 
     "british hip hop", 
+    "british jazz", 
     "british rock and roll", 
     "britpop", 
     "broken beat", 
@@ -11868,6 +12394,7 @@
     "cabaret", 
     "cabaret noir", 
     "cajun music", 
+    "cakewalks", 
     "california sound", 
     "calypso", 
     "canterbury scene", 
@@ -11902,6 +12429,7 @@
     "christian punk", 
     "christian rock", 
     "christian ska", 
+    "classic female blues", 
     "classical", 
     "classical music", 
     "cloud rap", 
@@ -11915,25 +12443,31 @@
     "contemporary christian", 
     "contemporary christian music", 
     "contemporary classical", 
+    "contemporary contemporary r&b", 
     "contemporary folk", 
+    "contemporary music", 
     "contemporary r&b", 
     "cool jazz", 
     "country", 
     "country and western", 
+    "country blues", 
     "country pop", 
     "country rap", 
     "country rock", 
     "countrypolitan", 
     "cowpunk", 
+    "creole music", 
     "crossover jazz", 
     "crossover thrash", 
     "crunk", 
+    "crunk&b", 
     "crunkcore", 
     "crust punk", 
     "cuban music", 
     "cumbia rap", 
     "cyberpunk", 
     "d-beat", 
+    "dada", 
     "dance", 
     "dance-pop", 
     "dance-punk", 
@@ -11953,6 +12487,8 @@
     "deathrock", 
     "deep funk", 
     "deep house", 
+    "delta blues", 
+    "detroit blues", 
     "detroit techno", 
     "digital hardcore", 
     "dirty rap", 
@@ -12065,6 +12601,7 @@
     "future bass", 
     "future garage", 
     "futurepop", 
+    "futurism", 
     "g-funk", 
     "gabber", 
     "gangsta rap", 
@@ -12088,6 +12625,7 @@
     "goa trance", 
     "goregrind", 
     "gospel", 
+    "gospel blues", 
     "gospel music", 
     "gothabilly", 
     "gothic black metal", 
@@ -12128,20 +12666,22 @@
     "hard\u00a0rock", 
     "harmony vocal groups", 
     "harry potter", 
+    "harsh noise wall", 
     "heartland rock", 
     "heavy hardcore", 
     "heavy metal", 
     "hi-nrg", 
     "highlife", 
+    "hill country blues", 
     "hillbilly", 
     "hip hop", 
-    "hip hop music", 
     "hip hop soul", 
     "hip house", 
     "hip-hop", 
     "hiplife", 
     "hollywood soundtracks", 
     "homo hop", 
+    "honky tonk", 
     "horror fiction", 
     "horror film", 
     "horror film score", 
@@ -12152,6 +12692,7 @@
     "house music", 
     "humppa", 
     "hybrid trap", 
+    "hymns", 
     "hyphy", 
     "hypnagogic pop", 
     "icepunk", 
@@ -12182,7 +12723,8 @@
     "industrial techno", 
     "instrumental hip hop", 
     "instrumental rock", 
-    "instrumental surf", 
+    "instrumental surf punk", 
+    "instrumentation", 
     "intelligent jungle", 
     "irish folk", 
     "irish rebel music", 
@@ -12208,6 +12750,7 @@
     "jersey club", 
     "jesus music", 
     "jingles", 
+    "jug band", 
     "jump blues", 
     "jumpstyle", 
     "jungle", 
@@ -12235,6 +12778,7 @@
     "lo-fi", 
     "lo-fi music", 
     "loft jazz", 
+    "louisiana blues", 
     "lounge", 
     "lounge music", 
     "lounge pop", 
@@ -12259,6 +12803,7 @@
     "melodic funk", 
     "melodic hardcore", 
     "melodic metalcore", 
+    "memphis blues", 
     "memphis rap", 
     "mento", 
     "merengue", 
@@ -12312,6 +12857,7 @@
     "new age", 
     "new beat", 
     "new jack swing", 
+    "new orleans blues", 
     "new orleans rhythm and blues", 
     "new pop", 
     "new rave", 
@@ -12330,6 +12876,7 @@
     "noisecore", 
     "nordic folk", 
     "novelty music", 
+    "novelty piano", 
     "novelty songs", 
     "nu gaze", 
     "nu jazz", 
@@ -12349,26 +12896,29 @@
     "operatic pop", 
     "orchestral pop", 
     "outlaw country", 
+    "outsider house", 
+    "outsider music", 
     "p-funk", 
     "pagan metal", 
     "paisley underground", 
     "performance poetry", 
     "philadelphia soul", 
-    "philippine folk music", 
+    "philippine folk", 
     "philly music", 
+    "piano blues", 
+    "piedmont blues", 
     "pinoy hip hop", 
     "pinoy pop", 
     "pinoy reggae", 
     "pinoy rock", 
     "planetarium", 
     "plunderphonics", 
-    "polish folk music", 
-    "polish pop music", 
+    "polish folk", 
+    "polish pop", 
     "political hip hop", 
     "pop", 
     "pop art", 
     "pop ballads", 
-    "pop music", 
     "pop punk", 
     "pop rock", 
     "pop-rap", 
@@ -12387,6 +12937,7 @@
     "post-punk revival", 
     "post-rock", 
     "post-trip hop", 
+    "power electronics", 
     "power metal", 
     "power noise", 
     "power pop", 
@@ -12430,7 +12981,6 @@
     "queer theory", 
     "queercore", 
     "quiet storm", 
-    "r&b", 
     "radio rock", 
     "raga", 
     "raga rock", 
@@ -12459,8 +13009,6 @@
     "rock against communism", 
     "rock and roll", 
     "rock in opposition", 
-    "rock music", 
-    "rock'n'roll", 
     "rockabilly", 
     "rocksteady", 
     "roots reggae", 
@@ -12494,8 +13042,6 @@
     "ska jazz", 
     "ska pop", 
     "ska punk", 
-    "ska-core", 
-    "skacore", 
     "skate punk", 
     "skiffle", 
     "skweee", 
@@ -12506,10 +13052,12 @@
     "smooth jazz", 
     "smooth soul", 
     "snap", 
+    "snap&b", 
     "soca", 
     "soft rock", 
     "sophisti-pop", 
     "soul", 
+    "soul blues", 
     "soul jazz", 
     "soulful house", 
     "soundscape", 
@@ -12537,16 +13085,17 @@
     "stoner rock", 
     "straight edge", 
     "street punk", 
+    "stride", 
     "string (thai pop)", 
     "string bands", 
     "sufi music", 
     "sufi rock", 
     "sunshine pop", 
-    "surf", 
-    "surf culture", 
-    "surf music", 
     "surf punk", 
-    "surf rock", 
+    "surf punk culture", 
+    "surf punk punk", 
+    "surf punk rock", 
+    "swamp blues", 
     "swamp pop", 
     "swamp rock", 
     "swing", 
@@ -12576,7 +13125,6 @@
     "tech\u00a0house", 
     "teen pop", 
     "tekno", 
-    "the balcony view of qlimax 2006, an annual hardstyle event.", 
     "the dozens", 
     "third stream", 
     "third wave feminism", 
@@ -12621,7 +13169,7 @@
     "viking rock", 
     "visayan music", 
     "vocal jazz", 
-    "vocal surf", 
+    "vocal surf punk", 
     "vocal trance", 
     "war metal", 
     "west coast hip hop", 
@@ -12634,14 +13182,17 @@
     "wonky", 
     "wonky music", 
     "wonky pop", 
+    "work songs", 
     "world", 
     "world fusion", 
     "world music", 
     "worldbeat", 
     "yacht rock", 
     "youth crew", 
-    "y\u00e9-y\u00e9"
+    "y\u00e9-y\u00e9", 
+    "zydeco"
   ], 
+  "num_genres": 921, 
   "subgenres": {
     "2-step garage": {
       "children": [
@@ -12846,7 +13397,7 @@
         "Trip Hop", 
         "Alternative Hip Hop", 
         "Post-Britpop", 
-        "Alternative R&B", 
+        "Alternative Contemporary R&B", 
         "Britpop", 
         "Big Beat", 
         "Geek Rock", 
@@ -13078,11 +13629,10 @@
       "children": [
         "Avant-Garde Jazz", 
         "Hard Bop", 
-        "Post-Bop", 
-        "(Other Subgenres)"
+        "Post-Bop"
       ], 
       "instruments": [], 
-      "num_children": 4
+      "num_children": 3
     }, 
     "big band": {
       "children": [
@@ -13250,6 +13800,38 @@
       ], 
       "num_children": 3
     }, 
+    "blues": {
+      "children": [
+        "Jump Blues", 
+        "Jug Band", 
+        "Jazz", 
+        "Country Blues", 
+        "Soul Blues", 
+        "Bluegrass", 
+        "Classic Female Blues", 
+        "Blues Rock", 
+        "Rock And Roll", 
+        "Boogie-Woogie", 
+        "Ragtime", 
+        "Rhythm And Blues", 
+        "Piano Blues", 
+        "Electric Blues", 
+        "Punk Blues", 
+        "Country", 
+        "Gospel Blues"
+      ], 
+      "instruments": [
+        "blues_harp", 
+        "bass", 
+        "harmonica", 
+        "xylophone", 
+        "guitar", 
+        "drums", 
+        "piano", 
+        "slide_guitar"
+      ], 
+      "num_children": 17
+    }, 
     "blues rock": {
       "children": [
         "Boogie Rock", 
@@ -13280,6 +13862,20 @@
         "piano"
       ], 
       "num_children": 0
+    }, 
+    "boogie-woogie": {
+      "children": [
+        "Jump Blues", 
+        "Boogie Rock", 
+        "Rock And Roll", 
+        "Rhythm And Blues", 
+        "Rockabilly", 
+        "Swing"
+      ], 
+      "instruments": [
+        "piano"
+      ], 
+      "num_children": 6
     }, 
     "bossa nova": {
       "children": [
@@ -13399,6 +13995,22 @@
         "drum_machines"
       ], 
       "num_children": 0
+    }, 
+    "british blues": {
+      "children": [
+        "Blues Rock"
+      ], 
+      "instruments": [
+        "electric_organ", 
+        "harmonica", 
+        "guitar", 
+        "bass_guitar", 
+        "saxophone", 
+        "drums", 
+        "vocals", 
+        "piano"
+      ], 
+      "num_children": 1
     }, 
     "british folk rock": {
       "children": [
@@ -13569,6 +14181,24 @@
       ], 
       "num_children": 0
     }, 
+    "chicago blues": {
+      "children": [
+        "Rock And Roll", 
+        "Rock", 
+        "Rhythm And Blues", 
+        "Electric Blues"
+      ], 
+      "instruments": [
+        "upright_bass", 
+        "bass_guitar", 
+        "harmonica", 
+        "electric_guitar", 
+        "saxophone", 
+        "drums", 
+        "piano"
+      ], 
+      "num_children": 4
+    }, 
     "chillwave": {
       "children": [
         "Vaporwave"
@@ -13636,6 +14266,18 @@
       ], 
       "num_children": 0
     }, 
+    "classic female blues": {
+      "children": [], 
+      "instruments": [
+        "vocals", 
+        "drums", 
+        "trombone", 
+        "double_bass", 
+        "piano", 
+        "trumpet"
+      ], 
+      "num_children": 0
+    }, 
     "cloud rap": {
       "children": [
         "Emo Rap"
@@ -13658,12 +14300,56 @@
       ], 
       "num_children": 4
     }, 
+    "contemporary r&b": {
+      "children": [
+        "Alternative Contemporary R&B", 
+        "Hip Hop Soul", 
+        "Neo Soul", 
+        "Crunk&B", 
+        "Grime", 
+        "Nu-Funk", 
+        "2-Step", 
+        "Snap&B", 
+        "New Jack Swing", 
+        "Rnbass"
+      ], 
+      "instruments": [
+        "talk_box", 
+        "keyboard", 
+        "synthesizers", 
+        "vocals", 
+        "drums", 
+        "horns", 
+        "drum_machines", 
+        "piano"
+      ], 
+      "num_children": 10
+    }, 
     "cool jazz": {
       "children": [
         "Post-Rock"
       ], 
       "instruments": [], 
       "num_children": 1
+    }, 
+    "country blues": {
+      "children": [
+        "Swamp Blues", 
+        "Piedmont Blues", 
+        "Detroit Blues", 
+        "Louisiana Blues", 
+        "Memphis Blues", 
+        "New Orleans Blues", 
+        "Delta Blues", 
+        "Electric Blues", 
+        "Chicago Blues", 
+        "Hill Country Blues"
+      ], 
+      "instruments": [
+        "guitar", 
+        "harmonica"
+      ], 
+      "num_children": 10
     }, 
     "country pop": {
       "children": [], 
@@ -13885,6 +14571,17 @@
       ], 
       "num_children": 0
     }, 
+    "dark ambient": {
+      "children": [
+        "Black Ambient", 
+        "Martial Industrial"
+      ], 
+      "instruments": [
+        "electronic", 
+        "field_recording"
+      ], 
+      "num_children": 2
+    }, 
     "dark cabaret": {
       "children": [], 
       "instruments": [
@@ -14031,6 +14728,30 @@
       ], 
       "num_children": 0
     }, 
+    "delta blues": {
+      "children": [
+        "Electric Blues", 
+        "Chicago Blues", 
+        "Detroit Blues"
+      ], 
+      "instruments": [
+        "guitar", 
+        "harmonica"
+      ], 
+      "num_children": 3
+    }, 
+    "detroit blues": {
+      "children": [], 
+      "instruments": [
+        "bass_guitar", 
+        "harmonica", 
+        "electric_guitar", 
+        "saxophone", 
+        "drums", 
+        "piano"
+      ], 
+      "num_children": 0
+    }, 
     "digital hardcore": {
       "children": [], 
       "instruments": [
@@ -14127,7 +14848,7 @@
     "doo-wop": {
       "children": [
         "Pop Rock", 
-        "Vocal Surf", 
+        "Vocal Surf Punk", 
         "Brill Building", 
         "Beat", 
         "Soul", 
@@ -14247,6 +14968,24 @@
         "keyboard"
       ], 
       "num_children": 6
+    }, 
+    "electric blues": {
+      "children": [
+        "Rock And Roll", 
+        "Hard Rock", 
+        "British Blues", 
+        "Blues Rock"
+      ], 
+      "instruments": [
+        "bass_guitar", 
+        "harmonica", 
+        "electric_guitar", 
+        "saxophone", 
+        "drums", 
+        "piano", 
+        "keyboards"
+      ], 
+      "num_children": 4
     }, 
     "electro house": {
       "children": [
@@ -14547,6 +15286,20 @@
       ], 
       "num_children": 4
     }, 
+    "folk": {
+      "children": [
+        "Popular Music", 
+        "Contemporary Music", 
+        "Folk Metal", 
+        "Anti-Folk", 
+        "Neofolk", 
+        "Folk Rock"
+      ], 
+      "instruments": [
+        "folk_instruments"
+      ], 
+      "num_children": 6
+    }, 
     "folk jazz": {
       "children": [
         "Ethno Jazz", 
@@ -14701,7 +15454,7 @@
         "House", 
         "Acid Jazz", 
         "Nu-Funk", 
-        "Contemporary R&B", 
+        "Contemporary Contemporary R&B", 
         "Breakbeat", 
         "G-Funk", 
         "New Jack Swing", 
@@ -15046,6 +15799,18 @@
       ], 
       "num_children": 0
     }, 
+    "gospel blues": {
+      "children": [], 
+      "instruments": [
+        "organ", 
+        "guitar", 
+        "electric_guitar", 
+        "vocals", 
+        "drums", 
+        "piano"
+      ], 
+      "num_children": 0
+    }, 
     "gothabilly": {
       "children": [], 
       "instruments": [
@@ -15308,7 +16073,7 @@
         "Grindcore", 
         "Melodic Hardcore", 
         "Emo", 
-        "Skacore", 
+        "Surf Punk", 
         "Speed Metal", 
         "Thrashcore", 
         "Alternative Rock", 
@@ -15341,6 +16106,20 @@
       ], 
       "num_children": 0
     }, 
+    "hardstyle": {
+      "children": [
+        "Jumpstyle"
+      ], 
+      "instruments": [
+        "turntables", 
+        "text-to-speech", 
+        "synthesizer", 
+        "daw", 
+        "sequencer", 
+        "sampler"
+      ], 
+      "num_children": 1
+    }, 
     "hardvapour": {
       "children": [], 
       "instruments": [
@@ -15348,6 +16127,11 @@
         "drum_machine", 
         "digital_audio_workstation"
       ], 
+      "num_children": 0
+    }, 
+    "harsh noise wall": {
+      "children": [], 
+      "instruments": [], 
       "num_children": 0
     }, 
     "heartland rock": {
@@ -15425,6 +16209,13 @@
       ], 
       "instruments": [], 
       "num_children": 7
+    }, 
+    "hill country blues": {
+      "children": [], 
+      "instruments": [
+        "guitar"
+      ], 
+      "num_children": 0
     }, 
     "hip hop": {
       "children": [
@@ -15629,7 +16420,7 @@
     }, 
     "indie rock": {
       "children": [
-        "Alternative R&B", 
+        "Alternative Contemporary R&B", 
         "Post-Punk Revival", 
         "Grindie", 
         "Indie Folk", 
@@ -15649,7 +16440,7 @@
     }, 
     "indietronica": {
       "children": [
-        "Alternative R&B", 
+        "Alternative Contemporary R&B", 
         "Post-Punk Revival", 
         "Grindie", 
         "Indie Folk", 
@@ -15985,6 +16776,24 @@
       ], 
       "num_children": 0
     }, 
+    "jump blues": {
+      "children": [
+        "Rock And Roll", 
+        "Electric Blues", 
+        "Rhythm And Blues", 
+        "Rockabilly"
+      ], 
+      "instruments": [
+        "acoustic_bass", 
+        "rhythm_guitar", 
+        "electric_guitar", 
+        "saxophone", 
+        "brass_instruments", 
+        "drums", 
+        "piano"
+      ], 
+      "num_children": 4
+    }, 
     "jumpstyle": {
       "children": [], 
       "instruments": [
@@ -16121,6 +16930,21 @@
         "electronic"
       ], 
       "num_children": 0
+    }, 
+    "louisiana blues": {
+      "children": [
+        "Swamp Blues", 
+        "New Orleans Blues"
+      ], 
+      "instruments": [
+        "harmonica", 
+        "guitar", 
+        "bass_guitar", 
+        "saxophone", 
+        "drums", 
+        "keyboard"
+      ], 
+      "num_children": 2
     }, 
     "lovers rock": {
       "children": [
@@ -16290,6 +17114,17 @@
         "vocals", 
         "drums", 
         "bass_guitar"
+      ], 
+      "num_children": 0
+    }, 
+    "memphis blues": {
+      "children": [], 
+      "instruments": [
+        "electric_guitar", 
+        "piano", 
+        "vocals", 
+        "drums", 
+        "harmonica"
       ], 
       "num_children": 0
     }, 
@@ -16553,6 +17388,21 @@
       ], 
       "num_children": 0
     }, 
+    "new orleans blues": {
+      "children": [
+        "Rock And Roll", 
+        "Soul", 
+        "Rock"
+      ], 
+      "instruments": [
+        "guitar", 
+        "bass_guitar", 
+        "saxophone", 
+        "drums", 
+        "keyboard"
+      ], 
+      "num_children": 3
+    }, 
     "new pop": {
       "children": [], 
       "instruments": [], 
@@ -16656,6 +17506,23 @@
       ], 
       "instruments": [], 
       "num_children": 3
+    }, 
+    "noise music": {
+      "children": [
+        "Dark Ambient", 
+        "Power Electronics", 
+        "Industrial", 
+        "Noise Pop", 
+        "Harsh Noise Wall", 
+        "Power Noise", 
+        "Glitch", 
+        "Witch House", 
+        "Noise Rock", 
+        "Outsider House", 
+        "No Wave"
+      ], 
+      "instruments": [], 
+      "num_children": 11
     }, 
     "noise pop": {
       "children": [
@@ -16782,6 +17649,17 @@
       "instruments": [], 
       "num_children": 2
     }, 
+    "outsider house": {
+      "children": [], 
+      "instruments": [
+        "synthesizer", 
+        "keyboard", 
+        "sequencer", 
+        "drum_machine", 
+        "sampler"
+      ], 
+      "num_children": 0
+    }, 
     "p-funk": {
       "children": [], 
       "instruments": [], 
@@ -16817,6 +17695,28 @@
         "horns"
       ], 
       "num_children": 2
+    }, 
+    "piano blues": {
+      "children": [
+        "Rock And Roll", 
+        "Jazz", 
+        "Rhythm And Blues", 
+        "Swing"
+      ], 
+      "instruments": [
+        "piano"
+      ], 
+      "num_children": 4
+    }, 
+    "piedmont blues": {
+      "children": [], 
+      "instruments": [
+        "guitar", 
+        "double_bass", 
+        "drum", 
+        "vocals"
+      ], 
+      "num_children": 0
     }, 
     "pinoy hip hop": {
       "children": [], 
@@ -16879,7 +17779,7 @@
         "Disco", 
         "Progressive Pop", 
         "Latin Pop", 
-        "R&B", 
+        "Contemporary R&B", 
         "Bubblegum Pop", 
         "Noise Pop", 
         "Beat", 
@@ -17407,7 +18307,7 @@
         "Grebo", 
         "Grunge", 
         "Garage Punk", 
-        "Surf Punk", 
+        "Surf Punk Punk", 
         "Hardcore Punk", 
         "Queercore", 
         "Psychobilly", 
@@ -17514,6 +18414,21 @@
         "sampler"
       ], 
       "num_children": 1
+    }, 
+    "ragtime": {
+      "children": [
+        "Novelty Piano", 
+        "Country", 
+        "Jazz", 
+        "Boogie-Woogie", 
+        "Stride", 
+        "Honky Tonk"
+      ], 
+      "instruments": [
+        "piano", 
+        "banjo"
+      ], 
+      "num_children": 6
     }, 
     "rap metal": {
       "children": [
@@ -17716,7 +18631,7 @@
         "Hip Hop", 
         "Mod Revival", 
         "Smooth Jazz", 
-        "Contemporary R&B", 
+        "Contemporary Contemporary R&B", 
         "Soul", 
         "Rock And Roll", 
         "Pub Rock", 
@@ -17774,7 +18689,7 @@
         "Post-Punk", 
         "Post-Rock", 
         "Soft Rock", 
-        "Surf", 
+        "Surf Punk", 
         "Punk Rock", 
         "Reggae Rock", 
         "Dance-Rock", 
@@ -17817,7 +18732,7 @@
     }, 
     "rock and roll": {
       "children": [
-        "Surf", 
+        "Surf Punk", 
         "Garage Rock", 
         "Beat", 
         "Pop", 
@@ -17980,7 +18895,7 @@
         "Ska Pop", 
         "Ska Punk", 
         "Rocksteady", 
-        "Ska-Core", 
+        "Surf Punk", 
         "Spouge", 
         "2 Tone"
       ], 
@@ -18086,7 +19001,7 @@
     "smooth soul": {
       "children": [
         "Quiet Storm", 
-        "Contemporary R&B"
+        "Contemporary Contemporary R&B"
       ], 
       "instruments": [
         "bass", 
@@ -18115,6 +19030,18 @@
         "saxophone", 
         "drums", 
         "bass_guitar"
+      ], 
+      "num_children": 0
+    }, 
+    "soul blues": {
+      "children": [], 
+      "instruments": [
+        "bass_guitar", 
+        "harmonica", 
+        "electric_guitar", 
+        "vocals", 
+        "drums", 
+        "keyboard"
       ], 
       "num_children": 0
     }, 
@@ -18300,15 +19227,15 @@
       "instruments": [], 
       "num_children": 1
     }, 
-    "surf music": {
+    "surf punk": {
       "children": [
-        "Vocal Surf", 
+        "Vocal Surf Punk", 
         "Punk Rock", 
-        "Instrumental Surf", 
+        "Instrumental Surf Punk", 
         "Pop Punk", 
         "Garage Punk", 
         "Skate Punk", 
-        "Surf Punk", 
+        "Surf Punk Punk", 
         "Garage Rock", 
         "Hot Rod Rock"
       ], 
@@ -18318,6 +19245,19 @@
         "fender_bass"
       ], 
       "num_children": 9
+    }, 
+    "swamp blues": {
+      "children": [
+        "Swamp Pop"
+      ], 
+      "instruments": [
+        "guitar", 
+        "bass_guitar", 
+        "keyboard", 
+        "drums", 
+        "harmonica"
+      ], 
+      "num_children": 1
     }, 
     "swamp pop": {
       "children": [], 
@@ -18564,20 +19504,6 @@
         "drums"
       ], 
       "num_children": 2
-    }, 
-    "the balcony view of qlimax 2006, an annual hardstyle event.": {
-      "children": [
-        "Jumpstyle"
-      ], 
-      "instruments": [
-        "turntables", 
-        "text-to-speech", 
-        "synthesizer", 
-        "daw", 
-        "sequencer", 
-        "sampler"
-      ], 
-      "num_children": 1
     }, 
     "third stream": {
       "children": [], 
