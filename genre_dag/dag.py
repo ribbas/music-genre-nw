@@ -6,6 +6,8 @@ from __future__ import unicode_literals, print_function
 from config import DATA_PATH, RAW_DATA_PATH
 from util import dump_json, ls_dir, read_json
 
+from math import log10
+
 
 class GenreDAG(object):
 
@@ -33,6 +35,10 @@ class GenreDAG(object):
                 "num_children": len(children),
                 "instruments": genre["instruments"]
             }
+            # print(round(log10(len(children) + 1) * 10, 7) + 1)
+
+        print(len(self.get_nodes()))
+        print(len(self.subgenres.keys()))
 
     def get_edges(self):
 

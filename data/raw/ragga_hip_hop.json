@@ -7,8 +7,8 @@
     "sampler"
   ], 
   "parents": [
-    "hip-hop", 
+    "hip_hop", 
     "ragga"
   ], 
-  "root": "ragga hip-hop"
+  "root": "ragga hip_hop"
 }

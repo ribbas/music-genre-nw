@@ -129,10 +129,6 @@
       "techstep"
     ], 
     [
-      "frat rock", 
-      "proto-punk"
-    ], 
-    [
       "electronic art music", 
       "microhouse"
     ], 
@@ -175,10 +171,6 @@
     [
       "breakbeat hardcore", 
       "drum and bass"
-    ], 
-    [
-      "rock and roll", 
-      "garage punk"
     ], 
     [
       "psychedelic rock", 
@@ -877,10 +869,6 @@
       "novelty piano"
     ], 
     [
-      "frat rock", 
-      "paisley underground"
-    ], 
-    [
       "alternative rock", 
       "indietronica"
     ], 
@@ -1081,10 +1069,6 @@
       "glitch hop"
     ], 
     [
-      "frat rock", 
-      "acid rock"
-    ], 
-    [
       "techno", 
       "acid techno"
     ], 
@@ -1237,10 +1221,6 @@
       "war metal"
     ], 
     [
-      "frat rock", 
-      "punk rock"
-    ], 
-    [
       "blues", 
       "classic female blues"
     ], 
@@ -1259,10 +1239,6 @@
     [
       "electronic", 
       "electronicore"
-    ], 
-    [
-      "garage punk", 
-      "punk rock"
     ], 
     [
       "thrash metal", 
@@ -1403,10 +1379,6 @@
     [
       "rave music", 
       "dubstep"
-    ], 
-    [
-      "rhythm and blues", 
-      "garage punk"
     ], 
     [
       "contemporary r&b", 
@@ -1661,6 +1633,10 @@
       "boogie"
     ], 
     [
+      "proto-punk", 
+      "garage rock"
+    ], 
+    [
       "ragtime", 
       "piedmont blues"
     ], 
@@ -1901,10 +1877,6 @@
       "alternative dance"
     ], 
     [
-      "garage punk", 
-      "power pop"
-    ], 
-    [
       "indie rock", 
       "indie folk"
     ], 
@@ -1937,10 +1909,6 @@
       "electronic dance music"
     ], 
     [
-      "garage punk", 
-      "garage punk"
-    ], 
-    [
       "reggae fusion", 
       "ragga jungle"
     ], 
@@ -1951,10 +1919,6 @@
     [
       "traditional doom", 
       "epic doom"
-    ], 
-    [
-      "frat rock", 
-      "garage punk"
     ], 
     [
       "tropical house", 
@@ -2077,8 +2041,8 @@
       "twee pop"
     ], 
     [
-      "beat", 
-      "frat rock"
+      "pop", 
+      "brill building"
     ], 
     [
       "rave music", 
@@ -2311,10 +2275,6 @@
     [
       "house", 
       "techno"
-    ], 
-    [
-      "frat rock", 
-      "hard rock"
     ], 
     [
       "hardcore punk", 
@@ -2689,10 +2649,6 @@
       "nintendocore"
     ], 
     [
-      "blues", 
-      "frat rock"
-    ], 
-    [
       "jazz", 
       "free funk"
     ], 
@@ -2711,10 +2667,6 @@
     [
       "skiffle", 
       "beat"
-    ], 
-    [
-      "garage punk", 
-      "hard rock"
     ], 
     [
       "punk rock", 
@@ -3111,10 +3063,6 @@
     [
       "20th century classical music", 
       "hard trance"
-    ], 
-    [
-      "frat rock", 
-      "power pop"
     ], 
     [
       "christian punk", 
@@ -3539,10 +3487,6 @@
     [
       "reggae", 
       "drum and bass"
-    ], 
-    [
-      "rock and roll", 
-      "frat rock"
     ], 
     [
       "western music", 
@@ -4005,10 +3949,6 @@
       "funk"
     ], 
     [
-      "blackened death metal", 
-      "blackened death metal"
-    ], 
-    [
       "ambient black metal", 
       "war metal"
     ], 
@@ -4437,8 +4377,8 @@
       "jazz-funk"
     ], 
     [
-      "hip-hop", 
-      "ragga hip-hop"
+      "psybient", 
+      "psydub"
     ], 
     [
       "ambient", 
@@ -4753,10 +4693,6 @@
       "hip house"
     ], 
     [
-      "frat rock", 
-      "post-punk revival"
-    ], 
-    [
       "alternative rock", 
       "dream pop"
     ], 
@@ -5011,10 +4947,6 @@
     [
       "classical music", 
       "symphonic gothic metal"
-    ], 
-    [
-      "garage punk", 
-      "frat rock"
     ], 
     [
       "proto-prog", 
@@ -5313,10 +5245,6 @@
       "swamp pop"
     ], 
     [
-      "surf punk", 
-      "frat rock"
-    ], 
-    [
       "contemporary r&b", 
       "y\u00e9-y\u00e9"
     ], 
@@ -5601,10 +5529,6 @@
       "viking metal"
     ], 
     [
-      "frat rock", 
-      "heartland rock"
-    ], 
-    [
       "italo disco", 
       "electroclash"
     ], 
@@ -5789,8 +5713,8 @@
       "tribal house"
     ], 
     [
-      "frat rock", 
-      "psychobilly"
+      "microhouse", 
+      "big room house"
     ], 
     [
       "lo-fi", 
@@ -5919,10 +5843,6 @@
     [
       "britpop", 
       "eurobeat"
-    ], 
-    [
-      "instrumental rock", 
-      "frat rock"
     ], 
     [
       "techno", 
@@ -6179,10 +6099,6 @@
     [
       "punk rock", 
       "post-punk"
-    ], 
-    [
-      "surf punk", 
-      "garage punk"
     ], 
     [
       "rock and roll", 
@@ -6685,10 +6601,6 @@
       "hardbass"
     ], 
     [
-      "microhouse", 
-      "big room house"
-    ], 
-    [
       "jazz fusion", 
       "nu jazz"
     ], 
@@ -7109,10 +7021,6 @@
       "latin rock"
     ], 
     [
-      "blues", 
-      "garage punk"
-    ], 
-    [
       "thrash metal", 
       "metalcore"
     ], 
@@ -7161,8 +7069,8 @@
       "electro house"
     ], 
     [
-      "garage punk", 
-      "heartland rock"
+      "jazz", 
+      "kwela"
     ], 
     [
       "electronica", 
@@ -7397,10 +7305,6 @@
       "alternative hip hop"
     ], 
     [
-      "jazz", 
-      "kwela"
-    ], 
-    [
       "new wave", 
       "alternative rock"
     ], 
@@ -7545,10 +7449,6 @@
       "folk punk"
     ], 
     [
-      "frat rock", 
-      "grunge"
-    ], 
-    [
       "traditional music", 
       "british folk rock"
     ], 
@@ -7651,10 +7551,6 @@
     [
       "countrypolitan", 
       "country pop"
-    ], 
-    [
-      "beat", 
-      "garage punk"
     ], 
     [
       "power metal", 
@@ -7817,10 +7713,6 @@
       "speed garage"
     ], 
     [
-      "garage punk", 
-      "grunge"
-    ], 
-    [
       "hardcore punk", 
       "melodic hardcore"
     ], 
@@ -7941,10 +7833,6 @@
       "death 'n' roll"
     ], 
     [
-      "psybient", 
-      "psydub"
-    ], 
-    [
       "g-funk", 
       "hyphy"
     ], 
@@ -7997,10 +7885,6 @@
       "power electronics"
     ], 
     [
-      "hyphy", 
-      "trap"
-    ], 
-    [
       "punk rock", 
       "hardcore punk"
     ], 
@@ -8009,8 +7893,8 @@
       "symphonic power metal"
     ], 
     [
-      "soul", 
-      "frat rock"
+      "disco", 
+      "manila sound"
     ], 
     [
       "philippine folk", 
@@ -8427,10 +8311,6 @@
     [
       "brostep", 
       "neurohop"
-    ], 
-    [
-      "soul", 
-      "garage punk"
     ], 
     [
       "hip hop", 
@@ -9122,6 +9002,10 @@
     ], 
     [
       "hip hop", 
+      "ragga hip_hop"
+    ], 
+    [
+      "hip hop", 
       "miami bass"
     ], 
     [
@@ -9329,10 +9213,6 @@
       "tropic\u00e1lia"
     ], 
     [
-      "frat rock", 
-      "punk blues"
-    ], 
-    [
       "trance", 
       "acid trance"
     ], 
@@ -9489,6 +9369,10 @@
       "nu metal"
     ], 
     [
+      "ragga", 
+      "ragga hip_hop"
+    ], 
+    [
       "electro", 
       "ghettotech"
     ], 
@@ -9543,10 +9427,6 @@
     [
       "techno", 
       "hardstyle"
-    ], 
-    [
-      "garage punk", 
-      "punk blues"
     ], 
     [
       "indie rock", 
@@ -10657,8 +10537,8 @@
       "western swing"
     ], 
     [
-      "frat rock", 
-      "frat rock"
+      "blackened death metal", 
+      "blackened death metal"
     ], 
     [
       "symphonic gothic metal", 
@@ -10829,10 +10709,6 @@
       "bossa nova"
     ], 
     [
-      "garage punk", 
-      "proto-punk"
-    ], 
-    [
       "electro house", 
       "fidget house"
     ], 
@@ -10975,10 +10851,6 @@
     [
       "synthpop", 
       "indie electronic"
-    ], 
-    [
-      "rhythm and blues", 
-      "frat rock"
     ], 
     [
       "blues", 
@@ -11237,10 +11109,6 @@
       "christian ska"
     ], 
     [
-      "garage punk", 
-      "post-punk revival"
-    ], 
-    [
       "power pop", 
       "britpop"
     ], 
@@ -11259,10 +11127,6 @@
     [
       "folk punk", 
       "celtic punk"
-    ], 
-    [
-      "garage punk", 
-      "psychobilly"
     ], 
     [
       "techstep", 
@@ -11393,14 +11257,6 @@
       "alternative contemporary r&b"
     ], 
     [
-      "garage punk", 
-      "acid rock"
-    ], 
-    [
-      "electronic music", 
-      "emo rap"
-    ], 
-    [
       "electronica", 
       "balearic trance"
     ], 
@@ -11439,10 +11295,6 @@
     [
       "pop rock", 
       "dance-rock"
-    ], 
-    [
-      "rockabilly", 
-      "garage punk"
     ], 
     [
       "electronic", 
@@ -11573,8 +11425,8 @@
       "wong shadow"
     ], 
     [
-      "disco", 
-      "manila sound"
+      "hyphy", 
+      "trap"
     ], 
     [
       "work songs", 
@@ -11669,10 +11521,6 @@
       "piano blues"
     ], 
     [
-      "instrumental rock", 
-      "garage punk"
-    ], 
-    [
       "hi-nrg", 
       "downtempo"
     ], 
@@ -11687,10 +11535,6 @@
     [
       "celtic fusion", 
       "celtic metal"
-    ], 
-    [
-      "garage punk", 
-      "paisley underground"
     ], 
     [
       "alternative rock", 
@@ -11805,8 +11649,8 @@
       "ska"
     ], 
     [
-      "pop", 
-      "brill building"
+      "electronic music", 
+      "emo rap"
     ], 
     [
       "2-step", 
@@ -11889,10 +11733,6 @@
       "indo jazz"
     ], 
     [
-      "rockabilly", 
-      "frat rock"
-    ], 
-    [
       "rhythm and blues", 
       "funk"
     ], 
@@ -11963,6 +11803,10 @@
     [
       "indie rock", 
       "queercore"
+    ], 
+    [
+      "punk rock", 
+      "garage rock"
     ], 
     [
       "hi-nrg", 
@@ -12267,10 +12111,6 @@
     [
       "bubblegum pop", 
       "noise pop"
-    ], 
-    [
-      "ragga", 
-      "ragga hip-hop"
     ], 
     [
       "acid jazz", 
@@ -12708,7 +12548,6 @@
     "hip hop", 
     "hip hop soul", 
     "hip house", 
-    "hip-hop", 
     "hiplife", 
     "hollywood soundtracks", 
     "homo hop", 
@@ -13018,7 +12857,7 @@
     "raga rock", 
     "ragga", 
     "ragga hip hop", 
-    "ragga hip-hop", 
+    "ragga hip_hop", 
     "ragga jungle", 
     "raggacore", 
     "ragtime", 
@@ -13225,7 +13064,7 @@
     "y\u00e9-y\u00e9", 
     "zydeco"
   ], 
-  "num_genres": 922, 
+  "num_genres": 921, 
   "subgenres": {
     "2-step garage": {
       "children": [
@@ -15406,32 +15245,6 @@
       "instruments": [], 
       "num_children": 11
     }, 
-    "frat rock": {
-      "children": [
-        "Grunge", 
-        "Punk Rock", 
-        "Post-Punk Revival", 
-        "Garage Punk", 
-        "Acid Rock", 
-        "Paisley Underground", 
-        "Power Pop", 
-        "Psychobilly", 
-        "Frat Rock", 
-        "Proto-Punk", 
-        "Punk Blues", 
-        "Hard Rock", 
-        "Heartland Rock"
-      ], 
-      "instruments": [
-        "bass", 
-        "harmonica", 
-        "electronic_organ", 
-        "electric_guitar", 
-        "drums", 
-        "tambourine"
-      ], 
-      "num_children": 13
-    }, 
     "freakbeat": {
       "children": [], 
       "instruments": [], 
@@ -15674,30 +15487,9 @@
       "num_children": 2
     }, 
     "garage punk": {
-      "children": [
-        "Grunge", 
-        "Punk Rock", 
-        "Post-Punk Revival", 
-        "Garage Punk", 
-        "Acid Rock", 
-        "Paisley Underground", 
-        "Power Pop", 
-        "Psychobilly", 
-        "Frat Rock", 
-        "Proto-Punk", 
-        "Punk Blues", 
-        "Hard Rock", 
-        "Heartland Rock"
-      ], 
-      "instruments": [
-        "bass", 
-        "harmonica", 
-        "electronic_organ", 
-        "electric_guitar", 
-        "drums", 
-        "tambourine"
-      ], 
-      "num_children": 13
+      "children": [], 
+      "instruments": [], 
+      "num_children": 0
     }, 
     "garage rock": {
       "children": [
@@ -18180,7 +17972,7 @@
     }, 
     "proto-punk": {
       "children": [
-        "Garage Punk", 
+        "Garage Rock", 
         "Punk Rock", 
         "Glam Punk"
       ], 
@@ -18347,7 +18139,7 @@
         "2 Tone", 
         "Grebo", 
         "Grunge", 
-        "Garage Punk", 
+        "Garage Rock", 
         "Surf Punk Punk", 
         "Hardcore Punk", 
         "Queercore", 
@@ -18433,7 +18225,7 @@
       ], 
       "num_children": 3
     }, 
-    "ragga hip-hop": {
+    "ragga hip_hop": {
       "children": [], 
       "instruments": [
         "synthesizer", 
@@ -19274,7 +19066,7 @@
         "Punk Rock", 
         "Instrumental Surf Punk", 
         "Pop Punk", 
-        "Garage Punk", 
+        "Garage Rock", 
         "Skate Punk", 
         "Surf Punk Punk", 
         "Garage Rock", 

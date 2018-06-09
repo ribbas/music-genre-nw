@@ -32,6 +32,20 @@ init: req-venv
 	@pip install -U pip && pip install -r ${REQ}
 
 
+.PHONY: run-nb
+run-nb: req-venv
+	# run Jupyter Notebook
+	@jupyter nbextension enable --py --sys-prefix widgetsnbextension
+	@jupyter notebook nb
+
+
+.PHONY: convert-html
+convert-html: req-venv
+	# convert notebook to static HTML
+	@jupyter nbconvert --to html nb/main.ipynb
+	@mv nb/main.html index.html
+
+
 .PHONY: update
 update: req-venv
 	# update PIP requirements file
