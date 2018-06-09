@@ -1,0 +1,12 @@
+{
+  "children": [], 
+  "instruments": [], 
+  "parents": [
+    "traditional_music", 
+    "world_music", 
+    "western", 
+    "pop", 
+    "rock"
+  ], 
+  "root": "worldbeat"
+}

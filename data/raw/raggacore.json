@@ -1,0 +1,23 @@
+{
+  "children": [
+    "raggacore", 
+    "noisecore"
+  ], 
+  "instruments": [
+    "synthesizer", 
+    "keyboard", 
+    "programming", 
+    "personal_computer", 
+    "sequencer", 
+    "sampler", 
+    "bass_drum"
+  ], 
+  "parents": [
+    "digital_hardcore", 
+    "hardcore", 
+    "idm", 
+    "jungle", 
+    "electro-industrial"
+  ], 
+  "root": "breakcore"
+}

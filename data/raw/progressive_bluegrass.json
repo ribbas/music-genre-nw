@@ -1,0 +1,27 @@
+{
+  "children": [
+    "jam_band", 
+    "traditional_bluegrass", 
+    "progressive_bluegrass"
+  ], 
+  "instruments": [
+    "acoustic_guitar", 
+    "mandolin", 
+    "dobro", 
+    "fiddle", 
+    "double_bass", 
+    "banjo"
+  ], 
+  "parents": [
+    "african-american_music", 
+    "appalachian_music", 
+    "scottish_folk", 
+    "irish_folk", 
+    "jazz", 
+    "old-time_music", 
+    "english_folk", 
+    "string_bands", 
+    "blues"
+  ], 
+  "root": "bluegrass"
+}

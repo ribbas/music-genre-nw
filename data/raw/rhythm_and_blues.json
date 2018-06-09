@@ -1,0 +1,41 @@
+{
+  "children": [
+    "vaporwave", 
+    "reggae", 
+    "beat_music", 
+    "psychedelic_rock", 
+    "neo_soul", 
+    "garage_rock", 
+    "hip_hop", 
+    "mod_revival", 
+    "smooth_jazz", 
+    "contemporary_r&b", 
+    "soul", 
+    "rock_and_roll", 
+    "pub_rock", 
+    "ska", 
+    "rockabilly", 
+    "rock", 
+    "doo-wop", 
+    "disco", 
+    "dancehall", 
+    "funk"
+  ], 
+  "instruments": [
+    "bass_guitar", 
+    "background_vocals", 
+    "keyboards", 
+    "electric_guitar", 
+    "vocals", 
+    "drums", 
+    "horns"
+  ], 
+  "parents": [
+    "boogie-woogie", 
+    "blues", 
+    "jazz", 
+    "negro_spirituals", 
+    "gospel"
+  ], 
+  "root": "rhythm and blues"
+}

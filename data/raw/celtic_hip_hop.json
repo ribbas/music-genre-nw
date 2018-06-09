@@ -1,0 +1,13 @@
+{
+  "children": [
+    "celtic_hip_hop", 
+    "celtic_punk", 
+    "celtic_rock", 
+    "celtic_metal"
+  ], 
+  "instruments": [], 
+  "parents": [
+    "celtic_music"
+  ], 
+  "root": "celtic fusion"
+}

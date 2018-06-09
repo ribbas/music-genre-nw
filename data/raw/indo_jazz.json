@@ -1,0 +1,20 @@
+{
+  "children": [], 
+  "instruments": [
+    "guitar", 
+    "bass", 
+    "indian_classical_instrumentations", 
+    "sitar", 
+    "saxophone", 
+    "drums", 
+    "violin", 
+    "tabla"
+  ], 
+  "parents": [
+    "indian_classical_music", 
+    "jazz", 
+    "raga", 
+    "classical"
+  ], 
+  "root": "indo jazz"
+}

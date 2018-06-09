@@ -1,0 +1,18 @@
+{
+  "children": [
+    "industrial_techno", 
+    "noisecore"
+  ], 
+  "instruments": [
+    "electronic"
+  ], 
+  "parents": [
+    "industrial", 
+    "noise", 
+    "hardcore_techno", 
+    "gabber", 
+    "electro-industrial", 
+    "japanoise"
+  ], 
+  "root": "power noise"
+}

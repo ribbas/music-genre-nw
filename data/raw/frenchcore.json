@@ -1,0 +1,24 @@
+{
+  "children": [
+    "tekno", 
+    "breakcore", 
+    "speedcore", 
+    "early_hardcore", 
+    "happy_hardcore", 
+    "frenchcore", 
+    "splittercore", 
+    "industrial_hardcore"
+  ], 
+  "instruments": [
+    "bitcrusher", 
+    "keyboard", 
+    "drum_machine", 
+    "synthesizer", 
+    "sequencer", 
+    "sampler"
+  ], 
+  "parents": [
+    "early_hardcore"
+  ], 
+  "root": "mainstream hardcore"
+}

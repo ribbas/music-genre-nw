@@ -1,0 +1,12 @@
+{
+  "children": [
+    "post-rock"
+  ], 
+  "instruments": [], 
+  "parents": [
+    "bebop", 
+    "classical", 
+    "swing"
+  ], 
+  "root": "cool jazz"
+}

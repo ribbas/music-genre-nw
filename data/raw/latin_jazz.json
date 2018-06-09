@@ -1,0 +1,10 @@
+{
+  "children": [], 
+  "instruments": [], 
+  "parents": [
+    "brazilian_music", 
+    "jazz", 
+    "cuban_music"
+  ], 
+  "root": "latin jazz"
+}

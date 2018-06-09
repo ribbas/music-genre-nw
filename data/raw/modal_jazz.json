@@ -1,0 +1,17 @@
+{
+  "children": [], 
+  "instruments": [
+    "saxophone", 
+    "double_bass", 
+    "piano", 
+    "trumpet", 
+    "drums"
+  ], 
+  "parents": [
+    "cool_jazz", 
+    "jazz", 
+    "indian_music", 
+    "medieval_music"
+  ], 
+  "root": "modal jazz"
+}

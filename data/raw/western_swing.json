@@ -1,0 +1,29 @@
+{
+  "children": [
+    "rock_and_roll", 
+    "rockabilly"
+  ], 
+  "instruments": [
+    "accordion", 
+    "mandolin", 
+    "guitar", 
+    "percussion", 
+    "double_bass", 
+    "pedal_steel_guitar", 
+    "fiddle", 
+    "piano", 
+    "banjo", 
+    "trumpet", 
+    "harp"
+  ], 
+  "parents": [
+    "country", 
+    "western_music", 
+    "dixieland", 
+    "string_bands", 
+    "swing", 
+    "blues", 
+    "folk"
+  ], 
+  "root": "western swing"
+}

@@ -1,0 +1,25 @@
+{
+  "children": [
+    "ethno_jazz", 
+    "western_swing", 
+    "new-age"
+  ], 
+  "instruments": [
+    "folk_instrumentation", 
+    "bass", 
+    "harmonica", 
+    "flute", 
+    "guitar", 
+    "saxophone", 
+    "drums", 
+    "trombone", 
+    "piano"
+  ], 
+  "parents": [
+    "world", 
+    "jazz", 
+    "folk", 
+    "experimental"
+  ], 
+  "root": "folk jazz"
+}

@@ -1,0 +1,20 @@
+{
+  "children": [
+    "mpb"
+  ], 
+  "instruments": [], 
+  "parents": [
+    "frevo", 
+    "psychedelic_pop", 
+    "samba", 
+    "afox\u00ea", 
+    "pop_art", 
+    "anthropophagic_movement", 
+    "bai\u00e3o", 
+    "psychedelic_rock", 
+    "bossa_nova", 
+    "fado", 
+    "baroque_pop"
+  ], 
+  "root": "tropic\u00e1lia"
+}

@@ -1,0 +1,9 @@
+{
+  "children": [], 
+  "instruments": [], 
+  "parents": [
+    "jazz", 
+    "classical"
+  ], 
+  "root": "third stream"
+}

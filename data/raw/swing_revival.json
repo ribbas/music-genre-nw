@@ -1,0 +1,13 @@
+{
+  "children": [], 
+  "instruments": [], 
+  "parents": [
+    "jump_blues", 
+    "vocal_jazz", 
+    "jazz", 
+    "boogie-woogie", 
+    "rockabilly", 
+    "swing"
+  ], 
+  "root": "swing revival"
+}

@@ -1,0 +1,23 @@
+{
+  "children": [], 
+  "instruments": [
+    "upright_bass", 
+    "acoustic_guitar", 
+    "mandolin", 
+    "dobro", 
+    "fiddle", 
+    "banjo"
+  ], 
+  "parents": [
+    "african-american_music", 
+    "appalachian_music", 
+    "scottish_folk", 
+    "irish_folk", 
+    "jazz", 
+    "old-time_music", 
+    "english_folk", 
+    "string_bands", 
+    "blues"
+  ], 
+  "root": "traditional bluegrass"
+}

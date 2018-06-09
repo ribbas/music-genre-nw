@@ -1,0 +1,15 @@
+{
+  "children": [
+    "kansas_city_jazz", 
+    "progressive_jazz"
+  ], 
+  "instruments": [], 
+  "parents": [
+    "blues", 
+    "jazz", 
+    "classical", 
+    "american_marches", 
+    "swing"
+  ], 
+  "root": "big band"
+}

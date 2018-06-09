@@ -1,0 +1,33 @@
+{
+  "children": [
+    "ragga_jungle", 
+    "ska_punk", 
+    "moombahton", 
+    "reggae_rock", 
+    "tropical_house"
+  ], 
+  "instruments": [
+    "electric_organ", 
+    "bass_guitar", 
+    "brass_instrument", 
+    "drum_machine", 
+    "guitar", 
+    "synthesizer", 
+    "sampler", 
+    "melodica", 
+    "drum_kit"
+  ], 
+  "parents": [
+    "reggae", 
+    "hip_hop", 
+    "lovers_rock", 
+    "jazz", 
+    "pop", 
+    "rocksteady", 
+    "ska", 
+    "rock", 
+    "rhythm_and_blues", 
+    "dancehall"
+  ], 
+  "root": "reggae fusion"
+}

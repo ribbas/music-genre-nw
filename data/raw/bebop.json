@@ -1,0 +1,14 @@
+{
+  "children": [
+    "avant-garde_jazz", 
+    "hard_bop", 
+    "post-bop", 
+    "(other_subgenres)"
+  ], 
+  "instruments": [], 
+  "parents": [
+    "swing", 
+    "kansas_city_jazz"
+  ], 
+  "root": "bebop"
+}

@@ -1,0 +1,27 @@
+{
+  "children": [
+    "psybient", 
+    "psydub"
+  ], 
+  "instruments": [
+    "synthesizer", 
+    "sampler", 
+    "drum_machine", 
+    "electric_guitar", 
+    "sequencer", 
+    "keyboard"
+  ], 
+  "parents": [
+    "psychedelic_rock", 
+    "acid_trance", 
+    "dream_trance", 
+    "trance", 
+    "eurodance", 
+    "techno", 
+    "hard_trance", 
+    "goa_trance", 
+    "psychedelia", 
+    "indian_classical"
+  ], 
+  "root": "psychedelic trance"
+}

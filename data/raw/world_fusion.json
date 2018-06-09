@@ -1,0 +1,24 @@
+{
+  "children": [
+    "worldbeat", 
+    "ethno_jazz"
+  ], 
+  "instruments": [
+    "mbira", 
+    "acoustic_guitar", 
+    "synthesizer", 
+    "string_instrument", 
+    "folk_music", 
+    "electric_guitar", 
+    "wind_instrument", 
+    "contemporary_classical_music", 
+    "percussion_instrument", 
+    "piano"
+  ], 
+  "parents": [
+    "folk_music", 
+    "indigenous_music", 
+    "popular_music"
+  ], 
+  "root": "world music"
+}

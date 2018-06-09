@@ -1,0 +1,21 @@
+{
+  "children": [], 
+  "instruments": [
+    "bass_guitar", 
+    "steel_guitar", 
+    "accordion", 
+    "guitar", 
+    "electric_guitar", 
+    "saxophone", 
+    "drums", 
+    "keyboard"
+  ], 
+  "parents": [
+    "rock_and_roll", 
+    "country", 
+    "swing", 
+    "pop", 
+    "schlager"
+  ], 
+  "root": "dansband"
+}

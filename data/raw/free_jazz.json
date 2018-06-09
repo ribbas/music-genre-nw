@@ -1,0 +1,16 @@
+{
+  "children": [
+    "punk_jazz", 
+    "loft_jazz", 
+    "no_wave", 
+    "post-rock"
+  ], 
+  "instruments": [], 
+  "parents": [
+    "avant-garde_jazz", 
+    "jazz", 
+    "avant-garde", 
+    "experimental"
+  ], 
+  "root": "free jazz"
+}

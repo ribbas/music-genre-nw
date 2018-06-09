@@ -1,0 +1,15 @@
+{
+  "children": [
+    "noise_rock", 
+    "post-rock"
+  ], 
+  "instruments": [], 
+  "parents": [
+    "jazz", 
+    "avant-garde", 
+    "20th_century_classical_music", 
+    "bebop", 
+    "modernism"
+  ], 
+  "root": "avant-garde jazz"
+}

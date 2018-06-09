@@ -1,0 +1,21 @@
+{
+  "children": [], 
+  "instruments": [
+    "guitar", 
+    "saxophone", 
+    "drums", 
+    "hammond_organ", 
+    "trombone", 
+    "double_bass", 
+    "piano", 
+    "trumpet"
+  ], 
+  "parents": [
+    "rhythm_and_blues", 
+    "blues", 
+    "jazz", 
+    "gospel_music", 
+    "bebop"
+  ], 
+  "root": "hard bop"
+}

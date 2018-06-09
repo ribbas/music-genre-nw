@@ -1,0 +1,20 @@
+{
+  "children": [
+    "mafioso_rap", 
+    "mobb_music", 
+    "g-funk", 
+    "dirty_rap", 
+    "drill"
+  ], 
+  "instruments": [
+    "beatboxing", 
+    "rapping", 
+    "drum_machine", 
+    "sampler"
+  ], 
+  "parents": [
+    "hardcore_hip_hop", 
+    "hip_hop"
+  ], 
+  "root": "gangsta rap"
+}

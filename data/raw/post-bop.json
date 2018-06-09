@@ -1,0 +1,22 @@
+{
+  "children": [], 
+  "instruments": [
+    "saxophone", 
+    "drums", 
+    "trombone", 
+    "double_bass", 
+    "clarinet", 
+    "trumpet", 
+    "piano"
+  ], 
+  "parents": [
+    "hard_bop", 
+    "impressionist_music", 
+    "jazz", 
+    "free_jazz", 
+    "avant-garde_jazz", 
+    "modal_jazz", 
+    "bebop"
+  ], 
+  "root": "post-bop"
+}

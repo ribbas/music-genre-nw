@@ -1,0 +1,27 @@
+{
+  "children": [
+    "dutch_house", 
+    "fidget_house", 
+    "complextro", 
+    "big_room", 
+    "moombahton"
+  ], 
+  "instruments": [
+    "synthesizer", 
+    "keyboard", 
+    "drum_machine", 
+    "personal_computer", 
+    "sequencer", 
+    "sampler"
+  ], 
+  "parents": [
+    "hardbag", 
+    "house", 
+    "tech_house", 
+    "electroclash", 
+    "electro", 
+    "synth-pop", 
+    "electropop"
+  ], 
+  "root": "electro house"
+}
