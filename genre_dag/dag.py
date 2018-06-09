@@ -43,7 +43,7 @@ class GenreDAG(object):
         for edge in self.edges:
             self.nodes.update(edge)
 
-        return list(self.nodes)
+        return list(sorted(self.nodes))
 
     def dump_dag(self):
 
