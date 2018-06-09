@@ -5,7 +5,7 @@
   "instruments": [], 
   "parents": [
     "bebop", 
-    "classical", 
+    "classical_music", 
     "swing"
   ], 
   "root": "cool jazz"

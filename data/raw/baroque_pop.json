@@ -13,7 +13,7 @@
     "baroque", 
     "orchestral_pop", 
     "pop", 
-    "classical", 
+    "classical_music", 
     "rock"
   ], 
   "root": "baroque pop"

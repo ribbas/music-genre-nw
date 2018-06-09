@@ -33,10 +33,6 @@
       "psychedelic trance"
     ], 
     [
-      "neoclassical metal", 
-      "symphonic power metal"
-    ], 
-    [
       "christian alternative rock", 
       "christian ska"
     ], 
@@ -51,6 +47,10 @@
     [
       "acid house", 
       "goa trance"
+    ], 
+    [
+      "neoclassical music metal", 
+      "symphonic metal"
     ], 
     [
       "oi!", 
@@ -75,10 +75,6 @@
     [
       "seapunk", 
       "icepunk"
-    ], 
-    [
-      "neoclassical metal", 
-      "symphonic gothic metal"
     ], 
     [
       "wong shadow", 
@@ -123,6 +119,10 @@
     [
       "western", 
       "worldbeat"
+    ], 
+    [
+      "classical music", 
+      "baroque pop"
     ], 
     [
       "darkcore", 
@@ -191,10 +191,6 @@
     [
       "rhythm and blues", 
       "disco"
-    ], 
-    [
-      "sludge metal", 
-      "grunge"
     ], 
     [
       "hard rock", 
@@ -289,6 +285,10 @@
       "post-rock"
     ], 
     [
+      "classical music", 
+      "funeral doom"
+    ], 
+    [
       "contemporary r&b", 
       "snap&b"
     ], 
@@ -323,6 +323,10 @@
     [
       "ethereal wave", 
       "shoegazing"
+    ], 
+    [
+      "minimal", 
+      "post-rock"
     ], 
     [
       "hip hop", 
@@ -523,6 +527,10 @@
     [
       "indie rock", 
       "riot grrrl"
+    ], 
+    [
+      "heavy metal", 
+      "neoclassical_music metal"
     ], 
     [
       "folk", 
@@ -777,8 +785,8 @@
       "techno"
     ], 
     [
-      "funk carioca", 
-      "melodic funk"
+      "classical music", 
+      "symphonic metal"
     ], 
     [
       "heavy metal", 
@@ -813,12 +821,12 @@
       "punk rock"
     ], 
     [
-      "dark wave", 
-      "neoclassical"
-    ], 
-    [
       "post-punk", 
       "neo-psychedelia"
+    ], 
+    [
+      "classical music", 
+      "indo jazz"
     ], 
     [
       "chicago blues", 
@@ -1405,8 +1413,8 @@
       "2-step"
     ], 
     [
-      "ska", 
-      "reggae fusion"
+      "classical music", 
+      "symphonic power metal"
     ], 
     [
       "symphonic rock", 
@@ -1473,6 +1481,10 @@
       "bubblegum pop"
     ], 
     [
+      "speed metal", 
+      "neoclassical music metal"
+    ], 
+    [
       "rockabilly", 
       "wong shadow"
     ], 
@@ -1505,8 +1517,8 @@
       "symphonic gothic metal"
     ], 
     [
-      "classical", 
-      "third stream"
+      "world", 
+      "new-age music"
     ], 
     [
       "synthpop", 
@@ -1725,6 +1737,10 @@
       "chillwave"
     ], 
     [
+      "classical music", 
+      "new-age music"
+    ], 
+    [
       "smooth soul", 
       "contemporary contemporary r&b"
     ], 
@@ -1835,6 +1851,10 @@
     [
       "southern soul", 
       "southern rock"
+    ], 
+    [
+      "classical music", 
+      "art rock"
     ], 
     [
       "electropop", 
@@ -2005,8 +2025,8 @@
       "groove metal"
     ], 
     [
-      "funk", 
-      "contemporary r&b"
+      "sludge metal", 
+      "grunge"
     ], 
     [
       "krautrock", 
@@ -2469,6 +2489,10 @@
       "funk rock"
     ], 
     [
+      "neoclassical music dark wave", 
+      "neue deutsche todeskunst"
+    ], 
+    [
       "bubblegum pop", 
       "europop"
     ], 
@@ -2597,12 +2621,12 @@
       "technical death metal"
     ], 
     [
-      "traditional doom", 
-      "funeral doom"
+      "neoclassical music metal", 
+      "symphonic death metal"
     ], 
     [
-      "classical", 
-      "neoclassical metal"
+      "traditional doom", 
+      "funeral doom"
     ], 
     [
       "rhythm and blues", 
@@ -2729,16 +2753,8 @@
       "ragga"
     ], 
     [
-      "classical", 
-      "funeral doom"
-    ], 
-    [
       "zydeco", 
       "louisiana blues"
-    ], 
-    [
-      "classical", 
-      "traditional doom"
     ], 
     [
       "disco", 
@@ -3053,10 +3069,6 @@
       "pornogrind"
     ], 
     [
-      "blues", 
-      "bossa nova"
-    ], 
-    [
       "breakbeat hardcore", 
       "happy hardcore"
     ], 
@@ -3235,6 +3247,10 @@
     [
       "electronic", 
       "experimental pop"
+    ], 
+    [
+      "indian classical music", 
+      "psychedelic trance"
     ], 
     [
       "hip hop", 
@@ -3537,8 +3553,8 @@
       "samba-reggae"
     ], 
     [
-      "rave music", 
-      "trance"
+      "classical music", 
+      "cool jazz"
     ], 
     [
       "latin american music", 
@@ -3665,6 +3681,14 @@
       "hip hop"
     ], 
     [
+      "speed metal", 
+      "neoclassical_music metal"
+    ], 
+    [
+      "classical music", 
+      "traditional doom"
+    ], 
+    [
       "rave music", 
       "electro house"
     ], 
@@ -3773,8 +3797,8 @@
       "wonky"
     ], 
     [
-      "speed metal", 
-      "neoclassical metal"
+      "hardstyle", 
+      "hardbass"
     ], 
     [
       "industrial", 
@@ -3913,10 +3937,6 @@
       "hiplife"
     ], 
     [
-      "classical", 
-      "progressive rock"
-    ], 
-    [
       "digital hardcore", 
       "breakcore"
     ], 
@@ -4051,6 +4071,10 @@
     [
       "beat", 
       "freakbeat"
+    ], 
+    [
+      "classical music", 
+      "ragtime"
     ], 
     [
       "folk", 
@@ -4365,8 +4389,8 @@
       "progressive house"
     ], 
     [
-      "minimal", 
-      "post-rock"
+      "classical music", 
+      "chamber pop"
     ], 
     [
       "synthpop", 
@@ -4549,10 +4573,6 @@
       "jersey club"
     ], 
     [
-      "neoclassical dark wave", 
-      "neue deutsche todeskunst"
-    ], 
-    [
       "chillwave", 
       "vaporwave"
     ], 
@@ -4645,6 +4665,10 @@
       "ragga"
     ], 
     [
+      "contemporary classical music", 
+      "post-rock"
+    ], 
+    [
       "techstep", 
       "neurofunk"
     ], 
@@ -4687,10 +4711,6 @@
     [
       "dance-pop", 
       "vocal trance"
-    ], 
-    [
-      "classical", 
-      "new-age music"
     ], 
     [
       "black metal", 
@@ -4777,8 +4797,8 @@
       "rock and roll"
     ], 
     [
-      "classical", 
-      "symphonic metal"
+      "creole music", 
+      "swamp blues"
     ], 
     [
       "college rock", 
@@ -4953,6 +4973,10 @@
       "electric blues"
     ], 
     [
+      "dark wave", 
+      "neoclassical music"
+    ], 
+    [
       "contemporary r&b", 
       "new jack swing"
     ], 
@@ -4985,8 +5009,8 @@
       "garage rock"
     ], 
     [
-      "trap", 
-      "rnbass"
+      "classical music", 
+      "symphonic gothic metal"
     ], 
     [
       "garage punk", 
@@ -5025,8 +5049,8 @@
       "stoner metal"
     ], 
     [
-      "indietronica", 
-      "indie folk"
+      "trap", 
+      "rnbass"
     ], 
     [
       "industrial rock", 
@@ -5095,6 +5119,10 @@
     [
       "blackened death metal", 
       "deathcore"
+    ], 
+    [
+      "classical music", 
+      "jazz"
     ], 
     [
       "country", 
@@ -5505,6 +5533,10 @@
       "bubblegum dance"
     ], 
     [
+      "neoclassical music metal", 
+      "power metal"
+    ], 
+    [
       "mento", 
       "reggae"
     ], 
@@ -5539,10 +5571,6 @@
     [
       "pop", 
       "contemporary r&b"
-    ], 
-    [
-      "classical", 
-      "cool jazz"
     ], 
     [
       "folk rock", 
@@ -5667,10 +5695,6 @@
     [
       "rave music", 
       "hardstyle"
-    ], 
-    [
-      "contemporary classical", 
-      "post-rock"
     ], 
     [
       "soul", 
@@ -5885,10 +5909,6 @@
       "gabber"
     ], 
     [
-      "creole music", 
-      "swamp blues"
-    ], 
-    [
       "new-age music", 
       "biomusic"
     ], 
@@ -5919,6 +5939,10 @@
     [
       "new beat", 
       "eurodance"
+    ], 
+    [
+      "pop rock", 
+      "brill building"
     ], 
     [
       "jazz", 
@@ -6337,8 +6361,8 @@
       "hardvapour"
     ], 
     [
-      "classical", 
-      "art rock"
+      "freestyle", 
+      "breakbeat"
     ], 
     [
       "blues", 
@@ -6395,6 +6419,10 @@
     [
       "reggae", 
       "alternative hip hop"
+    ], 
+    [
+      "portuguese music", 
+      "latin music"
     ], 
     [
       "experimental rock", 
@@ -6489,10 +6517,6 @@
       "christian ska"
     ], 
     [
-      "classical", 
-      "jazz"
-    ], 
-    [
       "symphonic rock", 
       "symphonic gothic metal"
     ], 
@@ -6581,8 +6605,8 @@
       "neurohop"
     ], 
     [
-      "neoclassical metal", 
-      "symphonic metal"
+      "blues", 
+      "bossa nova"
     ], 
     [
       "rhythm and blues", 
@@ -6663,10 +6687,6 @@
     [
       "microhouse", 
       "big room house"
-    ], 
-    [
-      "freestyle", 
-      "breakbeat"
     ], 
     [
       "jazz fusion", 
@@ -6865,8 +6885,8 @@
       "wizard rock"
     ], 
     [
-      "classical", 
-      "ragtime"
+      "europop", 
+      "eurodance"
     ], 
     [
       "dixieland", 
@@ -7041,10 +7061,6 @@
       "rockabilly"
     ], 
     [
-      "classical", 
-      "epic doom"
-    ], 
-    [
       "new wave", 
       "college rock"
     ], 
@@ -7055,10 +7071,6 @@
     [
       "techno", 
       "industrial techno"
-    ], 
-    [
-      "classical", 
-      "symphonic death metal"
     ], 
     [
       "punk rock", 
@@ -7113,6 +7125,10 @@
       "trap"
     ], 
     [
+      "classical music", 
+      "black-doom"
+    ], 
+    [
       "progressive trance", 
       "uplifting trance"
     ], 
@@ -7131,6 +7147,10 @@
     [
       "pop", 
       "jangle pop"
+    ], 
+    [
+      "latin music", 
+      "latin ballad"
     ], 
     [
       "p-funk", 
@@ -7229,6 +7249,10 @@
       "pinoy reggae"
     ], 
     [
+      "indietronica", 
+      "indie folk"
+    ], 
+    [
       "alternative rock", 
       "alternative country"
     ], 
@@ -7277,8 +7301,8 @@
       "trip hop"
     ], 
     [
-      "hardbass", 
-      "hard bounce"
+      "neoclassical_music metal", 
+      "symphonic metal"
     ], 
     [
       "ska", 
@@ -7549,6 +7573,10 @@
       "punk pathetique"
     ], 
     [
+      "latin american music", 
+      "latin music"
+    ], 
+    [
       "industrial metal", 
       "digital hardcore"
     ], 
@@ -7613,6 +7641,10 @@
       "sludge metal"
     ], 
     [
+      "classical music", 
+      "neoclassical_music metal"
+    ], 
+    [
       "pop rock", 
       "jangle pop"
     ], 
@@ -7631,6 +7663,10 @@
     [
       "visayan music", 
       "bisrock"
+    ], 
+    [
+      "ska", 
+      "reggae fusion"
     ], 
     [
       "black metal", 
@@ -7725,10 +7761,6 @@
       "black-doom"
     ], 
     [
-      "neoclassical dark wave", 
-      "martial industrial"
-    ], 
-    [
       "smooth jazz", 
       "nu jazz"
     ], 
@@ -7767,6 +7799,10 @@
     [
       "show tune", 
       "diva house"
+    ], 
+    [
+      "hardbass", 
+      "hard bounce"
     ], 
     [
       "rock and roll", 
@@ -8093,6 +8129,10 @@
       "reggae rock"
     ], 
     [
+      "classical music", 
+      "doom metal"
+    ], 
+    [
       "lounge", 
       "trip hop"
     ], 
@@ -8155,6 +8195,10 @@
     [
       "modernist music", 
       "progressive jazz"
+    ], 
+    [
+      "classical music", 
+      "epic doom"
     ], 
     [
       "breakcore", 
@@ -8287,10 +8331,6 @@
     [
       "power pop", 
       "jangle pop"
-    ], 
-    [
-      "world", 
-      "new-age music"
     ], 
     [
       "death metal", 
@@ -8489,8 +8529,16 @@
       "blackened death metal"
     ], 
     [
+      "rave music", 
+      "trance"
+    ], 
+    [
       "contemporary r&b", 
       "seapunk"
+    ], 
+    [
+      "neoclassical music dark wave", 
+      "martial industrial"
     ], 
     [
       "punk rock", 
@@ -8737,10 +8785,6 @@
       "street punk"
     ], 
     [
-      "indian classical", 
-      "psychedelic trance"
-    ], 
-    [
       "chiptune", 
       "glitch"
     ], 
@@ -8751,6 +8795,10 @@
     [
       "extreme metal", 
       "kawaii metal"
+    ], 
+    [
+      "extreme metal", 
+      "neoclassical music metal"
     ], 
     [
       "gangsta rap", 
@@ -8815,6 +8863,10 @@
     [
       "downtempo", 
       "chillwave"
+    ], 
+    [
+      "neoclassical music metal", 
+      "symphonic gothic metal"
     ], 
     [
       "heavy metal", 
@@ -8909,16 +8961,16 @@
       "acid house"
     ], 
     [
+      "funk carioca", 
+      "melodic funk"
+    ], 
+    [
       "progressive rock", 
       "mathcore"
     ], 
     [
       "gothic metal", 
       "gothic black metal"
-    ], 
-    [
-      "neoclassical metal", 
-      "power metal"
     ], 
     [
       "country rock", 
@@ -8939,10 +8991,6 @@
     [
       "breakbeat", 
       "rave music"
-    ], 
-    [
-      "neoclassical metal", 
-      "symphonic death metal"
     ], 
     [
       "glam rock", 
@@ -9113,6 +9161,10 @@
       "ambient techno"
     ], 
     [
+      "classical music", 
+      "progressive rock"
+    ], 
+    [
       "country", 
       "roots rock"
     ], 
@@ -9137,8 +9189,8 @@
       "symphonic death metal"
     ], 
     [
-      "emo", 
-      "emo rap"
+      "east coast hip hop", 
+      "illbient"
     ], 
     [
       "contemporary r&b", 
@@ -9409,6 +9461,10 @@
       "synth-funk"
     ], 
     [
+      "emo", 
+      "emo rap"
+    ], 
+    [
       "tech trance", 
       "hard trance"
     ], 
@@ -9505,6 +9561,10 @@
       "latin trap"
     ], 
     [
+      "neoclassical_music metal", 
+      "power metal"
+    ], 
+    [
       "hardcore hip hop", 
       "gangsta rap"
     ], 
@@ -9539,10 +9599,6 @@
     [
       "drum and bass", 
       "dubstep"
-    ], 
-    [
-      "classical", 
-      "doom metal"
     ], 
     [
       "punk rock", 
@@ -9641,8 +9697,8 @@
       "minimal techno"
     ], 
     [
-      "east coast hip hop", 
-      "illbient"
+      "neoclassical music metal", 
+      "symphonic power metal"
     ], 
     [
       "ska punk", 
@@ -9679,10 +9735,6 @@
     [
       "latin american music", 
       "chamber jazz"
-    ], 
-    [
-      "extreme metal", 
-      "neoclassical metal"
     ], 
     [
       "house", 
@@ -9811,6 +9863,10 @@
     [
       "bluegrass", 
       "jam band"
+    ], 
+    [
+      "spanish music", 
+      "latin music"
     ], 
     [
       "indietronica", 
@@ -9985,10 +10041,6 @@
       "noise rock"
     ], 
     [
-      "classical", 
-      "big band"
-    ], 
-    [
       "new beat", 
       "italo dance"
     ], 
@@ -10043,6 +10095,10 @@
     [
       "art pop", 
       "synthpop"
+    ], 
+    [
+      "classical music", 
+      "big band"
     ], 
     [
       "garage rock", 
@@ -10135,10 +10191,6 @@
     [
       "metalcore", 
       "melodic metalcore"
-    ], 
-    [
-      "hardstyle", 
-      "hardbass"
     ], 
     [
       "acid house", 
@@ -10385,10 +10437,6 @@
       "baroque pop"
     ], 
     [
-      "classical", 
-      "symphonic power metal"
-    ], 
-    [
       "war metal", 
       "pagan metal"
     ], 
@@ -10447,10 +10495,6 @@
     [
       "novelty songs", 
       "punk pathetique"
-    ], 
-    [
-      "classical", 
-      "symphonic gothic metal"
     ], 
     [
       "minimal techno", 
@@ -10539,10 +10583,6 @@
     [
       "jazz", 
       "traditional bluegrass"
-    ], 
-    [
-      "europop", 
-      "eurodance"
     ], 
     [
       "rap metal", 
@@ -10685,8 +10725,8 @@
       "sludge metal"
     ], 
     [
-      "industrial dance", 
-      "industrial techno"
+      "classical music", 
+      "symphonic death metal"
     ], 
     [
       "pop", 
@@ -10731,6 +10771,10 @@
     [
       "funeral doom", 
       "drone metal"
+    ], 
+    [
+      "industrial dance", 
+      "industrial techno"
     ], 
     [
       "southern hip hop", 
@@ -10969,10 +11013,6 @@
       "vaporwave"
     ], 
     [
-      "balearic beat", 
-      "balearic trance"
-    ], 
-    [
       "rhythm and blues", 
       "boogie rock"
     ], 
@@ -11083,6 +11123,10 @@
     [
       "american marches", 
       "big band"
+    ], 
+    [
+      "heavy metal", 
+      "neoclassical music metal"
     ], 
     [
       "thrash metal", 
@@ -11261,8 +11305,8 @@
       "jump blues"
     ], 
     [
-      "pop rock", 
-      "brill building"
+      "funk", 
+      "contemporary r&b"
     ], 
     [
       "kay\u014dkyoku", 
@@ -11513,10 +11557,6 @@
       "trap"
     ], 
     [
-      "classical", 
-      "indo jazz"
-    ], 
-    [
       "pop", 
       "electronic rock"
     ], 
@@ -11553,10 +11593,6 @@
       "krautrock"
     ], 
     [
-      "heavy metal", 
-      "neoclassical metal"
-    ], 
-    [
       "house", 
       "electroclash"
     ], 
@@ -11579,6 +11615,10 @@
     [
       "rock", 
       "new wave"
+    ], 
+    [
+      "classical music", 
+      "third stream"
     ], 
     [
       "avant-garde jazz", 
@@ -11713,10 +11753,6 @@
       "garage rock"
     ], 
     [
-      "classical", 
-      "baroque pop"
-    ], 
-    [
       "2-step garage", 
       "breakstep"
     ], 
@@ -11763,10 +11799,6 @@
     [
       "muzak", 
       "hypnagogic pop"
-    ], 
-    [
-      "classical", 
-      "chamber pop"
     ], 
     [
       "jamaican", 
@@ -12053,8 +12085,8 @@
       "post-grunge"
     ], 
     [
-      "classical", 
-      "black-doom"
+      "balearic beat", 
+      "balearic trance"
     ], 
     [
       "rave music", 
@@ -12430,7 +12462,6 @@
     "christian rock", 
     "christian ska", 
     "classic female blues", 
-    "classical", 
     "classical music", 
     "cloud rap", 
     "codeine effect", 
@@ -12442,7 +12473,7 @@
     "conscious hip hop", 
     "contemporary christian", 
     "contemporary christian music", 
-    "contemporary classical", 
+    "contemporary classical music", 
     "contemporary contemporary r&b", 
     "contemporary folk", 
     "contemporary music", 
@@ -12700,7 +12731,6 @@
     "illbient", 
     "impressionist music", 
     "indian", 
-    "indian classical", 
     "indian classical music", 
     "indian music", 
     "indian rock", 
@@ -12843,9 +12873,10 @@
     "neo-prog", 
     "neo-progressive rock", 
     "neo-psychedelia", 
-    "neoclassical", 
-    "neoclassical dark wave", 
-    "neoclassical metal", 
+    "neoclassical music", 
+    "neoclassical music dark wave", 
+    "neoclassical music metal", 
+    "neoclassical_music metal", 
     "neofolk", 
     "neon pop", 
     "neotraditional country", 
@@ -12924,6 +12955,7 @@
     "pop-rap", 
     "popular music", 
     "pornogrind", 
+    "portuguese music", 
     "post-black metal", 
     "post-bop", 
     "post-britpop", 
@@ -13074,6 +13106,7 @@
     "space music", 
     "space rock", 
     "spacesynth", 
+    "spanish music", 
     "speed garage", 
     "speed metal", 
     "speedcore", 
@@ -13192,7 +13225,7 @@
     "y\u00e9-y\u00e9", 
     "zydeco"
   ], 
-  "num_genres": 921, 
+  "num_genres": 922, 
   "subgenres": {
     "2-step garage": {
       "children": [
@@ -13885,7 +13918,7 @@
       "instruments": [
         "acoustic_bass", 
         "acoustic_guitar", 
-        "classical_guitar", 
+        "classical_music_guitar", 
         "drums", 
         "piano", 
         "electric_organ"
@@ -14596,7 +14629,7 @@
         "Cold Wave", 
         "Neofolk", 
         "Neue Deutsche Todeskunst", 
-        "Neoclassical", 
+        "Neoclassical Music", 
         "Cabaret Noir", 
         "Ethereal Wave", 
         "Gothic Rock"
@@ -15232,7 +15265,7 @@
         "Pagan Metal", 
         "Drone Metal", 
         "Black 'N' Roll", 
-        "Neoclassical Metal", 
+        "Neoclassical Music Metal", 
         "Post-Metal", 
         "Electronicore", 
         "Thrash Metal", 
@@ -16168,7 +16201,7 @@
         "Sludge Metal", 
         "Black Metal", 
         "Power Metal", 
-        "Neoclassical Metal", 
+        "Neoclassical Music Metal", 
         "Post-Metal", 
         "Speed Metal", 
         "Nu Metal", 
@@ -16463,7 +16496,7 @@
       "instruments": [
         "guitar", 
         "bass", 
-        "indian_classical_instrumentations", 
+        "indian_classical_music_instrumentations", 
         "sitar", 
         "saxophone", 
         "drums", 
@@ -16874,6 +16907,14 @@
       "children": [], 
       "instruments": [], 
       "num_children": 0
+    }, 
+    "latin music": {
+      "children": [
+        "Latin Ballad", 
+        "Latin Pop"
+      ], 
+      "instruments": [], 
+      "num_children": 2
     }, 
     "latin pop": {
       "children": [
@@ -17293,7 +17334,7 @@
       "instruments": [], 
       "num_children": 3
     }, 
-    "neoclassical metal": {
+    "neoclassical_music metal": {
       "children": [
         "Power Metal", 
         "Symphonic Metal"
@@ -19151,7 +19192,7 @@
       "children": [
         "Power Metal", 
         "Thrash Metal", 
-        "Neoclassical Metal"
+        "Neoclassical Music Metal"
       ], 
       "instruments": [
         "electric_guitar", 

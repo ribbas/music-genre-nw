@@ -12,8 +12,8 @@
   ], 
   "parents": [
     "heavy_metal", 
-    "classical", 
+    "classical_music", 
     "speed_metal"
   ], 
-  "root": "neoclassical metal"
+  "root": "neoclassical_music metal"
 }

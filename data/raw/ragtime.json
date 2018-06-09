@@ -14,7 +14,7 @@
   "parents": [
     "folk", 
     "marches", 
-    "classical", 
+    "classical_music", 
     "cakewalks"
   ], 
   "root": "ragtime"

@@ -20,8 +20,8 @@
     "power_metal",
     "symphonic_rock",
     "heavy_metal",
-    "neoclassical_metal",
-    "classical"
+    "neoclassical_music_metal",
+    "classical_music"
   ],
   "root": "symphonic power metal"
 }

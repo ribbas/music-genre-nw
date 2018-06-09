@@ -1,0 +1,13 @@
+{
+  "children": [
+    "latin_ballad", 
+    "latin_pop"
+  ], 
+  "instruments": [], 
+  "parents": [
+    "spanish_music", 
+    "latin_american_music", 
+    "portuguese_music"
+  ], 
+  "root": "latin music"
+}

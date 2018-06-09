@@ -3,7 +3,7 @@
   "instruments": [
     "guitar", 
     "bass", 
-    "indian_classical_instrumentations", 
+    "indian_classical_music_instrumentations", 
     "sitar", 
     "saxophone", 
     "drums", 
@@ -14,7 +14,7 @@
     "indian_classical_music", 
     "jazz", 
     "raga", 
-    "classical"
+    "classical_music"
   ], 
   "root": "indo jazz"
 }
