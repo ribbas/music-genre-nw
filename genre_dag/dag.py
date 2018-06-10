@@ -30,15 +30,13 @@ class GenreDAG(object):
 
         for genre in self.data:
             children = genre["children"]
+            origins = genre["parents"]
             self.subgenres[genre["root"]] = {
                 "children": [i.replace("_", " ").title() for i in children],
                 "num_children": len(children),
-                "instruments": genre["instruments"]
+                "origins": [i.replace("_", " ").title() for i in origins]
             }
             # print(round(log10(len(children) + 1) * 10, 7) + 1)
-
-        print(len(self.get_nodes()))
-        print(len(self.subgenres.keys()))
 
     def get_edges(self):
 
@@ -64,10 +62,10 @@ class GenreDAG(object):
         )
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
 
     data = ls_dir(RAW_DATA_PATH)
-    data = [read_json(i) for i in data]
+    data = [read_json(i) for i in data][:20]
 
     obj = GenreDAG(data=data)
     obj.build_edges()
