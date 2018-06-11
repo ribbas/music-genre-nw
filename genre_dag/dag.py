@@ -6,8 +6,6 @@ from __future__ import unicode_literals, print_function
 from config import DATA_PATH, RAW_DATA_PATH
 from util import dump_json, ls_dir, read_json
 
-from math import log10
-
 
 class GenreDAG(object):
 
@@ -36,7 +34,6 @@ class GenreDAG(object):
                 "num_children": len(children),
                 "origins": [i.replace("_", " ").title() for i in origins]
             }
-            # print(round(log10(len(children) + 1) * 10, 7) + 1)
 
     def get_edges(self):
 
@@ -65,7 +62,7 @@ class GenreDAG(object):
 if __name__ == "__main__":
 
     data = ls_dir(RAW_DATA_PATH)
-    data = [read_json(i) for i in data][:20]
+    data = [read_json(i) for i in data]
 
     obj = GenreDAG(data=data)
     obj.build_edges()

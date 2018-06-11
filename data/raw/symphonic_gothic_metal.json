@@ -1,10 +1,5 @@
 {
-  "children": [
-    "symphonic_gothic_metal",
-    "symphonic_black_metal",
-    "symphonic_death_metal",
-    "symphonic_power_metal"
-  ],
+  "children": [],
   "instruments": [
     "cello",
     "bass_guitar",
@@ -17,11 +12,10 @@
     "piano"
   ],
   "parents": [
-    "power_metal",
-    "symphonic_rock",
-    "heavy_metal",
-    "neoclassical_music_metal",
-    "classical_music"
+    "symphonic_metal",
+    "gothic_metal",
+    "doom_metal",
+    "ethereal_wave"
   ],
   "root": "symphonic gothic metal"
 }
