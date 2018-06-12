@@ -3101,8 +3101,8 @@
       "neurofunk"
     ], 
     [
-      "20th-century classical music", 
-      "jazz fusion"
+      "folk", 
+      "alternative hip hop"
     ], 
     [
       "folk rock", 
@@ -9293,10 +9293,6 @@
       "drum and bass"
     ], 
     [
-      "folk", 
-      "alternative hip hop"
-    ], 
-    [
       "uk garage", 
       "breakstep"
     ], 
@@ -12886,7 +12882,6 @@
     "2-step", 
     "2-step garage", 
     "20th century classical music", 
-    "20th-century classical music", 
     "4-beat", 
     "a cappella", 
     "acid breaks", 
@@ -13915,7 +13910,7 @@
     "zouk", 
     "zydeco"
   ], 
-  "num_genres": 1032, 
+  "num_genres": 1031, 
   "subgenres": {
     "2-step garage": {
       "children": [
@@ -17674,7 +17669,7 @@
       ], 
       "num_children": 6, 
       "origins": [
-        "20Th-Century Classical Music", 
+        "20Th Century Classical Music", 
         "Jazz", 
         "Rock", 
         "Blues", 
