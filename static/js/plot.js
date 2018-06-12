@@ -19,8 +19,8 @@ function getConnections(connections, data) {
 
   var childrenPoints = [];
 
-  for (node in connections) {
-    childrenPoints.push(data[node]);
+  for (var i = 0; i < connections.length; i++) {
+    childrenPoints.push(data[connections[i]]);
   }
 
   return childrenPoints;
