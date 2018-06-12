@@ -1,0 +1,13 @@
+{
+  "children": [], 
+  "instruments": [
+    "guitar", 
+    "piano"
+  ], 
+  "parents": [
+    "jump_blues", 
+    "blues", 
+    "jazz_blues"
+  ], 
+  "root": "west coast blues"
+}

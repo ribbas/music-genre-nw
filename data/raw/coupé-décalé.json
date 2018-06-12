@@ -1,0 +1,15 @@
+{
+  "children": [], 
+  "instruments": [
+    "turntables", 
+    "vocal", 
+    "drum_machine"
+  ], 
+  "parents": [
+    "zouglou", 
+    "tribal_house", 
+    "techno", 
+    "zouk"
+  ], 
+  "root": "coup\u00e9-d\u00e9cal\u00e9"
+}

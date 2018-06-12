@@ -1,0 +1,17 @@
+{
+  "children": [
+    "igbo_rap", 
+    "ogene"
+  ], 
+  "instruments": [
+    "brass", 
+    "fingerstyle", 
+    "horns"
+  ], 
+  "parents": [
+    "soukous", 
+    "highlife", 
+    "igbo_traditional_music"
+  ], 
+  "root": "igbo highlife"
+}

@@ -1,0 +1,17 @@
+{
+  "children": [], 
+  "instruments": [
+    "g\u00fciro", 
+    "guitar", 
+    "cavaquinho", 
+    "double_bass", 
+    "cowbell", 
+    "violin", 
+    "clarinet", 
+    "trumpet", 
+    "congas", 
+    "rattles"
+  ], 
+  "parents": [], 
+  "root": "coladeira"
+}

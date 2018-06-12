@@ -1,0 +1,14 @@
+{
+  "children": [], 
+  "instruments": [
+    "agidigbo", 
+    "agog\u00f4", 
+    "talking_drum", 
+    "sekere"
+  ], 
+  "parents": [
+    "cuban_music", 
+    "yoruba_music"
+  ], 
+  "root": "apala"
+}

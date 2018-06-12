@@ -1,0 +1,17 @@
+{
+  "children": [
+    "kenyan_hip_hop"
+  ], 
+  "instruments": [
+    "keyboard", 
+    "vocals", 
+    "rapping", 
+    "sampler"
+  ], 
+  "parents": [
+    "reggae", 
+    "traditional_african_music", 
+    "hip_hop"
+  ], 
+  "root": "boomba music"
+}

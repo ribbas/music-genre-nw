@@ -1,0 +1,30 @@
+{
+  "children": [
+    "rebetiko_rock", 
+    "la\u00efko", 
+    "smyrna_style_rebetiko"
+  ], 
+  "instruments": [
+    "tzouras", 
+    "kanonaki", 
+    "accordion", 
+    "mandolin", 
+    "lyra", 
+    "oud", 
+    "guitar", 
+    "baglamas", 
+    "toubeleki", 
+    "double_bass", 
+    "bouzouki", 
+    "violin", 
+    "banjo", 
+    "santouri"
+  ], 
+  "parents": [
+    "greek_folk_music", 
+    "maqams", 
+    "makams", 
+    "byzantine_music"
+  ], 
+  "root": "rebetiko"
+}

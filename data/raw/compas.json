@@ -1,0 +1,27 @@
+{
+  "children": [
+    "reggaeton", 
+    "soca", 
+    "kuduro", 
+    "kizomba", 
+    "cadence-lypso", 
+    "champeta", 
+    "zouk", 
+    "cadence_rampa", 
+    "coladeira"
+  ], 
+  "instruments": [
+    "drum", 
+    "bass_guitar", 
+    "guitar", 
+    "synthesizer", 
+    "cowbell", 
+    "keyboard", 
+    "horn_section", 
+    "conga"
+  ], 
+  "parents": [
+    "m\u00e9ringue"
+  ], 
+  "root": "compas"
+}

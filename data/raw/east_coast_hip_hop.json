@@ -1,0 +1,30 @@
+{
+  "children": [
+    "baltimore_club", 
+    "boom_bap", 
+    "go-go", 
+    "brick_city_club", 
+    "new_jack_swing"
+  ], 
+  "instruments": [
+    "rapping", 
+    "turntables", 
+    "human_beatboxing", 
+    "drum_machine", 
+    "synthesizer", 
+    "music_sequencer", 
+    "sampler", 
+    "brass", 
+    "piano"
+  ], 
+  "parents": [
+    "hip_hop", 
+    "jazz", 
+    "disco", 
+    "r&b", 
+    "toasting", 
+    "dancehall", 
+    "funk"
+  ], 
+  "root": "east coast hip hop"
+}

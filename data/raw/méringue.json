@@ -1,0 +1,26 @@
+{
+  "children": [
+    "twoubadou", 
+    "soca", 
+    "compas", 
+    "cadence-lypso", 
+    "mini-jazz", 
+    "zouk", 
+    "cadence_rampa", 
+    "coladeira"
+  ], 
+  "instruments": [
+    "bass", 
+    "tanbou", 
+    "guitar", 
+    "saxophone", 
+    "cowbell", 
+    "horns", 
+    "trombone", 
+    "piano", 
+    "trumpet", 
+    "congas"
+  ], 
+  "parents": [], 
+  "root": "m\u00e9ringue"
+}

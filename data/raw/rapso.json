@@ -1,0 +1,15 @@
+{
+  "children": [], 
+  "instruments": [
+    "guitar", 
+    "vocals", 
+    "bass", 
+    "drums"
+  ], 
+  "parents": [
+    "calypso", 
+    "hip_hop", 
+    "soca"
+  ], 
+  "root": "rapso"
+}

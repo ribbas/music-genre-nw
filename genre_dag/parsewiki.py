@@ -5,7 +5,7 @@ from __future__ import unicode_literals, print_function
 
 from bs4 import BeautifulSoup
 
-from config import BASE_URL, RAW_DATA_PATH, HEADERS
+from config import BASE_URL, DATA_PATH, RAW_DATA_PATH, HEADERS
 from parsers import filter_lists, parse_origin_dates
 from util import dump_json, file_exists, send_request, read_json
 
@@ -30,6 +30,30 @@ CATEGORIES = (
     "subgenres",
     "fusion genres",
 )
+
+
+class GenreList(object):
+
+    def __init__(self, endpoint, file_name):
+
+        self.html = send_request(BASE_URL + endpoint, HEADERS)
+        self.file_name = file_name
+        self.genre_list = set()
+
+    def parse_list(self):
+
+        soup = BeautifulSoup(self.html, "html.parser")
+        soup_sections = soup.find_all(
+            "div", attrs={"class": "div-col columns column-width"})
+        for div in soup_sections:
+            for li in div.find_all("li"):
+                text = li.text.strip().replace(" ", "_").lower().split("\n")
+                self.genre_list.update(set(text))
+
+    def dump_list(self):
+
+        dump_json(self.file_name, {
+                  "genres": filter(None, list(self.genre_list))})
 
 
 class WikiSubtree(object):
@@ -128,7 +152,10 @@ class WikiSubtree(object):
 
 if __name__ == '__main__':
 
-    from sys import argv
+    # from sys import argv
 
-    obj = WikiSubtree(argv[-1])
-    obj.generate_subtree()
+    # obj = WikiSubtree(argv[-1])
+    # obj.generate_subtree()
+    obj = GenreList("List_of_popular_music_genres", DATA_PATH + "genres.json")
+    obj.parse_list()
+    obj.dump_list()

@@ -1,0 +1,32 @@
+{
+  "children": [
+    "krautrock", 
+    "acid_jazz", 
+    "smooth_jazz", 
+    "mathcore", 
+    "punk_jazz", 
+    "progressive_rock"
+  ], 
+  "instruments": [
+    "electronic_keyboard", 
+    "vocals", 
+    "bass_guitar", 
+    "electric_guitar", 
+    "saxophone", 
+    "drums", 
+    "electric_piano", 
+    "piano", 
+    "trumpet", 
+    "synthesizer"
+  ], 
+  "parents": [
+    "20th-century_classical_music", 
+    "jazz", 
+    "rock", 
+    "blues", 
+    "psychedelia", 
+    "funk", 
+    "bebop"
+  ], 
+  "root": "jazz fusion"
+}

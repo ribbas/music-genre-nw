@@ -30,7 +30,7 @@ def file_exists(file_path):
 def send_request(url, headers):
 
     req = requests.get(url, headers=headers)
-    print(req.url)
+    print("Requesting", req.url)
     return req.text
 
 

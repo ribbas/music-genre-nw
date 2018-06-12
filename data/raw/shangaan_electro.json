@@ -1,0 +1,17 @@
+{
+  "children": [], 
+  "instruments": [
+    "synthesizer", 
+    "sequencer", 
+    "modified_electronics", 
+    "drum_machine", 
+    "sampler"
+  ], 
+  "parents": [
+    "house_music", 
+    "tsonga_disco", 
+    "kwaito", 
+    "electronic_music"
+  ], 
+  "root": "shangaan electro"
+}

@@ -1,0 +1,12 @@
+{
+  "children": [], 
+  "instruments": [], 
+  "parents": [
+    "edm", 
+    "house", 
+    "jazz", 
+    "hip_hop", 
+    "swing"
+  ], 
+  "root": "electro swing"
+}

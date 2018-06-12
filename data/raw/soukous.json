@@ -1,0 +1,15 @@
+{
+  "children": [
+    "ndombolo", 
+    "kwassa_kwassa"
+  ], 
+  "instruments": [
+    "acoustic", 
+    "brass", 
+    "fingerstyle"
+  ], 
+  "parents": [
+    "congolese_rumba"
+  ], 
+  "root": "soukous"
+}

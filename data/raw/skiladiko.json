@@ -1,0 +1,18 @@
+{
+  "children": [], 
+  "instruments": [
+    "bouzouki", 
+    "electric_guitar", 
+    "brass_instruments", 
+    "drums"
+  ], 
+  "parents": [
+    "laiko", 
+    "byzantine_music", 
+    "pop", 
+    "greek_folk_music", 
+    "power_pop", 
+    "alternative_rock"
+  ], 
+  "root": "skiladiko"
+}

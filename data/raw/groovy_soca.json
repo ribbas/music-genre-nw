@@ -1,0 +1,30 @@
+{
+  "children": [
+    "zouglou", 
+    "bouyon_soca", 
+    "reggaeton", 
+    "kuduro", 
+    "rapso", 
+    "punta_rock"
+  ], 
+  "instruments": [
+    "acoustic_guitar", 
+    "bass_guitar", 
+    "drum_machine", 
+    "synthesizer", 
+    "vocals", 
+    "drums", 
+    "sampler", 
+    "trombone", 
+    "trumpet"
+  ], 
+  "parents": [
+    "calypso", 
+    "soul", 
+    "cadence_rampa", 
+    "kaiso", 
+    "chutney_music", 
+    "funk"
+  ], 
+  "root": "soca music"
+}

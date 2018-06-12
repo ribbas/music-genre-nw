@@ -1,0 +1,13 @@
+{
+  "children": [], 
+  "instruments": [
+    "acoustic", 
+    "brass", 
+    "fingerstyle"
+  ], 
+  "parents": [
+    "soukous", 
+    "congolese_rumba"
+  ], 
+  "root": "ndombolo"
+}

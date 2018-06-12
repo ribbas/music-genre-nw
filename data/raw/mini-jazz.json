@@ -1,0 +1,19 @@
+{
+  "children": [], 
+  "instruments": [
+    "bass", 
+    "keyboard", 
+    "tanbou", 
+    "guitar", 
+    "synthesizer", 
+    "cowbell", 
+    "horns", 
+    "congas"
+  ], 
+  "parents": [
+    "m\u00e9ringue", 
+    "jazz", 
+    "compas"
+  ], 
+  "root": "mini-jazz"
+}

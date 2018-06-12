@@ -1,0 +1,27 @@
+{
+  "children": [], 
+  "instruments": [
+    "bongo", 
+    "claves", 
+    "bass_guitar", 
+    "conga", 
+    "guitar", 
+    "guiro", 
+    "saxophone", 
+    "maracas", 
+    "trombone", 
+    "piano", 
+    "trumpet", 
+    "timbal"
+  ], 
+  "parents": [
+    "afro-cuban_jazz", 
+    "son_montuno", 
+    "disco", 
+    "nueva_trova", 
+    "salsa", 
+    "son_cubano", 
+    "funk"
+  ], 
+  "root": "timba"
+}

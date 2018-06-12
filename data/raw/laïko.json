@@ -1,0 +1,15 @@
+{
+  "children": [
+    "entehno", 
+    "skiladiko"
+  ], 
+  "instruments": [
+    "bouzouki"
+  ], 
+  "parents": [
+    "greek_folk_music", 
+    "rebetiko", 
+    "byzantine_music"
+  ], 
+  "root": "la\u00efko"
+}

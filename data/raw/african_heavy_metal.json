@@ -1,0 +1,13 @@
+{
+  "children": [], 
+  "instruments": [
+    "electric_guitar", 
+    "vocals", 
+    "bass", 
+    "drums"
+  ], 
+  "parents": [
+    "heavy_metal"
+  ], 
+  "root": "african heavy metal"
+}

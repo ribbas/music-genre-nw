@@ -1,0 +1,23 @@
+{
+  "children": [
+    "reggaeton", 
+    "kizomba", 
+    "kuduro", 
+    "bouyon", 
+    "zouk", 
+    "coladeira"
+  ], 
+  "instruments": [
+    "bass", 
+    "rhythm_guitar", 
+    "synthesizer", 
+    "cowbell", 
+    "drums", 
+    "horns"
+  ], 
+  "parents": [
+    "cadence_rampa", 
+    "calypso"
+  ], 
+  "root": "cadence-lypso"
+}

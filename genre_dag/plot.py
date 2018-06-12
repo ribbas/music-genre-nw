@@ -56,10 +56,12 @@ def make_node_trace():
                 "titleside": "right",
                 "xanchor": "left",
                 "tickvals": [0.0, 1.0],
-                "ticktext": ["External", "0"],
+                "ticktext": ["Unparsed", "0"],
                 "ticks": "outside"
             },
-            "line": {"width": 2}
+            "line": {
+                "width": 2
+            }
         }
     }
 

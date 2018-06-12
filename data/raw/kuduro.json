@@ -1,0 +1,13 @@
+{
+  "children": [], 
+  "instruments": [
+    "drum_machine"
+  ], 
+  "parents": [
+    "house", 
+    "techno", 
+    "zouk", 
+    "soca"
+  ], 
+  "root": "kuduro"
+}

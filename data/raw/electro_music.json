@@ -1,0 +1,35 @@
+{
+  "children": [
+    "skweee", 
+    "miami_bass", 
+    "freestyle", 
+    "house", 
+    "electrocore", 
+    "electro_house", 
+    "electroclash", 
+    "techno", 
+    "breakbeat", 
+    "electro_swing", 
+    "funk_carioca", 
+    "electropop"
+  ], 
+  "instruments": [
+    "talk_box", 
+    "roland_tr-808", 
+    "drum_machine", 
+    "synthesizer", 
+    "vocoder", 
+    "keytar", 
+    "sampler"
+  ], 
+  "parents": [
+    "hip_hop", 
+    "boogie", 
+    "disco", 
+    "chiptune", 
+    "electronic", 
+    "synth-pop", 
+    "funk"
+  ], 
+  "root": "electro"
+}

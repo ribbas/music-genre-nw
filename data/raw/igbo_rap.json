@@ -1,0 +1,18 @@
+{
+  "children": [
+    "igbo_highlife"
+  ], 
+  "instruments": [
+    "keyboard", 
+    "vocals", 
+    "rapping", 
+    "drums", 
+    "sampler"
+  ], 
+  "parents": [
+    "hip_hop", 
+    "igbo_traditional_music", 
+    "african_american_music"
+  ], 
+  "root": "igbo rap"
+}
