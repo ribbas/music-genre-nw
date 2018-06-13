@@ -12,7 +12,7 @@ the origins of such a majestic music genre. Once realized the roots of many of
 the subgenres existed beyond the scope of heavy metal, such as jazz fusion and
 blues, an attempt was made to analyze all the music genres off Wikipedia.
 
-![wiki table]("https://raw.githubusercontent.com/sabbirahm3d/music-genre-nw/master/static/img/wiki-table.png")
+![wiki table](https://raw.githubusercontent.com/sabbirahm3d/music-genre-nw/master/static/img/wiki-table.png)
 
 <sub>Wikipedia tables used for scraping relationships between genres</sub>
 
