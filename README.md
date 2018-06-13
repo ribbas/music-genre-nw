@@ -34,4 +34,4 @@ used to visualize the data.
 The relationships between the genres were determined by the data collected from
 Wikipedia. It is known that Wikipedia can be highly
 subjective, but it is [generally accurate on high level](https://www.zmescience.com/science/study-wikipedia-25092014/). This graph
-should not be used in an argument to classify artists, albums or singles. Also, try to refrain from [gatekeeping](https://www.reddit.com/r/gatekeeping/), it's not very nice!
+should not be used in an argument to classify artists, albums or singles. Also, no one likes a [gatekeeper](https://www.reddit.com/r/gatekeeping/)!
