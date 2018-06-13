@@ -1,4 +1,4 @@
-var dataURL = "https://raw.githubusercontent.com/sabbirahm3d/heavy-metals/master/data/plot_data.json";
+var dataURL = "https://raw.githubusercontent.com/sabbirahm3d/music-genre-nw/master/data/plot_data.json";
 
 function arrayFlip(trans) {
 
