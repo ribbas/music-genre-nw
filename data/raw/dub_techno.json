@@ -1,9 +1,0 @@
-{
-  "children": [], 
-  "instruments": [], 
-  "parents": [
-    "dub", 
-    "techno"
-  ], 
-  "root": "dub techno"
-}
