@@ -6,10 +6,11 @@ import random
 import time
 
 from .normalize import (
+    normalize_category_data,
     normalize_category_key,
     normalize_category_values,
     normalize_genre_key,
-    normalize_category_data,
+    normalize_genre_name,
 )
 
 from bs4 import BeautifulSoup, element
@@ -48,7 +49,7 @@ class WikiScraper:
                     if genre_href:
                         genre_data = {
                             "url": genre_href["href"].split("/")[-1],
-                            "name": element.text,
+                            "name": normalize_genre_name(element.text),
                             "key": normalize_genre_key(element.text),
                         }
                         genres.append(genre_data)
@@ -60,24 +61,27 @@ class WikiScraper:
         scraped_wiki_tables = {}
 
         for genre_data in genre_list:
+
             wait = random.uniform(1.0, 3.0)
             time.sleep(wait)
+
             genre_html = self.get_html(genre_data["url"])
             table_soup = self.get_soup(genre_html).find(
                 "table", {"class": "infobox nowraplinks"}
             )
+
             wiki_table_data = {}
             category_key = ""
             for elem in table_soup.find_all("tr"):
                 if elem.text is not genre_data["name"]:
                     category_title = elem.findChildren(
-                        "th", {"class": "infobox-header"}
+                        "th", {"class": ["infobox-header", "infobox-label"]}
                     )
                     if category_title:
                         category_key = category_title[0].text
                         wiki_table_data[category_key] = []
 
-                    print(elem.text, category_title, category_key)
+                if category_key:
                     category_list = elem.findChildren("li")
                     if category_list:
                         for li_elem in category_list:

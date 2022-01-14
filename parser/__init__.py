@@ -17,9 +17,9 @@ genres = [{**i, "url": configs.make_wiki_url(i["url"])} for i in genres]
 
 test_data = []
 for i in genres:
-    if i["key"] == "hardcore" or i["key"] == "2-step garage":
+    if any(g == i["key"] for g in {"hardcore", "2-step garage", "chamber pop"}):
         test_data.append(i)
 
 print(test_data)
-lol = wiki_scraper.scrape_genre_page(test_data)
-pprint(lol)
+test_data = wiki_scraper.scrape_genre_page(test_data)
+pprint(test_data)

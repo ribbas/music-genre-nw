@@ -7,6 +7,7 @@ category_keys = {
     "Derivative forms",
     "Fusion genres",
     "Local scenes",
+    "Other topics",
     "Stylistic origins",
     "Subgenres",
     "Typical instruments",
@@ -14,14 +15,19 @@ category_keys = {
 genre_categories = {
     "Derivative forms",
     "Fusion genres",
-    "Subgenres",
     "Stylistic origins",
+    "Subgenres",
 }
+
+
+def normalize_genre_name(genre_name: str) -> str:
+
+    return genre_name.split("\n")[0]
 
 
 def normalize_genre_key(genre_key: str) -> str:
 
-    return genre_key.split("\n")[0].lower()
+    return normalize_genre_name(genre_key).lower()
 
 
 def normalize_category_key(category_key: str) -> str:
