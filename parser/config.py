@@ -11,9 +11,10 @@ class ConfigTools:
 
         self.base_path = pathlib.Path().parent.resolve()
         self.data_path = self.base_path / "data"
-        self.checkpoint = self.data_path / "checkpoint.json"
         self.urls_file = self.data_path / "urls.json"
         self.genres_file = self.data_path / "genres.json"
+        self.checkpoint = self.data_path / "checkpoint.json"
+        self.raw_data = self.data_path / "raw.json"
 
     def make_wiki_url(self, endpoint: str) -> str:
         return self.urls["BASE"] + endpoint.strip().replace(" ", "_")
@@ -33,3 +34,14 @@ class ConfigTools:
         self.urls = self.read_from_file(self.urls_file)
         self.genre_list_url = self.make_wiki_url(self.urls["GENRE_LIST"])
         self.checkpoint = []
+
+    def load_checkpoint(self) -> list:
+
+        checkpoint_data = self.read_from_file(self.checkpoint)
+        successes = checkpoint_data["successes"]
+        failures = checkpoint_data["failures"]
+        queue = self.read_from_file(self.genres_file)
+
+    def save_checkpoint(self, data: list) -> None:
+
+        pass
