@@ -31,6 +31,7 @@ class WikiScraper:
         html = self.get_html(url)
         elements = self.get_soup(html).find_all(["h2", "li"])
         genres = []
+        genre_keys = set()
         begin_filling = False
 
         for element in elements:
@@ -46,12 +47,20 @@ class WikiScraper:
                 if element.name == "li":
                     genre_href = element.find("a", href=True)
                     if genre_href:
-                        genre_data = {
-                            "url": genre_href["href"].split("/")[-1],
-                            "name": normalize_genre_name(element.text),
-                            "key": normalize_genre_key(element.text),
-                        }
-                        genres.append(genre_data)
+
+                        url = genre_href["href"].split("/")[-1]
+                        name = normalize_genre_name(element.text)
+                        key = normalize_genre_key(element.text)
+
+                        if key not in genre_keys:
+
+                            genre_keys.add(key)
+                            genre_data = {
+                                "url": url,
+                                "name": name,
+                                "key": key,
+                            }
+                            genres.append(genre_data)
 
         return sorted(genres, key=lambda k: k["key"])
 
