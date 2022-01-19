@@ -47,17 +47,25 @@ class Checkpoint:
         self.successes = set()
         self.failures = set()
 
-    def get_genres(self, genres_file_path) -> list:
+        self.genres_file_path = ""
+        self.checkpoint_file_path = ""
 
-        return ConfigTools.read_from_file(genres_file_path)
+    def set_file_paths(self, genres_file_path, checkpoint_file_path):
 
-    def load(self, genres_file_path, checkpoint_file_path) -> list:
+        self.genres_file_path = genres_file_path
+        self.checkpoint_file_path = checkpoint_file_path
 
-        checkpoint = ConfigTools.read_from_file(checkpoint_file_path)
+    def get_genres(self) -> list:
+
+        return ConfigTools.read_from_file(self.genres_file_path)
+
+    def load(self) -> list:
+
+        checkpoint = ConfigTools.read_from_file(self.checkpoint_file_path)
         self.successes = set(checkpoint["successes"])
         self.failures = set(checkpoint["failures"])
         genre_skips = self.successes | self.failures
-        all_genre_list = self.get_genres(genres_file_path)
+        all_genre_list = self.get_genres(self.genres_file_path)
         for gd in all_genre_list:
             if gd["key"] not in genre_skips:
                 self.genre_queue.append(gd)

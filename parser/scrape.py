@@ -63,6 +63,9 @@ class ParseGenreTable(WikiParser):
 
         super().set_pages(genre_list)
 
+    def set_checkpoint(self, checkpoint: Checkpoint) -> None:
+        super().set_checkpoint(checkpoint)
+
     def set_soup(self):
 
         self.soup = self.get_soup(self.html).find(

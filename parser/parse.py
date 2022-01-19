@@ -1,8 +1,11 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
+from distutils.command import config
 import random
 import time
+
+from .config import Checkpoint
 
 from bs4 import BeautifulSoup, element
 import requests
@@ -14,6 +17,7 @@ class WikiParser:
         self.html: str = ""
         self.soup: element.ResultSet = None
         self.page_list: list = []
+        self.checkpoint: Checkpoint = None
 
     @staticmethod
     def get_html(url: str) -> str:
@@ -36,11 +40,18 @@ class WikiParser:
     def iterate_page(self) -> dict:
         pass
 
+    def set_checkpoint(self, checkpoint: Checkpoint) -> None:
+
+        self.checkpoint = checkpoint
+
     def set_pages(self, page_list: list) -> None:
 
         self.page_list = page_list
 
     def parse(self) -> None:
+
+        if self.checkpoint:
+            pass
 
         parsed_pages_data = {}
 
@@ -49,6 +60,9 @@ class WikiParser:
             try:
 
                 wait = random.uniform(1.0, 3.0)
+                print(
+                    f"Parsing '{page_args['key']}' in {wait}s... ", end="", flush=True
+                )
                 time.sleep(wait)
 
                 self.set_html(page_args["url"])
