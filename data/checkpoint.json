@@ -1,6 +1,6 @@
 {
     "last_genre" : "",
     "last_genre_index" : 0,
-    "failures" : ["hardcore", "2-step garage"],
-    "successes" : ["chamber pop"]
+    "successes" : ["chamber pop"],
+    "failures" : ["hardcore", "2-step garage"]
 }

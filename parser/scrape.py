@@ -1,9 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-import random
-import time
-
+from .config import Checkpoint
 from .normalize import (
     normalize_category_data,
     normalize_category_key,
@@ -11,30 +9,25 @@ from .normalize import (
     normalize_genre_key,
     normalize_genre_name,
 )
-
-from bs4 import BeautifulSoup
-import requests
+from .parse import WikiParser
 
 
-class WikiScraper:
-    def get_html(self, url: str) -> str:
+class ParseGenreList(WikiParser):
+    def __init__(self, url: str) -> None:
 
-        req = requests.get(url)
-        return req.text
+        super().set_pages([{"key": "genres", "url": url}])
 
-    def get_soup(self, html: str) -> BeautifulSoup:
+    def set_soup(self):
 
-        return BeautifulSoup(html, "html.parser")
+        self.soup = self.get_soup(self.html).find_all(["h2", "li"])
 
-    def scrape_list_page(self, url: str) -> set:
+    def iterate_page(self, args: dict = None) -> dict:
 
-        html = self.get_html(url)
-        elements = self.get_soup(html).find_all(["h2", "li"])
         genres = []
         genre_keys = set()
         begin_filling = False
 
-        for element in elements:
+        for element in self.soup:
 
             if element.name == "h2":
                 if "Avant-garde" in element.text:
@@ -64,41 +57,25 @@ class WikiScraper:
 
         return sorted(genres, key=lambda k: k["key"])
 
-    def scrape_genre_pages(self, genre_list: list):
 
-        scraped_wiki_tables = {}
+class ParseGenreTable(WikiParser):
+    def __init__(self, genre_list: list) -> None:
 
-        for genre_data in genre_list:
+        super().set_pages(genre_list)
 
-            try:
+    def set_soup(self):
 
-                wait = random.uniform(1.0, 3.0)
-                time.sleep(wait)
-
-                wiki_table_data = self.scrape_genre_page(
-                    genre_data["url"], genre_data["name"]
-                )
-
-                scraped_wiki_tables[genre_data["key"]] = wiki_table_data
-                print("done")
-
-            except KeyboardInterrupt:
-                break
-
-        return scraped_wiki_tables
-
-    def scrape_genre_page(self, url: str, name: str):
-
-        genre_html = self.get_html(url)
-        table_soup = self.get_soup(genre_html).find(
+        self.soup = self.get_soup(self.html).find(
             "table", {"class": "infobox nowraplinks"}
         )
 
+    def iterate_page(self, args: dict = None) -> dict:
+
         wiki_table_data = {}
         category_key = ""
-        for elem in table_soup.find_all("tr"):
+        for elem in self.soup.find_all("tr"):
 
-            if elem.text is not name:
+            if elem.text is not args["name"]:
                 category_title = elem.findChildren(
                     "th", {"class": ["infobox-header", "infobox-label"]}
                 )
