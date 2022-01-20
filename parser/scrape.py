@@ -7,7 +7,7 @@ import time
 from bs4 import BeautifulSoup, element
 import requests
 
-from .config import Checkpoint
+from .config import Checkpoint, ConfigTools
 from .normalize import (
     normalize_category_data,
     normalize_category_key,
@@ -54,6 +54,10 @@ class WikiParser:
 
         self.checkpoint = checkpoint
 
+    def set_configs(self, configs: ConfigTools) -> None:
+
+        self.configs = configs
+
     def set_pages(self, page_list: list) -> None:
 
         self.page_list = page_list
@@ -91,19 +95,21 @@ class WikiParser:
                     parsed_pages_data[page_args["key"]] = parsed_data
                     if self.checkpoint:
                         self.checkpoint.add_success(page_args["key"])
+                        self.checkpoint.add_genre_queue({page_args["key"]: parsed_data})
                     print("done")
 
             except KeyboardInterrupt:
                 break
 
         if self.checkpoint:
+            print("Saving...")
             self.checkpoint.save()
 
         return parsed_pages_data
 
 
 class ParseGenreList(WikiParser):
-    def __init__(self, url: str) -> None:
+    def __init__(self, url: str = None) -> None:
 
         super().__init__()
         super().set_pages([{"key": "genres", "url": url}])
@@ -132,7 +138,9 @@ class ParseGenreList(WikiParser):
                     genre_href = element.find("a", href=True)
                     if genre_href:
 
-                        url = genre_href["href"].split("/")[-1]
+                        url = self.configs.make_wiki_url(
+                            genre_href["href"].split("/")[-1]
+                        )
                         name = normalize_genre_name(element.text)
                         key = normalize_genre_key(element.text)
 
@@ -151,10 +159,10 @@ class ParseGenreList(WikiParser):
 
 
 class ParseGenreTable(WikiParser):
-    def __init__(self, genre_list: list) -> None:
+    def __init__(self, url: str = None) -> None:
 
         super().__init__()
-        super().set_pages(genre_list)
+        super().set_pages([])
 
     def set_checkpoint(self, checkpoint: Checkpoint) -> None:
 

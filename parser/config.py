@@ -51,6 +51,7 @@ class Checkpoint:
 
         self.genres_file_path: str = ""
         self.checkpoint_file_path: str = ""
+        self.raw_file_path: str = ""
 
     def add_success(self, genre: str) -> None:
 
@@ -60,18 +61,29 @@ class Checkpoint:
 
         self.failures.add(genre)
 
+    def add_genre_queue(self, genre: dict) -> None:
+
+        self.genre_queue.append(genre)
+
     def get_genre_queue(self) -> list:
 
         return self.genre_queue
 
-    def set_file_paths(self, genres_file_path, checkpoint_file_path) -> None:
+    def set_file_paths(
+        self, genres_file_path, checkpoint_file_path, raw_file_path
+    ) -> None:
 
         self.genres_file_path = genres_file_path
         self.checkpoint_file_path = checkpoint_file_path
+        self.raw_file_path = raw_file_path
 
     def get_genres(self) -> list:
 
         return ConfigTools.read_from_file(self.genres_file_path)
+
+    def get_current_data(self) -> list:
+
+        return ConfigTools.read_from_file(self.raw_file_path)
 
     def load(self) -> list:
 
@@ -87,7 +99,11 @@ class Checkpoint:
     def save(self) -> None:
 
         data = {
-            "successes": self.successes,
-            "failures": self.failures,
+            "successes": list(self.successes),
+            "failures": list(self.failures),
         }
         ConfigTools.dump_to_file(self.checkpoint_file_path, data)
+
+        current_data = self.get_current_data()
+        current_data.append(self.get_genre_queue)
+        ConfigTools.dump_to_file(self.raw_file_path, current_data)
