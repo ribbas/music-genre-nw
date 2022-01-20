@@ -100,8 +100,8 @@ class Checkpoint:
     def save(self) -> None:
 
         checkpoint_data = {
-            "successes": list(self.successes),
-            "failures": list(self.failures),
+            "successes": sorted(list(self.successes)),
+            "failures": sorted(list(self.failures)),
         }
         ConfigTools.dump_to_file(self.checkpoint_file_path, checkpoint_data)
 

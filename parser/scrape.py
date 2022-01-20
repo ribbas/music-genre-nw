@@ -71,7 +71,7 @@ class WikiParser:
 
             try:
 
-                wait = random.uniform(1.0, 3.0)
+                wait = random.uniform(1.0, 2.0)
                 print(
                     f"Parsing '{page_args['key']}' in {wait}s... ", end="", flush=True
                 )
