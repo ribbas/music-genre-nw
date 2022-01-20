@@ -1,8 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-from pprint import pprint
-
 import parser
 
 if __name__ == "__main__":
@@ -22,5 +20,4 @@ if __name__ == "__main__":
 
     genre_table_parser = parser.ParseGenreTable()
     genre_table_parser.set_checkpoint(checkpoint)
-    genre_tables = genre_table_parser.parse()
-    pprint(genre_tables)
+    genre_table_parser.parse()
