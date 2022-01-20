@@ -28,10 +28,7 @@ class WikiParser:
     @staticmethod
     def get_html(url: str) -> str:
 
-        try:
-            req = requests.get(url)
-        except:
-            exit(-1)
+        req = requests.get(url)
 
         return req.text
 
@@ -95,7 +92,7 @@ class WikiParser:
                     parsed_pages_data[page_args["key"]] = parsed_data
                     if self.checkpoint:
                         self.checkpoint.add_success(page_args["key"])
-                        self.checkpoint.add_genre_queue({page_args["key"]: parsed_data})
+                        self.checkpoint.add_parsed_data({page_args["key"]: parsed_data})
                     print("done")
 
             except KeyboardInterrupt:

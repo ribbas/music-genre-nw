@@ -46,6 +46,7 @@ class Checkpoint:
 
         # database queues
         self.genre_queue: list = []
+        self.parsed_data: list = []
         self.successes: set = set()
         self.failures: set = set()
 
@@ -61,9 +62,9 @@ class Checkpoint:
 
         self.failures.add(genre)
 
-    def add_genre_queue(self, genre: dict) -> None:
+    def add_parsed_data(self, genre: dict) -> None:
 
-        self.genre_queue.append(genre)
+        self.parsed_data.append(genre)
 
     def get_genre_queue(self) -> list:
 
@@ -98,12 +99,12 @@ class Checkpoint:
 
     def save(self) -> None:
 
-        data = {
+        checkpoint_data = {
             "successes": list(self.successes),
             "failures": list(self.failures),
         }
-        ConfigTools.dump_to_file(self.checkpoint_file_path, data)
+        ConfigTools.dump_to_file(self.checkpoint_file_path, checkpoint_data)
 
         current_data = self.get_current_data()
-        current_data.append(self.get_genre_queue)
+        current_data.extend(self.parsed_data)
         ConfigTools.dump_to_file(self.raw_file_path, current_data)
