@@ -23,7 +23,10 @@ if __name__ == "__main__":
     genres = [{**i, "url": configs.make_wiki_url(i["url"])} for i in genres]
     test_data = []
     for i in genres:
-        if any(g == i["key"] for g in {"hardcore", "2-step garage", "chamber pop"}):
+        if any(
+            g == i["key"]
+            for g in {"hardcore", "2-step garage", "chamber pop", "t'ong guitar"}
+        ):
             test_data.append(i)
 
     print(test_data)

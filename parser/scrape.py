@@ -1,6 +1,12 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
+import random
+import time
+
+from bs4 import BeautifulSoup, element
+import requests
+
 from .config import Checkpoint
 from .normalize import (
     normalize_category_data,
@@ -9,15 +15,100 @@ from .normalize import (
     normalize_genre_key,
     normalize_genre_name,
 )
-from .parse import WikiParser
+
+
+class WikiParser:
+    def __init__(self) -> None:
+
+        self.html: str = ""
+        self.soup: element.ResultSet = None
+        self.page_list: list = []
+        self.checkpoint: Checkpoint = None
+
+    @staticmethod
+    def get_html(url: str) -> str:
+
+        try:
+            req = requests.get(url)
+        except:
+            exit(-1)
+
+        return req.text
+
+    @staticmethod
+    def get_soup(html: str) -> BeautifulSoup:
+
+        return BeautifulSoup(html, "html.parser")
+
+    def set_html(self, url: str) -> None:
+
+        self.html = self.get_html(url)
+
+    def set_soup(self) -> None:
+        pass
+
+    def iterate_page(self) -> dict:
+        pass
+
+    def set_checkpoint(self, checkpoint: Checkpoint) -> None:
+
+        self.checkpoint = checkpoint
+
+    def set_pages(self, page_list: list) -> None:
+
+        self.page_list = page_list
+
+    def parse(self) -> None:
+
+        if self.checkpoint:
+            self.checkpoint.load()
+            self.page_list = self.checkpoint.get_genre_queue()
+
+        parsed_pages_data = {}
+
+        for page_args in self.page_list:
+
+            try:
+
+                wait = random.uniform(1.0, 3.0)
+                print(
+                    f"Parsing '{page_args['key']}' in {wait}s... ", end="", flush=True
+                )
+                time.sleep(wait)
+
+                self.set_html(page_args["url"])
+                self.set_soup()
+
+                try:
+                    parsed_data = self.iterate_page(page_args)
+
+                except AttributeError:
+                    if self.checkpoint:
+                        self.checkpoint.add_failure(page_args["key"])
+                    print(f"failed")
+
+                else:
+                    parsed_pages_data[page_args["key"]] = parsed_data
+                    if self.checkpoint:
+                        self.checkpoint.add_success(page_args["key"])
+                    print("done")
+
+            except KeyboardInterrupt:
+                break
+
+        if self.checkpoint:
+            self.checkpoint.save()
+
+        return parsed_pages_data
 
 
 class ParseGenreList(WikiParser):
     def __init__(self, url: str) -> None:
 
+        super().__init__()
         super().set_pages([{"key": "genres", "url": url}])
 
-    def set_soup(self):
+    def set_soup(self) -> None:
 
         self.soup = self.get_soup(self.html).find_all(["h2", "li"])
 
@@ -55,18 +146,21 @@ class ParseGenreList(WikiParser):
                             }
                             genres.append(genre_data)
 
-        return sorted(genres, key=lambda k: k["key"])
+        sorted_genre_list = sorted(genres, key=lambda k: k["key"])
+        return sorted_genre_list
 
 
 class ParseGenreTable(WikiParser):
     def __init__(self, genre_list: list) -> None:
 
+        super().__init__()
         super().set_pages(genre_list)
 
     def set_checkpoint(self, checkpoint: Checkpoint) -> None:
+
         super().set_checkpoint(checkpoint)
 
-    def set_soup(self):
+    def set_soup(self) -> None:
 
         self.soup = self.get_soup(self.html).find(
             "table", {"class": "infobox nowraplinks"}

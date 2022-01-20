@@ -10,12 +10,14 @@ class ConfigTools:
     def __init__(self) -> None:
 
         # data file paths
-        self.base_dir_path = pathlib.Path().parent.resolve()
-        self.data_dir_path = self.base_dir_path / "data"
-        self.urls_file_path = self.data_dir_path / "urls.json"
-        self.genres_file_path = self.data_dir_path / "genres.json"
-        self.checkpoint_file_path = self.data_dir_path / "checkpoint.json"
-        self.raw_data = self.data_dir_path / "raw.json"
+        self.base_dir_path: pathlib.Path = pathlib.Path().parent.resolve()
+        self.data_dir_path: pathlib.Path = self.base_dir_path / "data"
+
+        self.urls_file_path: pathlib.Path = self.data_dir_path / "urls.json"
+        self.genres_file_path: pathlib.Path = self.data_dir_path / "list.json"
+        self.checkpoint_file_path: pathlib.Path = self.data_dir_path / "checkpoint.json"
+        self.raw_file_path: pathlib.Path = self.data_dir_path / "raw.json"
+        self.norm_file_path: pathlib.Path = self.data_dir_path / "normalized.json"
 
     def make_wiki_url(self, endpoint: str) -> str:
 
@@ -43,14 +45,26 @@ class Checkpoint:
     def __init__(self) -> None:
 
         # database queues
-        self.genre_queue = []
-        self.successes = set()
-        self.failures = set()
+        self.genre_queue: list = []
+        self.successes: set = set()
+        self.failures: set = set()
 
-        self.genres_file_path = ""
-        self.checkpoint_file_path = ""
+        self.genres_file_path: str = ""
+        self.checkpoint_file_path: str = ""
 
-    def set_file_paths(self, genres_file_path, checkpoint_file_path):
+    def add_success(self, genre: str) -> None:
+
+        self.successes.add(genre)
+
+    def add_failure(self, genre: str) -> None:
+
+        self.failures.add(genre)
+
+    def get_genre_queue(self) -> list:
+
+        return self.genre_queue
+
+    def set_file_paths(self, genres_file_path, checkpoint_file_path) -> None:
 
         self.genres_file_path = genres_file_path
         self.checkpoint_file_path = checkpoint_file_path
@@ -65,20 +79,15 @@ class Checkpoint:
         self.successes = set(checkpoint["successes"])
         self.failures = set(checkpoint["failures"])
         genre_skips = self.successes | self.failures
-        all_genre_list = self.get_genres(self.genres_file_path)
+        all_genre_list = self.get_genres()
         for gd in all_genre_list:
             if gd["key"] not in genre_skips:
                 self.genre_queue.append(gd)
 
-        # print(self.genre_queue)
+    def save(self) -> None:
 
-    def save(
-        self, last_genre: str, last_genre_index: int, successes: list, failures: list
-    ) -> None:
-
-        checkpoint = {
-            "last_genre": last_genre,
-            "last_genre_index": last_genre_index,
-            "successes": successes,
-            "failures": failures,
+        data = {
+            "successes": self.successes,
+            "failures": self.failures,
         }
+        ConfigTools.dump_to_file(self.checkpoint_file_path, data)
