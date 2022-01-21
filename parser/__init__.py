@@ -3,3 +3,4 @@
 
 from .config import Checkpoint, ConfigTools
 from .scrape import ParseGenreList, ParseGenreTable
+from .normalize import TableNormalizer

@@ -70,13 +70,11 @@ class Checkpoint:
 
         return self.genre_queue
 
-    def set_file_paths(
-        self, genres_file_path, checkpoint_file_path, raw_file_path
-    ) -> None:
+    def set_file_paths(self, configs: ConfigTools) -> None:
 
-        self.genres_file_path = genres_file_path
-        self.checkpoint_file_path = checkpoint_file_path
-        self.raw_file_path = raw_file_path
+        self.genres_file_path = configs.genres_file_path
+        self.checkpoint_file_path = configs.checkpoint_file_path
+        self.raw_file_path = configs.raw_file_path
 
     def get_genres(self) -> list:
 
