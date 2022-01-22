@@ -33,5 +33,6 @@ if __name__ == "__main__":
 
         table_normalizer = parser.TableNormalizer()
         raw_file_data = configs.read_from_file(configs.raw_file_path)
-        table_normalizer.read_raw_data(raw_file_data[:2])
+        print(len(raw_file_data))
+        table_normalizer.read_raw_data(raw_file_data)
         table_normalizer.normalize()
