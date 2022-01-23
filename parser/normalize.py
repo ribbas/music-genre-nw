@@ -3,8 +3,6 @@
 
 import re
 
-from .config import ConfigTools
-
 import spacy
 
 
@@ -54,29 +52,19 @@ class Normalizer:
     @staticmethod
     def strip_annotations(category_values_list: list) -> list:
 
-        filtered_category_values_list: list = []
-        for category_value in category_values_list:
-            filtered_category_values_list.append(
-                Normalizer.annotation_re.match(category_value).group()
-            )
-
-        return filtered_category_values_list
+        return [Normalizer.annotation_re.match(c).group() for c in category_values_list]
 
     @staticmethod
     def normalize_genre_values(category_values_list: list) -> list:
 
-        filtered_category_values_list: list = []
-        for genre in category_values_list:
-            filtered_category_values_list.append(Normalizer.normalize_genre_key(genre))
-
-        return filtered_category_values_list
+        return [Normalizer.normalize_genre_key(c) for c in category_values_list]
 
     @staticmethod
     def normalize_dates(origin_date: str) -> set:
 
         origin_date_groups: set = set()
-        found_groups = Normalizer.cultural_origins_date_re.finditer(origin_date)
-        for found_group in found_groups:
+        matches = Normalizer.cultural_origins_date_re.finditer(origin_date)
+        for found_group in matches:
             origin_date_groups.add(found_group.group().strip())
 
         return origin_date_groups
@@ -84,7 +72,7 @@ class Normalizer:
     @staticmethod
     def normalize_geoloc(geoloc_value: str) -> set:
 
-        origin_geoloc_groups: set = set()
+        origin_geoloc_groups: list = set()
 
         doc = Normalizer.nlp(geoloc_value)
         for ent in doc.ents:
@@ -123,20 +111,12 @@ class Normalizer:
     @staticmethod
     def remove_category_keys(category_key: str, category_value_list: list) -> list:
 
-        for ix in range(len(category_value_list)):
-            category_value_list[ix] = category_value_list[ix].replace(category_key, "")
-
-        return category_value_list
+        return [c.replace(category_key, "") for c in category_value_list]
 
     @staticmethod
     def remove_category_value(category_value_list: list) -> list:
 
-        filtered_category_value_list: list = []
-        for category_value in category_value_list:
-            if category_value not in Normalizer.category_keys:
-                filtered_category_value_list.append(category_value)
-
-        return filtered_category_value_list
+        return [c for c in category_value_list if c not in Normalizer.category_keys]
 
     @staticmethod
     def normalize_category_data(genre_data: dict) -> dict:
