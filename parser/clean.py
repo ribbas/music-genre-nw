@@ -43,7 +43,7 @@ class DataCleaner:
     @staticmethod
     def normalize_genre_key(genre_key: str) -> str:
 
-        return DataCleaner.normalize_genre_name(genre_key).lower()
+        return DataCleaner.normalize_genre_name(genre_key).lower().strip()
 
     @staticmethod
     def normalize_category_key(category_key: str) -> str:
@@ -60,6 +60,9 @@ class DataCleaner:
     @staticmethod
     def normalize_genre_values(category_values_list: list) -> list:
 
+        if len(category_values_list) == 1 and "," in category_values_list[0]:
+            category_values_list = category_values_list[0].split(",")
+
         return [DataCleaner.normalize_genre_key(c) for c in category_values_list]
 
     @staticmethod
@@ -75,14 +78,8 @@ class DataCleaner:
     @staticmethod
     def normalize_geoloc(geoloc_value: str) -> set:
 
-        origin_geoloc_groups: list = set()
-
         doc = DataCleaner.nlp(geoloc_value)
-        for ent in doc.ents:
-            if ent.label_ in {"GPE", "LOC"}:
-                origin_geoloc_groups.add(ent.text)
-
-        return origin_geoloc_groups
+        return set(i.text for i in doc.ents if i.label_ in {"GPE", "LOC"})
 
     @staticmethod
     def normalize_scenes(category_values_list: list) -> set:
