@@ -8,7 +8,7 @@ from bs4 import BeautifulSoup, element
 import requests
 
 from .config import Checkpoint, ConfigTools
-from .normalize import Normalizer
+from .clean import DataCleaner
 
 
 class WikiParser:
@@ -132,8 +132,8 @@ class ParseGenreList(WikiParser):
                         url = self.configs.make_wiki_url(
                             genre_href["href"].split("/")[-1]
                         )
-                        name = Normalizer.normalize_genre_name(element.text)
-                        key = Normalizer.normalize_genre_key(element.text)
+                        name = DataCleaner.normalize_genre_name(element.text)
+                        key = DataCleaner.normalize_genre_key(element.text)
 
                         if key not in genre_keys:
 
