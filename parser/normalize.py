@@ -3,6 +3,8 @@
 
 import re
 
+from .config import ConfigTools
+
 import spacy
 
 
@@ -52,7 +54,7 @@ class Normalizer:
     @staticmethod
     def strip_annotations(category_values_list: list) -> list:
 
-        filtered_category_values_list = []
+        filtered_category_values_list: list = []
         for category_value in category_values_list:
             filtered_category_values_list.append(
                 Normalizer.annotation_re.match(category_value).group()
@@ -61,31 +63,30 @@ class Normalizer:
         return filtered_category_values_list
 
     @staticmethod
-    def normalize_genre_values(category_values_list: list):
+    def normalize_genre_values(category_values_list: list) -> list:
 
-        filtered_category_values_list = []
+        filtered_category_values_list: list = []
         for genre in category_values_list:
             filtered_category_values_list.append(Normalizer.normalize_genre_key(genre))
 
         return filtered_category_values_list
 
     @staticmethod
-    def normalize_origin_dates(cultural_origin_value: str):
+    def normalize_dates(origin_date: str) -> set:
 
-        origin_date_groups = Normalizer.cultural_origins_date_re.findall(
-            cultural_origin_value
-        )
-        if origin_date_groups:
-            origin_date_groups = max(origin_date_groups[0], key=lambda x: len(x))
-            return origin_date_groups
+        origin_date_groups: set = set()
+        found_groups = Normalizer.cultural_origins_date_re.finditer(origin_date)
+        for found_group in found_groups:
+            origin_date_groups.add(found_group.group().strip())
 
-        return ""
+        return origin_date_groups
 
     @staticmethod
-    def normalize_origin_geoloc(cultural_origin_value: str):
+    def normalize_geoloc(geoloc_value: str) -> set:
 
-        origin_geoloc_groups = set()
-        doc = Normalizer.nlp(cultural_origin_value)
+        origin_geoloc_groups: set = set()
+
+        doc = Normalizer.nlp(geoloc_value)
         for ent in doc.ents:
             if ent.label_ in {"GPE", "LOC"}:
                 origin_geoloc_groups.add(ent.text)
@@ -93,40 +94,44 @@ class Normalizer:
         return origin_geoloc_groups
 
     @staticmethod
-    def normalize_cultural_origins(category_values_list: list):
+    def normalize_scenes(category_values_list: list) -> set:
 
-        filtered_category_values_list = []
-        origin_date_groups = set()
-        origin_geoloc_groups = set()
+        origin_geolocs: set = set()
+        for category_value in category_values_list:
+            origin_geolocs |= Normalizer.normalize_geoloc(category_value)
+
+        return list(origin_geolocs)
+
+    @staticmethod
+    def normalize_cultural_origins(category_values_list: list) -> list:
+
+        cultural_origins: list = []
         for category_value in category_values_list:
 
-            category_value = category_value.replace("Cultural origins", "")
+            origin_date_groups = Normalizer.normalize_dates(category_value)
+            origin_geoloc_groups = Normalizer.normalize_geoloc(category_value)
 
-            origin_date_groups.add(Normalizer.normalize_origin_dates(category_value))
+            cultural_origins.append(
+                {
+                    "dates": list(origin_date_groups),
+                    "geoloc": list(origin_geoloc_groups),
+                }
+            )
 
-            origin_geoloc_groups |= Normalizer.normalize_origin_geoloc(category_value)
-
-        filtered_category_values_list.append(
-            {"dates": origin_date_groups, "geoloc": origin_geoloc_groups}
-        )
-        return filtered_category_values_list
-
-    @staticmethod
-    def normalize_typical_instruments():
-        pass
+        return cultural_origins
 
     @staticmethod
-    def normalize_local_scenes():
-        pass
+    def remove_category_keys(category_key: str, category_value_list: list) -> list:
+
+        for ix in range(len(category_value_list)):
+            category_value_list[ix] = category_value_list[ix].replace(category_key, "")
+
+        return category_value_list
 
     @staticmethod
-    def normalize_other_topics():
-        pass
+    def remove_category_value(category_value_list: list) -> list:
 
-    @staticmethod
-    def remove_category_keys(category_value_list):
-
-        filtered_category_value_list = []
+        filtered_category_value_list: list = []
         for category_value in category_value_list:
             if category_value not in Normalizer.category_keys:
                 filtered_category_value_list.append(category_value)
@@ -136,26 +141,42 @@ class Normalizer:
     @staticmethod
     def normalize_category_data(genre_data: dict) -> dict:
 
-        normalized_category_data = {}
-        for category_key, category_value_list in genre_data.items():
+        normalized_category_data: dict = {}
+        for category_key, category_values_list in genre_data.items():
 
-            category_value_list = filter(None, category_value_list)
-            category_value_list = Normalizer.remove_category_keys(category_value_list)
-            category_value_list = Normalizer.strip_annotations(category_value_list)
+            category_values_list = filter(None, category_values_list)
+            category_values_list = Normalizer.remove_category_value(
+                category_values_list
+            )
+            category_values_list = Normalizer.remove_category_keys(
+                category_key, category_values_list
+            )
+            category_values_list = Normalizer.strip_annotations(category_values_list)
 
             # if category is a genre category
             if category_key in Normalizer.genre_categories:
-                category_value_list = Normalizer.normalize_genre_values(
-                    category_value_list
+                category_values_list = Normalizer.normalize_genre_values(
+                    category_values_list
                 )
 
             elif category_key == "Cultural origins":
-                category_value_list = Normalizer.normalize_cultural_origins(
-                    category_value_list
+                category_values_list = Normalizer.normalize_cultural_origins(
+                    category_values_list
                 )
-                print(category_value_list)
 
-            normalized_category_data[category_key.lower()] = category_value_list
+            elif category_key in {
+                "Regional scenes",
+                "Local scenes",
+            }:
+                category_values_list = Normalizer.normalize_scenes(category_values_list)
+
+            elif category_key == "Typical instruments":
+                category_values_list = [i.lower() for i in category_values_list]
+
+            else:
+                continue
+
+            normalized_category_data[category_key.lower()] = category_values_list
 
         return normalized_category_data
 
@@ -169,11 +190,13 @@ class TableNormalizer:
 
         self.raw_file_data = raw_file_data
 
-    def normalize(self) -> None:
+    def normalize(self) -> list:
+
+        normalize_data: list = []
 
         for data in self.raw_file_data:
-            # print(data)
             genre_key, genre_values_list = next(iter(data.items()))
-            print(genre_key)
             normalized_values = Normalizer.normalize_category_data(genre_values_list)
-            # print({genre_key: normalized_values})
+            normalize_data.append({genre_key: normalized_values})
+
+        return normalize_data
