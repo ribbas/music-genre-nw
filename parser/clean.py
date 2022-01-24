@@ -51,7 +51,7 @@ class DataCleaner:
     def normalize_genre_values(category_values_list: list) -> list:
 
         if len(category_values_list) == 1 and "," in category_values_list[0]:
-            category_values_list = category_values_list[0].split(",")
+            category_values_list = filter(None, category_values_list[0].split(","))
 
         return [DataCleaner.normalize_genre_key(c) for c in category_values_list]
 
