@@ -36,10 +36,11 @@ if __name__ == "__main__":
         table_normalizer.read_raw_data(raw_file_data)
         table_normalizer.normalize()
         normalized_data = table_normalizer.get_normalized_data()
-        configs.dump_to_file(configs.norm_file_path, normalized_data)
+        configs.dump_to_file(configs.norm_file_path, normalized_data, pretty=True)
         # table_normalizer.stats()
 
-        # normalized_data = configs.read_from_file(configs.norm_file_path)
+        normalized_data = configs.read_from_file(configs.norm_file_path)
+        # pprint(normalized_data)
 
         # for i in normalized_data:
         #     try:

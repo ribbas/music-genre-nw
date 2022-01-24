@@ -17,6 +17,9 @@ class ConfigTools:
         self.genres_file_path: pathlib.Path = self.data_dir_path / "list.json"
         self.checkpoint_file_path: pathlib.Path = self.data_dir_path / "checkpoint.json"
         self.raw_file_path: pathlib.Path = self.data_dir_path / "raw.json"
+        self.norm_file_path_min: pathlib.Path = (
+            self.data_dir_path / "normalized.min.json"
+        )
         self.norm_file_path: pathlib.Path = self.data_dir_path / "normalized.json"
 
     def make_wiki_url(self, endpoint: str) -> str:
@@ -30,10 +33,15 @@ class ConfigTools:
             return json.load(fp)
 
     @staticmethod
-    def dump_to_file(file_path: str, data: Any) -> None:
+    def dump_to_file(file_path: str, data: Any, pretty: bool = False) -> None:
 
         with open(file_path, "w") as fp:
-            json.dump(data, fp, ensure_ascii=False)
+            json.dump(data, fp, ensure_ascii=False, **ConfigTools.dump_pretty(pretty))
+
+    @staticmethod
+    def dump_pretty(pretty: bool) -> dict:
+
+        return dict(indent=4, sort_keys=True) if pretty else {}
 
     def init_urls(self) -> None:
 
