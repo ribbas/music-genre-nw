@@ -79,17 +79,13 @@ class TextProcessor:
         return date_begin, date_end
 
     @staticmethod
-    def parse_dates(origin_date: str) -> dict:
+    def parse_dates(origin_date: str) -> set:
 
-        origin_date_groups: dict = {"begin": 9999, "end": 0}
+        origin_date_groups: set = set()
         matches = TextProcessor.cultural_origins_date_re.finditer(origin_date)
 
         for found_group in matches:
-            date_groups = TextProcessor.normalize_date(found_group.group())
-            if date_groups[0] < origin_date_groups["begin"]:
-                origin_date_groups["begin"] = date_groups[0]
-            if date_groups[1] > origin_date_groups["end"]:
-                origin_date_groups["end"] = date_groups[1]
+            origin_date_groups.add(TextProcessor.normalize_date(found_group.group()))
 
         return origin_date_groups
 

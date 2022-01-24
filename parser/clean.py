@@ -65,20 +65,29 @@ class DataCleaner:
         return list(origin_geolocs)
 
     @staticmethod
+    def consolidate_origin_dates(origin_date_list: list, ix: int) -> int:
+
+        comp_func = min if not ix else max
+        return comp_func(origin_date_list, key=lambda x: x[ix])[ix]
+
+    @staticmethod
     def normalize_cultural_origins(category_values_list: list) -> dict:
 
-        origin_date_list: list = []
+        origin_date_list: set = set()
         origin_geoloc_groups: set = set()
         for category_value in category_values_list:
 
-            origin_date_list.append(TextProcessor.parse_dates(category_value))
+            origin_date_list |= TextProcessor.parse_dates(category_value)
             origin_geoloc_groups |= TextProcessor.parse_geoloc(category_value)
 
-        origin_date_groups = {}
-        origin_date_groups["begin"] = min(origin_date_list, key=lambda x: x["begin"])[
-            "begin"
-        ]
-        origin_date_groups["end"] = max(origin_date_list, key=lambda x: x["end"])["end"]
+        origin_date_groups = {"begin": -1, "end": -1}
+        if origin_date_list:
+            origin_date_groups["begin"] = DataCleaner.consolidate_origin_dates(
+                origin_date_list, 0
+            )
+            origin_date_groups["end"] = DataCleaner.consolidate_origin_dates(
+                origin_date_list, 1
+            )
 
         return {
             "dates": origin_date_groups,
