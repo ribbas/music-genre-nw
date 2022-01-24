@@ -65,22 +65,25 @@ class DataCleaner:
         return list(origin_geolocs)
 
     @staticmethod
-    def normalize_cultural_origins(category_values_list: list) -> list:
+    def normalize_cultural_origins(category_values_list: list) -> dict:
 
-        cultural_origins: list = []
+        origin_date_list: list = []
+        origin_geoloc_groups: set = set()
         for category_value in category_values_list:
 
-            origin_date_groups = TextProcessor.parse_dates(category_value)
-            origin_geoloc_groups = TextProcessor.parse_geoloc(category_value)
+            origin_date_list.append(TextProcessor.parse_dates(category_value))
+            origin_geoloc_groups |= TextProcessor.parse_geoloc(category_value)
 
-            cultural_origins.append(
-                {
-                    "dates": list(origin_date_groups),
-                    "geoloc": list(origin_geoloc_groups),
-                }
-            )
+        origin_date_groups = {}
+        origin_date_groups["begin"] = min(origin_date_list, key=lambda x: x["begin"])[
+            "begin"
+        ]
+        origin_date_groups["end"] = max(origin_date_list, key=lambda x: x["end"])["end"]
 
-        return cultural_origins
+        return {
+            "dates": origin_date_groups,
+            "geoloc": list(origin_geoloc_groups),
+        }
 
     @staticmethod
     def remove_category_keys(category_key: str, category_value_list: list) -> list:
