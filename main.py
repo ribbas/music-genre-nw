@@ -37,4 +37,13 @@ if __name__ == "__main__":
         table_normalizer.normalize()
         normalized_data = table_normalizer.get_normalized_data()
         configs.dump_to_file(configs.norm_file_path, normalized_data)
-        table_normalizer.stats()
+        # table_normalizer.stats()
+
+        # normalized_data = configs.read_from_file(configs.norm_file_path)
+
+        # for i in normalized_data:
+        #     try:
+        #         (i["cultural origins"])
+        #     except KeyError:
+        #         print(i["genre"])
+        #         # exit()
