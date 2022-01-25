@@ -5,6 +5,7 @@ import sys
 from pprint import pprint
 
 import parser
+import dag
 
 if __name__ == "__main__":
 
@@ -44,3 +45,8 @@ if __name__ == "__main__":
 
         else:
             configs.dump_to_file(configs.wrangled_min_file_path, normalized_data)
+
+    elif sys.argv[-1][0] == "g":
+
+        wrangled_file_data = configs.read_from_file(configs.wrangled_file_path)
+        graph = dag.DirectedAcyclicGraph(wrangled_file_data)

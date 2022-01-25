@@ -25,6 +25,8 @@ class DataCleaner:
         "Subgenres",
     }
 
+    text_proc = TextProcessor()
+
     @staticmethod
     def normalize_genre_name(genre_name: str) -> str:
 
@@ -70,7 +72,7 @@ class DataCleaner:
 
         origin_geolocs: set = set()
         for category_value in category_values_list:
-            origin_geolocs |= TextProcessor.parse_geoloc(category_value)
+            origin_geolocs |= DataCleaner.text_proc.parse_geoloc(category_value)
 
         return list(origin_geolocs)
 
@@ -87,8 +89,8 @@ class DataCleaner:
         origin_geoloc_groups: set = set()
         for category_value in category_values_list:
 
-            origin_date_list |= TextProcessor.parse_dates(category_value)
-            origin_geoloc_groups |= TextProcessor.parse_geoloc(category_value)
+            origin_date_list |= DataCleaner.text_proc.parse_dates(category_value)
+            origin_geoloc_groups |= DataCleaner.text_proc.parse_geoloc(category_value)
 
         origin_date_groups = {"begin": -1, "end": -1}
         if origin_date_list:
@@ -118,11 +120,11 @@ class DataCleaner:
     def clean_misc(category_value_list: list) -> list:
 
         cleaned_category_value_list = []
-        # - "•" was replaced with ""
-        # - "(Gangsta rap" was replace with "Gangsta rap"
         for value in category_value_list:
+            # - "(Gangsta rap" was replace with "Gangsta rap"
             if "(Gangsta rap" in value:
                 value = value.replace("(Gangsta rap", "Gangsta rap")
+            # - "•" was replaced with ""
             if "•" in value:
                 value = value.replace("•", "")
             cleaned_category_value_list.append(value)

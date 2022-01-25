@@ -19,7 +19,7 @@ class TableNormalizer:
         return self.normalized_data
 
     def normalize(self) -> None:
-
+        DataCleaner.text_proc.initialize()
         for data in self.raw_file_data:
             genre_key, genre_values_list = next(iter(data.items()))
             normalized_values = DataCleaner.normalize_category_data(genre_values_list)

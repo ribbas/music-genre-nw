@@ -6,8 +6,8 @@
                 "end": 1996
             },
             "geoloc": [
-                "England",
-                "London"
+                "London",
+                "England"
             ]
         },
         "derivative forms": [
@@ -465,8 +465,8 @@
                 "end": 2016
             },
             "geoloc": [
-                "England",
                 "London",
+                "England",
                 "Mid-2010s"
             ]
         },
@@ -491,8 +491,8 @@
             "geoloc": [
                 "France",
                 "Canada",
-                "Belgium",
-                "Germany"
+                "Germany",
+                "Belgium"
             ]
         },
         "derivative forms": [
@@ -635,8 +635,8 @@
         ],
         "genre": "alternative metal",
         "local scenes": [
-            "California",
-            "Los Angeles"
+            "Los Angeles",
+            "California"
         ],
         "regional scenes": [
             "California"
@@ -696,20 +696,20 @@
         ],
         "genre": "alternative rock",
         "local scenes": [
-            "Illinois",
-            "Massachusetts",
-            "Minneapolis",
-            "Manchester",
-            "Seattle",
-            "Portland",
-            "Los Angeles",
-            "Washington",
-            "Leeds",
-            "New York City",
-            "Ireland",
-            "Athens",
             "Oregon",
-            "Georgia"
+            "Athens",
+            "Leeds",
+            "Minneapolis",
+            "Washington",
+            "New York City",
+            "Massachusetts",
+            "Los Angeles",
+            "Manchester",
+            "Portland",
+            "Seattle",
+            "Ireland",
+            "Georgia",
+            "Illinois"
         ],
         "stylistic origins": [
             "punk rock",
@@ -751,8 +751,8 @@
         },
         "genre": "amapiano",
         "local scenes": [
-            "Pretoria",
-            "Soweto"
+            "Soweto",
+            "Pretoria"
         ],
         "stylistic origins": [
             "deep house",
@@ -773,9 +773,9 @@
                 "end": 1979
             },
             "geoloc": [
+                "Japan",
                 "United Kingdom",
-                "Jamaica",
-                "Japan"
+                "Jamaica"
             ]
         },
         "derivative forms": [
@@ -828,9 +828,9 @@
                 "end": 1979
             },
             "geoloc": [
+                "Japan",
                 "United Kingdom",
-                "Jamaica",
-                "Japan"
+                "Jamaica"
             ]
         },
         "derivative forms": [
@@ -883,8 +883,8 @@
                 "end": 1989
             },
             "geoloc": [
-                "United Kingdom",
-                "Japan"
+                "Japan",
+                "United Kingdom"
             ]
         },
         "derivative forms": [
@@ -909,9 +909,9 @@
                 "end": 1979
             },
             "geoloc": [
+                "Japan",
                 "United Kingdom",
-                "Jamaica",
-                "Japan"
+                "Jamaica"
             ]
         },
         "derivative forms": [
@@ -1171,8 +1171,8 @@
                 "end": -1
             },
             "geoloc": [
-                "England",
-                "Scandinavia"
+                "Scandinavia",
+                "England"
             ]
         },
         "derivative forms": [
@@ -1193,12 +1193,12 @@
         "local scenes": [],
         "regional scenes": [
             "Poland",
-            "Sweden",
+            "France",
             "Finland",
-            "Greece",
-            "United States",
             "Norway",
-            "France"
+            "Greece",
+            "Sweden",
+            "United States"
         ],
         "stylistic origins": [
             "thrash metal",
@@ -1310,20 +1310,20 @@
                 "end": -1
             },
             "geoloc": [
-                "Switzerland",
                 "Japan",
                 "Scandinavia",
+                "Switzerland",
                 "United States"
             ]
         },
         "genre": "avant-garde metal",
         "local scenes": [
-            "Boston",
-            "Tokyo",
-            "Oslo",
-            "Seattle",
             "San Francisco Bay Area",
-            "Los Angeles"
+            "Seattle",
+            "Tokyo",
+            "Los Angeles",
+            "Boston",
+            "Oslo"
         ],
         "regional scenes": [
             "Norway",
@@ -1348,8 +1348,8 @@
                 "end": 1973
             },
             "geoloc": [
-                "Europe",
                 "Japan",
+                "Europe",
                 "United States"
             ]
         },
@@ -1368,8 +1368,8 @@
                 "end": 1999
             },
             "geoloc": [
-                "Manchester",
-                "United Kingdom"
+                "United Kingdom",
+                "Manchester"
             ]
         },
         "derivative forms": [
@@ -1472,9 +1472,9 @@
                 "end": 1993
             },
             "geoloc": [
-                "United States",
+                "Baltimore",
                 "Maryland",
-                "Baltimore"
+                "United States"
             ]
         },
         "derivative forms": [
@@ -1521,10 +1521,10 @@
                 "end": 2003
             },
             "geoloc": [
-                "West Midlands",
-                "Sheffield",
+                "Yorkshire",
                 "England",
-                "Yorkshire"
+                "West Midlands",
+                "Sheffield"
             ]
         },
         "genre": "bassline",
@@ -1613,8 +1613,8 @@
                 "end": 1993
             },
             "geoloc": [
-                "England",
-                "London"
+                "London",
+                "England"
             ]
         },
         "genre": "big beat",
@@ -1647,10 +1647,10 @@
                 "end": 2009
             },
             "geoloc": [
+                "Netherlands",
                 "Norway",
                 "Europe",
-                "Sweden",
-                "Netherlands"
+                "Sweden"
             ]
         },
         "derivative forms": [
@@ -1689,9 +1689,9 @@
                 "end": 2009
             },
             "geoloc": [
-                "Europe",
-                "Australia",
                 "Japan",
+                "Australia",
+                "Europe",
                 "United States"
             ]
         },
@@ -1720,8 +1720,8 @@
                 "end": -1
             },
             "geoloc": [
-                "England",
-                "Scandinavia"
+                "Scandinavia",
+                "England"
             ]
         },
         "derivative forms": [
@@ -1742,12 +1742,12 @@
         "local scenes": [],
         "regional scenes": [
             "Poland",
-            "Sweden",
+            "France",
             "Finland",
-            "Greece",
-            "United States",
             "Norway",
-            "France"
+            "Greece",
+            "Sweden",
+            "United States"
         ],
         "stylistic origins": [
             "thrash metal",
@@ -1816,8 +1816,8 @@
             },
             "geoloc": [
                 "Frankfurt",
-                "Germany",
-                "US"
+                "US",
+                "Germany"
             ]
         },
         "derivative forms": [
@@ -2062,8 +2062,8 @@
                 "end": 1999
             },
             "geoloc": [
-                "Netherlands",
                 "United Kingdom",
+                "Netherlands",
                 "Germany"
             ]
         },
@@ -2074,11 +2074,11 @@
         ],
         "genre": "bouncy techno",
         "regional scenes": [
-            "Russia",
             "United Kingdom",
-            "Germany",
             "Netherlands",
-            "Japan"
+            "Russia",
+            "Japan",
+            "Germany"
         ],
         "stylistic origins": [
             "gabber",
@@ -2169,8 +2169,8 @@
                 "end": 1996
             },
             "geoloc": [
-                "Netherlands",
                 "United Kingdom",
+                "Netherlands",
                 "Germany"
             ]
         },
@@ -2370,9 +2370,9 @@
                 "end": 2003
             },
             "geoloc": [
+                "London",
                 "England",
-                "United Kingdom",
-                "London"
+                "United Kingdom"
             ]
         },
         "derivative forms": [
@@ -2541,8 +2541,8 @@
                 "end": 1969
             },
             "geoloc": [
-                "United Kingdom",
-                "Canterbury"
+                "Canterbury",
+                "United Kingdom"
             ]
         },
         "genre": "canterbury scene",
@@ -2624,17 +2624,17 @@
                 "end": 1989
             },
             "geoloc": [
-                "England",
-                "London"
+                "London",
+                "England"
             ]
         },
         "genre": "celtic punk",
         "regional scenes": [
-            "Scotland",
             "London",
-            "Wales",
             "Australia",
+            "Scotland",
             "Ireland",
+            "Wales",
             "United States"
         ],
         "stylistic origins": [
@@ -2862,8 +2862,8 @@
             },
             "geoloc": [
                 "Chicago",
-                "Illinois",
-                "United States"
+                "United States",
+                "Illinois"
             ]
         },
         "derivative forms": [
@@ -2895,17 +2895,17 @@
         ],
         "genre": "chicago hard house",
         "regional scenes": [
-            "Italy",
-            "Western Asia",
-            "New Jersey",
-            "Uganda",
+            "France",
             "South Africa",
-            "Angola",
             "Venezuela",
             "New York",
+            "Western Asia",
+            "Italy",
+            "Angola",
+            "Uganda",
+            "New Jersey",
             "Russia",
-            "Chicago",
-            "France"
+            "Chicago"
         ],
         "stylistic origins": [
             "disco",
@@ -3086,9 +3086,9 @@
                 "end": 1996
             },
             "geoloc": [
-                "Chicago",
+                "Cleveland",
                 "Kansas City",
-                "Cleveland"
+                "Chicago"
             ]
         },
         "genre": "chopper",
@@ -3156,14 +3156,14 @@
         ],
         "genre": "christian metal",
         "regional scenes": [
-            "Norway",
-            "Sweden",
             "Mexico",
-            "Germany",
+            "Netherlands",
+            "Sweden",
             "Finland",
+            "Norway",
+            "Germany",
             "Brazil",
-            "United States",
-            "Netherlands"
+            "United States"
         ],
         "stylistic origins": [
             "heavy metal",
@@ -3496,9 +3496,9 @@
         ],
         "genre": "cool jazz",
         "local scenes": [
-            "San Francisco",
             "New York City",
-            "Los Angeles"
+            "Los Angeles",
+            "San Francisco"
         ],
         "stylistic origins": [
             "bebop",
@@ -3533,8 +3533,8 @@
                 "end": 1969
             },
             "geoloc": [
-                "Nashville",
-                "Tennessee"
+                "Tennessee",
+                "Nashville"
             ]
         },
         "genre": "country pop",
@@ -3624,8 +3624,8 @@
                 "end": 1989
             },
             "geoloc": [
-                "Nashville",
-                "Tennessee"
+                "Tennessee",
+                "Nashville"
             ]
         },
         "genre": "cowboy pop",
@@ -3699,11 +3699,11 @@
                 "end": 1986
             },
             "geoloc": [
-                "New York City",
                 "Australia",
+                "New York City",
+                "San Francisco",
                 "Bay Area",
-                "United States",
-                "San Francisco"
+                "United States"
             ]
         },
         "derivative forms": [
@@ -3738,9 +3738,9 @@
                 "end": 1993
             },
             "geoloc": [
-                "United States",
                 "Tennessee",
-                "Memphis"
+                "Memphis",
+                "United States"
             ]
         },
         "derivative forms": [
@@ -3851,8 +3851,8 @@
             "Birmingham"
         ],
         "regional scenes": [
-            "Indonesia",
-            "United Kingdom"
+            "United Kingdom",
+            "Indonesia"
         ],
         "stylistic origins": [
             "crust punk",
@@ -3870,8 +3870,8 @@
                 "end": 1986
             },
             "geoloc": [
-                "Switzerland",
                 "United Kingdom",
+                "Switzerland",
                 "Germany",
                 "United States"
             ]
@@ -3946,9 +3946,9 @@
                 "end": 1979
             },
             "geoloc": [
-                "England",
-                "London",
                 "Los Angeles",
+                "London",
+                "England",
                 "United States"
             ]
         },
@@ -4017,8 +4017,8 @@
             },
             "geoloc": [
                 "United Kingdom",
-                "Jamaica",
-                "United States"
+                "United States",
+                "Jamaica"
             ]
         },
         "genre": "dancehall pop",
@@ -4141,8 +4141,8 @@
             "geoloc": [
                 "France",
                 "Canada",
-                "Belgium",
-                "Germany"
+                "Germany",
+                "Belgium"
             ]
         },
         "derivative forms": [
@@ -4205,10 +4205,10 @@
                 "end": 1983
             },
             "geoloc": [
-                "Europe",
+                "West Germany",
                 "the United Kingdom",
-                "Belgium",
-                "West Germany"
+                "Europe",
+                "Belgium"
             ]
         },
         "genre": "dark wave",
@@ -4389,11 +4389,11 @@
         ],
         "regional scenes": [
             "Poland",
-            "Sweden",
-            "Brazil",
-            "Norway",
+            "Netherlands",
             "Florida",
-            "Netherlands"
+            "Sweden",
+            "Norway",
+            "Brazil"
         ],
         "stylistic origins": [
             "thrash metal",
@@ -4471,8 +4471,8 @@
             "Birmingham"
         ],
         "regional scenes": [
-            "Indonesia",
-            "United Kingdom"
+            "United Kingdom",
+            "Indonesia"
         ],
         "stylistic origins": [
             "crust punk",
@@ -4490,8 +4490,8 @@
                 "end": 1983
             },
             "geoloc": [
-                "California",
                 "Los Angeles",
+                "California",
                 "United States"
             ]
         },
@@ -4583,28 +4583,28 @@
         ],
         "genre": "deep house",
         "local scenes": [
-            "Detroit",
             "Miami",
-            "London",
-            "Amsterdam",
-            "Montreal",
-            "Los Angeles",
-            "Johannesburg",
             "Sydney",
-            "Melbourne",
+            "Detroit",
+            "Glasgow",
+            "Johannesburg",
             "New York City",
+            "Los Angeles",
+            "Melbourne",
             "Chicago",
             "São Paulo",
-            "Glasgow",
+            "Amsterdam",
+            "Montreal",
+            "London",
             "San Francisco"
         ],
         "regional scenes": [
-            "Europe",
-            "North America",
             "Australia",
-            "Brazil",
             "South Africa",
-            "Japan"
+            "Brazil",
+            "Japan",
+            "Europe",
+            "North America"
         ],
         "stylistic origins": [
             "house",
@@ -4687,16 +4687,16 @@
         ],
         "genre": "detroit blues",
         "regional scenes": [
-            "Detroit",
-            "St. Louis",
             "Texas",
-            "New Orleans",
+            "Detroit",
             "Memphis",
+            "Kansas City",
+            "Piedmont",
+            "New Orleans",
+            "West Coast",
             "Louisiana",
             "Chicago",
-            "Piedmont",
-            "West Coast",
-            "Kansas City"
+            "St. Louis"
         ],
         "stylistic origins": [
             "work songs",
@@ -4721,8 +4721,8 @@
                 "end": 1986
             },
             "geoloc": [
-                "Detroit",
                 "Michigan",
+                "Detroit",
                 "United States"
             ]
         },
@@ -4756,8 +4756,8 @@
         ],
         "genre": "digital hardcore",
         "regional scenes": [
-            "Europe",
             "Australia",
+            "Europe",
             "United States"
         ],
         "stylistic origins": [
@@ -4807,8 +4807,8 @@
                 "end": 1973
             },
             "geoloc": [
-                "Philadelphia",
-                "New York City"
+                "New York City",
+                "Philadelphia"
             ]
         },
         "derivative forms": [
@@ -4831,12 +4831,12 @@
         "genre": "disco",
         "local scenes": [
             "Miami",
-            "New York City",
-            "Los Angeles",
             "Philadelphia",
             "Atlanta",
+            "Houston",
             "Montreal",
-            "Houston"
+            "New York City",
+            "Los Angeles"
         ],
         "regional scenes": [
             "Philippines"
@@ -4928,15 +4928,15 @@
                 "end": -1
             },
             "geoloc": [
-                "Louisiana",
                 "New Orleans",
+                "Louisiana",
                 "U.S."
             ]
         },
         "genre": "dixieland",
         "regional scenes": [
-            "Chicago",
-            "New Orleans"
+            "New Orleans",
+            "Chicago"
         ],
         "stylistic origins": [
             "jazz"
@@ -4963,16 +4963,16 @@
                 "end": 1996
             },
             "geoloc": [
-                "Sweden",
-                "United Kingdom"
+                "United Kingdom",
+                "Sweden"
             ]
         },
         "genre": "djent",
         "regional scenes": [
-            "United States",
-            "Europe",
             "Australia",
-            "Brazil"
+            "Europe",
+            "Brazil",
+            "United States"
         ],
         "stylistic origins": [
             "extreme metal",
@@ -5011,13 +5011,13 @@
         ],
         "genre": "doo-wop",
         "regional scenes": [
-            "Cincinnati",
-            "New York City",
-            "Pittsburgh",
             "Baltimore",
-            "Chicago",
+            "Pittsburgh",
             "Philadelphia",
-            "Los Angeles"
+            "New York City",
+            "Los Angeles",
+            "Chicago",
+            "Cincinnati"
         ],
         "stylistic origins": [
             "rhythm and blues",
@@ -5086,8 +5086,8 @@
             },
             "geoloc": [
                 "Netherlands",
-                "Belgium",
-                "Germany"
+                "Germany",
+                "Belgium"
             ]
         },
         "fusion genres": [
@@ -5235,17 +5235,17 @@
         ],
         "genre": "drill",
         "local scenes": [
-            "Dublin",
-            "Sydney",
             "London",
-            "New York City",
+            "Sydney",
             "Amsterdam",
-            "Chicago"
+            "New York City",
+            "Chicago",
+            "Dublin"
         ],
         "regional scenes": [
+            "Australia",
             "United Kingdom",
             "Canada",
-            "Australia",
             "Ireland",
             "United States"
         ],
@@ -5563,9 +5563,9 @@
                 "end": 2003
             },
             "geoloc": [
+                "London",
                 "England",
-                "United Kingdom",
-                "London"
+                "United Kingdom"
             ]
         },
         "derivative forms": [
@@ -5594,8 +5594,8 @@
                 "end": 2003
             },
             "geoloc": [
-                "Netherlands",
                 "Italy",
+                "Netherlands",
                 "Belgium"
             ]
         },
@@ -5726,12 +5726,12 @@
         ],
         "genre": "early hardcore",
         "regional scenes": [
-            "Europe",
-            "North America",
+            "South America",
             "Australia",
             "East Asia",
-            "South America",
-            "Central America"
+            "Central America",
+            "Europe",
+            "North America"
         ],
         "subgenres": [
             "early hardcore",
@@ -5753,8 +5753,8 @@
                 "end": 1975
             },
             "geoloc": [
-                "New York",
                 "New York City",
+                "New York",
                 "U.S.",
                 "Bronx"
             ]
@@ -5766,26 +5766,26 @@
         ],
         "genre": "east coast hip hop",
         "local scenes": [
-            "Virginia",
-            "Camden",
-            "Massachusetts",
+            "Maryland",
+            "New York City",
+            "New York",
+            "Boston",
+            "Jersey City",
             "Wilmington",
+            "Long Island",
             "Pennsylvania",
             "Baltimore",
-            "Washington",
-            "D.C.",
-            "Jersey City",
-            "Rhode Island",
-            "New Brunswick",
-            "Boston",
-            "New York",
-            "Delaware",
             "Trenton",
-            "East Orange",
-            "New York City",
-            "Long Island",
+            "New Brunswick",
+            "Camden",
+            "Delaware",
+            "Virginia",
+            "Washington",
+            "Massachusetts",
             "Columbia",
-            "Maryland"
+            "East Orange",
+            "D.C.",
+            "Rhode Island"
         ],
         "stylistic origins": [
             "hip hop",
@@ -5815,12 +5815,12 @@
         ],
         "genre": "electric blues",
         "regional scenes": [
-            "Detroit",
             "Texas",
-            "New Orleans",
+            "Detroit",
             "Memphis",
+            "West Coast",
             "Chicago",
-            "West Coast"
+            "New Orleans"
         ],
         "stylistic origins": [
             "blues"
@@ -5833,9 +5833,9 @@
                 "end": 1983
             },
             "geoloc": [
-                "Europe",
                 "New York City",
                 "Japan",
+                "Europe",
                 "U.S."
             ]
         },
@@ -5933,8 +5933,8 @@
                 "end": 1973
             },
             "geoloc": [
-                "Philadelphia",
-                "New York City"
+                "New York City",
+                "Philadelphia"
             ]
         },
         "derivative forms": [
@@ -5957,12 +5957,12 @@
         "genre": "electro-disco",
         "local scenes": [
             "Miami",
-            "New York City",
-            "Los Angeles",
             "Philadelphia",
             "Atlanta",
+            "Houston",
             "Montreal",
-            "Houston"
+            "New York City",
+            "Los Angeles"
         ],
         "regional scenes": [
             "Philippines"
@@ -5988,8 +5988,8 @@
             "geoloc": [
                 "France",
                 "Canada",
-                "Belgium",
-                "Germany"
+                "Germany",
+                "Belgium"
             ]
         },
         "derivative forms": [
@@ -6009,11 +6009,11 @@
                 "end": 1999
             },
             "geoloc": [
-                "Germany",
-                "United States",
-                "Austria",
                 "France",
-                "Netherlands"
+                "Netherlands",
+                "Germany",
+                "Austria",
+                "United States"
             ]
         },
         "derivative forms": [
@@ -6058,8 +6058,8 @@
             "Birmingham"
         ],
         "regional scenes": [
-            "Indonesia",
-            "United Kingdom"
+            "United Kingdom",
+            "Indonesia"
         ],
         "stylistic origins": [
             "crust punk",
@@ -6077,8 +6077,8 @@
                 "end": 1983
             },
             "geoloc": [
-                "Western Europe",
-                "Belgium"
+                "Belgium",
+                "Western Europe"
             ]
         },
         "derivative forms": [
@@ -6176,9 +6176,9 @@
                 "end": 2009
             },
             "geoloc": [
+                "East Asia",
                 "Europe",
-                "North America",
-                "East Asia"
+                "North America"
             ]
         },
         "genre": "electronicore",
@@ -6236,11 +6236,11 @@
                 "end": 1995
             },
             "geoloc": [
-                "New York",
-                "Midwestern United States",
-                "Washington",
                 "Western United States",
-                "D.C."
+                "D.C.",
+                "New York",
+                "Washington",
+                "Midwestern United States"
             ]
         },
         "fusion genres": [
@@ -6249,9 +6249,9 @@
         ],
         "genre": "emo",
         "regional scenes": [
-            "D.C.",
             "New Jersey",
             "U.S.",
+            "D.C.",
             "Washington"
         ],
         "stylistic origins": [
@@ -6299,8 +6299,8 @@
                 "end": 2016
             },
             "geoloc": [
-                "Mid-2010s",
-                "United States"
+                "United States",
+                "Mid-2010s"
             ]
         },
         "derivative forms": [
@@ -6379,8 +6379,8 @@
                 "end": 2003
             },
             "geoloc": [
-                "Netherlands",
                 "Italy",
+                "Netherlands",
                 "Belgium"
             ]
         },
@@ -6405,8 +6405,8 @@
                 "end": 2003
             },
             "geoloc": [
-                "Netherlands",
                 "Italy",
+                "Netherlands",
                 "Belgium"
             ]
         },
@@ -6432,8 +6432,8 @@
             },
             "geoloc": [
                 "Italy",
-                "Germany",
-                "Japan"
+                "Japan",
+                "Germany"
             ]
         },
         "fusion genres": [
@@ -6441,10 +6441,10 @@
         ],
         "genre": "eurobeat",
         "regional scenes": [
-            "United Kingdom",
             "Italy",
-            "Germany",
-            "Japan"
+            "United Kingdom",
+            "Japan",
+            "Germany"
         ],
         "stylistic origins": [
             "hi-nrg",
@@ -6460,9 +6460,9 @@
                 "end": 1996
             },
             "geoloc": [
+                "West Germany",
                 "East Germany",
                 "Netherlands",
-                "West Germany",
                 "Belgium"
             ]
         },
@@ -6477,11 +6477,11 @@
         ],
         "genre": "eurodance",
         "regional scenes": [
-            "Europe",
-            "Sweden",
+            "Denmark",
             "Italy",
+            "Europe",
             "Germany",
-            "Denmark"
+            "Sweden"
         ],
         "stylistic origins": [
             "house",
@@ -6502,9 +6502,9 @@
                 "end": 1979
             },
             "geoloc": [
+                "West Germany",
                 "France",
-                "Europe",
-                "West Germany"
+                "Europe"
             ]
         },
         "derivative forms": [
@@ -6586,11 +6586,11 @@
         ],
         "genre": "extratone",
         "regional scenes": [
-            "Germany",
-            "Northern England",
+            "Netherlands",
             "Japan",
+            "Northern England",
             "Eastern Europe",
-            "Netherlands"
+            "Germany"
         ],
         "stylistic origins": [
             "hardcore",
@@ -6610,8 +6610,8 @@
                 "end": -1
             },
             "geoloc": [
-                "Portugal",
-                "Lisbon"
+                "Lisbon",
+                "Portugal"
             ]
         },
         "derivative forms": [
@@ -6719,11 +6719,11 @@
         ],
         "genre": "flashcore",
         "regional scenes": [
-            "Germany",
-            "Northern England",
+            "Netherlands",
             "Japan",
+            "Northern England",
             "Eastern Europe",
-            "Netherlands"
+            "Germany"
         ],
         "stylistic origins": [
             "hardcore",
@@ -6751,8 +6751,8 @@
         ],
         "genre": "florida breaks",
         "local scenes": [
-            "Florida",
             "Orlando",
+            "Florida",
             "Tampa"
         ],
         "regional scenes": [
@@ -6785,17 +6785,17 @@
         ],
         "genre": "folk metal",
         "regional scenes": [
-            "Spain",
-            "Finland",
             "Iceland",
+            "Spain",
+            "Germany",
             "Brazil",
             "Denmark",
-            "Russia",
             "United Kingdom",
-            "Sweden",
-            "Germany",
+            "Finland",
+            "Russia",
+            "Norway",
             "Ireland",
-            "Norway"
+            "Sweden"
         ],
         "stylistic origins": [
             "heavy metal",
@@ -6903,8 +6903,8 @@
             },
             "geoloc": [
                 "Chicago",
-                "Illinois",
-                "United States"
+                "United States",
+                "Illinois"
             ]
         },
         "derivative forms": [
@@ -7003,8 +7003,8 @@
                 "end": 1966
             },
             "geoloc": [
-                "Europe",
                 "UK",
+                "Europe",
                 "Mid-1960s United States"
             ]
         },
@@ -7066,12 +7066,12 @@
         ],
         "genre": "freestyle",
         "regional scenes": [
-            "Detroit",
             "Miami",
-            "New York City",
-            "Chicago",
+            "Detroit",
             "Philadelphia",
-            "Los Angeles"
+            "New York City",
+            "Los Angeles",
+            "Chicago"
         ],
         "stylistic origins": [
             "latin music",
@@ -7139,14 +7139,14 @@
         },
         "genre": "frenchcore",
         "regional scenes": [
-            "Spain",
-            "Switzerland",
             "Italy",
-            "Germany",
-            "United States",
-            "Austria",
             "France",
-            "Netherlands"
+            "Netherlands",
+            "Switzerland",
+            "Spain",
+            "Germany",
+            "Austria",
+            "United States"
         ],
         "stylistic origins": [
             "early hardcore",
@@ -7559,8 +7559,8 @@
                 "end": 2019
             },
             "geoloc": [
-                "United Kingdom",
                 "Australia",
+                "United Kingdom",
                 "United States"
             ]
         },
@@ -7728,12 +7728,12 @@
         ],
         "genre": "gabber",
         "regional scenes": [
-            "Europe",
-            "North America",
+            "South America",
             "Australia",
             "East Asia",
-            "South America",
-            "Central America"
+            "Central America",
+            "Europe",
+            "North America"
         ],
         "subgenres": [
             "early hardcore",
@@ -7755,9 +7755,9 @@
                 "end": 1994
             },
             "geoloc": [
+                "U.S.",
                 "Philadelphia",
-                "Pennsylvania",
-                "U.S."
+                "Pennsylvania"
             ]
         },
         "derivative forms": [
@@ -7769,9 +7769,9 @@
         ],
         "genre": "gangsta rap",
         "regional scenes": [
-            "Midwest",
+            "East Coast",
             "West Coast",
-            "East Coast"
+            "Midwest"
         ],
         "stylistic origins": [
             "hip hop",
@@ -7791,9 +7791,9 @@
                 "end": 1992
             },
             "geoloc": [
+                "New York City",
                 "Newark",
                 "New Jersey",
-                "New York City",
                 "United States"
             ]
         },
@@ -7867,18 +7867,18 @@
         ],
         "genre": "garage rock",
         "regional scenes": [
-            "Canada",
-            "Australia",
-            "Iran",
             "Netherlands",
+            "Mexico",
             "Cambodia",
             "Japan",
             "Peru",
-            "India",
+            "United States",
+            "Australia",
             "United Kingdom",
-            "Mexico",
-            "Uruguay",
-            "United States"
+            "Canada",
+            "Iran",
+            "India",
+            "Uruguay"
         ],
         "stylistic origins": [
             "rock and roll",
@@ -7902,8 +7902,8 @@
             },
             "geoloc": [
                 "Chicago",
-                "Illinois",
-                "United States"
+                "United States",
+                "Illinois"
             ]
         },
         "derivative forms": [
@@ -7923,14 +7923,14 @@
             },
             "geoloc": [
                 "Detroit",
-                "Chicago",
-                "United States"
+                "United States",
+                "Chicago"
             ]
         },
         "genre": "ghettotech",
         "regional scenes": [
-            "Detroit",
             "United Kingdom",
+            "Detroit",
             "Chicago"
         ],
         "stylistic origins": [
@@ -7953,16 +7953,16 @@
         },
         "genre": "glam metal",
         "regional scenes": [
-            "Europe",
-            "Australia",
-            "Finland",
-            "Japan",
             "Hong Kong",
-            "United Kingdom",
-            "Sweden",
+            "Japan",
             "United States",
+            "Australia",
+            "United Kingdom",
+            "Finland",
             "Norway",
-            "Ireland"
+            "Ireland",
+            "Europe",
+            "Sweden"
         ],
         "stylistic origins": [
             "heavy metal",
@@ -8019,8 +8019,8 @@
                 "end": 1999
             },
             "geoloc": [
-                "United Kingdom",
-                "Japan"
+                "Japan",
+                "United Kingdom"
             ]
         },
         "derivative forms": [
@@ -8048,8 +8048,8 @@
                 "end": 1999
             },
             "geoloc": [
-                "United Kingdom",
-                "Japan"
+                "Japan",
+                "United Kingdom"
             ]
         },
         "derivative forms": [
@@ -8230,15 +8230,15 @@
         "genre": "gothic metal",
         "regional scenes": [
             "Poland",
+            "Netherlands",
+            "England",
+            "Germany",
+            "United States",
             "Italy",
             "Finland",
-            "England",
-            "Netherlands",
-            "Sweden",
-            "Germany",
+            "Norway",
             "Greece",
-            "United States",
-            "Norway"
+            "Sweden"
         ],
         "stylistic origins": [
             "heavy metal",
@@ -8355,8 +8355,8 @@
             "Birmingham"
         ],
         "regional scenes": [
-            "Indonesia",
-            "United Kingdom"
+            "United Kingdom",
+            "Indonesia"
         ],
         "stylistic origins": [
             "crust punk",
@@ -8395,8 +8395,8 @@
                 "end": 1993
             },
             "geoloc": [
-                "New York",
                 "Texas",
+                "New York",
                 "U.S."
             ]
         },
@@ -8443,8 +8443,8 @@
                 "end": 1943
             },
             "geoloc": [
-                "France",
-                "Paris"
+                "Paris",
+                "France"
             ]
         },
         "genre": "gypsy jazz",
@@ -8496,9 +8496,9 @@
                 "end": 1996
             },
             "geoloc": [
+                "West Germany",
                 "East Germany",
                 "Netherlands",
-                "West Germany",
                 "Belgium"
             ]
         },
@@ -8513,11 +8513,11 @@
         ],
         "genre": "hands up",
         "regional scenes": [
-            "Europe",
-            "Sweden",
+            "Denmark",
             "Italy",
+            "Europe",
             "Germany",
-            "Denmark"
+            "Sweden"
         ],
         "stylistic origins": [
             "house",
@@ -8538,10 +8538,10 @@
                 "end": 1993
             },
             "geoloc": [
-                "Netherlands",
                 "UK",
-                "Belgium",
-                "Germany"
+                "Netherlands",
+                "Germany",
+                "Belgium"
             ]
         },
         "genre": "happy hardcore",
@@ -8687,16 +8687,16 @@
         ],
         "genre": "hardbass",
         "local scenes": [
-            "Moscow",
-            "Warsaw",
-            "Saint Petersburg",
+            "Riga",
             "Kaliningrad",
+            "Saint Petersburg",
+            "Warsaw",
             "Berlin",
-            "Riga"
+            "Moscow"
         ],
         "regional scenes": [
-            "Russia",
             "Poland",
+            "Russia",
             "Germany",
             "Latvia"
         ],
@@ -8715,8 +8715,8 @@
             },
             "geoloc": [
                 "Netherlands",
-                "Belgium",
-                "Germany"
+                "Germany",
+                "Belgium"
             ]
         },
         "fusion genres": [
@@ -8780,8 +8780,8 @@
                 "end": 1983
             },
             "geoloc": [
-                "Philadelphia",
-                "New York City"
+                "New York City",
+                "Philadelphia"
             ]
         },
         "derivative forms": [
@@ -8794,9 +8794,9 @@
         ],
         "genre": "hardcore hip hop",
         "regional scenes": [
-            "Midwest",
+            "East Coast",
             "West Coast",
-            "East Coast"
+            "Midwest"
         ],
         "stylistic origins": [
             "hip hop"
@@ -8810,10 +8810,10 @@
             },
             "geoloc": [
                 "California",
+                "D.C.",
                 "Washington",
                 "Vancouver",
-                "San Francisco",
-                "D.C."
+                "San Francisco"
             ]
         },
         "derivative forms": [
@@ -8846,25 +8846,25 @@
         "genre": "hardcore punk",
         "local scenes": [
             "Detroit",
-            "Minneapolis",
-            "Boston",
-            "New York",
             "Leeds",
+            "Minneapolis",
             "Birmingham",
             "Washington",
-            "Chicago",
-            "D.C."
+            "New York",
+            "Boston",
+            "D.C.",
+            "Chicago"
         ],
         "regional scenes": [
             "Spain",
-            "Canada",
-            "Australia",
-            "Italy",
-            "Brazil",
             "Japan",
-            "California",
+            "Brazil",
+            "Belgium",
+            "Italy",
+            "Australia",
             "United Kingdom",
-            "Belgium"
+            "Canada",
+            "California"
         ],
         "stylistic origins": [
             "punk rock",
@@ -8903,8 +8903,8 @@
                 "end": 2003
             },
             "geoloc": [
-                "Netherlands",
                 "Italy",
+                "Netherlands",
                 "Belgium"
             ]
         },
@@ -8930,8 +8930,8 @@
             },
             "geoloc": [
                 "Netherlands",
-                "Belgium",
-                "Germany"
+                "Germany",
+                "Belgium"
             ]
         },
         "fusion genres": [
@@ -9065,8 +9065,8 @@
         ],
         "genre": "harsh noise",
         "regional scenes": [
-            "Indonesia",
-            "Japan"
+            "Japan",
+            "Indonesia"
         ],
         "stylistic origins": [
             "modernism",
@@ -9109,8 +9109,8 @@
         },
         "genre": "heartland rock",
         "regional scenes": [
-            "Midwestern United States",
-            "the Rust Belt"
+            "the Rust Belt",
+            "Midwestern United States"
         ],
         "stylistic origins": [
             "rock and roll",
@@ -9158,26 +9158,26 @@
             "New Orleans"
         ],
         "regional scenes": [
-            "Africa",
-            "Canada",
-            "Japan",
-            "Ukraine",
-            "India",
-            "United Kingdom",
-            "Hungary",
-            "Germany",
-            "Argentina",
-            "United States",
             "Poland",
-            "Australia",
+            "Ukraine",
+            "Africa",
+            "United States",
+            "Bangladesh",
             "Finland",
-            "Brazil",
-            "Netherlands",
+            "India",
             "China",
             "Sweden",
-            "Norway",
             "France",
-            "Bangladesh"
+            "Netherlands",
+            "Hungary",
+            "Japan",
+            "Argentina",
+            "Germany",
+            "Brazil",
+            "Australia",
+            "United Kingdom",
+            "Canada",
+            "Norway"
         ],
         "stylistic origins": [
             "blues rock",
@@ -9337,30 +9337,30 @@
         ],
         "genre": "hip hop fusion genres",
         "local scenes": [
-            "Detroit",
             "Miami",
-            "Minneapolis",
-            "Baltimore",
-            "US",
+            "Omaha",
+            "Detroit",
+            "Leeds",
             "Memphis",
-            "New Jersey",
+            "Minneapolis",
+            "Washington",
+            "New York",
+            "US",
+            "Baltimore",
             "Atlanta",
             "Philadelphia",
-            "Omaha",
-            "New York",
-            "Leeds",
-            "Washington",
-            "Chicago",
-            "D.C."
+            "D.C.",
+            "New Jersey",
+            "Chicago"
         ],
         "regional scenes": [
+            "East Coast",
             "Singapore",
             "Midwest",
+            "Hong Kong",
             "New Zealand",
-            "East Coast",
             "West Coast",
-            "Botswana",
-            "Hong Kong"
+            "Botswana"
         ],
         "stylistic origins": [
             "funk",
@@ -9469,10 +9469,10 @@
                 "end": 1995
             },
             "geoloc": [
-                "Chicago",
                 "UK",
+                "U.S.",
                 "London",
-                "U.S."
+                "Chicago"
             ]
         },
         "derivative forms": [
@@ -9565,27 +9565,27 @@
         },
         "genre": "horrorcore",
         "local scenes": [
-            "New Orleans",
-            "Memphis",
             "TN",
-            "NV",
-            "Philadelphia",
-            "MI",
-            "Atlanta",
-            "Houston",
-            "Los Angeles",
-            "MO",
-            "Denver",
-            "Kansas City",
-            "Detroit",
-            "Buffalo",
-            "LA",
             "Sacramento",
-            "NY",
-            "Las Vegas",
-            "TX",
+            "MI",
+            "Kansas City",
             "New York City",
+            "New Orleans",
+            "Los Angeles",
+            "TX",
+            "NV",
+            "LA",
+            "NY",
+            "Philadelphia",
+            "Denver",
+            "Las Vegas",
+            "Detroit",
+            "Memphis",
+            "Buffalo",
             "PA",
+            "Houston",
+            "Atlanta",
+            "MO",
             "San Francisco"
         ],
         "stylistic origins": [
@@ -9602,8 +9602,8 @@
             },
             "geoloc": [
                 "Chicago",
-                "Illinois",
-                "United States"
+                "United States",
+                "Illinois"
             ]
         },
         "derivative forms": [
@@ -9635,17 +9635,17 @@
         ],
         "genre": "house music",
         "regional scenes": [
-            "Italy",
-            "Western Asia",
-            "New Jersey",
-            "Uganda",
+            "France",
             "South Africa",
-            "Angola",
             "Venezuela",
             "New York",
+            "Western Asia",
+            "Italy",
+            "Angola",
+            "Uganda",
+            "New Jersey",
             "Russia",
-            "Chicago",
-            "France"
+            "Chicago"
         ],
         "stylistic origins": [
             "disco",
@@ -9733,11 +9733,11 @@
         ],
         "genre": "hypertone",
         "regional scenes": [
-            "Germany",
-            "Northern England",
+            "Netherlands",
             "Japan",
+            "Northern England",
             "Eastern Europe",
-            "Netherlands"
+            "Germany"
         ],
         "stylistic origins": [
             "hardcore",
@@ -9757,8 +9757,8 @@
                 "end": 1999
             },
             "geoloc": [
-                "California",
                 "Oakland",
+                "California",
                 "United States"
             ]
         },
@@ -9841,8 +9841,8 @@
             },
             "geoloc": [
                 "India",
-                "Bangladesh",
                 "Pakistan",
+                "Bangladesh",
                 "United Kingdom"
             ]
         },
@@ -9933,10 +9933,10 @@
         ],
         "genre": "indie rock",
         "local scenes": [
-            "Manchester",
             "Leeds",
             "Sheffield",
-            "Birmingham"
+            "Birmingham",
+            "Manchester"
         ],
         "regional scenes": [
             "Nevada",
@@ -9987,10 +9987,10 @@
         ],
         "genre": "indietronica",
         "local scenes": [
-            "Manchester",
             "Leeds",
             "Sheffield",
-            "Birmingham"
+            "Birmingham",
+            "Manchester"
         ],
         "regional scenes": [
             "Nevada",
@@ -10048,8 +10048,8 @@
         ],
         "genre": "industrial / post-industrial",
         "regional scenes": [
-            "United Kingdom",
             "Australia",
+            "United Kingdom",
             "Germany",
             "United States"
         ],
@@ -10098,9 +10098,9 @@
                 "end": 1996
             },
             "geoloc": [
-                "Belgium",
                 "United Kingdom",
-                "Germany"
+                "Germany",
+                "Belgium"
             ]
         },
         "derivative forms": [
@@ -10112,8 +10112,8 @@
         ],
         "genre": "industrial hardcore",
         "regional scenes": [
-            "Europe",
             "Australia",
+            "Europe",
             "United States"
         ],
         "stylistic origins": [
@@ -10132,8 +10132,8 @@
                 "end": 1986
             },
             "geoloc": [
-                "London",
-                "New York City"
+                "New York City",
+                "London"
             ]
         },
         "derivative forms": [
@@ -10168,8 +10168,8 @@
                 "end": 1986
             },
             "geoloc": [
-                "Switzerland",
                 "United Kingdom",
+                "Switzerland",
                 "Germany",
                 "United States"
             ]
@@ -10414,9 +10414,9 @@
                 "end": 1996
             },
             "geoloc": [
+                "West Germany",
                 "East Germany",
                 "Netherlands",
-                "West Germany",
                 "Belgium"
             ]
         },
@@ -10431,11 +10431,11 @@
         ],
         "genre": "italo dance",
         "regional scenes": [
-            "Europe",
-            "Sweden",
+            "Denmark",
             "Italy",
+            "Europe",
             "Germany",
-            "Denmark"
+            "Sweden"
         ],
         "stylistic origins": [
             "house",
@@ -10784,13 +10784,13 @@
             },
             "geoloc": [
                 "United Kingdom",
-                "Mexico",
-                "Germany",
-                "United States",
-                "Norway",
                 "France",
+                "Norway",
+                "Mexico",
+                "Japan",
+                "Germany",
                 "Brazil",
-                "Japan"
+                "United States"
             ]
         },
         "genre": "jazztronica",
@@ -10816,8 +10816,8 @@
                 "end": 2009
             },
             "geoloc": [
-                "California",
-                "Los Angeles"
+                "Los Angeles",
+                "California"
             ]
         },
         "genre": "jerkin'",
@@ -10840,8 +10840,8 @@
                 "end": 2003
             },
             "geoloc": [
-                "Newark",
                 "New Jersey",
+                "Newark",
                 "United States"
             ]
         },
@@ -10873,8 +10873,8 @@
             },
             "geoloc": [
                 "Europe",
-                "North America",
-                "Israel"
+                "Israel",
+                "North America"
             ]
         },
         "genre": "jewish hip hop",
@@ -10900,8 +10900,8 @@
             },
             "geoloc": [
                 "Chicago",
-                "Illinois",
-                "United States"
+                "United States",
+                "Illinois"
             ]
         },
         "derivative forms": [
@@ -11000,16 +11000,16 @@
         "genre": "jumpstyle",
         "regional scenes": [
             "Poland",
-            "Australia",
-            "Netherlands",
-            "Denmark",
-            "Russia",
-            "United Kingdom",
-            "Germany",
-            "Ireland",
             "France",
+            "Netherlands",
+            "Luxembourg",
+            "Germany",
             "Belgium",
-            "Luxembourg"
+            "Denmark",
+            "Australia",
+            "United Kingdom",
+            "Russia",
+            "Ireland"
         ],
         "stylistic origins": [
             "mákina",
@@ -11141,16 +11141,16 @@
         ],
         "genre": "kansas city blues",
         "regional scenes": [
-            "Detroit",
-            "St. Louis",
             "Texas",
-            "New Orleans",
+            "Detroit",
             "Memphis",
+            "Kansas City",
+            "Piedmont",
+            "New Orleans",
+            "West Coast",
             "Louisiana",
             "Chicago",
-            "Piedmont",
-            "West Coast",
-            "Kansas City"
+            "St. Louis"
         ],
         "stylistic origins": [
             "work songs",
@@ -11205,8 +11205,8 @@
                 "end": 2019
             },
             "geoloc": [
-                "United Kingdom",
                 "Australia",
+                "United Kingdom",
                 "United States"
             ]
         },
@@ -11263,10 +11263,10 @@
         },
         "genre": "kidandali",
         "regional scenes": [
-            "Uganda",
-            "South Africa",
+            "Kenya",
             "Ethiopia",
-            "Kenya"
+            "Uganda",
+            "South Africa"
         ],
         "stylistic origins": [
             "kadongo kamu",
@@ -11404,10 +11404,10 @@
         },
         "genre": "kwaito",
         "regional scenes": [
-            "Namibia",
-            "Zimbabwe",
             "Swaziland",
+            "Namibia",
             "South Africa",
+            "Zimbabwe",
             "Lesotho",
             "Botswana"
         ],
@@ -11425,17 +11425,17 @@
                 "end": 1963
             },
             "geoloc": [
-                "Cuba",
+                "Puerto Rico",
                 "Texas",
+                "Venezuela",
+                "Mexico",
                 "Spain",
                 "Los Angeles",
-                "Venezuela",
-                "Puerto Rico",
                 "New York",
-                "California",
                 "Peru",
-                "Mexico",
-                "Latin America"
+                "Cuba",
+                "Latin America",
+                "California"
             ]
         },
         "genre": "latin ballad",
@@ -11468,12 +11468,12 @@
         ],
         "genre": "latin freestyle",
         "regional scenes": [
-            "Detroit",
             "Miami",
-            "New York City",
-            "Chicago",
+            "Detroit",
             "Philadelphia",
-            "Los Angeles"
+            "New York City",
+            "Los Angeles",
+            "Chicago"
         ],
         "stylistic origins": [
             "latin music",
@@ -11494,8 +11494,8 @@
                 "end": 1989
             },
             "geoloc": [
-                "Chicago",
                 "New York City",
+                "Chicago",
                 "US"
             ]
         },
@@ -11521,17 +11521,17 @@
                 "end": -1
             },
             "geoloc": [
-                "Cuba",
-                "United States",
                 "New York City",
-                "Brazil"
+                "United States",
+                "Brazil",
+                "Cuba"
             ]
         },
         "genre": "latin jazz",
         "regional scenes": [
-            "Cuba",
             "Brazil",
-            "United States"
+            "United States",
+            "Cuba"
         ],
         "stylistic origins": [
             "cuban music",
@@ -11625,8 +11625,8 @@
         ],
         "genre": "latin trap",
         "regional scenes": [
-            "Spain",
             "Latin America",
+            "Spain",
             "United States"
         ],
         "stylistic origins": [
@@ -11677,11 +11677,11 @@
         },
         "genre": "lento violento",
         "local scenes": [
-            "Spain",
-            "Germany",
             "Czech Republic",
             "Austria",
-            "Netherlands"
+            "Netherlands",
+            "Spain",
+            "Germany"
         ],
         "regional scenes": [
             "Mediterranean Sea"
@@ -11802,9 +11802,9 @@
                 "end": 1959
             },
             "geoloc": [
-                "Louisiana",
-                "Baton Rouge",
                 "New Orleans",
+                "Baton Rouge",
+                "Louisiana",
                 "U.S."
             ]
         },
@@ -11859,8 +11859,8 @@
                 "end": -1
             },
             "geoloc": [
-                "California",
                 "Los Angeles",
+                "California",
                 "United States"
             ]
         },
@@ -11882,9 +11882,9 @@
                 "end": 1994
             },
             "geoloc": [
+                "U.S.",
                 "Philadelphia",
-                "Pennsylvania",
-                "U.S."
+                "Pennsylvania"
             ]
         },
         "derivative forms": [
@@ -11896,9 +11896,9 @@
         ],
         "genre": "mafioso rap",
         "regional scenes": [
-            "Midwest",
+            "East Coast",
             "West Coast",
-            "East Coast"
+            "Midwest"
         ],
         "stylistic origins": [
             "hip hop",
@@ -11958,10 +11958,10 @@
         ],
         "genre": "mainstream hardcore",
         "regional scenes": [
-            "Belgium",
-            "Netherlands",
             "Italy",
-            "Germany"
+            "Netherlands",
+            "Germany",
+            "Belgium"
         ],
         "stylistic origins": [
             "early hardcore"
@@ -12076,17 +12076,17 @@
         },
         "genre": "mariachi",
         "regional scenes": [
-            "Guatemala",
-            "Croatia",
-            "Ecuador",
-            "Colombia",
             "Venezuela",
-            "Peru",
-            "Costa Rica",
             "Mexico",
+            "Ecuador",
+            "Costa Rica",
             "Argentina",
+            "Peru",
             "United States",
-            "Chile"
+            "Chile",
+            "Colombia",
+            "Croatia",
+            "Guatemala"
         ],
         "stylistic origins": [
             "son jalisciense",
@@ -12288,9 +12288,9 @@
                 "end": 1995
             },
             "geoloc": [
-                "United Kingdom",
                 "Gothenburg",
-                "Scandinavia"
+                "Scandinavia",
+                "United Kingdom"
             ]
         },
         "fusion genres": [
@@ -12299,12 +12299,12 @@
         ],
         "genre": "melodic death metal",
         "regional scenes": [
-            "Sweden",
             "United Kingdom",
-            "Finland",
-            "Norway",
             "Japan",
-            "Hong Kong"
+            "Finland",
+            "Hong Kong",
+            "Norway",
+            "Sweden"
         ],
         "stylistic origins": [
             "death metal",
@@ -12370,10 +12370,10 @@
         },
         "genre": "melodic metalcore",
         "regional scenes": [
-            "Ohio",
             "Massachusetts",
-            "Belgium",
-            "United Kingdom"
+            "Ohio",
+            "United Kingdom",
+            "Belgium"
         ],
         "stylistic origins": [
             "melodic death metal",
@@ -12393,9 +12393,9 @@
                 "end": 1939
             },
             "geoloc": [
-                "U.S.",
                 "Tennessee",
-                "Memphis"
+                "Memphis",
+                "U.S."
             ]
         },
         "genre": "memphis blues",
@@ -12412,9 +12412,9 @@
                 "end": 1993
             },
             "geoloc": [
-                "United States",
                 "Tennessee",
-                "Memphis"
+                "Memphis",
+                "United States"
             ]
         },
         "genre": "memphis rap",
@@ -12500,26 +12500,26 @@
             "New Orleans"
         ],
         "regional scenes": [
-            "Africa",
-            "Canada",
-            "Japan",
-            "Ukraine",
-            "India",
-            "United Kingdom",
-            "Hungary",
-            "Germany",
-            "Argentina",
-            "United States",
             "Poland",
-            "Australia",
+            "Ukraine",
+            "Africa",
+            "United States",
+            "Bangladesh",
             "Finland",
-            "Brazil",
-            "Netherlands",
+            "India",
             "China",
             "Sweden",
-            "Norway",
             "France",
-            "Bangladesh"
+            "Netherlands",
+            "Hungary",
+            "Japan",
+            "Argentina",
+            "Germany",
+            "Brazil",
+            "Australia",
+            "United Kingdom",
+            "Canada",
+            "Norway"
         ],
         "stylistic origins": [
             "blues rock",
@@ -12587,9 +12587,9 @@
                 "end": 2003
             },
             "geoloc": [
+                "London",
                 "England",
-                "United Kingdom",
-                "London"
+                "United Kingdom"
             ]
         },
         "derivative forms": [
@@ -12665,8 +12665,8 @@
                 "end": 1986
             },
             "geoloc": [
-                "Florida",
                 "Miami",
+                "Florida",
                 "United States"
             ]
         },
@@ -12704,13 +12704,13 @@
         },
         "genre": "microhouse",
         "regional scenes": [
-            "Frankfurt",
-            "Cologne",
-            "Melbourne",
-            "Paris",
             "Barcelona",
+            "Romania",
+            "Frankfurt",
+            "Melbourne",
             "Montreal",
-            "Romania"
+            "Paris",
+            "Cologne"
         ],
         "stylistic origins": [
             "minimal techno",
@@ -12773,8 +12773,8 @@
                 "end": 1993
             },
             "geoloc": [
-                "Detroit",
                 "Germany",
+                "Detroit",
                 "Berlin",
                 "United States"
             ]
@@ -12818,8 +12818,8 @@
                 "end": 1979
             },
             "geoloc": [
-                "Minneapolis",
                 "Minnesota",
+                "Minneapolis",
                 "U.S."
             ]
         },
@@ -12973,15 +12973,15 @@
                 "end": 2013
             },
             "geoloc": [
-                "Atlanta",
-                "Southern United States"
+                "Southern United States",
+                "Atlanta"
             ]
         },
         "genre": "mumble rap",
         "local scenes": [
             "Miami",
-            "Atlanta",
-            "Memphis"
+            "Memphis",
+            "Atlanta"
         ],
         "regional scenes": [
             "Southern United States"
@@ -13052,8 +13052,8 @@
                 "end": 1959
             },
             "geoloc": [
-                "Nashville",
                 "Tennessee",
+                "Nashville",
                 "United States"
             ]
         },
@@ -13187,8 +13187,8 @@
                 "end": 1983
             },
             "geoloc": [
-                "England",
-                "United Kingdom"
+                "United Kingdom",
+                "England"
             ]
         },
         "genre": "neo-progressive rock",
@@ -13360,12 +13360,12 @@
         ],
         "genre": "neotraditional country",
         "local scenes": [
-            "West Virginia",
+            "Tennessee",
             "Texas",
+            "West Virginia",
             "California",
             "Kentucky",
-            "Bakersfield",
-            "Tennessee"
+            "Bakersfield"
         ],
         "stylistic origins": [
             "western swing",
@@ -13620,9 +13620,9 @@
                 "end": 1969
             },
             "geoloc": [
-                "United States",
+                "Nuevo México",
                 "New Mexico",
-                "Nuevo México"
+                "United States"
             ]
         },
         "genre": "new mexico",
@@ -13695,9 +13695,9 @@
                 "end": 1969
             },
             "geoloc": [
-                "United States",
+                "Nuevo México",
                 "New Mexico",
-                "Nuevo México"
+                "United States"
             ]
         },
         "genre": "new mexico music",
@@ -13840,10 +13840,10 @@
         },
         "genre": "new rave",
         "regional scenes": [
-            "Manchester",
+            "London",
             "Leeds",
             "Glasgow",
-            "London"
+            "Manchester"
         ],
         "stylistic origins": [
             "dance-punk",
@@ -13880,8 +13880,8 @@
         "genre": "new wave",
         "regional scenes": [
             "Philippines",
-            "Germany",
-            "Yugoslavia"
+            "Yugoslavia",
+            "Germany"
         ],
         "stylistic origins": [
             "punk rock",
@@ -14099,8 +14099,8 @@
         ],
         "genre": "noise",
         "regional scenes": [
-            "Indonesia",
-            "Japan"
+            "Japan",
+            "Indonesia"
         ],
         "stylistic origins": [
             "modernism",
@@ -14140,8 +14140,8 @@
         ],
         "genre": "noise music",
         "regional scenes": [
-            "Indonesia",
-            "Japan"
+            "Japan",
+            "Indonesia"
         ],
         "stylistic origins": [
             "modernism",
@@ -14228,8 +14228,8 @@
             "Birmingham"
         ],
         "regional scenes": [
-            "Indonesia",
-            "United Kingdom"
+            "United Kingdom",
+            "Indonesia"
         ],
         "stylistic origins": [
             "crust punk",
@@ -14247,8 +14247,8 @@
                 "end": 2003
             },
             "geoloc": [
-                "Mexico",
-                "Tijuana"
+                "Tijuana",
+                "Mexico"
             ]
         },
         "genre": "nortec",
@@ -14267,8 +14267,8 @@
                 "Detroit",
                 "Philadelphia",
                 "North Midlands",
-                "Chicago",
-                "Northern England"
+                "Northern England",
+                "Chicago"
             ]
         },
         "derivative forms": [
@@ -14289,13 +14289,13 @@
             },
             "geoloc": [
                 "United Kingdom",
-                "Mexico",
-                "Germany",
-                "United States",
-                "Norway",
                 "France",
+                "Norway",
+                "Mexico",
+                "Japan",
+                "Germany",
                 "Brazil",
-                "Japan"
+                "United States"
             ]
         },
         "genre": "nu jazz",
@@ -14401,22 +14401,22 @@
         },
         "genre": "nueva canción",
         "regional scenes": [
-            "Cuba",
+            "Venezuela",
+            "Mexico",
             "Spain",
-            "Nicaragua",
+            "Argentina",
+            "Peru",
             "Brazil",
             "Portugal",
-            "Guatemala",
-            "Bolivia",
-            "El Salvador",
-            "Colombia",
-            "Paraguay",
-            "Peru",
-            "Venezuela",
             "Uruguay",
-            "Mexico",
-            "Argentina",
-            "Chile"
+            "Chile",
+            "Nicaragua",
+            "Colombia",
+            "Cuba",
+            "Bolivia",
+            "Paraguay",
+            "El Salvador",
+            "Guatemala"
         ],
         "stylistic origins": [
             "latin american folk music"
@@ -14500,12 +14500,12 @@
                 "end": 1969
             },
             "geoloc": [
-                "California",
-                "Texas",
-                "Bakersfield",
-                "Oklahoma",
                 "Tennessee",
-                "U.S."
+                "Texas",
+                "U.S.",
+                "California",
+                "Oklahoma",
+                "Bakersfield"
             ]
         },
         "derivative forms": [
@@ -14568,15 +14568,15 @@
                 "end": 1985
             },
             "geoloc": [
+                "Los Angeles",
                 "California",
-                "Sacramento",
-                "Los Angeles"
+                "Sacramento"
             ]
         },
         "genre": "paisley underground",
         "regional scenes": [
-            "Dunedin",
-            "Los Angeles"
+            "Los Angeles",
+            "Dunedin"
         ],
         "stylistic origins": [
             "post-punk",
@@ -14601,9 +14601,9 @@
                 "end": 1993
             },
             "geoloc": [
-                "United States",
+                "Baltimore",
                 "Maryland",
-                "Baltimore"
+                "United States"
             ]
         },
         "derivative forms": [
@@ -14626,9 +14626,9 @@
                 "end": 2009
             },
             "geoloc": [
-                "Houston",
                 "Southern United States",
-                "Memphis"
+                "Memphis",
+                "Houston"
             ]
         },
         "genre": "phonk",
@@ -14931,8 +14931,8 @@
         },
         "genre": "post-britpop",
         "regional scenes": [
-            "England",
             "Scotland",
+            "England",
             "Wales",
             "Northern Ireland"
         ],
@@ -15049,11 +15049,11 @@
         ],
         "genre": "post-hardcore",
         "local scenes": [
-            "San Diego",
+            "D.C.",
             "Olympia",
-            "Washington",
+            "San Diego",
             "Chicago",
-            "D.C."
+            "Washington"
         ],
         "regional scenes": [
             "South Wales",
@@ -15157,10 +15157,10 @@
         ],
         "regional scenes": [
             "United Kingdom",
-            "Germany",
-            "United States",
+            "Netherlands",
             "France",
-            "Netherlands"
+            "Germany",
+            "United States"
         ],
         "stylistic origins": [
             "punk rock",
@@ -15286,9 +15286,9 @@
         ],
         "genre": "power metal",
         "regional scenes": [
+            "South America",
             "Europe",
             "North America",
-            "South America",
             "East Asia"
         ],
         "stylistic origins": [
@@ -15306,9 +15306,9 @@
                 "end": 1996
             },
             "geoloc": [
-                "Belgium",
                 "United Kingdom",
-                "Germany"
+                "Germany",
+                "Belgium"
             ]
         },
         "derivative forms": [
@@ -15320,8 +15320,8 @@
         ],
         "genre": "power noise",
         "regional scenes": [
-            "Europe",
             "Australia",
+            "Europe",
             "United States"
         ],
         "stylistic origins": [
@@ -15474,10 +15474,10 @@
                 "end": 1979
             },
             "geoloc": [
+                "Tennessee",
                 "Texas",
                 "Austin",
-                "Nashville",
-                "Tennessee"
+                "Nashville"
             ]
         },
         "derivative forms": [
@@ -15540,9 +15540,9 @@
                 "end": 1986
             },
             "geoloc": [
+                "Australia",
                 "United Kingdom",
-                "North America",
-                "Australia"
+                "North America"
             ]
         },
         "derivative forms": [
@@ -15554,12 +15554,12 @@
         ],
         "genre": "progressive metal",
         "regional scenes": [
+            "Australia",
             "United Kingdom",
             "Canada",
+            "Scandinavia",
             "Germany",
-            "Australia",
-            "United States",
-            "Scandinavia"
+            "United States"
         ],
         "stylistic origins": [
             "heavy metal",
@@ -15708,10 +15708,10 @@
                 "end": 1993
             },
             "geoloc": [
-                "Belgium",
-                "Netherlands",
                 "United Kingdom",
-                "Germany"
+                "Netherlands",
+                "Germany",
+                "Belgium"
             ]
         },
         "genre": "progressive trance",
@@ -15956,15 +15956,15 @@
         ],
         "genre": "psychedelic rock",
         "local scenes": [
-            "San Francisco",
-            "Canterbury"
+            "Canterbury",
+            "San Francisco"
         ],
         "regional scenes": [
-            "Latin America",
-            "New Zealand",
             "Australia",
-            "Zambia",
-            "Turkey"
+            "Turkey",
+            "New Zealand",
+            "Latin America",
+            "Zambia"
         ],
         "stylistic origins": [
             "rock",
@@ -16057,8 +16057,8 @@
             },
             "geoloc": [
                 "New York",
-                "California",
-                "United Kingdom"
+                "United Kingdom",
+                "California"
             ]
         },
         "derivative forms": [
@@ -16066,13 +16066,13 @@
         ],
         "genre": "psychobilly",
         "regional scenes": [
-            "Europe",
-            "Canada",
-            "Germany",
-            "United States",
             "England",
+            "Canada",
+            "Japan",
+            "Europe",
+            "Germany",
             "Brazil",
-            "Japan"
+            "United States"
         ],
         "stylistic origins": [
             "rockabilly",
@@ -16088,8 +16088,8 @@
                 "end": 1993
             },
             "geoloc": [
-                "United Kingdom",
-                "London"
+                "London",
+                "United Kingdom"
             ]
         },
         "genre": "psydub",
@@ -16141,8 +16141,8 @@
             },
             "geoloc": [
                 "Essex",
-                "United Kingdom",
-                "London"
+                "London",
+                "United Kingdom"
             ]
         },
         "derivative forms": [
@@ -16266,8 +16266,8 @@
         },
         "genre": "punk rap",
         "local scenes": [
-            "Florida",
-            "Miami"
+            "Miami",
+            "Florida"
         ],
         "stylistic origins": [
             "hip hop",
@@ -16284,8 +16284,8 @@
                 "end": 1976
             },
             "geoloc": [
-                "United Kingdom",
                 "Australia",
+                "United Kingdom",
                 "United States"
             ]
         },
@@ -16322,24 +16322,24 @@
         ],
         "genre": "punk rock",
         "local scenes": [
-            "Leeds",
             "New York City",
+            "Leeds",
             "Birmingham"
         ],
         "regional scenes": [
-            "Cuba",
-            "Scotland",
+            "France",
             "Spain",
-            "Canada",
-            "Australia",
-            "Brazil",
-            "Philadelphia",
             "Yugoslavia",
             "Peru",
-            "California",
             "Germany",
-            "Greece",
-            "France"
+            "Brazil",
+            "Australia",
+            "Philadelphia",
+            "Scotland",
+            "Canada",
+            "Cuba",
+            "California",
+            "Greece"
         ],
         "stylistic origins": [
             "garage rock",
@@ -16465,8 +16465,8 @@
                 "end": 1996
             },
             "geoloc": [
-                "Netherlands",
                 "United Kingdom",
+                "Netherlands",
                 "Germany"
             ]
         },
@@ -16653,8 +16653,8 @@
                 "end": 2003
             },
             "geoloc": [
-                "Netherlands",
                 "Italy",
+                "Netherlands",
                 "Belgium"
             ]
         },
@@ -16737,8 +16737,8 @@
                 "end": 1999
             },
             "geoloc": [
-                "Oklahoma",
                 "North Texas",
+                "Oklahoma",
                 "United States"
             ]
         },
@@ -16774,8 +16774,8 @@
             },
             "geoloc": [
                 "United Kingdom",
-                "Jamaica",
-                "United States"
+                "United States",
+                "Jamaica"
             ]
         },
         "genre": "reggae rock",
@@ -16862,8 +16862,8 @@
         ],
         "genre": "rhythm and blues",
         "local scenes": [
-            "Britain",
-            "New Orleans"
+            "New Orleans",
+            "Britain"
         ],
         "stylistic origins": [
             "jazz",
@@ -16920,16 +16920,16 @@
                 "end": 1993
             },
             "geoloc": [
-                "US",
                 "Pacific Northwest",
                 "Olympia",
+                "US",
                 "Washington"
             ]
         },
         "genre": "riot grrrl",
         "local scenes": [
-            "US",
             "Olympia",
+            "US",
             "Washington"
         ],
         "regional scenes": [
@@ -17225,16 +17225,16 @@
                 "end": 1959
             },
             "geoloc": [
-                "Austria",
+                "West Germany",
                 "East Germany",
-                "West Germany"
+                "Austria"
             ]
         },
         "genre": "schlager",
         "regional scenes": [
+            "Northern Europe",
             "Southeast Europe",
-            "Central Europe",
-            "Northern Europe"
+            "Central Europe"
         ],
         "stylistic origins": [
             "pop",
@@ -17280,9 +17280,9 @@
                 "end": 1993
             },
             "geoloc": [
-                "San Diego",
+                "U.S.",
                 "California",
-                "U.S."
+                "San Diego"
             ]
         },
         "fusion genres": [
@@ -17308,11 +17308,11 @@
                 "end": 1929
             },
             "geoloc": [
+                "São Paulo",
                 "Sul",
+                "Southeastern Brazil",
                 "Southern Brazil",
                 "Brazil",
-                "São Paulo",
-                "Southeastern Brazil",
                 "Minas Gerais"
             ]
         },
@@ -17405,8 +17405,8 @@
                 "end": 1989
             },
             "geoloc": [
-                "United Kingdom",
-                "Ireland"
+                "Ireland",
+                "United Kingdom"
             ]
         },
         "derivative forms": [
@@ -17512,8 +17512,8 @@
                 "end": 2009
             },
             "geoloc": [
-                "Sweden",
-                "Finland"
+                "Finland",
+                "Sweden"
             ]
         },
         "genre": "skweee",
@@ -17564,10 +17564,10 @@
         ],
         "genre": "sludge metal",
         "local scenes": [
-            "New Orleans",
             "Louisiana",
             "North Carolina",
             "Savannah",
+            "New Orleans",
             "Georgia"
         ],
         "stylistic origins": [
@@ -17730,10 +17730,10 @@
         "genre": "soul",
         "local scenes": [
             "Detroit",
-            "New Orleans",
             "Memphis",
-            "Chicago",
-            "Philadelphia"
+            "Philadelphia",
+            "New Orleans",
+            "Chicago"
         ],
         "regional scenes": [
             "Britain",
@@ -17809,21 +17809,21 @@
             },
             "geoloc": [
                 "Miami",
-                "Memphis",
                 "Southern United States",
-                "New Orleans",
+                "Houston",
                 "Atlanta",
-                "Houston"
+                "Memphis",
+                "New Orleans"
             ]
         },
         "genre": "southern hip hop",
         "regional scenes": [
             "Miami",
-            "Virginia Beach",
-            "New Orleans",
             "Memphis",
             "Atlanta",
-            "Houston"
+            "Houston",
+            "New Orleans",
+            "Virginia Beach"
         ],
         "stylistic origins": [
             "hip hop"
@@ -17987,8 +17987,8 @@
                 "end": 1973
             },
             "geoloc": [
-                "Germany",
-                "Japan"
+                "Japan",
+                "Germany"
             ]
         },
         "fusion genres": [
@@ -18089,9 +18089,9 @@
                 "end": 1983
             },
             "geoloc": [
-                "North America",
+                "the United Kingdom",
                 "Europe",
-                "the United Kingdom"
+                "North America"
             ]
         },
         "derivative forms": [
@@ -18122,11 +18122,11 @@
         ],
         "genre": "speedcore",
         "regional scenes": [
-            "Germany",
-            "Northern England",
+            "Netherlands",
             "Japan",
+            "Northern England",
             "Eastern Europe",
-            "Netherlands"
+            "Germany"
         ],
         "stylistic origins": [
             "hardcore",
@@ -18153,11 +18153,11 @@
         ],
         "genre": "splittercore",
         "regional scenes": [
-            "Germany",
-            "Northern England",
+            "Netherlands",
             "Japan",
+            "Northern England",
             "Eastern Europe",
-            "Netherlands"
+            "Germany"
         ],
         "stylistic origins": [
             "hardcore",
@@ -18199,16 +18199,16 @@
         ],
         "genre": "st. louis blues",
         "regional scenes": [
-            "Detroit",
-            "St. Louis",
             "Texas",
-            "New Orleans",
+            "Detroit",
             "Memphis",
+            "Kansas City",
+            "Piedmont",
+            "New Orleans",
+            "West Coast",
             "Louisiana",
             "Chicago",
-            "Piedmont",
-            "West Coast",
-            "Kansas City"
+            "St. Louis"
         ],
         "stylistic origins": [
             "work songs",
@@ -18457,8 +18457,8 @@
                 "end": 1959
             },
             "geoloc": [
-                "Louisiana",
                 "Acadiana",
+                "Louisiana",
                 "United States"
             ]
         },
@@ -18479,8 +18479,8 @@
                 "end": 1959
             },
             "geoloc": [
-                "Louisiana",
                 "Acadiana",
+                "Louisiana",
                 "United States"
             ]
         },
@@ -18549,8 +18549,8 @@
                 "end": 1993
             },
             "geoloc": [
-                "Netherlands",
-                "Scandinavia"
+                "Scandinavia",
+                "Netherlands"
             ]
         },
         "fusion genres": [
@@ -18711,9 +18711,9 @@
                 "end": 1986
             },
             "geoloc": [
-                "United Kingdom",
+                "Japan",
                 "West Germany",
-                "Japan"
+                "United Kingdom"
             ]
         },
         "derivative forms": [
@@ -18779,9 +18779,9 @@
                 "end": 1986
             },
             "geoloc": [
-                "United Kingdom",
+                "Japan",
                 "West Germany",
-                "Japan"
+                "United Kingdom"
             ]
         },
         "derivative forms": [
@@ -18835,8 +18835,8 @@
                 "end": 1995
             },
             "geoloc": [
-                "Spain",
                 "Detroit",
+                "Spain",
                 "United States"
             ]
         },
@@ -18913,8 +18913,8 @@
             },
             "geoloc": [
                 "Frankfurt",
-                "Germany",
-                "US"
+                "US",
+                "Germany"
             ]
         },
         "derivative forms": [
@@ -19022,10 +19022,10 @@
         ],
         "genre": "teen pop",
         "regional scenes": [
-            "Florida",
+            "Los Angeles",
             "Orlando",
             "California",
-            "Los Angeles"
+            "Florida"
         ],
         "stylistic origins": [
             "pop",
@@ -19174,12 +19174,12 @@
         ],
         "genre": "thrash metal",
         "regional scenes": [
+            "San Francisco Bay Area",
             "Poland",
-            "United Kingdom",
             "Australia",
+            "United Kingdom",
             "Germany",
-            "Brazil",
-            "San Francisco Bay Area"
+            "Brazil"
         ],
         "stylistic origins": [
             "nwobhm",
@@ -19301,10 +19301,10 @@
                 "end": 1993
             },
             "geoloc": [
-                "Belgium",
-                "Netherlands",
                 "United Kingdom",
-                "Germany"
+                "Netherlands",
+                "Germany",
+                "Belgium"
             ]
         },
         "genre": "trance music",
@@ -19342,8 +19342,8 @@
                 "end": 1993
             },
             "geoloc": [
-                "Atlanta",
                 "Georgia",
+                "Atlanta",
                 "United States"
             ]
         },
@@ -19359,8 +19359,8 @@
         ],
         "genre": "trap",
         "local scenes": [
-            "Atlanta",
-            "Memphis"
+            "Memphis",
+            "Atlanta"
         ],
         "stylistic origins": [
             "southern hip hop",
@@ -19457,8 +19457,8 @@
                 "end": 2003
             },
             "geoloc": [
-                "Netherlands",
                 "Italy",
+                "Netherlands",
                 "Belgium"
             ]
         },
@@ -19508,9 +19508,9 @@
                 "end": 2003
             },
             "geoloc": [
+                "Southern United States",
                 "Latin America",
-                "the United States",
-                "Southern United States"
+                "the United States"
             ]
         },
         "genre": "tribal guarachero",
@@ -19557,8 +19557,8 @@
                 "end": 1993
             },
             "geoloc": [
-                "Bristol",
-                "England"
+                "England",
+                "Bristol"
             ]
         },
         "derivative forms": [
@@ -19568,8 +19568,8 @@
         ],
         "genre": "trip hop",
         "regional scenes": [
-            "United Kingdom",
-            "Australia"
+            "Australia",
+            "United Kingdom"
         ],
         "stylistic origins": [
             "electronica",
@@ -19595,8 +19595,8 @@
                 "end": 1993
             },
             "geoloc": [
-                "Bristol",
-                "England"
+                "England",
+                "Bristol"
             ]
         },
         "derivative forms": [
@@ -19606,8 +19606,8 @@
         ],
         "genre": "trip rock",
         "regional scenes": [
-            "United Kingdom",
-            "Australia"
+            "Australia",
+            "United Kingdom"
         ],
         "stylistic origins": [
             "electronica",
@@ -19795,17 +19795,17 @@
                 "end": 2013
             },
             "geoloc": [
-                "England",
-                "London"
+                "London",
+                "England"
             ]
         },
         "genre": "uk drill",
         "local scenes": [
             "Liverpool",
-            "London",
             "Birmingham",
-            "Manchester",
-            "Nottingham"
+            "London",
+            "Nottingham",
+            "Manchester"
         ],
         "stylistic origins": [
             "british hip hop",
@@ -19830,8 +19830,8 @@
                 "end": 2006
             },
             "geoloc": [
-                "England",
-                "London"
+                "London",
+                "England"
             ]
         },
         "genre": "uk funky",
@@ -19922,10 +19922,10 @@
                 "end": 1993
             },
             "geoloc": [
-                "Netherlands",
                 "UK",
-                "Belgium",
-                "Germany"
+                "Netherlands",
+                "Germany",
+                "Belgium"
             ]
         },
         "genre": "uk hardcore",
@@ -20067,13 +20067,13 @@
         ],
         "genre": "viking metal",
         "regional scenes": [
-            "Russia",
-            "United Kingdom",
-            "Canada",
-            "Germany",
-            "United States",
             "Austria",
-            "Netherlands"
+            "United Kingdom",
+            "Netherlands",
+            "Canada",
+            "Russia",
+            "Germany",
+            "United States"
         ],
         "stylistic origins": [
             "black metal",
@@ -20256,8 +20256,8 @@
                 "end": 1979
             },
             "geoloc": [
-                "California",
                 "Los Angeles",
+                "California",
                 "U.S."
             ]
         },
@@ -20268,12 +20268,12 @@
         ],
         "genre": "west coast hip hop",
         "local scenes": [
-            "San Francisco",
-            "Oakland",
-            "Long Beach",
             "San Diego",
+            "Long Beach",
             "Sacramento",
-            "Los Angeles"
+            "Los Angeles",
+            "Oakland",
+            "San Francisco"
         ],
         "stylistic origins": [
             "hip hop",
@@ -20296,8 +20296,8 @@
         },
         "genre": "west coast jazz",
         "local scenes": [
-            "San Francisco",
-            "Los Angeles"
+            "Los Angeles",
+            "San Francisco"
         ],
         "stylistic origins": [
             "bebop",
@@ -20323,9 +20323,9 @@
         ],
         "genre": "western (cowboy)",
         "regional scenes": [
-            "West South Central",
+            "Southwestern United States",
             "Western United States",
-            "Southwestern United States"
+            "West South Central"
         ],
         "stylistic origins": [
             "american folk",
@@ -20424,8 +20424,8 @@
                 "end": 2013
             },
             "geoloc": [
-                "United Kingdom",
-                "Los Angeles"
+                "Los Angeles",
+                "United Kingdom"
             ]
         },
         "genre": "wonky",
@@ -20556,10 +20556,10 @@
         ],
         "genre": "yé-yé",
         "regional scenes": [
-            "Spain",
+            "Italy",
             "France",
-            "Portugal",
-            "Italy"
+            "Spain",
+            "Portugal"
         ],
         "stylistic origins": [
             "r&b",
