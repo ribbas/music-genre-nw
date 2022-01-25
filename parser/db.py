@@ -23,12 +23,5 @@ class TableNormalizer:
         for data in self.raw_file_data:
             genre_key, genre_values_list = next(iter(data.items()))
             normalized_values = DataCleaner.normalize_category_data(genre_values_list)
+            genre_key = DataCleaner.clean_genre_key(genre_key)
             self.normalized_data.append({"genre": genre_key, **normalized_values})
-
-    def stats(self) -> None:
-
-        for i in self.normalized_data:
-            try:
-                print(i["genre"], i["cultural origins"])
-            except KeyError:
-                continue

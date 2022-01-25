@@ -50,3 +50,5 @@ if __name__ == "__main__":
 
         wrangled_file_data = configs.read_from_file(configs.wrangled_file_path)
         graph = dag.DirectedAcyclicGraph(wrangled_file_data)
+        graph.set_vertices()
+        pprint(len(graph.get_vertices()))

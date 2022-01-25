@@ -127,9 +127,24 @@ class DataCleaner:
             # - "•" was replaced with ""
             if "•" in value:
                 value = value.replace("•", "")
+            if "/" in value:
+                value = value.replace("/", "")
             cleaned_category_value_list.append(value)
 
         return cleaned_category_value_list
+
+    @staticmethod
+    def clean_genre_key(genre_key: str) -> str:
+
+        if "/" in genre_key:
+            if "post-industrial" in genre_key:
+                return "industrial"
+
+            if "regional edm" in genre_key:
+                return "ethnic electronica"
+
+        genre_key = DataCleaner.strip_annotations([genre_key])[0]
+        return genre_key
 
     @staticmethod
     def normalize_category_data(genre_data: dict) -> dict:
