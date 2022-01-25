@@ -43,15 +43,25 @@ class DataCleaner:
     @staticmethod
     def strip_annotations(category_values_list: list) -> list:
 
-        return [
-            TextProcessor.annotation_re.match(c).group() for c in category_values_list
-        ]
+        for ix in range(len(category_values_list)):
+            category_values_list[ix] = "".join(
+                s.split("]")[-1] for s in category_values_list[ix].split("[")
+            )
+            category_values_list[ix] = "".join(
+                s.split(")")[-1] for s in category_values_list[ix].split("(")
+            )
+        return category_values_list
+
+    @staticmethod
+    def split_csv(category_values_list: list) -> list:
+
+        if len(category_values_list) == 1 and "," in category_values_list[0]:
+            category_values_list = category_values_list[0].split(",")
+
+        return category_values_list
 
     @staticmethod
     def normalize_genre_values(category_values_list: list) -> list:
-
-        if len(category_values_list) == 1 and "," in category_values_list[0]:
-            category_values_list = filter(None, category_values_list[0].split(","))
 
         return [DataCleaner.normalize_genre_key(c) for c in category_values_list]
 
@@ -125,7 +135,6 @@ class DataCleaner:
         normalized_category_data: dict = {}
         for category_key, category_values_list in genre_data.items():
 
-            category_values_list = filter(None, category_values_list)
             category_values_list = DataCleaner.clean_misc(category_values_list)
             category_values_list = DataCleaner.remove_category_value(
                 category_values_list
@@ -133,10 +142,12 @@ class DataCleaner:
             category_values_list = DataCleaner.remove_category_keys(
                 category_key, category_values_list
             )
+            category_values_list = DataCleaner.split_csv(category_values_list)
             category_values_list = DataCleaner.strip_annotations(category_values_list)
+            category_values_list = [i for i in category_values_list if i]
 
             # if category is a genre category
-            if category_key in DataCleaner.genre_categories:
+            if category_key in DataCleaner.genre_categories | {"Typical instruments"}:
                 category_values_list = DataCleaner.normalize_genre_values(
                     category_values_list
                 )
@@ -153,9 +164,6 @@ class DataCleaner:
                 category_values_list = DataCleaner.normalize_scenes(
                     category_values_list
                 )
-
-            elif category_key == "Typical instruments":
-                category_values_list = [i.lower() for i in category_values_list]
 
             else:
                 continue

@@ -31,17 +31,17 @@ if __name__ == "__main__":
 
     elif sys.argv[-1][0] == "c":
 
-        # table_normalizer = parser.TableNormalizer()
-        # raw_file_data = configs.read_from_file(configs.raw_file_path)
-        # table_normalizer.read_raw_data(raw_file_data)
-        # table_normalizer.normalize()
-        # normalized_data = table_normalizer.get_normalized_data()
-        # configs.dump_to_file(configs.norm_file_path, normalized_data, pretty=True)
+        table_normalizer = parser.TableNormalizer()
+        raw_file_data = configs.read_from_file(configs.raw_file_path)
+        table_normalizer.read_raw_data(raw_file_data)
+        table_normalizer.normalize()
+        normalized_data = table_normalizer.get_normalized_data()
+        configs.dump_to_file(configs.norm_file_path, normalized_data, pretty=True)
 
-        normalized_data = configs.read_from_file(configs.norm_file_path)
+        # normalized_data = configs.read_from_file(configs.norm_file_path)
 
-        for i in normalized_data:
-            try:
-                print(i["genre"], i["cultural origins"])
-            except KeyError:
-                print("FAILED", i["genre"])
+        # for i in normalized_data:
+        #     try:
+        #         print(i["genre"], i["cultural origins"])
+        #     except KeyError:
+        #         print("FAILED", i["genre"])

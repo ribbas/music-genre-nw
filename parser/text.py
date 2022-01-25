@@ -11,7 +11,6 @@ nlp = spacy.load("en_core_web_lg")
 
 class TextProcessor:
 
-    annotation_re = re.compile("^[^(\[|\()]+", re.I)
     cultural_origins_date_re = re.compile(
         "((early|mid|late|early.*mid|mid.*late)?[\s|-]?(\d{4}|\d{2}(st|th)\s(century)))",
         re.I | re.M,
@@ -25,58 +24,39 @@ class TextProcessor:
     def normalize_date(origin_date: str) -> set:
 
         date_est: int = 0
-        date_begin: int = 0
-        date_end: int = 0
+        begin_offset: int = 0
+        end_offset: int = 9
+
         origin_date = origin_date.strip().lower().replace("-", " ")
+
+        if TextProcessor.early_mid_re.findall(origin_date):
+            end_offset = 5
+
+        elif TextProcessor.mid_late_re.findall(origin_date):
+            begin_offset = 5
+            end_offset = 9
+
+        elif "early" in origin_date:
+            end_offset = 3
+
+        elif "mid" in origin_date:
+            begin_offset = 3
+            end_offset = 6
+
+        elif "late" in origin_date:
+            begin_offset = 6
+
         if "century" in origin_date:
             match = TextProcessor.century_date_re.findall(origin_date)[0]
             date_est = (int(match) - 1) * 100
-
-            if "early" in origin_date:
-                date_begin = date_est
-                date_end = date_est + 33
-
-            elif "mid" in origin_date:
-                date_begin = date_est + 33
-                date_end = date_est + 66
-
-            elif "late" in origin_date:
-                date_begin = date_est + 66
-                date_end = date_est + 99
-
-            else:
-                date_begin = date_est
-                date_end = date_est + 99
+            begin_offset *= 11
+            end_offset *= 11
 
         else:
             match = TextProcessor.year_re.findall(origin_date)[0]
             date_est = int(match)
 
-            if TextProcessor.early_mid_re.findall(origin_date):
-                date_begin = date_est
-                date_end = date_est + 5
-
-            elif TextProcessor.mid_late_re.findall(origin_date):
-                date_begin = date_est + 5
-                date_end = date_est + 9
-
-            elif "early" in origin_date:
-                date_begin = date_est
-                date_end = date_est + 3
-
-            elif "mid" in origin_date:
-                date_begin = date_est + 3
-                date_end = date_est + 6
-
-            elif "late" in origin_date:
-                date_begin = date_est + 6
-                date_end = date_est + 9
-
-            else:
-                date_begin = date_est
-                date_end = date_est + 9
-
-        return date_begin, date_end
+        return date_est + begin_offset, date_est + end_offset
 
     @staticmethod
     def parse_dates(origin_date: str) -> set:
