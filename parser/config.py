@@ -17,10 +17,10 @@ class ConfigTools:
         self.genres_file_path: pathlib.Path = self.data_dir_path / "list.json"
         self.checkpoint_file_path: pathlib.Path = self.data_dir_path / "checkpoint.json"
         self.raw_file_path: pathlib.Path = self.data_dir_path / "raw.json"
-        self.norm_file_path_min: pathlib.Path = (
-            self.data_dir_path / "normalized.min.json"
+        self.wrangled_min_file_path: pathlib.Path = (
+            self.data_dir_path / "wrangled.min.json"
         )
-        self.norm_file_path: pathlib.Path = self.data_dir_path / "normalized.json"
+        self.wrangled_file_path: pathlib.Path = self.data_dir_path / "wrangled.json"
 
     def make_wiki_url(self, endpoint: str) -> str:
 

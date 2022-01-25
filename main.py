@@ -36,9 +36,9 @@ if __name__ == "__main__":
         table_normalizer.read_raw_data(raw_file_data)
         table_normalizer.normalize()
         normalized_data = table_normalizer.get_normalized_data()
-        configs.dump_to_file(configs.norm_file_path, normalized_data, pretty=True)
+        configs.dump_to_file(configs.wrangled_min_file_path, normalized_data)
 
-        # normalized_data = configs.read_from_file(configs.norm_file_path)
+        # normalized_data = configs.read_from_file(configs.wrangled_file_path)
 
         # for i in normalized_data:
         #     try:
