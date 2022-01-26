@@ -12,6 +12,7 @@ class ConfigTools:
         # data file paths
         self.base_dir_path: pathlib.Path = pathlib.Path().parent.resolve()
         self.data_dir_path: pathlib.Path = self.base_dir_path / "data"
+        self.statics_dir_path: pathlib.Path = self.base_dir_path / "statics"
 
         self.urls_file_path: pathlib.Path = self.data_dir_path / "urls.json"
         self.genres_file_path: pathlib.Path = self.data_dir_path / "list.json"
@@ -21,6 +22,8 @@ class ConfigTools:
             self.data_dir_path / "wrangled.min.json"
         )
         self.wrangled_file_path: pathlib.Path = self.data_dir_path / "wrangled.json"
+
+        self.figure_path: pathlib.Path = self.statics_dir_path / "graph.svg"
 
     def make_wiki_url(self, endpoint: str) -> str:
 

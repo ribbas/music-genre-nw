@@ -5,8 +5,10 @@
 import plotly.graph_objects as go
 import networkx as nx
 
+import matplotlib.pyplot as plt
 
-class GraphPlot:
+
+class NetworkGraph:
     def __init__(self, wrangled_data: list) -> None:
 
         self.wrangled_data = wrangled_data
@@ -43,10 +45,16 @@ class GraphPlot:
 
         self.set_edges()
         self.graph.add_edges_from(self.edges)
-        print(nx.is_directed(self.graph))
-        print(nx.is_directed_acyclic_graph(self.graph))
+        self.graph.remove_edges_from(nx.selfloop_edges(self.graph))
         print(self.graph)
+
+    def save_fig(self, figure_path: str) -> None:
+
+        fig = plt.figure(figsize=(40, 40))
+        pos = nx.drawing.nx_agraph.graphviz_layout(self.graph, prog="dot")
+        nx.draw(self.graph, pos=pos)
+        fig.savefig(figure_path)
 
     def initialize(self):
 
-        pos = nx.drawing.nx_agraph.graphviz_layout(self.graph, prog="dot")
+        pass

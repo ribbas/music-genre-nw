@@ -49,5 +49,6 @@ if __name__ == "__main__":
     elif sys.argv[-1][0] == "g":
 
         wrangled_file_data = configs.read_from_file(configs.wrangled_min_file_path)
-        graph = graph.GraphPlot(wrangled_file_data)
-        print(graph.initialize_graph())
+        graph = graph.NetworkGraph(wrangled_file_data[:100])
+        graph.initialize_graph()
+        graph.save_fig(configs.figure_path)

@@ -1,4 +1,4 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-from .plot import GraphPlot
+from .plot import NetworkGraph
