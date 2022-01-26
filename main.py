@@ -49,6 +49,23 @@ if __name__ == "__main__":
     elif sys.argv[-1][0] == "g":
 
         wrangled_file_data = configs.read_from_file(configs.wrangled_min_file_path)
-        graph = graph.NetworkGraph(wrangled_file_data[:100])
-        graph.initialize_graph()
-        graph.save_fig(configs.figure_path)
+
+        nw = graph.NetworkGraph(wrangled_file_data)
+        nw.initialize_graph()
+
+        nodes = nw.get_nodes()
+        edges = nw.get_edges()
+        adjacency = nw.get_adjacency()
+
+        positions: dict = {}
+
+        if "p" in sys.argv[-1]:
+
+            positions = nw.generate_positions()
+            configs.dump_to_file(configs.graph_pos_file_path, positions)
+
+        if "d" in sys.argv[-1]:
+
+            positions = configs.read_from_file(configs.graph_pos_file_path)
+            plot = graph.PlotDraw(positions, nodes, edges, adjacency)
+            plot.draw()

@@ -22,6 +22,7 @@ class ConfigTools:
             self.data_dir_path / "wrangled.min.json"
         )
         self.wrangled_file_path: pathlib.Path = self.data_dir_path / "wrangled.json"
+        self.graph_pos_file_path: pathlib.Path = self.data_dir_path / "graphpos.json"
 
         self.figure_path: pathlib.Path = self.statics_dir_path / "graph.svg"
 
