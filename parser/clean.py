@@ -65,7 +65,29 @@ class DataCleaner:
     @staticmethod
     def normalize_genre_values(category_values_list: list) -> list:
 
-        return [DataCleaner.normalize_genre_key(c) for c in category_values_list]
+        incorrect_genres = {
+            "1950s pop",
+            "1980s pop",
+            " 1980s pop music",
+            "1980s film soundtracks",
+            "American 1960s R&B and soul music.",
+            "Ballads of the French-speaking Acadians of Canada",
+            "comedy andor satire music",
+            "Soul music with a greater emphasis on the beats and rhythms of an arrangement",
+            "influences from rhythm and blues and jazz",
+            "List of Mexican composers of classical music",
+            "List of Mexican operas",
+            "Music of AfricaMusic of West Africavarious blues styles",
+            "other forms of electronic dance music",
+            "other Indian forms of music",
+            "Sertanejo Raiz or Música Caipira  Sertanejo Romântico   Sertanejo Universitário   Funknejo",
+        }
+
+        return [
+            DataCleaner.normalize_genre_key(c)
+            for c in category_values_list
+            if c not in incorrect_genres
+        ]
 
     @staticmethod
     def normalize_scenes(category_values_list: list) -> list:
@@ -120,6 +142,7 @@ class DataCleaner:
     def clean_misc(category_value_list: list) -> list:
 
         cleaned_category_value_list = []
+
         for value in category_value_list:
             # - "(Gangsta rap" was replace with "Gangsta rap"
             if "(Gangsta rap" in value:
