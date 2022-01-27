@@ -65,29 +65,64 @@ class DataCleaner:
     @staticmethod
     def normalize_genre_values(category_values_list: list) -> list:
 
+        cleaned_genre_list = []
+
         incorrect_genres = {
             "1950s pop",
             "1980s pop",
-            " 1980s pop music",
+            "1980s pop music",
             "1980s film soundtracks",
-            "American 1960s R&B and soul music.",
-            "Ballads of the French-speaking Acadians of Canada",
+            "american 1960s r&b and soul music.",
+            "ballads of the french-speaking acadians of canada",
             "comedy andor satire music",
-            "Soul music with a greater emphasis on the beats and rhythms of an arrangement",
-            "influences from rhythm and blues and jazz",
-            "List of Mexican composers of classical music",
-            "List of Mexican operas",
-            "Music of AfricaMusic of West Africavarious blues styles",
+            "eroguro kei  oshare kei",
+            "soul music with a greater emphasis on the beats and rhythms of an arrangement",
+            "influences from r&b and jazz",
+            "list of mexican composers of classical music",
+            "list of mexican operas",
+            "music of africamusic of west africavarious blues styles",
             "other forms of electronic dance music",
-            "other Indian forms of music",
-            "Sertanejo Raiz or Música Caipira  Sertanejo Romântico   Sertanejo Universitário   Funknejo",
+            "other indian forms of music",
+            "sertanejo raiz or música caipira  sertanejo romântico   sertanejo universitário   funknejo",
         }
 
-        return [
-            DataCleaner.normalize_genre_key(c)
-            for c in category_values_list
-            if c not in incorrect_genres
-        ]
+        for genre in category_values_list:
+
+            genre = DataCleaner.normalize_genre_key(genre)
+
+            if "(gangsta rap" in genre:
+                genre = genre.replace("(gangsta rap", "gangsta rap")
+            if "rhythm and blues" in genre:
+                genre = genre.replace("rhythm and blues", "r&b")
+            if "rock n roll" in genre:
+                genre = "rock and roll"
+
+            if "blackened death metal melodic black-death" in genre:
+                cleaned_genre_list.append("blackened death metal")
+                cleaned_genre_list.append("melodic black-death")
+                continue
+            if "extreme metal black metal" in genre:
+                cleaned_genre_list.append("extreme metal")
+                cleaned_genre_list.append("black metal")
+                continue
+            if "alternative metal funk metal" in genre:
+                cleaned_genre_list.append("alternative metal")
+                cleaned_genre_list.append("funk metal")
+                continue
+            if "acid rock · raga rock · space rock" in genre:
+                cleaned_genre_list.append("acid rock")
+                cleaned_genre_list.append("raga rock")
+                cleaned_genre_list.append("space rock")
+                continue
+            if "west coastfunky breaks" in genre:
+                cleaned_genre_list.append("west coast")
+                cleaned_genre_list.append("funky breaks")
+                continue
+
+            if genre not in incorrect_genres:
+                cleaned_genre_list.append(genre)
+
+        return cleaned_genre_list
 
     @staticmethod
     def normalize_scenes(category_values_list: list) -> list:
@@ -144,10 +179,6 @@ class DataCleaner:
         cleaned_category_value_list = []
 
         for value in category_value_list:
-            # - "(Gangsta rap" was replace with "Gangsta rap"
-            if "(Gangsta rap" in value:
-                value = value.replace("(Gangsta rap", "Gangsta rap")
-            # - "•" was replaced with ""
             if "•" in value:
                 value = value.replace("•", "")
             if "/" in value:
@@ -158,6 +189,11 @@ class DataCleaner:
 
     @staticmethod
     def clean_genre_key(genre_key: str) -> str:
+
+        if "rhythm and blues" in genre_key:
+            return "r&b"
+        if "hip hop fusion genres" in genre_key:
+            return "hip hop"
 
         if "/" in genre_key:
             if "post-industrial" in genre_key:

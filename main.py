@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
+from operator import le
 import sys
 from pprint import pprint
 
