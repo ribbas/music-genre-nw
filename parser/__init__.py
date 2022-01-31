@@ -3,5 +3,4 @@
 
 from .config import Checkpoint, ConfigTools
 from .scrape import ParseGenreList, ParseGenreTable
-from .clean import DataCleaner
-from .db import TableNormalizer
+from .cleaners import DataCleaner

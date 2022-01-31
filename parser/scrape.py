@@ -8,7 +8,7 @@ from bs4 import BeautifulSoup, element
 import requests
 
 from .config import Checkpoint, ConfigTools
-from .clean import DataCleaner
+from .cleaners import DataCleaner
 
 
 class WikiParser:

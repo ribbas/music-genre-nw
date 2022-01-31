@@ -33,11 +33,11 @@ if __name__ == "__main__":
 
     elif sys.argv[-1][0] == "c":
 
-        table_normalizer = parser.TableNormalizer()
+        table_normalizer = parser.DataCleaner()
         raw_file_data = configs.read_from_file(configs.raw_file_path)
         table_normalizer.read_raw_data(raw_file_data)
         table_normalizer.normalize()
-        normalized_data = table_normalizer.get_normalized_data()
+        normalized_data = table_normalizer.get_wrangled_data()
 
         if "p" in sys.argv[-1]:
             configs.dump_to_file(
@@ -57,6 +57,10 @@ if __name__ == "__main__":
         nodes = nw.get_nodes()
         edges = nw.get_edges()
         adjacency = nw.get_adjacency()
+        print(nw.graph)
+        for i in nodes:
+            print(i, [j for j in nw.graph.neighbors(i)])
+            # print(i, [j[i] for j in adjacency])
 
         positions: dict = {}
 
@@ -70,3 +74,29 @@ if __name__ == "__main__":
             positions = configs.read_from_file(configs.graph_pos_file_path)
             plot = graph.PlotDraw(positions, nodes, edges, adjacency)
             plot.draw()
+
+    # class AliasManager:
+    #     def __init__(self) -> None:
+
+    #         self.aliases: dict = {}
+
+    #     def add_alias(self, genre_key: str, aliases: list) -> None:
+
+    #         for alias_key in aliases:
+
+    #             self.aliases[alias_key] = genre_key
+
+    #     def get_genre_key(self, genre_key: str) -> str:
+
+    #         if genre_key in self.aliases:
+    #             print("found alias", genre_key, "/", self.aliases[genre_key])
+
+    #         return self.aliases.get(genre_key, genre_key)
+
+    # aliases = AliasManager()
+    # aliases.add_alias("rock", ["a", "b", "c"])
+    # aliases.add_alias("a", ["a", "b", "c"])
+    # aliases.add_alias("pop", ["1", "2", "3"])
+    # print(aliases.get_genre_key("rock"))
+    # print(aliases.get_genre_key("a"))
+    # print(aliases.get_genre_key("3"))
