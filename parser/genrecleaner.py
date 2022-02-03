@@ -27,6 +27,29 @@ class GenreCleaner:
         "sertanejo raiz or música caipira  sertanejo romântico   sertanejo universitário   funknejo",
     }
 
+    exception_translations = {
+        "(gangsta rap": "gangsta rap",
+        "acid rock · raga rock · space rock": ("acid rock", "raga rock", "space rock"),
+        "alternative metal funk metal": ("alternative metal", "funk metal"),
+        "blackened death metal melodic black death": (
+            "blackened death metal",
+            "melodic black death",
+        ),
+        "chillout": "chill out",
+        "coldwave": "cold wave",
+        "euro disco": "eurodisco",
+        "extreme metal black metal": ("extreme metal", "black metal"),
+        "hip hop fusion genres": "hip hop",
+        "lofi": "lo fi",
+        "post-industrial": "industrial",
+        "regional edm": "ethnic electronica",
+        "rhythm and blues": "r&b",
+        "rock n roll": "rock and roll",
+        "ska core": "skacore",
+        "synthpop": "synth pop",
+        "west coastfunky breaks": ("west coast", "funky breaks"),
+    }
+
     def __init__(self) -> None:
         self.aliases = AliasGraph()
 
@@ -47,57 +70,9 @@ class GenreCleaner:
 
     def replace_genre_exceptions(self, genre_key: str) -> Union[tuple, str]:
 
-        if "rhythm and blues" in genre_key:
-            return "r&b"
-
-        elif "hip hop fusion genres" in genre_key:
-            return "hip hop"
-
-        elif "/" in genre_key:
-            if "post-industrial" in genre_key:
-                return "industrial"
-
-            elif "regional edm" in genre_key:
-                return "ethnic electronica"
-
-        if "(gangsta rap" in genre_key:
-            return genre_key.replace("(gangsta rap", "gangsta rap")
-
-        if "lofi" in genre_key:
-            return genre_key.replace("lofi", "lo fi")
-
-        if "coldwave" in genre_key:
-            return genre_key.replace("coldwave", "cold wave")
-
-        if "ska core" in genre_key:
-            return genre_key.replace("ska core", "skacore")
-
-        if "synthpop" in genre_key:
-            return genre_key.replace("synthpop", "synth pop")
-
-        if "chillout" in genre_key:
-            return genre_key.replace("chillout", "chill out")
-
-        if "euro disco" in genre_key:
-            return genre_key.replace("euro disco", "eurodisco")
-
-        if "rock n roll" in genre_key:
-            return "rock and roll"
-
-        if "blackened death metal melodic black death" in genre_key:
-            return "blackened death metal", "melodic black death"
-
-        if "extreme metal black metal" in genre_key:
-            return "extreme metal", "black metal"
-
-        if "alternative metal funk metal" in genre_key:
-            return "alternative metal", "funk metal"
-
-        if "acid rock · raga rock · space rock" in genre_key:
-            return "acid rock", "raga rock", "space rock"
-
-        if "west coastfunky breaks" in genre_key:
-            return "west coast", "funky breaks"
+        for k, v in GenreCleaner.exception_translations.items():
+            if k in genre_key:
+                return v
 
         return genre_key
 
@@ -115,23 +90,14 @@ class GenreCleaner:
 
     def normalize_genre_values(self, genre_values_list: Union[list, str]) -> list:
 
-        if isinstance(genre_values_list, list):
+        cleaned_genre_list = []
 
-            cleaned_genre_list = []
+        for genre in genre_values_list:
 
-            for genre in genre_values_list:
-
-                genre = self.normalize_genre_key(genre)
-                genre = self.strip_genre_exception(genre)
-                if genre:
-                    genre = [self.replace_special_chars(i) for i in genre]
-                    cleaned_genre_list.extend(genre)
-
-            return cleaned_genre_list
-
-        else:
-            genre = self.normalize_genre_key(genre_values_list)
+            genre = self.normalize_genre_key(genre)
             genre = self.strip_genre_exception(genre)
-            genre = [self.replace_special_chars(i) for i in genre]
+            if genre:
+                genre = [self.replace_special_chars(i) for i in genre]
+                cleaned_genre_list.extend(genre)
 
-            return genre[0]
+        return cleaned_genre_list

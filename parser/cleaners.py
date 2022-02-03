@@ -85,7 +85,6 @@ class DataCleaner:
 
             elif category_key == "Other names":
                 aliases = self.gc.normalize_genre_values(category_values_list)
-                # print(genre_key, aliases)
                 self.gc.aliases.add_alias(genre_key, aliases)
                 category_values_list = aliases
 
@@ -94,11 +93,8 @@ class DataCleaner:
 
             normalized_category_data[category_key.lower()] = category_values_list
 
-        genre_key = DataCleaner.strip_annotations([genre_key])[0]
-        genre_key = self.gc.normalize_genre_values(genre_key)
-
-        # genre_key = self.gc.clean_genre_key(genre_key)
-        # genre_key = self.gc.aliases.get_genre_key(genre_key)
+        genre_key = DataCleaner.strip_annotations([genre_key])
+        genre_key = self.gc.normalize_genre_values(genre_key)[0]
 
         return genre_key, normalized_category_data
 
