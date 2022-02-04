@@ -3,9 +3,7 @@
 
 import sys
 
-import parser
-import genregraph
-import util
+from src import parser, genregraph, util
 
 if __name__ == "__main__":
 
