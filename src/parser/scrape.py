@@ -1,13 +1,10 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-import random
-import time
-
 from bs4 import BeautifulSoup, element
 import requests
 
-from ..util import Checkpoint, ConfigTools
+from ..util import Checkpoint, ConfigTools, pause
 from .cleaners import DataCleaner
 
 
@@ -65,11 +62,7 @@ class WikiParser:
 
             try:
 
-                wait = random.uniform(1.0, 2.0)
-                print(
-                    f"Parsing '{page_args['key']}' in {wait}s... ", end="", flush=True
-                )
-                time.sleep(wait)
+                pause("Parsing '{name}' in {wait}s... ", name=page_args["key"])
 
                 self.set_html(page_args["url"])
                 self.set_soup()

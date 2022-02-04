@@ -33,7 +33,7 @@ if __name__ == "__main__":
         dc = parser.DataCleaner()
         raw_file_data = configs.read_from_file(configs.raw_file_path)
         dc.read_raw_data(raw_file_data)
-        util.time_func(dc.normalize)
+        util.time_it(dc.normalize)
         normalized_data = dc.get_wrangled_data()
         # dc.consolidate_aliases()
 
@@ -56,22 +56,13 @@ if __name__ == "__main__":
         edges = nw.get_edges()
         adjacency = nw.get_adjacency()
         print(nw.graph)
-        for i in adjacency:
-            if i[0] == "trip_hop":
-                print(i)
-            if i[0] == "lo_fi_hip_hop":
-                print(i)
-            if i[0] == "lofi_hip_hop":
-                print(i)
-            if i[0] == "downtempo":
-                print(i)
 
         for i in nodes:
             if len(i) < 3:
                 print(i)
-            # if "_" in i and i.replace("_", "") in nodes:
-            #     print(i)
-            # print(i, [j for j in nw.graph.neighbors(i)])
+            if "_" in i and i.replace("_", "") in nodes:
+                print(i)
+            print(i, [j for j in nw.graph.neighbors(i)])
             # print(i, [j[i] for j in adjacency])
 
         positions: dict = {}
