@@ -84,9 +84,9 @@ class DataCleaner:
                 category_values_list = self.normalize_scenes(category_values_list)
 
             elif category_key == "Other names":
-                aliases = self.gc.normalize_genre_values(category_values_list)
-                self.gc.aliases.add_alias(genre_key, aliases)
-                category_values_list = aliases
+                category_values_list = self.gc.normalize_genre_values(
+                    category_values_list
+                )
 
             else:
                 continue
@@ -188,9 +188,3 @@ class DataCleaner:
             cleaned_category_value_list.append(value)
 
         return cleaned_category_value_list
-
-    def consolidate_aliases(self):
-
-        for i in self.wrangled_data:
-            if "other names" in i:
-                self.gc.aliases.get_genre_key(i["genre"])

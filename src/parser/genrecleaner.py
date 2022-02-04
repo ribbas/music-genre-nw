@@ -3,8 +3,6 @@
 
 from typing import Union
 
-from .alias import AliasGraph
-
 
 class GenreCleaner:
 
@@ -49,9 +47,6 @@ class GenreCleaner:
         "synthpop": "synth pop",
         "west coastfunky breaks": ("west coast", "funky breaks"),
     }
-
-    def __init__(self) -> None:
-        self.aliases = AliasGraph()
 
     @staticmethod
     def normalize_genre_name(genre_name: str) -> str:

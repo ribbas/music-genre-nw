@@ -56,14 +56,18 @@ if __name__ == "__main__":
         edges = nw.get_edges()
         adjacency = nw.get_adjacency()
         print(nw.graph)
+        print(len(nodes))
 
+        cnt = 0
         for i in nodes:
-            if len(i) < 3:
+            if "name" in i[1]:
                 print(i)
-            if "_" in i and i.replace("_", "") in nodes:
-                print(i)
-            print(i, [j for j in nw.graph.neighbors(i)])
-            # print(i, [j[i] for j in adjacency])
+                cnt += 1
+
+        print(cnt)
+        # exit()
+        # print(i, [j for j in nw.graph.neighbors(i)])
+        # print(i, [j[i] for j in adjacency])
 
         positions: dict = {}
 

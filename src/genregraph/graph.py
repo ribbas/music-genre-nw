@@ -14,7 +14,7 @@ class NetworkGraph:
 
     def get_nodes(self) -> list:
 
-        return self.graph.nodes()
+        return self.graph.nodes(data=True)
 
     def get_edges(self) -> list:
 
@@ -27,7 +27,10 @@ class NetworkGraph:
     def set_nodes(self) -> None:
 
         for value in self.wrangled_data:
-            self.graph.add_node(value["genre"], name=value["genre"])
+            data = dict(name=value["genre"])
+            if "other names" in value:
+                data["aliases"] = value["other names"]
+            self.graph.add_node(value["genre"], **data)
 
     def set_edges(self) -> None:
 
