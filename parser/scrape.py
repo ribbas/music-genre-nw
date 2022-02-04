@@ -3,11 +3,11 @@
 
 import random
 import time
+from typing import Any
 
 from bs4 import BeautifulSoup, element
 import requests
 
-from .config import Checkpoint, ConfigTools
 from .cleaners import DataCleaner
 
 
@@ -17,7 +17,7 @@ class WikiParser:
         self.html: str = ""
         self.soup: element.ResultSet = None
         self.page_list: list = []
-        self.checkpoint: Checkpoint = None
+        self.checkpoint: Any = None
 
     @staticmethod
     def get_html(url: str) -> str:
@@ -41,11 +41,11 @@ class WikiParser:
     def iterate_page(self) -> dict:
         pass
 
-    def set_checkpoint(self, checkpoint: Checkpoint) -> None:
+    def set_checkpoint(self, checkpoint: Any) -> None:
 
         self.checkpoint = checkpoint
 
-    def set_configs(self, configs: ConfigTools) -> None:
+    def set_configs(self, configs: Any) -> None:
 
         self.configs = configs
 
@@ -155,7 +155,7 @@ class ParseGenreTable(WikiParser):
         super().__init__()
         super().set_pages([])
 
-    def set_checkpoint(self, checkpoint: Checkpoint) -> None:
+    def set_checkpoint(self, checkpoint: Any) -> None:
 
         super().set_checkpoint(checkpoint)
 

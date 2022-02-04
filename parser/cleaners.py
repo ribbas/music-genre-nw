@@ -91,6 +91,7 @@ class DataCleaner:
             else:
                 continue
 
+            category_values_list = sorted(category_values_list)
             normalized_category_data[category_key.lower()] = category_values_list
 
         genre_key = DataCleaner.strip_annotations([genre_key])

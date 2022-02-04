@@ -1,16 +1,15 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-from operator import le
 import sys
-from pprint import pprint
 
 import parser
-import graph
+import genregraph
+import util
 
 if __name__ == "__main__":
 
-    configs = parser.ConfigTools()
+    configs = util.ConfigTools()
     configs.init_urls()
 
     if sys.argv[-1][0] == "s":
@@ -36,7 +35,7 @@ if __name__ == "__main__":
         dc = parser.DataCleaner()
         raw_file_data = configs.read_from_file(configs.raw_file_path)
         dc.read_raw_data(raw_file_data)
-        dc.normalize()
+        util.time_func(dc.normalize)
         normalized_data = dc.get_wrangled_data()
         # dc.consolidate_aliases()
 
@@ -52,7 +51,7 @@ if __name__ == "__main__":
 
         wrangled_file_data = configs.read_from_file(configs.wrangled_min_file_path)
 
-        nw = graph.NetworkGraph(wrangled_file_data)
+        nw = genregraph.NetworkGraph(wrangled_file_data)
         nw.initialize_graph()
 
         nodes = nw.get_nodes()
@@ -87,31 +86,5 @@ if __name__ == "__main__":
         if "d" in sys.argv[-1]:
 
             positions = configs.read_from_file(configs.graph_pos_file_path)
-            plot = graph.PlotDraw(positions, nodes, edges, adjacency)
+            plot = genregraph.GraphPlotter(positions, nodes, edges, adjacency)
             plot.draw()
-
-    # class AliasManager:
-    #     def __init__(self) -> None:
-
-    #         self.aliases: dict = {}
-
-    #     def add_alias(self, genre_key: str, aliases: list) -> None:
-
-    #         for alias_key in aliases:
-
-    #             self.aliases[alias_key] = genre_key
-
-    #     def get_genre_key(self, genre_key: str) -> str:
-
-    #         if genre_key in self.aliases:
-    #             print("found alias", genre_key, "/", self.aliases[genre_key])
-
-    #         return self.aliases.get(genre_key, genre_key)
-
-    # aliases = AliasManager()
-    # aliases.add_alias("rock", ["a", "b", "c"])
-    # aliases.add_alias("a", ["a", "b", "c"])
-    # aliases.add_alias("pop", ["1", "2", "3"])
-    # print(aliases.get_genre_key("rock"))
-    # print(aliases.get_genre_key("a"))
-    # print(aliases.get_genre_key("3"))
