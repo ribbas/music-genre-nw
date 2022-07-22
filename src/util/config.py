@@ -40,9 +40,9 @@ class ConfigTools:
             json.dump(data, fp, ensure_ascii=False, **ConfigTools.dump_pretty(pretty))
 
     @staticmethod
-    def dump_pretty(pretty: bool) -> dict:
+    def dump_pretty(pretty: bool) -> dict[str, int | bool]:
 
-        return dict(indent=4, sort_keys=True) if pretty else {}
+        return {"indent": 4, "sort_keys": True} if pretty else {}
 
     def init_urls(self) -> None:
 
@@ -55,9 +55,11 @@ class Checkpoint:
 
         # database queues
         self.genre_queue: list[dict[str, str]] = []
-        self.parsed_data: list = []
-        self.successes: set = set()
-        self.failures: set = set()
+        self.parsed_data: list[
+            dict[str, dict[str, list[str | dict[str, str]]] | None]
+        ] = []
+        self.successes: set[str] = set()
+        self.failures: set[str] = set()
 
         self.genres_file_path: pathlib.Path = pathlib.Path()
         self.checkpoint_file_path: pathlib.Path = pathlib.Path()
@@ -71,7 +73,9 @@ class Checkpoint:
 
         self.failures.add(genre)
 
-    def add_parsed_data(self, genre: dict) -> None:
+    def add_parsed_data(
+        self, genre: dict[str, dict[str, list[str | dict[str, str]]] | None]
+    ) -> None:
 
         self.parsed_data.append(genre)
 
@@ -89,7 +93,9 @@ class Checkpoint:
 
         return ConfigTools.read_from_file(self.genres_file_path)
 
-    def get_current_data(self) -> list:
+    def get_current_data(
+        self,
+    ) -> list[dict[str, dict[str, list[str | dict[str, str]]] | None]]:
 
         return ConfigTools.read_from_file(self.raw_file_path)
 
@@ -106,12 +112,14 @@ class Checkpoint:
 
     def save(self) -> None:
 
-        checkpoint_data: dict[str, list] = {
+        checkpoint_data: dict[str, list[str]] = {
             "successes": sorted(list(self.successes)),
             "failures": sorted(list(self.failures)),
         }
         ConfigTools.dump_to_file(self.checkpoint_file_path, checkpoint_data)
 
-        current_data = self.get_current_data()
+        current_data: list[
+            dict[str, dict[str, list[str | dict[str, str]]] | None]
+        ] = self.get_current_data()
         current_data.extend(self.parsed_data)
         ConfigTools.dump_to_file(self.raw_file_path, current_data)

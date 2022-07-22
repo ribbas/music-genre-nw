@@ -1,6 +1,3 @@
-from typing import Any
-
-
 class GenreCleaner:
 
     genre_exceptions: set[str] = {
@@ -82,14 +79,16 @@ class GenreCleaner:
 
     def normalize_genre_values(self, genre_values_list: list[str]) -> list[str]:
 
-        cleaned_genre_list = []
+        cleaned_genre_list: list[str] = []
 
         for genre in genre_values_list:
 
             genre = self.normalize_genre_key(genre)
-            genre = self.strip_genre_exception(genre)
-            if genre:
-                genre = [self.replace_special_chars(i) for i in genre]
-                cleaned_genre_list.extend(genre)
+            stripped_genre: tuple[str, ...] | None = self.strip_genre_exception(genre)
+            if stripped_genre:
+                special_chars_replaced_genre: list[str] = [
+                    self.replace_special_chars(i) for i in stripped_genre
+                ]
+                cleaned_genre_list.extend(special_chars_replaced_genre)
 
         return cleaned_genre_list

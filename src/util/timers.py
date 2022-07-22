@@ -1,8 +1,9 @@
 import random
 import time
+from typing import Any, Callable
 
 
-def time_it(func, *args, **kwargs):
+def time_it(func: Callable[..., Any], *args: str, **kwargs: str):
 
     t1 = time.time()
     result = func(*args, **kwargs)
@@ -12,7 +13,7 @@ def time_it(func, *args, **kwargs):
     return result
 
 
-def pause(str_fmt, **kwargs):
+def pause(str_fmt: str, **kwargs: str) -> None:
 
     wait = random.uniform(1.0, 2.0)
     print(str_fmt.format(**kwargs, wait=wait))

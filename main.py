@@ -14,7 +14,7 @@ if __name__ == "__main__":
             genre_list_parser = parser.ParseGenreList(configs.genre_list_url)
             genre_list_parser.set_configs(configs)
             genres = genre_list_parser.parse()
-            configs.dump_to_file(configs.genres_file_path, genres["genres"])
+            configs.dump_to_file(configs.genres_file_path, genres["genres"]["genres"])
 
         if "t" in sys.argv[-1]:
 

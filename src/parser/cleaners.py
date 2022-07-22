@@ -33,6 +33,14 @@ class DataCleaner:
         ] = []
         self.gc: GenreCleaner = GenreCleaner()
 
+    def normalize_genre_name(self, genre_name: str) -> str:
+
+        return self.gc.normalize_genre_name(genre_name)
+
+    def normalize_genre_key(self, genre_key: str) -> str:
+
+        return self.gc.normalize_genre_key(genre_key)
+
     def load_raw_data(
         self, raw_file_data: list[dict[str, dict[str, list[str]]]]
     ) -> None:
