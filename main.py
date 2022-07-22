@@ -1,6 +1,3 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
-
 import sys
 
 from src import parser, genregraph, util
@@ -21,7 +18,7 @@ if __name__ == "__main__":
 
         if "t" in sys.argv[-1]:
 
-            checkpoint = parser.Checkpoint()
+            checkpoint = util.Checkpoint()
             checkpoint.set_file_paths(configs)
 
             genre_table_parser = parser.ParseGenreTable()
@@ -31,10 +28,13 @@ if __name__ == "__main__":
     elif sys.argv[-1][0] == "c":
 
         dc = parser.DataCleaner()
-        raw_file_data = configs.read_from_file(configs.raw_file_path)
-        dc.read_raw_data(raw_file_data)
+        raw_file_data: list[dict[str, dict[str, list[str]]]] = configs.read_from_file(
+            configs.raw_file_path
+        )
+        dc.load_raw_data(raw_file_data)
         util.time_it(dc.normalize)
         normalized_data = dc.get_wrangled_data()
+        # print(normalized_data)
         # dc.consolidate_aliases()
 
         if "p" in sys.argv[-1]:
@@ -55,16 +55,17 @@ if __name__ == "__main__":
         nodes = nw.get_nodes()
         edges = nw.get_edges()
         adjacency = nw.get_adjacency()
-        print(nw.graph)
-        print(len(nodes))
+        print(adjacency)
+        # print(nw.graph)
+        # print(len(nodes))
 
-        cnt = 0
-        for i in nodes:
-            if "name" in i[1]:
-                print(i)
-                cnt += 1
+        # cnt = 0
+        # for i in nodes:
+        #     if "name" in i[1]:
+        #         print(i)
+        #         cnt += 1
 
-        print(cnt)
+        # print(cnt)
         # exit()
         # print(i, [j for j in nw.graph.neighbors(i)])
         # print(i, [j[i] for j in adjacency])

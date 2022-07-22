@@ -1,6 +1,3 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
-
 import json
 import pathlib
 from typing import Any
@@ -31,13 +28,13 @@ class ConfigTools:
         return self.urls["BASE"] + endpoint.strip().replace(" ", "_")
 
     @staticmethod
-    def read_from_file(file_path: str) -> Any:
+    def read_from_file(file_path: pathlib.Path) -> Any:
 
         with open(file_path) as fp:
             return json.load(fp)
 
     @staticmethod
-    def dump_to_file(file_path: str, data: Any, pretty: bool = False) -> None:
+    def dump_to_file(file_path: pathlib.Path, data: Any, pretty: bool = False) -> None:
 
         with open(file_path, "w") as fp:
             json.dump(data, fp, ensure_ascii=False, **ConfigTools.dump_pretty(pretty))
@@ -57,14 +54,14 @@ class Checkpoint:
     def __init__(self) -> None:
 
         # database queues
-        self.genre_queue: list = []
+        self.genre_queue: list[dict[str, str]] = []
         self.parsed_data: list = []
         self.successes: set = set()
         self.failures: set = set()
 
-        self.genres_file_path: str = ""
-        self.checkpoint_file_path: str = ""
-        self.raw_file_path: str = ""
+        self.genres_file_path: pathlib.Path = pathlib.Path()
+        self.checkpoint_file_path: pathlib.Path = pathlib.Path()
+        self.raw_file_path: pathlib.Path = pathlib.Path()
 
     def add_success(self, genre: str) -> None:
 
@@ -78,7 +75,7 @@ class Checkpoint:
 
         self.parsed_data.append(genre)
 
-    def get_genre_queue(self) -> list:
+    def get_genre_queue(self) -> list[dict[str, str]]:
 
         return self.genre_queue
 
@@ -88,7 +85,7 @@ class Checkpoint:
         self.checkpoint_file_path = configs.checkpoint_file_path
         self.raw_file_path = configs.raw_file_path
 
-    def get_genres(self) -> list:
+    def get_genres(self) -> list[dict[str, str]]:
 
         return ConfigTools.read_from_file(self.genres_file_path)
 
@@ -96,7 +93,7 @@ class Checkpoint:
 
         return ConfigTools.read_from_file(self.raw_file_path)
 
-    def load(self) -> list:
+    def load(self) -> None:
 
         checkpoint = ConfigTools.read_from_file(self.checkpoint_file_path)
         self.successes = set(checkpoint["successes"])
@@ -109,7 +106,7 @@ class Checkpoint:
 
     def save(self) -> None:
 
-        checkpoint_data = {
+        checkpoint_data: dict[str, list] = {
             "successes": sorted(list(self.successes)),
             "failures": sorted(list(self.failures)),
         }

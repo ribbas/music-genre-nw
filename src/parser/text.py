@@ -1,18 +1,16 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
-
+from typing import Any
 import re
 
 
 class TextProcessor:
     def __init__(self) -> None:
 
-        self.nlp = None
-        self.cultural_origins_date_re: re.Pattern = None
-        self.century_date_re: re.Pattern = None
-        self.year_re: re.Pattern = None
-        self.early_mid_re: re.Pattern = None
-        self.mid_late_re: re.Pattern = None
+        self.nlp: Any = None
+        self.cultural_origins_date_re: Any = None
+        self.century_date_re: Any = None
+        self.year_re: Any = None
+        self.early_mid_re: Any = None
+        self.mid_late_re: Any = None
 
     def initialize(self) -> None:
 
@@ -20,15 +18,15 @@ class TextProcessor:
 
         self.nlp = spacy.load("en_core_web_lg")
         self.cultural_origins_date_re = re.compile(
-            "((early|mid|late|early.*mid|mid.*late)?[\s|-]?(\d{4}|\d{2}(st|th)\s(century)))",
+            r"((early|mid|late|early.*mid|mid.*late)?[\s|-]?(\d{4}|\d{2}(st|th)\s(century)))",
             re.I | re.M,
         )
-        self.century_date_re = re.compile("\d{2}", re.I | re.M)
-        self.year_re = re.compile("\d{4}", re.I | re.M)
-        self.early_mid_re = re.compile("early.*mid", re.I | re.M)
-        self.mid_late_re = re.compile("mid.*late", re.I | re.M)
+        self.century_date_re = re.compile(r"\d{2}", re.I | re.M)
+        self.year_re = re.compile(r"\d{4}", re.I | re.M)
+        self.early_mid_re = re.compile(r"early.*mid", re.I | re.M)
+        self.mid_late_re = re.compile(r"mid.*late", re.I | re.M)
 
-    def normalize_date(self, origin_date: str) -> set:
+    def normalize_date(self, origin_date: str) -> tuple[int, int]:
 
         date_est: int = 0
         begin_offset: int = 0
@@ -54,18 +52,18 @@ class TextProcessor:
             begin_offset = 6
 
         if "century" in origin_date:
-            match = self.century_date_re.findall(origin_date)[0]
+            match: str = self.century_date_re.findall(origin_date)[0]
             date_est = (int(match) - 1) * 100
             begin_offset *= 11
             end_offset *= 11
 
         else:
-            match = self.year_re.findall(origin_date)[0]
+            match: str = self.year_re.findall(origin_date)[0]
             date_est = int(match)
 
         return date_est + begin_offset, date_est + end_offset
 
-    def parse_dates(self, origin_date: str) -> set:
+    def parse_dates(self, origin_date: str) -> set[tuple[int, int]]:
 
         origin_date_groups: set = set()
         matches = self.cultural_origins_date_re.finditer(origin_date)
@@ -75,7 +73,7 @@ class TextProcessor:
 
         return origin_date_groups
 
-    def parse_geoloc(self, geoloc_value: str) -> set:
+    def parse_geoloc(self, geoloc_value: str) -> set[str]:
 
         if "Internet" in geoloc_value:
             return {"Internet"}

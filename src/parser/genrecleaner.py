@@ -1,12 +1,9 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
-
-from typing import Union
+from typing import Any
 
 
 class GenreCleaner:
 
-    genre_exceptions = {
+    genre_exceptions: set[str] = {
         "1950s pop",
         "1980s pop",
         "1980s pop music",
@@ -25,7 +22,7 @@ class GenreCleaner:
         "sertanejo raiz or música caipira  sertanejo romântico   sertanejo universitário   funknejo",
     }
 
-    exception_translations = {
+    exception_translations: dict[str, tuple[str, ...] | str] = {
         "(gangsta rap": "gangsta rap",
         "acid rock · raga rock · space rock": ("acid rock", "raga rock", "space rock"),
         "alternative metal funk metal": ("alternative metal", "funk metal"),
@@ -63,7 +60,7 @@ class GenreCleaner:
 
         return genre_key.replace(" ", "_").replace("-", "_")
 
-    def replace_genre_exceptions(self, genre_key: str) -> Union[tuple, str]:
+    def replace_genre_exceptions(self, genre_key: str) -> tuple[str, ...] | str:
 
         for k, v in GenreCleaner.exception_translations.items():
             if k in genre_key:
@@ -71,7 +68,7 @@ class GenreCleaner:
 
         return genre_key
 
-    def strip_genre_exception(self, genre_key: str) -> tuple:
+    def strip_genre_exception(self, genre_key: str) -> tuple[str, ...] | None:
 
         replaced_genre_key = self.replace_genre_exceptions(genre_key)
         if replaced_genre_key:
@@ -83,7 +80,7 @@ class GenreCleaner:
         if genre_key not in GenreCleaner.genre_exceptions:
             return (genre_key,)
 
-    def normalize_genre_values(self, genre_values_list: Union[list, str]) -> list:
+    def normalize_genre_values(self, genre_values_list: list[str]) -> list[str]:
 
         cleaned_genre_list = []
 

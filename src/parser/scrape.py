@@ -1,6 +1,4 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
-
+from typing import Any
 from bs4 import BeautifulSoup, element
 import requests
 
@@ -12,9 +10,9 @@ class WikiParser:
     def __init__(self) -> None:
 
         self.html: str = ""
-        self.soup: element.ResultSet = None
-        self.page_list: list = []
-        self.checkpoint: Checkpoint = None
+        self.soup: Any = None
+        self.page_list: list[dict[str, str]] = []
+        self.checkpoint: Checkpoint
 
     @staticmethod
     def get_html(url: str) -> str:
@@ -35,7 +33,7 @@ class WikiParser:
     def set_soup(self) -> None:
         pass
 
-    def iterate_page(self) -> dict:
+    def iterate_page(self, args: dict[str, str] | None = None) -> dict | None:
         pass
 
     def set_checkpoint(self, checkpoint: Checkpoint) -> None:
@@ -46,11 +44,11 @@ class WikiParser:
 
         self.configs = configs
 
-    def set_pages(self, page_list: list) -> None:
+    def set_pages(self, page_list: list[dict[str, str]]) -> None:
 
         self.page_list = page_list
 
-    def parse(self) -> None:
+    def parse(self) -> dict:
 
         if self.checkpoint:
             self.checkpoint.load()
@@ -93,7 +91,7 @@ class WikiParser:
 
 
 class ParseGenreList(WikiParser):
-    def __init__(self, url: str = None) -> None:
+    def __init__(self, url: str = "") -> None:
 
         super().__init__()
         super().set_pages([{"key": "genres", "url": url}])
@@ -102,11 +100,11 @@ class ParseGenreList(WikiParser):
 
         self.soup = self.get_soup(self.html).find_all(["h2", "li"])
 
-    def iterate_page(self, args: dict = None) -> dict:
+    def iterate_page(self, args: dict[str, str] | None = None) -> list[dict[str, str]]:
 
-        genres = []
-        genre_keys = set()
-        begin_filling = False
+        genres: list[dict[str, str]] = []
+        genre_keys: set[str] = set()
+        begin_filling: bool = False
 
         for element in self.soup:
 
@@ -122,11 +120,11 @@ class ParseGenreList(WikiParser):
                     genre_href = element.find("a", href=True)
                     if genre_href:
 
-                        url = self.configs.make_wiki_url(
+                        url: str = self.configs.make_wiki_url(
                             genre_href["href"].split("/")[-1]
                         )
-                        name = DataCleaner.normalize_genre_name(element.text)
-                        key = DataCleaner.normalize_genre_key(element.text)
+                        name: str = DataCleaner.normalize_genre_name(element.text)
+                        key: str = DataCleaner.normalize_genre_key(element.text)
 
                         if key not in genre_keys:
 
@@ -143,7 +141,7 @@ class ParseGenreList(WikiParser):
 
 
 class ParseGenreTable(WikiParser):
-    def __init__(self, url: str = None) -> None:
+    def __init__(self, url: str | None = None) -> None:
 
         super().__init__()
         super().set_pages([])
@@ -158,26 +156,27 @@ class ParseGenreTable(WikiParser):
             "table", {"class": "infobox nowraplinks"}
         )
 
-    def iterate_page(self, args: dict = None) -> dict:
+    def iterate_page(self, args: dict[str, str] | None = None) -> dict[str, list[str]]:
 
-        wiki_table_data = {}
-        category_key = ""
-        for elem in self.soup.find_all("tr"):
+        wiki_table_data: dict[str, list[str]] = {}
+        category_key: str = ""
+        if args:
+            for elem in self.soup.find_all("tr"):
 
-            if elem.text is not args["name"]:
-                category_title = elem.findChildren(
-                    "th", {"class": ["infobox-header", "infobox-label"]}
-                )
-                if category_title:
-                    category_key = category_title[0].text
-                    wiki_table_data[category_key] = []
+                if elem.text is not args["name"]:
+                    category_title = elem.findChildren(
+                        "th", {"class": ["infobox-header", "infobox-label"]}
+                    )
+                    if category_title:
+                        category_key = category_title[0].text
+                        wiki_table_data[category_key] = []
 
-            if category_key:
-                category_list = elem.findChildren("li")
-                if category_list:
-                    for li_elem in category_list:
-                        wiki_table_data[category_key].append(li_elem.text)
-                else:
-                    wiki_table_data[category_key].append(elem.text)
+                if category_key:
+                    category_list = elem.findChildren("li")
+                    if category_list:
+                        for li_elem in category_list:
+                            wiki_table_data[category_key].append(li_elem.text)
+                    else:
+                        wiki_table_data[category_key].append(elem.text)
 
         return wiki_table_data

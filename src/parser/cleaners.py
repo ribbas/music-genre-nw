@@ -1,13 +1,10 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
-
 from .genrecleaner import GenreCleaner
 from .text import TextProcessor
 
 
 class DataCleaner:
 
-    category_keys = {
+    category_keys: set[str] = {
         "Cultural origins",
         "Derivative forms",
         "Fusion genres",
@@ -19,31 +16,40 @@ class DataCleaner:
         "Typical instruments",
     }
 
-    genre_categories = {
+    genre_categories: set[str] = {
         "Derivative forms",
         "Fusion genres",
         "Stylistic origins",
         "Subgenres",
     }
 
-    text_proc = TextProcessor()
+    text_proc: TextProcessor = TextProcessor()
 
     def __init__(self) -> None:
 
-        self.raw_file_data: list = []
-        self.wrangled_data: list = []
-        self.gc = GenreCleaner()
+        self.raw_file_data: list[dict[str, dict[str, list[str]]]] = []
+        self.wrangled_data: list[
+            dict[str, str | list[str] | dict[str, dict[str, int] | list[str]]]
+        ] = []
+        self.gc: GenreCleaner = GenreCleaner()
 
-    def read_raw_data(self, raw_file_data) -> None:
+    def load_raw_data(
+        self, raw_file_data: list[dict[str, dict[str, list[str]]]]
+    ) -> None:
 
         self.raw_file_data = raw_file_data
 
-    def get_wrangled_data(self) -> list:
+    def get_wrangled_data(
+        self,
+    ) -> list[dict[str, str | list[str] | dict[str, dict[str, int] | list[str]]]]:
 
         return self.wrangled_data
 
     def normalize(self) -> None:
 
+        genre_key: str
+        genre_values_list: dict[str, list[str]]
+        normalized_values: dict[str, list[str] | dict[str, dict[str, int] | list[str]]]
         self.text_proc.initialize()
         for data in self.raw_file_data:
             genre_key, genre_values_list = next(iter(data.items()))
@@ -52,11 +58,16 @@ class DataCleaner:
             )
             self.wrangled_data.append({"genre": genre_key, **normalized_values})
 
-    def normalize_category_data(self, genre_key: str, genre_data: dict) -> dict:
+    def normalize_category_data(
+        self, genre_key: str, genre_data: dict[str, list[str]]
+    ) -> tuple[str, dict[str, list[str] | dict[str, dict[str, int] | list[str]]]]:
 
-        normalized_category_data: dict = {}
+        normalized_category_data: dict[
+            str, list[str] | dict[str, dict[str, int] | list[str]]
+        ] = {}
         for category_key, category_values_list in genre_data.items():
 
+            # replace specific punctuations
             category_values_list = self.clean_misc(category_values_list)
             category_values_list = self.remove_category_value(category_values_list)
             category_values_list = self.remove_category_keys(
@@ -94,8 +105,8 @@ class DataCleaner:
             # category_values_list = sorted(category_values_list)
             normalized_category_data[category_key.lower()] = category_values_list
 
-        genre_key = DataCleaner.strip_annotations([genre_key])
-        genre_key = self.gc.normalize_genre_values(genre_key)[0]
+        stripped_genre_key: list = DataCleaner.strip_annotations([genre_key])
+        genre_key = self.gc.normalize_genre_values(stripped_genre_key)[0]
 
         return genre_key, normalized_category_data
 
@@ -108,7 +119,7 @@ class DataCleaner:
         return category_key.lower().replace(" ", "_")
 
     @staticmethod
-    def strip_annotations(category_values_list: list) -> list:
+    def strip_annotations(category_values_list: list[str]) -> list:
 
         for ix in range(len(category_values_list)):
             category_values_list[ix] = "".join(
@@ -120,7 +131,7 @@ class DataCleaner:
         return category_values_list
 
     @staticmethod
-    def split_csv(category_values_list: list) -> list:
+    def split_csv(category_values_list: list[str]) -> list:
 
         if len(category_values_list) == 1 and "," in category_values_list[0]:
             category_values_list = category_values_list[0].split(",")
@@ -128,7 +139,7 @@ class DataCleaner:
         return category_values_list
 
     @staticmethod
-    def normalize_scenes(category_values_list: list) -> list:
+    def normalize_scenes(category_values_list: list[str]) -> list:
 
         origin_geolocs: set = set()
         for category_value in category_values_list:
@@ -137,22 +148,26 @@ class DataCleaner:
         return list(origin_geolocs)
 
     @staticmethod
-    def consolidate_origin_dates(origin_date_list: list, ix: int) -> int:
+    def consolidate_origin_dates(
+        origin_date_list: set[tuple[int, int]], ix: int
+    ) -> int:
 
         comp_func = min if not ix else max
         return comp_func(origin_date_list, key=lambda x: x[ix])[ix]
 
     @staticmethod
-    def normalize_cultural_origins(category_values_list: list) -> dict:
+    def normalize_cultural_origins(
+        category_values_list: list[str],
+    ) -> dict[str, dict[str, int] | list[str]]:
 
-        origin_date_list: set = set()
+        origin_date_list: set[tuple[int, int]] = set()
         origin_geoloc_groups: set = set()
         for category_value in category_values_list:
 
             origin_date_list |= DataCleaner.text_proc.parse_dates(category_value)
             origin_geoloc_groups |= DataCleaner.text_proc.parse_geoloc(category_value)
 
-        origin_date_groups = {"begin": -1, "end": -1}
+        origin_date_groups: dict[str, int] = {"begin": -1, "end": -1}
         if origin_date_list:
             origin_date_groups["begin"] = DataCleaner.consolidate_origin_dates(
                 origin_date_list, 0
@@ -167,24 +182,23 @@ class DataCleaner:
         }
 
     @staticmethod
-    def remove_category_keys(category_key: str, category_value_list: list) -> list:
+    def remove_category_keys(
+        category_key: str, category_value_list: list[str]
+    ) -> list[str]:
 
         return [c.replace(category_key, "") for c in category_value_list]
 
     @staticmethod
-    def remove_category_value(category_value_list: list) -> list:
+    def remove_category_value(category_value_list: list[str]) -> list[str]:
 
         return [c for c in category_value_list if c not in DataCleaner.category_keys]
 
     @staticmethod
-    def clean_misc(category_value_list: list) -> list:
+    def clean_misc(category_value_list: list[str]) -> list[str]:
 
-        cleaned_category_value_list = []
-
-        for value in category_value_list:
+        for ix in range(len(category_value_list)):
             for punc in {"•", "/"}:
-                value = value.replace(punc, "")
-            value = value.replace("-", " ")
-            cleaned_category_value_list.append(value)
+                category_value_list[ix] = category_value_list[ix].replace(punc, "")
+            category_value_list[ix] = category_value_list[ix].replace("-", " ")
 
-        return cleaned_category_value_list
+        return category_value_list

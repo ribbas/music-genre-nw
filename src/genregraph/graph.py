@@ -1,31 +1,38 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
+from collections.abc import Iterator
 
-import networkx as nx
+import networkx
 
 
 class NetworkGraph:
-    def __init__(self, wrangled_data: list) -> None:
+    def __init__(
+        self,
+        wrangled_data: list[
+            dict[str, str | list[str] | dict[str, dict[str, int] | list[str]]]
+        ],
+    ) -> None:
 
-        self.wrangled_data = wrangled_data
-        self.graph = nx.DiGraph()
-        self.edges: list = []
-        self.pos: dict = {}
+        self.wrangled_data: list[
+            dict[str, str | list[str] | dict[str, dict[str, int] | list[str]]]
+        ] = wrangled_data
+        self.graph: networkx.DiGraph = networkx.DiGraph()
+        self.edges: list[tuple[str, str]] = []
+        self.pos: dict[str, list[int]] = {}
 
-    def get_nodes(self) -> list:
+    def get_nodes(self) -> list[tuple[str, dict[str, str]]]:
 
-        return self.graph.nodes(data=True)
+        return list(self.graph.nodes(data=True))
 
-    def get_edges(self) -> list:
+    def get_edges(self) -> list[tuple[str, str]]:
 
         return self.graph.edges()
 
-    def get_adjacency(self) -> list:
+    def get_adjacency(self) -> Iterator:
 
         return self.graph.adjacency()
 
     def set_nodes(self) -> None:
 
+        data: dict[str, str | list[str] | dict[str, dict[str, int] | list[str]]]
         for value in self.wrangled_data:
             data = dict(name=value["genre"])
             if "other names" in value:
@@ -53,9 +60,9 @@ class NetworkGraph:
         self.set_nodes()
         self.set_edges()
         self.graph.add_edges_from(self.edges)
-        self.graph.remove_edges_from(nx.selfloop_edges(self.graph))
+        self.graph.remove_edges_from(networkx.selfloop_edges(self.graph))
 
-    def generate_positions(self) -> dict:
+    def generate_positions(self) -> dict[str, list[int]]:
 
-        self.pos = nx.drawing.nx_agraph.graphviz_layout(self.graph, prog="dot")
+        self.pos = networkx.drawing.nx_agraph.graphviz_layout(self.graph, prog="dot")
         return self.pos
