@@ -2,7 +2,7 @@ import json
 import pathlib
 from typing import Any
 
-from .typealias import ColumnDict, DictList, ScrapedPage
+from .typealias import DictList, ParsedData, StrColumnDict
 
 
 class ConfigTools:
@@ -56,8 +56,8 @@ class Checkpoint:
     def __init__(self) -> None:
 
         # database queues
-        self.genre_queue: DictList = []
-        self.parsed_data: list[dict[str, ScrapedPage]] = []
+        self.genre_queue: DictList[str] = []
+        self.parsed_data: DictList[ParsedData] = []
         self.successes: set[str] = set()
         self.failures: set[str] = set()
 
@@ -73,11 +73,11 @@ class Checkpoint:
 
         self.failures.add(genre)
 
-    def add_parsed_data(self, genre: dict[str, ScrapedPage]) -> None:
+    def add_parsed_data(self, genre: dict[str, ParsedData]) -> None:
 
         self.parsed_data.append(genre)
 
-    def get_genre_queue(self) -> DictList:
+    def get_genre_queue(self) -> DictList[str]:
 
         return self.genre_queue
 
@@ -87,13 +87,13 @@ class Checkpoint:
         self.checkpoint_file_path = configs.checkpoint_file_path
         self.raw_file_path = configs.raw_file_path
 
-    def get_genres(self) -> DictList:
+    def get_genres(self) -> DictList[str]:
 
         return ConfigTools.read_from_file(self.genres_file_path)
 
     def get_current_data(
         self,
-    ) -> list[dict[str, ScrapedPage]]:
+    ) -> DictList[ParsedData]:
 
         return ConfigTools.read_from_file(self.raw_file_path)
 
@@ -110,12 +110,12 @@ class Checkpoint:
 
     def save(self) -> None:
 
-        checkpoint_data: ColumnDict = {
+        checkpoint_data: StrColumnDict = {
             "successes": sorted(list(self.successes)),
             "failures": sorted(list(self.failures)),
         }
         ConfigTools.dump_to_file(self.checkpoint_file_path, checkpoint_data)
 
-        current_data: list[dict[str, ScrapedPage]] = self.get_current_data()
+        current_data: DictList[ParsedData] = self.get_current_data()
         current_data.extend(self.parsed_data)
         ConfigTools.dump_to_file(self.raw_file_path, current_data)

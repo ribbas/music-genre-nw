@@ -4,7 +4,7 @@ from bs4 import BeautifulSoup
 import requests
 
 from ..util import Checkpoint, ConfigTools, pause
-from ..util.typealias import DictList, ScrapedPage
+from ..util.typealias import DictList, ParsedData
 from .cleaners import DataCleaner
 
 
@@ -13,7 +13,7 @@ class WikiParser:
 
         self.html: str = ""
         self.soup: Any = None
-        self.page_list: DictList = []
+        self.page_list: DictList[str] = []
         self.checkpoint: Any = None
 
     @staticmethod
@@ -35,7 +35,7 @@ class WikiParser:
     def set_soup(self) -> None:
         pass
 
-    def iterate_page(self, args: dict[str, str] | None = None) -> ScrapedPage | None:
+    def iterate_page(self, args: dict[str, str] | None = None) -> ParsedData | None:
         pass
 
     def set_checkpoint(self, checkpoint: Checkpoint) -> None:
@@ -46,17 +46,17 @@ class WikiParser:
 
         self.configs = configs
 
-    def set_pages(self, page_list: DictList) -> None:
+    def set_pages(self, page_list: DictList[str]) -> None:
 
         self.page_list = page_list
 
-    def parse(self) -> dict[str, ScrapedPage | None]:
+    def parse(self) -> dict[str, ParsedData | None]:
 
         if self.checkpoint:
             self.checkpoint.load()
             self.page_list = self.checkpoint.get_genre_queue()
 
-        parsed_pages_data: dict[str, ScrapedPage | None] = {}
+        parsed_pages_data: dict[str, ParsedData | None] = {}
 
         for page_args in self.page_list:
 
@@ -68,7 +68,7 @@ class WikiParser:
                 self.set_soup()
 
                 try:
-                    parsed_data: ScrapedPage | None = self.iterate_page(page_args)
+                    parsed_data: ParsedData | None = self.iterate_page(page_args)
 
                 except AttributeError:
                     if self.checkpoint:
@@ -102,9 +102,9 @@ class ParseGenreList(WikiParser):
 
         self.soup = self.get_soup(self.html).find_all(["h2", "li"])
 
-    def iterate_page(self, args: dict[str, str] | None = None) -> ScrapedPage:
+    def iterate_page(self, args: dict[str, str] | None = None) -> ParsedData:
 
-        genres: DictList = []
+        genres: DictList[str] = []
         genre_keys: set[str] = set()
         begin_filling: bool = False
         dc: DataCleaner = DataCleaner()
@@ -158,9 +158,9 @@ class ParseGenreTable(WikiParser):
             "table", {"class": "infobox nowraplinks"}
         )
 
-    def iterate_page(self, args: dict[str, str] | None = None) -> ScrapedPage:
+    def iterate_page(self, args: dict[str, str] | None = None) -> ParsedData:
 
-        wiki_table_data: ScrapedPage = {}
+        wiki_table_data: ParsedData = {}
         category_key: str = ""
         if args:
             for elem in self.soup.find_all("tr"):

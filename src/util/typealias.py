@@ -1,7 +1,9 @@
-from typing import TypeAlias
+from typing import TypeAlias, TypeVar
 
 IntTuple: TypeAlias = tuple[int, int]
-DictList: TypeAlias = list[dict[str, str]]
-ColumnDict: TypeAlias = dict[str, list[str]]
-ScrapedPage: TypeAlias = dict[str, DictList]
-WrangledData: TypeAlias = list[str] | dict[str, list[str] | dict[str, int]]
+ParsedData: TypeAlias = dict[str, list[dict[str, str]]]
+StrColumnDict: TypeAlias = dict[str, list[str]]
+AnyColumnDict: TypeAlias = dict[str, list[str] | list[int]]
+
+DictList_T = TypeVar("DictList_T", str, ParsedData, StrColumnDict)
+DictList: TypeAlias = list[dict[str, DictList_T]]

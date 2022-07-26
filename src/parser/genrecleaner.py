@@ -19,26 +19,28 @@ class GenreCleaner:
         "sertanejo raiz or música caipira  sertanejo romântico   sertanejo universitário   funknejo",
     }
 
-    exception_translations: dict[str, tuple[str, ...] | str] = {
-        "(gangsta rap": "gangsta rap",
+    exception_translations: dict[
+        str, tuple[str] | tuple[str, str] | tuple[str, str, str]
+    ] = {
+        "(gangsta rap": ("gangsta rap",),
         "acid rock · raga rock · space rock": ("acid rock", "raga rock", "space rock"),
         "alternative metal funk metal": ("alternative metal", "funk metal"),
         "blackened death metal melodic black death": (
             "blackened death metal",
             "melodic black death",
         ),
-        "chillout": "chill out",
-        "coldwave": "cold wave",
-        "euro disco": "eurodisco",
+        "chillout": ("chill out",),
+        "coldwave": ("cold wave",),
+        "euro disco": ("eurodisco",),
         "extreme metal black metal": ("extreme metal", "black metal"),
-        "hip hop fusion genres": "hip hop",
-        "lofi": "lo fi",
-        "post-industrial": "industrial",
-        "regional edm": "ethnic electronica",
-        "rhythm and blues": "r&b",
-        "rock n roll": "rock and roll",
-        "ska core": "skacore",
-        "synthpop": "synth pop",
+        "hip hop fusion genres": ("hip hop",),
+        "lofi": ("lo fi",),
+        "post-industrial": ("industrial",),
+        "regional edm": ("ethnic electronica",),
+        "rhythm and blues": ("r&b",),
+        "rock n roll": ("rock and roll",),
+        "ska core": ("skacore",),
+        "synthpop": ("synth pop",),
         "west coastfunky breaks": ("west coast", "funky breaks"),
     }
 
@@ -53,29 +55,21 @@ class GenreCleaner:
         return GenreCleaner.normalize_genre_name(genre_key).lower().strip()
 
     @staticmethod
-    def replace_special_chars(genre_key: str) -> str:
+    def replace_delim(genre_key: str) -> str:
 
         return genre_key.replace(" ", "_").replace("-", "_")
 
-    def replace_genre_exceptions(self, genre_key: str) -> tuple[str, ...] | str:
+    def replace_genre_exceptions(self, genre_key: str) -> tuple[str, ...]:
 
         for k, v in GenreCleaner.exception_translations.items():
             if k in genre_key:
                 return v
 
-        return genre_key
+        return (genre_key,)
 
-    def strip_genre_exception(self, genre_key: str) -> tuple[str, ...] | None:
+    def strip_genre_exception(self, genre_key: str) -> tuple[str, ...]:
 
-        replaced_genre_key = self.replace_genre_exceptions(genre_key)
-        if replaced_genre_key:
-            if isinstance(replaced_genre_key, tuple):
-                return replaced_genre_key
-
-            genre_key = replaced_genre_key
-
-        if genre_key not in GenreCleaner.genre_exceptions:
-            return (genre_key,)
+        return self.replace_genre_exceptions(genre_key)
 
     def normalize_genre_values(self, genre_values_list: list[str]) -> list[str]:
 
@@ -86,9 +80,9 @@ class GenreCleaner:
             genre = self.normalize_genre_key(genre)
             stripped_genre: tuple[str, ...] | None = self.strip_genre_exception(genre)
             if stripped_genre:
-                special_chars_replaced_genre: list[str] = [
-                    self.replace_special_chars(i) for i in stripped_genre
+                delim_replaced_genre: list[str] = [
+                    self.replace_delim(i) for i in stripped_genre
                 ]
-                cleaned_genre_list.extend(special_chars_replaced_genre)
+                cleaned_genre_list.extend(delim_replaced_genre)
 
         return cleaned_genre_list
