@@ -3,7 +3,7 @@ import time
 from typing import Any, Callable
 
 
-def time_it(func: Callable[..., Any], *args: str, **kwargs: str):
+def time_it(func: Callable[..., Any], *args: str, **kwargs: str) -> Any:
 
     t1 = time.time()
     result = func(*args, **kwargs)

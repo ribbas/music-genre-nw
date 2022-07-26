@@ -1,5 +1,7 @@
-from typing import Any
 import re
+from typing import Any
+
+from ..util.typealias import IntTuple
 
 
 class TextProcessor:
@@ -26,7 +28,7 @@ class TextProcessor:
         self.early_mid_re = re.compile(r"early.*mid", re.I | re.M)
         self.mid_late_re = re.compile(r"mid.*late", re.I | re.M)
 
-    def normalize_date(self, origin_date: str) -> tuple[int, int]:
+    def normalize_date(self, origin_date: str) -> IntTuple:
 
         date_est: int = 0
         begin_offset: int = 0
@@ -63,9 +65,9 @@ class TextProcessor:
 
         return date_est + begin_offset, date_est + end_offset
 
-    def parse_dates(self, origin_date: str) -> set[tuple[int, int]]:
+    def parse_dates(self, origin_date: str) -> set[IntTuple]:
 
-        origin_date_groups: set = set()
+        origin_date_groups: set[IntTuple] = set()
         matches = self.cultural_origins_date_re.finditer(origin_date)
 
         for found_group in matches:

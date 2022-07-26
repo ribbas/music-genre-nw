@@ -2,6 +2,8 @@ import json
 import pathlib
 from typing import Any
 
+from .typealias import ColumnDict, DictList, ScrapedPage
+
 
 class ConfigTools:
     def __init__(self) -> None:
@@ -54,10 +56,8 @@ class Checkpoint:
     def __init__(self) -> None:
 
         # database queues
-        self.genre_queue: list[dict[str, str]] = []
-        self.parsed_data: list[
-            dict[str, dict[str, list[str | dict[str, str]]] | None]
-        ] = []
+        self.genre_queue: DictList = []
+        self.parsed_data: list[dict[str, ScrapedPage]] = []
         self.successes: set[str] = set()
         self.failures: set[str] = set()
 
@@ -73,13 +73,11 @@ class Checkpoint:
 
         self.failures.add(genre)
 
-    def add_parsed_data(
-        self, genre: dict[str, dict[str, list[str | dict[str, str]]] | None]
-    ) -> None:
+    def add_parsed_data(self, genre: dict[str, ScrapedPage]) -> None:
 
         self.parsed_data.append(genre)
 
-    def get_genre_queue(self) -> list[dict[str, str]]:
+    def get_genre_queue(self) -> DictList:
 
         return self.genre_queue
 
@@ -89,13 +87,13 @@ class Checkpoint:
         self.checkpoint_file_path = configs.checkpoint_file_path
         self.raw_file_path = configs.raw_file_path
 
-    def get_genres(self) -> list[dict[str, str]]:
+    def get_genres(self) -> DictList:
 
         return ConfigTools.read_from_file(self.genres_file_path)
 
     def get_current_data(
         self,
-    ) -> list[dict[str, dict[str, list[str | dict[str, str]]] | None]]:
+    ) -> list[dict[str, ScrapedPage]]:
 
         return ConfigTools.read_from_file(self.raw_file_path)
 
@@ -112,14 +110,12 @@ class Checkpoint:
 
     def save(self) -> None:
 
-        checkpoint_data: dict[str, list[str]] = {
+        checkpoint_data: ColumnDict = {
             "successes": sorted(list(self.successes)),
             "failures": sorted(list(self.failures)),
         }
         ConfigTools.dump_to_file(self.checkpoint_file_path, checkpoint_data)
 
-        current_data: list[
-            dict[str, dict[str, list[str | dict[str, str]]] | None]
-        ] = self.get_current_data()
+        current_data: list[dict[str, ScrapedPage]] = self.get_current_data()
         current_data.extend(self.parsed_data)
         ConfigTools.dump_to_file(self.raw_file_path, current_data)
