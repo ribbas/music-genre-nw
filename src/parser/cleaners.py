@@ -55,6 +55,7 @@ class DataCleaner:
         genre_key: str
         genre_values_list: StrColumnDict
         normalized_values: AnyColumnDict
+
         self.text_proc.initialize()
         for data in self.raw_file_data:
             genre_key, genre_values_list = next(iter(data.items()))

@@ -1,49 +1,7 @@
+from .special import SPECIAL_CASE_GENRES, SPECIAL_CASE_TRANSLATIONS
+
+
 class GenreCleaner:
-
-    genre_exceptions: set[str] = {
-        "1950s pop",
-        "1980s pop",
-        "1980s pop music",
-        "1980s film soundtracks",
-        "american 1960s r&b and soul music.",
-        "ballads of the french-speaking acadians of canada",
-        "comedy andor satire music",
-        "eroguro kei  oshare kei",
-        "soul music with a greater emphasis on the beats and rhythms of an arrangement",
-        "influences from r&b and jazz",
-        "list of mexican composers of classical music",
-        "list of mexican operas",
-        "music of africamusic of west africavarious blues styles",
-        "other forms of electronic dance music",
-        "other indian forms of music",
-        "sertanejo raiz or música caipira  sertanejo romântico   sertanejo universitário   funknejo",
-    }
-
-    exception_translations: dict[
-        str, tuple[str] | tuple[str, str] | tuple[str, str, str]
-    ] = {
-        "(gangsta rap": ("gangsta rap",),
-        "acid rock · raga rock · space rock": ("acid rock", "raga rock", "space rock"),
-        "alternative metal funk metal": ("alternative metal", "funk metal"),
-        "blackened death metal melodic black death": (
-            "blackened death metal",
-            "melodic black death",
-        ),
-        "chillout": ("chill out",),
-        "coldwave": ("cold wave",),
-        "euro disco": ("eurodisco",),
-        "extreme metal black metal": ("extreme metal", "black metal"),
-        "hip hop fusion genres": ("hip hop",),
-        "lofi": ("lo fi",),
-        "post-industrial": ("industrial",),
-        "regional edm": ("ethnic electronica",),
-        "rhythm and blues": ("r&b",),
-        "rock n roll": ("rock and roll",),
-        "ska core": ("skacore",),
-        "synthpop": ("synth pop",),
-        "west coastfunky breaks": ("west coast", "funky breaks"),
-    }
-
     @staticmethod
     def normalize_genre_name(genre_name: str) -> str:
 
@@ -59,17 +17,23 @@ class GenreCleaner:
 
         return genre_key.replace(" ", "_").replace("-", "_")
 
-    def replace_genre_exceptions(self, genre_key: str) -> tuple[str, ...]:
+    def replace_genre_special_cases(self, genre_key: str) -> tuple[str, ...]:
 
-        for k, v in GenreCleaner.exception_translations.items():
+        for k, v in SPECIAL_CASE_TRANSLATIONS.items():
             if k in genre_key:
                 return v
 
         return (genre_key,)
 
-    def strip_genre_exception(self, genre_key: str) -> tuple[str, ...]:
+    def strip_genre_exception(self, genre_key: str) -> tuple[str, ...] | None:
 
-        return self.replace_genre_exceptions(genre_key)
+        replaced_genre_key = self.replace_genre_special_cases(genre_key)
+
+        if not (
+            len(replaced_genre_key) == 1
+            and replaced_genre_key[0] in SPECIAL_CASE_GENRES
+        ):
+            return replaced_genre_key
 
     def normalize_genre_values(self, genre_values_list: list[str]) -> list[str]:
 

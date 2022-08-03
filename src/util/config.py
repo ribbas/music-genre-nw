@@ -1,5 +1,5 @@
 import json
-import pathlib
+from pathlib import Path
 from typing import Any
 
 from .typealias import DictList, ParsedData, StrColumnDict
@@ -9,34 +9,32 @@ class ConfigTools:
     def __init__(self) -> None:
 
         # data file paths
-        self.base_dir_path: pathlib.Path = pathlib.Path().parent.resolve()
-        self.data_dir_path: pathlib.Path = self.base_dir_path / "data"
-        self.statics_dir_path: pathlib.Path = self.base_dir_path / "statics"
+        self.__base_dir: Path = Path().parent.resolve()
+        self.__data_dir: Path = self.__base_dir / "data"
+        self.__statics_dir: Path = self.__base_dir / "statics"
 
-        self.urls_file_path: pathlib.Path = self.data_dir_path / "urls.json"
-        self.genres_file_path: pathlib.Path = self.data_dir_path / "list.json"
-        self.checkpoint_file_path: pathlib.Path = self.data_dir_path / "checkpoint.json"
-        self.raw_file_path: pathlib.Path = self.data_dir_path / "raw.json"
-        self.wrangled_min_file_path: pathlib.Path = (
-            self.data_dir_path / "wrangled.min.json"
-        )
-        self.wrangled_file_path: pathlib.Path = self.data_dir_path / "wrangled.json"
-        self.graph_pos_file_path: pathlib.Path = self.data_dir_path / "graphpos.json"
+        self.urls_file_path: Path = self.__data_dir / "urls.json"
+        self.genres_file_path: Path = self.__data_dir / "list.json"
+        self.checkpoint_file_path: Path = self.__data_dir / "checkpoint.json"
+        self.raw_file_path: Path = self.__data_dir / "raw.json"
+        self.wrangled_file_path: Path = self.__data_dir / "wrangled.json"
+        self.wrangled_min_file_path: Path = self.__data_dir / "wrangled.min.json"
+        self.graph_pos_file_path: Path = self.__data_dir / "graphpos.json"
 
-        self.figure_path: pathlib.Path = self.statics_dir_path / "graph.svg"
+        self.figure_path: Path = self.__statics_dir / "graph.svg"
 
     def make_wiki_url(self, endpoint: str) -> str:
 
         return self.urls["BASE"] + endpoint.strip().replace(" ", "_")
 
     @staticmethod
-    def read_from_file(file_path: pathlib.Path) -> Any:
+    def read_from_file(file_path: Path) -> Any:
 
         with open(file_path) as fp:
             return json.load(fp)
 
     @staticmethod
-    def dump_to_file(file_path: pathlib.Path, data: Any, pretty: bool = False) -> None:
+    def dump_to_file(file_path: Path, data: Any, pretty: bool = False) -> None:
 
         with open(file_path, "w") as fp:
             json.dump(data, fp, ensure_ascii=False, **ConfigTools.dump_pretty(pretty))
@@ -61,9 +59,9 @@ class Checkpoint:
         self.successes: set[str] = set()
         self.failures: set[str] = set()
 
-        self.genres_file_path: pathlib.Path = pathlib.Path()
-        self.checkpoint_file_path: pathlib.Path = pathlib.Path()
-        self.raw_file_path: pathlib.Path = pathlib.Path()
+        self.genres_file_path: Path = Path()
+        self.checkpoint_file_path: Path = Path()
+        self.raw_file_path: Path = Path()
 
     def add_success(self, genre: str) -> None:
 
